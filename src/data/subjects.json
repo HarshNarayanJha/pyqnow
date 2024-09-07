@@ -424,45 +424,24 @@
       "code": "MA205",
       "display": "Discrete Mathematics",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
-        "2019": {
-          "display": "2019",
-          "mid": "",
-          "end": ""
-        },
-        "2020": {
-          "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
-        },
         "2022": {
           "display": "2022",
-          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_MO22).pdf",
-          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_MO22).pdf"
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_SP23).pdf",
-          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP23).pdf"
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_SP23).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP23).pdf"
+          ]
         }
       }
     },
@@ -470,45 +449,23 @@
       "code": "EC203",
       "display": "Digital System Design",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
-        },
-        "2020": {
-          "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(MID_MO19).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(END_MO19).pdf"
+          ]
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
-        },
-        "2023": {
-          "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(END_MO22).pdf"
+          ]
         }
       }
     },
@@ -516,45 +473,25 @@
       "code": "CS201",
       "display": "Data Structures",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
-        },
-        "2020": {
-          "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS201%20DATA%20STRUCTURES%20(MID_MO19).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS201%20DATA%20STRUCTURES%20(END_MO19).pdf"
+          ]
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
-        },
-        "2023": {
-          "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES%20(MID_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_OE%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(END_MO22).pdf"
+          ]
         }
       }
     },
@@ -562,45 +499,31 @@
       "code": "CS204",
       "display": "Object Oriented Programming and Design Patterns",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
-        "2019": {
-          "display": "2019",
-          "mid": "",
-          "end": ""
-        },
         "2020": {
           "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20PATTERNS%20(MID_SP20).pdf"
+          ],
+          "end": []
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20PATTERNS%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS204%20OBJECT%20ORIENTED%20PROG_%20%26%20DESIGN%20PATTERN%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(MID_SP23).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(END_SP23).pdf"
+          ]
         }
       }
     },
@@ -608,45 +531,32 @@
       "code": "CS203",
       "display": "Computer Organization and Architecture",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
-        "2019": {
-          "display": "2019",
-          "mid": "",
-          "end": ""
-        },
         "2020": {
           "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS203%20COMPUTER%20ORGANIZATION%20ARCHITECTURE%20(MID_SP20).pdf"
+          ],
+          "end": []
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS203%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS203%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS203%20COMPUTER%20ORGANISATION%20%26%20ARCHITECTURE%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS203%20COMPUTER%20ORGANISATION%20%26%20ARCHITECTURE_OE%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS203%20COMPUTER%20ORGANIZATION%20%26%20ARCHITECTURE%20(MID_SP23).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS203%20COMPUTER%20ORGANIZATION%20%26%20ARCHITECTURE_OE%20(END_SP23).pdf"
+          ]
         }
       }
     },
@@ -654,45 +564,22 @@
       "code": "MA203",
       "display": "Numerical Methods",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
-        "2019": {
-          "display": "2019",
-          "mid": "",
-          "end": ""
-        },
-        "2020": {
-          "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
-        },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA203%20NUMERICAL%20METHODS%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203%20NUMERICAL%20METHODS%20(MID_SP23).pdf"
+          ],
+          "end": ["https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203.pdf"]
         }
       }
     }
