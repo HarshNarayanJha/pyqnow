@@ -31,8 +31,8 @@
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(MID_MO22).pdf",
+          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(END_MO22).pdf"
         },
         "2023": {
           "display": "2023",
@@ -50,24 +50,25 @@
       "code": "CH101",
       "display": "Chemistry",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
         "2018": {
           "display": "2018",
-          "mid": "",
-          "end": ""
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CH101%20CHEMISTRY%20(MID_MO18).pdf",
+          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CH101%20CHEMISTRY%20(END_MO2018).pdf"
         },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CH101%20CHEMISTRY%20(MID_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CH101%20CHEMISTRY%20(MID_MO19).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CH101%20CHEMISTRY%20(END_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CH101%20CHEMISTRY%20(END_MO19).pdf"
+          ]
         },
         "2020": {
           "display": "2020",
-          "mid": "",
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CH101%20CHEMISTRY%20(MID_SP20).pdf",
           "end": ""
         },
         "2021": {
@@ -77,13 +78,16 @@
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CH101%20CHEMISTRY%20(MID_MO22).pdf",
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CH101%20CHEMISTRY%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CH101%20CHEMISTRY%20(END_MO22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CH101%20CHEMISTRY%20(MID_SP23).pdf",
+          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CH101%20CHEMISTRY%20(END_SP23).pdf"
         },
         "2024": {
           "display": "2024",
@@ -216,12 +220,12 @@
         "2022": {
           "display": "2022",
           "mid": "",
-          "end": ""
+          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA107%20MATHEMATICS-II%20(END_SP22).pdf"
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(MID_SP23).pdf",
+          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(END_SP23).pdf"
         },
         "2024": {
           "display": "2024",
@@ -231,7 +235,7 @@
       }
     },
     {
-      "code": "PH101",
+      "code": "PH113",
       "display": "Physics",
       "papers": {
         "2017": {
@@ -261,13 +265,13 @@
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH113%20PHYSICS%20(MID_MO22).pdf",
+          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH113%20PHYSICS%20(END_MO22).pdf"
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
+          "mid": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(MID_SP23).pdf",
+          "end": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(END_SP23).pdf"
         },
         "2024": {
           "display": "2024",
@@ -603,6 +607,52 @@
     {
       "code": "CS203",
       "display": "Computer Organization and Architecture",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "MA203",
+      "display": "Numerical Methods",
       "papers": {
         "2017": {
           "display": "2017",
