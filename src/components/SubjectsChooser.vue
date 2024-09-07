@@ -15,14 +15,14 @@ const props = defineProps({
     <sl-details v-for="sub in options" :summary="sub.code + ' - ' + sub.display">
       <sl-details v-for="year in sub.papers" :summary="year.display">
         <div class="links">
-          <sl-button :href="year.mid" target="_blank" variant="warning" :disabled="!year.mid">
+          <sl-button v-for="(mid, i) in year.mid" :href="mid" target="_blank" variant="warning" :disabled="!year.mid">
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
-            Mid Semester
+            {{ i + 1 }}. Mid Semester
           </sl-button>
 
-          <sl-button :href="year.end" target="_blank" variant="danger" :disabled="!year.end">
+          <sl-button v-for="(end, i) in year.end" :href="end" target="_blank" variant="danger" :disabled="!year.end">
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
-            End Semester
+            {{ i + 1 }}. End Semester
           </sl-button>
         </div>
       </sl-details>

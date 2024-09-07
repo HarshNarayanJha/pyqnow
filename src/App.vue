@@ -1,15 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import Header from "@/components/Header.vue";
 </script>
 
 <template>
   <header>
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
-    <nav>
-      <RouterLink to="/">Paper Trail</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-      <RouterLink to="/about">BIT Questions Archive</RouterLink>
-    </nav>
+    <Header></Header>
   </header>
 
   <main>
@@ -21,28 +17,6 @@ import { RouterLink, RouterView } from "vue-router";
 header {
   line-height: 1.5;
   max-height: 100vh;
-
-  nav {
-    width: 100%;
-    font-size: 16px;
-    text-align: center;
-    padding: 1em;
-    margin-top: 0.5em;
-
-    a {
-      padding: 0.5em 1em;
-      margin: 0.2em 0.5em;
-      border-radius: 25px;
-      background: var(--background-mute);
-      color: var(--text);
-    }
-
-    a:first-of-type {
-      font-weight: bolder;
-      /* color: var(--text-inverse); */
-      background: var(--c-accent);
-    }
-  }
 }
 
 main {
@@ -63,20 +37,6 @@ main {
   header {
     display: flex;
     place-items: center;
-  }
-}
-
-@media (max-width: 500px) {
-  header {
-    nav {
-      padding: 0.6em;
-      font-size: 14px;
-
-      a {
-        padding: 0.4em 0.6em;
-        margin: 0.2em 0.4em;
-      }
-    }
   }
 }
 </style>
