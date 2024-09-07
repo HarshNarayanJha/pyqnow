@@ -42,6 +42,12 @@ const years = [
     font-weight: var(--sl-font-weight-bold);
     font-size: var(--sl-font-size-4x-large);
   }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: var(--sl-font-size-3x-large);
+    }
+  }
 }
 
 sl-input {

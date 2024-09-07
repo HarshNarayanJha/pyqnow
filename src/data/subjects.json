@@ -1,8 +1,8 @@
 {
   "1": [
     {
-      "code": "MA101",
-      "display": "Mathematics-I",
+      "code": "MA107",
+      "display": "Mathematics - I",
       "papers": {
         "2017": {
           "display": "2017",
@@ -47,8 +47,608 @@
       }
     },
     {
-      "code": "MA102",
-      "display": "Mathematics-II",
+      "code": "CH101",
+      "display": "Chemistry",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "EC101",
+      "display": "Basic of Electronics and Communication Engineering",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "CE101",
+      "display": "Environmental Sciences",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "MA117",
+      "display": "Mathematics - II",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "PH100",
+      "display": "Physics",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "BE101",
+      "display": "Biological Sciences",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "CS101",
+      "display": "Programming For Problem Solving",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "EE101",
+      "display": "Basic of Electrical Engineering",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    }
+  ],
+  "2": [
+    {
+      "code": "MA205",
+      "display": "Discrete Mathematics",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "EC203",
+      "display": "Digital System Design",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "CS201",
+      "display": "Data Structures",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "CS204",
+      "display": "Object Oriented Programming and Design Patterns",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "CS203",
+      "display": "Computer Organization and Architecture",
+      "papers": {
+        "2017": {
+          "display": "2017",
+          "mid": "",
+          "end": ""
+        },
+        "2018": {
+          "display": "2018",
+          "mid": "",
+          "end": ""
+        },
+        "2019": {
+          "display": "2019",
+          "mid": "",
+          "end": ""
+        },
+        "2020": {
+          "display": "2020",
+          "mid": "",
+          "end": ""
+        },
+        "2021": {
+          "display": "2021",
+          "mid": "",
+          "end": ""
+        },
+        "2022": {
+          "display": "2022",
+          "mid": "",
+          "end": ""
+        },
+        "2023": {
+          "display": "2023",
+          "mid": "",
+          "end": ""
+        },
+        "2024": {
+          "display": "2024",
+          "mid": "",
+          "end": ""
+        }
+      }
+    },
+    {
+      "code": "EC101",
+      "display": "Basic of Electronics and Communication Engineering",
       "papers": {
         "2017": {
           "display": "2017",

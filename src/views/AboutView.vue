@@ -30,6 +30,12 @@
     font-size: var(--sl-font-size-4x-large);
   }
 
+  @media (max-width: 500px) {
+    h1 {
+      font-size: var(--sl-font-size-3x-large);
+    }
+  }
+
   p {
     font-size: var(--sl-font-size-medium);
     margin: 1em 0;

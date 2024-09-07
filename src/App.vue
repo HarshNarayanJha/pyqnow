@@ -64,9 +64,19 @@ main {
     display: flex;
     place-items: center;
   }
+}
 
-  /* .logo {
-    margin: 0 2rem 0 0;
-  } */
+@media (max-width: 500px) {
+  header {
+    nav {
+      padding: 0.6em;
+      font-size: 14px;
+
+      a {
+        padding: 0.4em 0.6em;
+        margin: 0.2em 0.4em;
+      }
+    }
+  }
 }
 </style>

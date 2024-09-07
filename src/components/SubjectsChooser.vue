@@ -39,6 +39,7 @@ const props = defineProps({
 
   sl-details {
     margin: 1em 0;
+    text-align: start;
   }
 
   .links {
@@ -46,6 +47,24 @@ const props = defineProps({
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .options {
+    margin: 1em 0.2em;
+    padding: 0.2em;
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      sl-button {
+        margin: 0.2em;
+      }
+    }
+
   }
 }
 </style>
