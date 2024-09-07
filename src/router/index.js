@@ -13,8 +13,7 @@ const router = createRouter({
     {
       path: '/:year',
       name: 'exam',
-      component: SubjectView,
-      props: true
+      component: SubjectView
     },
     {
       path: '/about',
