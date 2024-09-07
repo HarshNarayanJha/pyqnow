@@ -34,6 +34,7 @@ header {
       margin: 0.2em 0.5em;
       border-radius: 25px;
       background: var(--background-mute);
+      color: var(--text);
     }
 
     a:first-of-type {

@@ -53,6 +53,7 @@ const filteredSubjects = computed(() => {
     font-size: var(--sl-font-size-x-large);
   }
   sl-input {
+    margin-top: 1.8em;
     text-align: start;
 
     sl-icon {
