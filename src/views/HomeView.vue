@@ -7,22 +7,22 @@ const years = [
   {
     url: "/1",
     display: "1st Year",
-    color: 'primary'
+    color: "primary",
   },
   {
     url: "/2",
     display: "2nd Year",
-    color: 'danger'
+    color: "danger",
   },
   {
     url: "/3",
     display: "3rd Year",
-    color: 'warning'
+    color: "warning",
   },
   {
     url: "/4",
     display: "4th Year",
-    color: 'success'
+    color: "success",
   },
 ];
 </script>
@@ -30,7 +30,17 @@ const years = [
 <template>
   <div class="container">
     <!-- <h1>PYQNOW</h1> -->
-    <img src="/pyqnow.png" alt="logo">
+    <img
+      srcset="/pyqnow_small.png 512w, /pyqnow_half.png 1024w, /pyqnow_quarter.png 2048w, /pyqnow.png 4096w"
+      sizes="(max-width: 640px) 100vw,
+          (max-width: 960px) 80vw,
+          90vw"
+      priority="high"
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      alt="logo"
+    />
     <p>PYQs at your fingertips, success in sight</p>
 
     <Chooser :options="years"></Chooser>
