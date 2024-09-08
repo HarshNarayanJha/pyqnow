@@ -5,7 +5,7 @@
 
   --c-white: #ffffff;
   --c-white-soft: #f8f8f8;
-  --c-white-mute: #f2f2f2;
+  --c-white-mute: #e2e2e2;
 
   --c-black: #181818;
   --c-black-soft: #222222;
@@ -35,6 +35,7 @@
 
   --heading: var(--c-primary);
   --text: var(--c-black-soft);
+  --text-muted: var(--c-black-mute);
   --text-inverse: var(--c-white-soft);
 }
 
@@ -52,6 +53,7 @@
 
     --heading: var(--c-primary);
     --text: var(--c-white-soft);
+    --text-muted: var(--c-white-mute);
     --text-inverse: var(--c-black-soft);
   }
 }

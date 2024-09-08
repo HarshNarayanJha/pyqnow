@@ -1,14 +1,14 @@
 <template>
   <div class="about">
-    <h1>Paper Trail</h1>
-    <p>Paper Trail is a free website which provides one click access to all PYQs PDFs of BIT Exams.</p>
+    <h1>PYQNOW</h1>
+    <p>PYQNow is a free website which provides one click access to all PYQs PDFs of BIT Exams.</p>
     <p>
       We were having a bad time finding all those PYQs on the <a href="https://bitmesra.ac.in">BIT website</a> (which is
       pretty bad) and it wasted a lot of time, in which we are already much proficient that we don't need a bad website to
       help us in that.
     </p>
     <p>
-      So I made Paper Trail, which (may) prevent us from following trails of question papers, and no more time wasting!
+      So I made PYQNow, which (may) prevent us from following trails of question papers, and no more time wasting!
       (hopefully)
     </p>
     <p class="note">

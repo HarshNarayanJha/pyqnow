@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <div class="options">
     <RouterLink v-for="opt in options" :to="opt.url">
-      <sl-button variant="primary" size="large" class="option" outline>
+      <sl-button :variant="opt.color" size="large" class="option" outline>
         <!-- <sl-icon slot="prefix" name="1-square"></sl-icon> -->
         {{ opt.display }}
       </sl-button>

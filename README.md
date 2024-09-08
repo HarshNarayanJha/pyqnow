@@ -1,4 +1,4 @@
-# Paper Trail
+# PYQNow
 
 ## Project Setup
 

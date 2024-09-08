@@ -33,7 +33,7 @@ const filteredSubjects = computed(() => {
 
     <h2>Select Subject</h2>
 
-    <sl-input v-model.trim="filter" label="Search" help-text="Filter By Subject or Year" placeholder="Start Typing..." clearable>
+    <sl-input v-model.trim="filter" label="Search" help-text="Filter By Subject or Year" placeholder="Start Typing...">
       <sl-icon name="search" slot="prefix"></sl-icon>
     </sl-input>
     <SubjectsChooser :options="filteredSubjects"></SubjectsChooser>
@@ -50,7 +50,7 @@ const filteredSubjects = computed(() => {
   h2 {
     margin-top: 1em;
     font-weight: var(--sl-font-weight-bold);
-    font-size: var(--sl-font-size-x-large);
+    font-size: var(--sl-font-size-3x-large);
   }
   sl-input {
     margin-top: 1.8em;

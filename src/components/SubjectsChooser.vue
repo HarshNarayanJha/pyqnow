@@ -50,7 +50,7 @@ const props = defineProps({
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .options {
     margin: 1em 0.2em;
     padding: 0.2em;

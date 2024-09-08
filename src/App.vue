@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
@@ -11,6 +12,10 @@ import Header from "@/components/Header.vue";
   <main>
     <RouterView />
   </main>
+
+  <footer>
+    <Footer></Footer>
+  </footer>
 </template>
 
 <style scoped>
@@ -28,10 +33,9 @@ main {
   flex: 1;
 }
 
-/* .logo {
-  display: block;
-  margin: 0 auto 2rem;
-} */
+footer {
+  height: 100px;
+}
 
 @media (min-width: 1024px) {
   header {

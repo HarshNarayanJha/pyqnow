@@ -1,7 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
   <nav>
-    <RouterLink to="/">Paper Trail</RouterLink>
+    <RouterLink to="/">PYQNow</RouterLink>
     <RouterLink to="/about">About</RouterLink>
     <a href="https://www.bitmesra.ac.in/Other_Department_Pages/content/1/258/361" target="_blank">BIT Questions Archive</a>
   </nav>
@@ -39,6 +39,15 @@ nav {
       padding: 0.4em 0.6em;
       margin: 0.2em 0.4em;
     }
+  }
+}
+
+@media (max-width: 450px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>
