@@ -24,6 +24,10 @@ nav {
 
   p {
 
+    a {
+      color: var(--c-primary-text);
+    }
+
     a.star {
       color: unset;
       img {

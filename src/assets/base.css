@@ -1,5 +1,6 @@
 :root {
-  --c-primary: #2196f3; /* primary blue color */
+  --c-primary-text: #00aaff;
+  --c-primary: #0066ff;
   --c-secondary: #f5f5f5; /* secondary beige color */
   --c-accent: #ffc107; /* accent orange color */
 
@@ -33,15 +34,15 @@
   --border: var(--c-divider-light-1);
   --border-hover: var(--c-divider-light-2);
 
-  --heading: var(--c-primary);
+  --heading: var(--c-primary-text);
   --text: var(--c-black-soft);
-  --text-muted: var(--c-black-mute);
+  --text-mut: var(--c-black-mute);
   --text-inverse: var(--c-white-soft);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --c-primary: #1a1d23; */
+    --c-primary: #0066ff;
     --c-secondary: #222222;
     --c-accent: #ff9800;
 
@@ -51,9 +52,9 @@
     --border: var(--c-divider-dark-1);
     --border-hover: var(--c-divider-dark-2);
 
-    --heading: var(--c-primary);
+    --heading: var(--c-primary-text);
     --text: var(--c-white-soft);
-    --text-muted: var(--c-white-mute);
+    --text-mute: var(--c-white-mute);
     --text-inverse: var(--c-black-soft);
   }
 }

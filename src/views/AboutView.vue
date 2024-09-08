@@ -37,7 +37,7 @@
   }
 
   p {
-    font-size: var(--sl-font-size-medium);
+    font-size: var(--sl-font-size-large);
     margin: 1em 0;
   }
 
@@ -47,7 +47,7 @@
 
   @media (prefers-color-scheme: dark) {
     p.note {
-      color: var(--c-white-mute);
+      color: var(--text-mute);
     }
   }
 }

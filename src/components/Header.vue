@@ -35,7 +35,7 @@ nav {
 
   a:first-of-type {
     font-weight: bolder;
-    /* color: var(--text-inverse); */
+    color: var(--text);
     background: var(--c-primary);
   }
 

@@ -21,5 +21,5 @@ bun dev
 ### Compile and Minify for Production
 
 ```sh
-bun build
+bun run build
 ```
