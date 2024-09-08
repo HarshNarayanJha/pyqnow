@@ -472,6 +472,10 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP23).pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": ["/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 1 24).pdf"]
         }
       }
     },
@@ -496,6 +500,10 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(END_MO22).pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": ["/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (QUIZ 1 24).pdf"]
         }
       }
     },
@@ -554,6 +562,10 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(END_SP23).pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": ["/pyqs/2024/CS204 OBJECT ORIENTED PROGGRAMMING AND DESIGN PATTERNS (QUIZ 1 24).pdf"]
         }
       }
     },
@@ -587,6 +599,10 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS203%20COMPUTER%20ORGANIZATION%20%26%20ARCHITECTURE_OE%20(END_SP23).pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": ["/pyqs/2024/CS203 COMPUTER ORGANIZATION AND ARCHITECTURE (QUIZ 1 24).pdf"]
         }
       }
     },

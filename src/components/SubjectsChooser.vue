@@ -15,9 +15,19 @@ const props = defineProps({
     <sl-details v-for="sub in options" :summary="sub.code + ' - ' + sub.display">
       <sl-details v-for="year in sub.papers" :summary="year.display">
         <div class="links">
+          <sl-button v-for="(quiz1, i) in year.quiz1" :href="quiz1" target="_blank" variant="primary" v-if="year.quiz1">
+            <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
+            {{ i + 1 }}. First Quiz
+          </sl-button>
+
           <sl-button v-for="(mid, i) in year.mid" :href="mid" target="_blank" variant="warning" :disabled="!year.mid">
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. Mid Semester
+          </sl-button>
+
+          <sl-button v-for="(quiz2, i) in year.quiz2" :href="quiz2" target="_blank" variant="success" v-if="year.quiz2">
+            <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
+            {{ i + 1 }}. Second Quiz
           </sl-button>
 
           <sl-button v-for="(end, i) in year.end" :href="end" target="_blank" variant="danger" :disabled="!year.end">
@@ -64,7 +74,6 @@ const props = defineProps({
         margin: 0.2em;
       }
     }
-
   }
 }
 </style>
