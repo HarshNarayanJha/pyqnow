@@ -8,7 +8,7 @@ import "@shoelace-style/shoelace/dist/components/icon/icon.js";
     <p>&copy; 2024 <a href="https://github.com/HarshNarayanJha" target="_blank">Harsh Narayan Jha</a></p>
     <p class="end">
       <a href="https://github.com/HarshNarayanJha/pyqnow" target="_blank" class="star">
-        Star PYQNow On GitHub
+        Star PYQNow On GitHub &nbsp;
         <img src="https://img.shields.io/github/stars/HarshNarayanJha/pyqnow?style=social" alt="GitHub Repo stars" />
       </a>
     </p>

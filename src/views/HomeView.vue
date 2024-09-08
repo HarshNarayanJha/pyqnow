@@ -52,19 +52,26 @@ const years = [
   img {
     max-width: 100%;
     margin: 3em 0;
-    margin-bottom: 0;
-    background: linear-gradient(var(--background), var(--background-mute));
+    margin-bottom: 2em;
+    background: linear-gradient(var(--background) 0%, var(--background) 55%, var(--background-mute) 100%);
+    box-shadow: 0px 5px 10px 0px var(--background-mute);
     border-radius: 30px;
   }
 
   p {
     color: var(--text-muted);
     font-size: 1.5rem;
+    font-weight: 500;
   }
 
   @media (max-width: 500px) {
     h1 {
       font-size: var(--sl-font-size-3x-large);
+    }
+
+    p {
+      color: var(--text-muted);
+      font-size: 1.2rem;
     }
   }
 }

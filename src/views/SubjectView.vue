@@ -62,4 +62,12 @@ const filteredSubjects = computed(() => {
     }
   }
 }
+
+@media (max-width: 600px) {
+  .container {
+    h2 {
+      margin-top: 0.2em;
+    }
+  }
+}
 </style>

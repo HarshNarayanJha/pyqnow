@@ -26,4 +26,10 @@ onMounted(() => {
   margin-top: 1.5em;
   font-size: var(--sl-font-size-x-large);
 }
+
+@media (max-width: 600px) {
+  .back {
+    margin-top: 0.2rem;
+  }
+}
 </style>
