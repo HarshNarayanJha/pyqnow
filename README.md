@@ -1,5 +1,7 @@
 # PYQNow
 
+[![Logo](public/pyqnow_half.png)](https://pyqnow.netlify.app)
+
 PYQs at your fingertips, success in sight
 
 PYQNow is a free website which provides one click access to all PYQs PDFs of BIT Exams.
