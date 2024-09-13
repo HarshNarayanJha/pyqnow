@@ -4,31 +4,6 @@
       "code": "MA103",
       "display": "Mathematics - I",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
-        "2019": {
-          "display": "2019",
-          "mid": "",
-          "end": ""
-        },
-        "2020": {
-          "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
-        },
         "2022": {
           "display": "2022",
           "mid": [
@@ -37,16 +12,6 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(END_MO22).pdf"
           ]
-        },
-        "2023": {
-          "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
         }
       }
     },
@@ -81,11 +46,6 @@
           ],
           "end": ""
         },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
-        },
         "2022": {
           "display": "2022",
           "mid": [
@@ -104,11 +64,6 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CH101%20CHEMISTRY%20(END_SP23).pdf"
           ]
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
         }
       }
     },
@@ -116,45 +71,51 @@
       "code": "EC101",
       "display": "Basic of Electronics and Communication Engineering",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
         "2018": {
           "display": "2018",
-          "mid": "",
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20%26%20COMM_%20ENGG_%20(MID_MO18).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGG_%20(END_MO2018).pdf"
+          ],
           "end": ""
         },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGG_%20(MID_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20%26%20COMM_%20ENGG_%20(MID_SP19).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC101%20BASIC%20OF%20ELECTRONICS%20ENGINEERING%20(END_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EC101%20BASICS%20OFELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP19).pdf"
+          ]
         },
         "2020": {
           "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EC101%20BASIC%20ELECTRONICS%20%26%20COMMUNICATION%20ENGINEERING%20(MID_SP20).pdf"
+          ],
           "end": ""
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(MID_MO22).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGG_%20(END_MO22).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(MID_SP23).pdf"
+          	
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP23).pdf"
+          ]
         }
       }
     },
@@ -162,45 +123,44 @@
       "code": "CE101",
       "display": "Environmental Sciences",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCE_IMSC%20(MID_SP19).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCES%20(END_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CE101%20ENVIRONMNETAL%20SCIENCE_IMSC%20(END_SP19).pdf"
+          ]
         },
         "2020": {
           "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_SP20).pdf"
+          ],
           "end": ""
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_MO22).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_MO22).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_SP22).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CE101_ENVIRONMENTAL%20SCIENCE%20(END_SP22).pdf"
+          	
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_SP23).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_SP23).pdf"
+          ]
         }
       }
     },
@@ -208,31 +168,6 @@
       "code": "MA107",
       "display": "Mathematics - II",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
-        "2019": {
-          "display": "2019",
-          "mid": "",
-          "end": ""
-        },
-        "2020": {
-          "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
-        },
         "2022": {
           "display": "2022",
           "mid": "",
@@ -248,11 +183,6 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(END_SP23).pdf"
           ]
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
         }
       }
     },
@@ -260,31 +190,6 @@
       "code": "PH113",
       "display": "Physics",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
-        "2019": {
-          "display": "2019",
-          "mid": "",
-          "end": ""
-        },
-        "2020": {
-          "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
-          "end": ""
-        },
         "2022": {
           "display": "2022",
           "mid": [
@@ -302,11 +207,6 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(END_SP23).pdf"
           ]
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
         }
       }
     },
@@ -314,40 +214,41 @@
       "code": "BE101",
       "display": "Biological Sciences",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
-        "2018": {
-          "display": "2018",
-          "mid": "",
-          "end": ""
-        },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_MO19)(1).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS_III_SEM%20(END_MO19)(1).pdf"
+          ]
         },
         "2020": {
           "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_SP20).pdf"
+          ],
           "end": ""
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/BE101_%20BER101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_MO22).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/BE101_BER101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(END_MO22).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(END_SP22).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS_III_SEM%20(SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_SP23).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(END_SP23).pdf"
+          ]
         },
         "2024": {
           "display": "2024",
@@ -360,45 +261,51 @@
       "code": "CS101",
       "display": "Programming For Problem Solving",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
         "2018": {
           "display": "2018",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO18).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO2018).pdf"
+          ]
         },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP19).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP19).pdf"
+          ]
         },
         "2020": {
           "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP20).pdf"
+          ],
           "end": ""
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO22).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO22).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
-        },
-        "2024": {
-          "display": "2024",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP23).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP23).pdf"
+          ]
         }
       }
     },
@@ -406,40 +313,51 @@
       "code": "EE101",
       "display": "Basic of Electrical Engineering",
       "papers": {
-        "2017": {
-          "display": "2017",
-          "mid": "",
-          "end": ""
-        },
         "2018": {
           "display": "2018",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(MID_MO18).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_MO2018).pdf"
+          ]
         },
         "2019": {
           "display": "2019",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EE101%20BASIC%20ELECTRICAL%20ENGG_%20(MID_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(MID_SP19).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_MO19).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP19).pdf"
+          ]
         },
         "2020": {
           "display": "2020",
-          "mid": "",
-          "end": ""
-        },
-        "2021": {
-          "display": "2021",
-          "mid": "",
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(MID_SP20).pdf"
+          ],
           "end": ""
         },
         "2022": {
           "display": "2022",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE101%20BASIC%20OF%20ELECTRICAL%20ENGINEERING%20(MID_MO22).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_MO22).pdf",
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
-          "mid": "",
-          "end": ""
+          "mid": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE101%20BASIC%20OF%20ELECTRICAL%20ENGINEERING%20(MID_SP23).pdf"
+          ],
+          "end": [
+          	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP23).pdf"
+          ]
         },
         "2024": {
           "display": "2024",
