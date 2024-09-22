@@ -111,7 +111,7 @@
           "display": "2023",
           "mid": [
           	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(MID_SP23).pdf"
-          	
+
           ],
           "end": [
           	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP23).pdf"
@@ -150,7 +150,7 @@
           	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_MO22).pdf",
           	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_SP22).pdf",
           	"https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CE101_ENVIRONMENTAL%20SCIENCE%20(END_SP22).pdf"
-          	
+
           ]
         },
         "2023": {
@@ -488,6 +488,21 @@
       }
     },
     {
+      "code": "CS233",
+      "display": "Computer Organization and Architecture",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERN%20(END_MO22).pdf"
+          ]
+        }
+      }
+    },
+    {
       "code": "CS203",
       "display": "Computer Organization and Architecture",
       "papers": {
@@ -521,6 +536,21 @@
         "2024": {
           "display": "2024",
           "quiz1": ["/pyqs/2024/CS203 COMPUTER ORGANIZATION AND ARCHITECTURE (QUIZ 1 24).pdf"]
+        }
+      }
+    },
+    {
+      "code": "CS235",
+      "display": "Object Oriented Programming and Design Patterns",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS235%20COMPUTER%20ORGANIZATION%20%26%20ARCH%20(MID_MO22).pdf"
+          ],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(END_MO22).pdf"
+          ]
         }
       }
     },
