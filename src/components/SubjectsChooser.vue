@@ -37,6 +37,13 @@ const props = defineProps({
         </div>
       </sl-details>
     </sl-details>
+    <p v-if="options.length == 0">
+      No Papers Added Yet!
+      <br>
+      I will add more papers whenever I get the time
+      <br>
+      If it's urgent to get the papers please contact me
+    </p>
   </div>
 </template>
 
