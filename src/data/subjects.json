@@ -428,6 +428,32 @@
     {
       "code": "CS201",
       "display": "Data Structures",
+      "links": [
+        {
+          "name": "Stack Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/StackArray.html"
+        },
+        {
+          "name": "Queue Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/QueueArray.html"
+        },
+        {
+          "name": "Binary Search",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/Search.html"
+        },
+        {
+          "name": "Binary Search Tree",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/BST.html"
+        },
+        {
+          "name": "AVL Tree Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html"
+        },
+        {
+          "name": "More Visualizers",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+        }
+      ],
       "papers": {
         "2019": {
           "display": "2019",
