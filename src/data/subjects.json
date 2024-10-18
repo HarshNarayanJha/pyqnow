@@ -391,8 +391,10 @@
         },
         "2024": {
           "display": "2024",
-          "quiz1": ["/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 1 24).pdf"],
-          "mid": ["/pyqs/2024/MA205 DISCRETE MATHEMATICS (MID 24).pdf"]
+          "quiz1": [
+            "https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 1 24).pdf"
+          ],
+          "mid": ["https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (MID 24).pdf"]
         }
       }
     },
@@ -420,8 +422,10 @@
         },
         "2024": {
           "display": "2024",
-          "quiz1": ["/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (QUIZ 1 24).pdf"],
-          "mid": ["/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (MID 24).pdf"]
+          "quiz1": [
+            "https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (QUIZ 1 24).pdf"
+          ],
+          "mid": ["https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (MID 24).pdf"]
         }
       }
     },
@@ -524,8 +528,12 @@
         },
         "2024": {
           "display": "2024",
-          "quiz1": ["/pyqs/2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (QUIZ 1 24).pdf"],
-          "mid": ["/pyqs/2024/CS235 COMPUTER ORGANISATION AND ARCHITECTURE (MID 24).pdf"]
+          "quiz1": [
+            "https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (QUIZ 1 24).pdf"
+          ],
+          "mid": [
+            "https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/CS235 COMPUTER ORGANISATION AND ARCHITECTURE (MID 24).pdf"
+          ]
         }
       }
     },
@@ -577,8 +585,12 @@
         },
         "2024": {
           "display": "2024",
-          "quiz1": ["/pyqs/2024/CS233 OBJECT ORIENTED PROGGRAMMING AND DESIGN PATTERNS (QUIZ 1 24).pdf"],
-          "mid": ["/pyqs/2024/CS233 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (MID 24).pdf"]
+          "quiz1": [
+            "https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/CS233 OBJECT ORIENTED PROGGRAMMING AND DESIGN PATTERNS (QUIZ 1 24).pdf"
+          ],
+          "mid": [
+            "https://github.com/HarshNarayanJha/pyqnow/blob/main/pyqs/2024/CS233 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (MID 24).pdf"
+          ]
         }
       }
     },
