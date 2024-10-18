@@ -1,5 +1,6 @@
 <script setup>
 import "@shoelace-style/shoelace/dist/components/details/details.js";
+import "@shoelace-style/shoelace/dist/components/badge/badge.js";
 import "@shoelace-style/shoelace/dist/components/button/button.js";
 
 const props = defineProps({
@@ -13,6 +14,16 @@ const props = defineProps({
 <template>
   <div class="options">
     <sl-details v-for="sub in options" :summary="sub.code + ' - ' + sub.display">
+      <sl-details v-if="sub.links">
+        <div slot="summary">
+          <sl-badge variant="primary" pill pulse>NEW</sl-badge> &nbsp; Some Useful websites for {{ sub.display }}
+        </div>
+        <ul>
+          <li v-for="link in sub.links">
+            {{ link.name }} - <a :href="link.url" target="_blank">{{ link.url }}</a>
+          </li>
+        </ul>
+      </sl-details>
       <sl-details v-for="year in sub.papers" :summary="year.display">
         <div class="links">
           <sl-button v-for="(quiz1, i) in year.quiz1" :href="quiz1" target="_blank" variant="primary" v-if="year.quiz1">
@@ -39,9 +50,9 @@ const props = defineProps({
     </sl-details>
     <p v-if="options.length == 0">
       No Papers Added Yet!
-      <br>
+      <br />
       I will add more papers whenever I get the time
-      <br>
+      <br />
       If it's urgent to get the papers please contact me
     </p>
   </div>
