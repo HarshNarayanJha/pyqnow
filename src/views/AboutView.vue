@@ -8,6 +8,9 @@
       help us in that.
     </p>
     <p>
+      Many Subjects may also contain links to some useful websites that may aid in learning. I will keep updating the list
+    </p>
+    <p>
       So I made PYQNow, which (may) prevent us from following trails of question papers, and no more time wasting!
       (hopefully)
     </p>

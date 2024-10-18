@@ -29,7 +29,6 @@ const years = [
 
 <template>
   <div class="container">
-    <!-- <h1>PYQNOW</h1> -->
     <img
       srcset="/pyqnow_small.png 512w, /pyqnow_half.png 1024w, /pyqnow_quarter.png 2048w, /pyqnow.png 4096w"
       sizes="(max-width: 640px) 100vw,
