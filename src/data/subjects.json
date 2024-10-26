@@ -394,6 +394,9 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 1 24).pdf"
           ],
+          "quiz2": [
+          	"https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 2 24).pdf"
+          ],
           "mid": ["https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (MID 24).pdf"]
         }
       }
