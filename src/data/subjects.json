@@ -437,6 +437,10 @@
       "display": "Data Structures",
       "links": [
         {
+          "name": "Infix to Prefix Conversion (Find others on the sidebar)",
+          "url": "https://www.calcont.in/Conversion/infix_to_prefix"
+        },
+        {
           "name": "Stack Visualizer",
           "url": "https://www.cs.usfca.edu/~galles/visualization/StackArray.html"
         },
@@ -519,6 +523,12 @@
     {
       "code": "CS235",
       "display": "Computer Organization and Architecture",
+      "links": [
+        {
+          "name": "Booth's Algorithm Calculator",
+          "url": "https://www.grahn.us/projects/booths-algorithm/"
+        }
+      ],
       "papers": {
         "2022": {
           "display": "2022",
@@ -543,6 +553,12 @@
     {
       "code": "CS203",
       "display": "Computer Organization and Architecture",
+      "links": [
+        {
+          "name": "Booth's Algorithm Calculator",
+          "url": "https://www.grahn.us/projects/booths-algorithm/"
+        }
+      ],
       "papers": {
         "2020": {
           "display": "2020",
