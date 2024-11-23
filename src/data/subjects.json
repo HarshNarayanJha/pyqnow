@@ -395,9 +395,11 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 1 24).pdf"
           ],
           "quiz2": [
-          	"https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 2 24).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (QUIZ 2 24).pdf"
           ],
-          "mid": ["https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (MID 24).pdf"]
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/MA205 DISCRETE MATHEMATICS (MID 24).pdf"
+          ]
         }
       }
     },
@@ -428,7 +430,12 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (QUIZ 1 24).pdf"
           ],
-          "mid": ["https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (MID 24).pdf"]
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (MID 24).pdf"
+          ],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/EC203 DIGITAL SYSTEM DESIGN (END 24).pdf"
+          ]
         }
       }
     },
@@ -545,7 +552,10 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (QUIZ 1 24).pdf"
           ],
           "mid": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/CS235 COMPUTER ORGANISATION AND ARCHITECTURE (MID 24).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (MID 24).pdf"
+          ],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (END 24).pdf"
           ]
         }
       }
@@ -609,6 +619,9 @@
           ],
           "mid": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/CS233 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (MID 24).pdf"
+          ],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/2024/CS233 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (END 24).pdf"
           ]
         }
       }
