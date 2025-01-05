@@ -165,7 +165,7 @@ for p in pdfs_2nd:
 
 pprint(writable_file)
 
-with open("public/subjects.json", "w") as fp:
+with open("hosted/subjects.json", "w") as fp:
     json.dump(writable_file, fp, indent=2, separators=(",", ": "))
 
 # with open("1st_links.json", "w") as fp:
