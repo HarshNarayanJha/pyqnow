@@ -1,3 +1,4 @@
+import glob
 import json
 import re
 from pprint import pprint
@@ -42,54 +43,48 @@ subjects_2nd = {
 }
 
 cse_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/446"
-# cse_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=446"
 chem_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/379"
-# chem_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=379"
 env_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/445"
-# env_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=445"
 eee_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/448"
-# eee_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=448"
 ece_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/449"
-# ece_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=449"
 math_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/451"
-# math_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=451"
 mech_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/452"
-# mech_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=452"
 phy_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/453"
-# phy_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=453"
 bio_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/375"
-# bio_url = "https://archive.bitmesra.ac.in/Visit_Other_Department_9910?cid=1&deptid=258&pid=375"
 
-urls: tuple[str, ...] = (cse_url, chem_url, env_url, eee_url, ece_url, math_url, mech_url, phy_url, bio_url)
+remote_urls: tuple[str, ...] = (cse_url, chem_url, env_url, eee_url, ece_url, math_url, mech_url, phy_url, bio_url)
+
+local_source = glob.glob("pyqs/*/*")
+local_url_base = "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/"
+local_file_urls = [local_url_base + lf for lf in local_source]
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
 }
 
 pdf_base_url = "https://www.bitmesra.ac.in"
-pdfs_1st: dict[str, list[str]] = {key: [] for key in subjects_1st}
-pdfs_2nd: dict[str, list[str]] = {key: [] for key in subjects_2nd}
+pdfs_1st: dict[str, set[str]] = {key: set() for key in subjects_1st}
+pdfs_2nd: dict[str, set[str]] = {key: set() for key in subjects_2nd}
 
-for url in urls:
+for url in remote_urls:
     response = requests.get(url, headers=headers)
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    links = soup.select("td a")
+    link_elements = soup.select("td a")
+    links = [link.get("href") for link in link_elements]
 
-    for link in links:
-        href = link.get("href")
-
+    for href in links + local_file_urls:
         assert isinstance(href, str)
 
         for sub in subjects_1st:
             if f"/{sub}" in href:
-                pdfs_1st[sub].append(pdf_base_url + href)
+                pdfs_1st[sub].add(pdf_base_url + href if "https://" not in href else href)
 
         for sub in subjects_2nd:
             if f"/{sub}" in href:
-                pdfs_2nd[sub].append(pdf_base_url + href)
+                pdfs_2nd[sub].add(pdf_base_url + href if "https://" not in href else href)
 
 pprint(pdfs_1st)
 pprint(pdfs_2nd)
@@ -104,6 +99,7 @@ writable_file: dict[str, list[dict[str, str | dict[str, str | dict[str, str | li
 for p in pdfs_1st:
     _urls = pdfs_1st[p]
     papers = {}
+
     for u in _urls:
         m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
         if m is None:
@@ -112,7 +108,9 @@ for p in pdfs_1st:
         year: str = m.group(2)
         papers[year] = {
             "display": year,
+            "quiz1": [],
             "mid": [],
+            "quiz2": [],
             "end": [],
         }
 
@@ -120,11 +118,16 @@ for p in pdfs_1st:
         m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
         if m is None:
             continue
+
         year: str = m.group(2)
-        if "MID_" in u:
+        if "MID" in u:
             papers[year]["mid"].append(u)
-        elif "END_" in u:
+        elif "END" in u:
             papers[year]["end"].append(u)
+        elif "QUIZ 1" in u:
+            papers[year]["quiz1"].append(u)
+        elif "QUIZ 2" in u:
+            papers[year]["quiz2"].append(u)
         else:
             papers[year]["mid"].append(u)
 
@@ -143,7 +146,9 @@ for p in pdfs_2nd:
         year: str = m.group(2)
         papers[year] = {
             "display": year,
+            "quiz1": [],
             "mid": [],
+            "quiz2": [],
             "end": [],
         }
 
@@ -152,10 +157,14 @@ for p in pdfs_2nd:
         if m is None:
             continue
         year: str = m.group(2)
-        if "MID_" in u:
+        if "MID" in u:
             papers[year]["mid"].append(u)
-        elif "END_" in u:
+        elif "END" in u:
             papers[year]["end"].append(u)
+        elif "QUIZ 1" in u:
+            papers[year]["quiz1"].append(u)
+        elif "QUIZ 2" in u:
+            papers[year]["quiz2"].append(u)
         else:
             papers[year]["mid"].append(u)
 
