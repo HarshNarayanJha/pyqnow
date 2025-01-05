@@ -1,14 +1,15 @@
 <script setup>
-import "@shoelace-style/shoelace/dist/components/icon-button/icon-button.js";
-import "@shoelace-style/shoelace/dist/components/tooltip/tooltip.js";
+import '@shoelace-style/shoelace/dist/components/icon-button/icon-button.js'
+import '@shoelace-style/shoelace/dist/components/tooltip/tooltip.js'
 </script>
 
 <template>
-  <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
   <nav>
     <RouterLink to="/">PYQNow</RouterLink>
     <RouterLink to="/about">About</RouterLink>
-    <a href="https://www.bitmesra.ac.in/Other_Department_Pages/content/1/258/361" target="_blank">BIT Questions Archive</a>
+    <a href="https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/361" target="_blank">
+      BIT Questions Archive
+    </a>
 
     <!-- <sl-tooltip content="Press \ to Toggle" style="font-size: 1.5rem;">
       <sl-icon-button class="" name="brightness-high" label="Light Mode"></sl-icon-button>
@@ -35,7 +36,7 @@ nav {
 
   a:first-of-type {
     font-weight: bolder;
-    color: var(--text);
+    color: var(--c-white-soft);
     background: var(--c-primary);
   }
 

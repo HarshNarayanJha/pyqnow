@@ -1,19 +1,25 @@
 <script setup>
-import "@shoelace-style/shoelace/dist/components/icon/icon.js";
+import '@shoelace-style/shoelace/dist/components/icon/icon.js'
 </script>
 
 <template>
   <nav>
     <p>Useful only for CSE branch students, for several reasons.</p>
-    <p>&copy; 2024 <a href="https://github.com/HarshNarayanJha" target="_blank">Harsh Narayan Jha</a></p>
+    <p>
+      &copy; 2025 <a href="https://github.com/HarshNarayanJha" target="_blank">Harsh Narayan Jha</a>
+    </p>
     <p class="end">
       <a href="https://github.com/HarshNarayanJha/pyqnow" target="_blank" class="star">
-        Star PYQNow On GitHub &nbsp;
-        <img src="https://img.shields.io/github/stars/HarshNarayanJha/pyqnow?style=social" alt="GitHub Repo stars" />
+        Star PYQNow on GitHub &nbsp;
+        <img
+          src="https://img.shields.io/github/stars/HarshNarayanJha/pyqnow?style=social"
+          alt="GitHub Repo stars" />
       </a>
     </p>
-    <br>
-    <img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fpyqnow.netlify.app%2F&s=32&c=006fff&bg=00000000&no=2&ff=electrolize&tb=Visits%3A+&ta=" alt="visits">
+    <br />
+    <img
+      src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fpyqnow.netlify.app%2F&s=32&c=006fff&bg=00000000&no=2&ff=electrolize&tb=Visits%3A+&ta="
+      alt="visits" />
   </nav>
 </template>
 
@@ -25,7 +31,6 @@ nav {
   padding: 2em;
 
   p {
-
     a {
       color: var(--c-primary-text);
     }

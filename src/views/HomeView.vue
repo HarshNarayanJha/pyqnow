@@ -1,45 +1,49 @@
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
-import Chooser from "@/components/Chooser.vue";
+import Chooser from '@/components/Chooser.vue'
 
 const years = [
   {
-    url: "/1",
-    display: "1st Year",
-    color: "primary",
+    url: '/1',
+    display: '1st Year',
+    color: 'primary',
   },
   {
-    url: "/2",
-    display: "2nd Year",
-    color: "danger",
+    url: '/2',
+    display: '2nd Year',
+    color: 'danger',
   },
   {
-    url: "/3",
-    display: "3rd Year",
-    color: "warning",
+    url: '/3',
+    display: '3rd Year',
+    color: 'warning',
   },
   {
-    url: "/4",
-    display: "4th Year",
-    color: "success",
+    url: '/4',
+    display: '4th Year',
+    color: 'success',
   },
-];
+]
 </script>
 
 <template>
   <div class="container">
     <img
-      srcset="/pyqnow_small.png 512w, /pyqnow_half.png 1024w, /pyqnow_quarter.png 2048w, /pyqnow.png 4096w"
+      srcset="
+        /pyqnow_small.png    512w,
+        /pyqnow_half.png    1024w,
+        /pyqnow_quarter.png 2048w,
+        /pyqnow.png         4096w
+      "
       sizes="(max-width: 640px) 100vw,
-          (max-width: 960px) 80vw,
-          90vw"
+        (max-width: 960px) 80vw,
+        90vw"
       priority="high"
       rel="preload"
       fetchpriority="high"
       as="image"
-      alt="logo"
-    />
+      alt="logo" />
     <p>PYQs at your fingertips, success in sight</p>
 
     <Chooser :options="years"></Chooser>
@@ -62,13 +66,17 @@ const years = [
     max-width: 100%;
     margin: 3em 0;
     margin-bottom: 2em;
-    background: linear-gradient(var(--background) 0%, var(--background) 55%, var(--background-mute) 100%);
-    box-shadow: 0px 5px 10px 0px var(--background-mute);
+    background: linear-gradient(
+      var(--color-border-hover) 0%,
+      var(--color-background) 55%,
+      var(--color-surface) 100%
+    );
+    box-shadow: 0px 5px 10px 0px var(--color-surface);
     border-radius: 30px;
   }
 
   p {
-    color: var(--text-muted);
+    color: var(--color-text-muted);
     font-size: 1.5rem;
     font-weight: 500;
   }
@@ -78,8 +86,12 @@ const years = [
       font-size: var(--sl-font-size-3x-large);
     }
 
+    img {
+      margin: 1em 0;
+    }
+
     p {
-      color: var(--text-muted);
+      color: var(--color-text-muted);
       font-size: 1.2rem;
     }
   }

@@ -1,9 +1,26 @@
 :root {
-  --c-primary-text: #00aaff;
-  --c-primary: #0066ff;
-  --c-secondary: #f5f5f5; /* secondary beige color */
-  --c-accent: #ffc107; /* accent orange color */
+  /* Fonts */
+  --font-heading: "Raleway", system-ui, sans-serif;
+  --font-body: "Lato", system-ui, sans-serif;
+  --font-mono: "Roboto Mono", monospace;
 
+  /* Brand Colors */
+  --c-primary: #0066ff;
+  --c-primary-light: #2483ff;
+  --c-primary-dark: #0052cc;
+  --c-primary-text: #00aaff;
+
+  /* Surface Colors */
+  --c-background: #f5f5f5;
+  --c-surface: #ffffff;
+  --c-surface-hover: #f8f8f8;
+
+  /* Accent Colors */
+  --c-accent: #ffc107;
+  --c-accent-light: #ffd54f;
+  --c-accent-dark: #ffa000;
+
+  /* Neutral Colors */
   --c-white: #ffffff;
   --c-white-soft: #f8f8f8;
   --c-white-mute: #e2e2e2;
@@ -12,53 +29,59 @@
   --c-black-soft: #222222;
   --c-black-mute: #282828;
 
-  --c-indigo: #2c3e50;
+  /* Status Colors */
+  --c-success: #34d399;
+  --c-warning: #fbbf24;
+  --c-error: #ef4444;
+  --c-info: #3b82f6;
 
+  /* Dividers */
   --c-divider-light-1: rgba(60, 60, 60, 0.29);
   --c-divider-light-2: rgba(60, 60, 60, 0.12);
   --c-divider-dark-1: rgba(84, 84, 84, 0.65);
   --c-divider-dark-2: rgba(84, 84, 84, 0.48);
 
-  --c-text-light-1: var(--c-primary);
-  --c-text-light-2: rgba(60, 60, 60, 0.66);
-  --c-text-dark-1: var(--c-white);
-  --c-text-dark-2: rgba(235, 235, 235, 0.64);
+  /* Semantic Variables */
+  --color-background: var(--c-background);
+  --color-surface: var(--c-surface);
+  --color-border: var(--c-divider-light-1);
+  --color-border-hover: var(--c-divider-light-2);
+
+  --color-heading: var(--c-primary-text);
+  --color-text: var(--c-black-soft);
+  --color-text-muted: var(--c-black-mute);
+  --color-text-inverse: var(--c-white-soft);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px text-4px rgb(0 0 0 / 0.1);
+
+  /* Shoelace stuff */
+  --sl-input-font-family: var(--font-mono);
 }
 
-/* semantic color variables for this project */
-:root {
-  --background: var(--c-secondary);
-  --background-soft: #f2f2f2;
-  --background-mute: #e7e7e7;
-
-  --border: var(--c-divider-light-1);
-  --border-hover: var(--c-divider-light-2);
-
-  --heading: var(--c-primary-text);
-  --text: var(--c-black-soft);
-  --text-mut: var(--c-black-mute);
-  --text-inverse: var(--c-white-soft);
-}
-
+/* Dark Mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-primary: #0066ff;
-    --c-secondary: #222222;
-    --c-accent: #ff9800;
+    --c-background: #1a1a1a;
+    --c-surface: #222222;
+    --c-surface-hover: #2a2a2a;
 
-    --background-soft: #282828;
-    --background-mute: #1a1a1a;
+    --color-background: var(--c-background);
+    --color-surface: var(--c-surface);
+    --color-border: var(--c-divider-dark-1);
+    --color-border-hover: var(--c-divider-dark-2);
 
-    --border: var(--c-divider-dark-1);
-    --border-hover: var(--c-divider-dark-2);
-
-    --heading: var(--c-primary-text);
-    --text: var(--c-white-soft);
-    --text-mute: var(--c-white-mute);
-    --text-inverse: var(--c-black-soft);
+    --color-heading: var(--c-primary-text);
+    --color-text: var(--c-white-soft);
+    --color-text-muted: var(--c-white-mute);
+    --color-text-inverse: var(--c-black-soft);
   }
 }
 
+/* Base Styles */
 *,
 *::before,
 *::after {
@@ -69,50 +92,28 @@
 
 body {
   min-height: 100vh;
-  color: var(--text);
-  background: var(--background);
+  color: var(--color-text);
+  background: var(--color-background);
   transition:
-    color 0.5s,
-    background-color 0.5s;
+    color 0.3s ease,
+    background-color 0.3s ease;
   line-height: 1.6;
-  font-family:
-    Karla,
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    "Fira Sans",
-    "Droid Sans",
-    "Helvetica Neue",
-    sans-serif;
+  font-family: var(--font-body);
   font-size: 16px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Typography */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family:
-    Inter,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    "Open Sans",
-    "Helvetica Neue",
-    sans-serif;
-  color: var(--heading);
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  font-weight: 600;
+  line-height: 1.25;
 }
