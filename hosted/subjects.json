@@ -6,9 +6,11 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(END_MO22).pdf"
           ]
@@ -21,46 +23,56 @@
       "papers": {
         "2018": {
           "display": "2018",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CH101%20CHEMISTRY%20(MID_MO18).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CH101%20CHEMISTRY%20(END_MO2018).pdf"
           ]
         },
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CH101%20CHEMISTRY%20(MID_MO19).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CH101%20CHEMISTRY%20(MID_SP19).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CH101%20CHEMISTRY%20(MID_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CH101%20CHEMISTRY%20(MID_MO19).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CH101%20CHEMISTRY%20(END_MO19).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CH101%20CHEMISTRY%20(END_SP19).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CH101%20CHEMISTRY%20(END_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CH101%20CHEMISTRY%20(END_MO19).pdf"
           ]
         },
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CH101%20CHEMISTRY%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CH101%20CHEMISTRY%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CH101%20CHEMISTRY%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CH101%20CHEMISTRY%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CH101%20CHEMISTRY%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CH101%20CHEMISTRY%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CH101%20CHEMISTRY%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CH101%20CHEMISTRY%20(END_SP23).pdf"
           ]
@@ -73,46 +85,56 @@
       "papers": {
         "2018": {
           "display": "2018",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20%26%20COMM_%20ENGG_%20(MID_MO18).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGG_%20(END_MO2018).pdf"
           ]
         },
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGG_%20(MID_MO19).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20%26%20COMM_%20ENGG_%20(MID_SP19).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC101%20BASIC%20OF%20ELECTRONICS%20ENGINEERING%20(END_MO19).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EC101%20BASICS%20OFELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP19).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EC101%20BASICS%20OFELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC101%20BASIC%20OF%20ELECTRONICS%20ENGINEERING%20(END_MO19).pdf"
           ]
         },
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EC101%20BASIC%20ELECTRONICS%20%26%20COMMUNICATION%20ENGINEERING%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGG_%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGG_%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP23).pdf"
           ]
@@ -125,16 +147,20 @@
       "papers": {
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(END_SP22).pdf"
@@ -142,9 +168,11 @@
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(END_SP23).pdf"
           ]
@@ -157,16 +185,20 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA107%20MATHEMATICS-II%20(END_SP22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(END_SP23).pdf"
           ]
@@ -179,18 +211,22 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH113%20PHYSICS%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH113%20PHYSICS%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(END_SP23).pdf"
           ]
@@ -203,10 +239,12 @@
       "papers": {
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_MO19).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCE_IMSC%20(MID_SP19).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCE_IMSC%20(MID_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_MO19).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CE101%20ENVIRONMENTAL%20SCIENCES%20(END_MO19).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CE101%20ENVIRONMNETAL%20SCIENCE_IMSC%20(END_SP19).pdf"
@@ -214,27 +252,33 @@
         },
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CE101_ENVIRONMENTAL%20SCIENCE%20(END_SP22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_SP23).pdf"
           ]
@@ -247,36 +291,44 @@
       "papers": {
         "2018": {
           "display": "2018",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO18).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO2018).pdf"
           ]
         },
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO19).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP19).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO19).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO19).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP19).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO19).pdf"
           ]
         },
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP22).pdf"
@@ -284,9 +336,11 @@
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP23).pdf"
           ]
@@ -299,36 +353,44 @@
       "papers": {
         "2018": {
           "display": "2018",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(MID_MO18).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_MO2018).pdf"
           ]
         },
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EE101%20BASIC%20ELECTRICAL%20ENGG_%20(MID_MO19).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(MID_SP19).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_MO19).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP19).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_MO19).pdf"
           ]
         },
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE101%20BASIC%20OF%20ELECTRICAL%20ENGINEERING%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP22).pdf"
@@ -336,9 +398,11 @@
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE101%20BASIC%20OF%20ELECTRICAL%20ENGINEERING%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP23).pdf"
           ]
@@ -351,26 +415,32 @@
       "papers": {
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_MO19)(1).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS_III_SEM%20(END_MO19)(1).pdf"
           ]
         },
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/BE101_%20BER101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS_III_SEM%20(SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS_III_SEM%20(SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/BE101_%20BER101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/BE101_BER101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(END_SP22).pdf"
@@ -378,9 +448,11 @@
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS%20(END_SP23).pdf"
           ]
@@ -395,22 +467,39 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP23).pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205 DISCRETE MATHEMATICS (QUIZ 1 24).pdf"
+          ],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205 DISCRETE MATHEMATICS (MID 24).pdf"
+          ],
+          "quiz2": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205 DISCRETE MATHEMATICS (QUIZ 2 24).pdf"
+          ],
+          "end": []
         }
       }
     },
@@ -420,20 +509,37 @@
       "papers": {
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(MID_MO19).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(END_MO19).pdf"
           ]
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(END_MO22).pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203 DIGITAL SYSTEM DESIGN (QUIZ 1 24).pdf"
+          ],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203 DIGITAL SYSTEM DESIGN (MID 24).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203 DIGITAL SYSTEM DESIGN (END 24).pdf"
           ]
         }
       }
@@ -444,19 +550,23 @@
       "papers": {
         "2019": {
           "display": "2019",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS201%20DATA%20STRUCTURES%20(MID_MO19).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS201%20DATA%20STRUCTURES%20(END_MO19).pdf"
           ]
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES%20(MID_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(MID_MO22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(MID_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_OE%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(END_MO22).pdf"
@@ -470,11 +580,22 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS231%20DATA%20STRUCTURES%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS231%20DATA%20STRUCTURES%20(END_MO22).pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS231 DATA STRUCTURES (END 24).pdf"
           ]
         }
       }
@@ -485,26 +606,32 @@
       "papers": {
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20PATTERNS%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20PATTERNS%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS204%20OBJECT%20ORIENTED%20PROG_%20%26%20DESIGN%20PATTERN%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS204%20OBJECT%20ORIENTED%20PROG_%20%26%20DESIGN%20PATTERN%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20PATTERNS%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(END_SP23).pdf"
           ]
@@ -517,11 +644,26 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERN%20(END_MO22).pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS233 OBJECT ORIENTED PROGGRAMMING AND DESIGN PATTERNS (QUIZ 1 24).pdf"
+          ],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS233 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (MID 24).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS233 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (END 24).pdf"
           ]
         }
       }
@@ -532,27 +674,33 @@
       "papers": {
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS203%20COMPUTER%20ORGANIZATION%20ARCHITECTURE%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS203%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS203%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS203%20COMPUTER%20ORGANISATION%20%26%20ARCHITECTURE%20(END_SP22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS203%20COMPUTER%20ORGANISATION%20%26%20ARCHITECTURE_OE%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS203%20COMPUTER%20ORGANISATION%20%26%20ARCHITECTURE_OE%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS203%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS203%20COMPUTER%20ORGANIZATION%20%26%20ARCHITECTURE%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS203%20COMPUTER%20ORGANIZATION%20%26%20ARCHITECTURE_OE%20(END_SP23).pdf"
           ]
@@ -565,11 +713,26 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS235%20COMPUTER%20ORGANIZATION%20%26%20ARCH%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(END_MO22).pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (QUIZ 1 24).pdf"
+          ],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (MID 24).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (END 24).pdf"
           ]
         }
       }
@@ -580,20 +743,24 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA203%20NUMERICAL%20METHODS%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203%20NUMERICAL%20METHODS%20(MID_SP23).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203.pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203%20NUMERICAL%20METHODS%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": []
         }
       }
@@ -604,25 +771,29 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEMS%20(MID_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MINOR)%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MINOR)%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP23).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20_IMSC%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_SP23).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_IMSC%20(END_SP23).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_IMSC%20(END_SP23).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_SP23).pdf"
           ]
         }
       }
@@ -633,9 +804,11 @@
       "papers": {
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID-SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf"
           ]
@@ -648,9 +821,11 @@
       "papers": {
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf"
           ]
@@ -663,16 +838,20 @@
       "papers": {
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS211%20OPERATING%20SYSTEM%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS211%20OPERATING%20SYSTEM_M%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS211%20OPERATING%20SYSTEM_M%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS211_CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf"
@@ -686,9 +865,11 @@
       "papers": {
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(END_SP23).pdf"
           ]
@@ -701,19 +882,23 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS303%20OPERATING%20SYSTEM_M%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS303_211%20OPERATING%20SYSTEM%20(END_MO22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS303_211%20OPERATING%20SYSTEM%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS303%20OPERATING%20SYSTEM_IMSC%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS303%20OPERATING%20SYSTEMS%20(END_SP23).pdf"
           ]
@@ -731,29 +916,35 @@
       "papers": {
         "2020": {
           "display": "2020",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(MID_SP20).pdf"
           ],
+          "quiz2": [],
           "end": []
         },
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM_OE%20(MID_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(MID_MO22).pdf"
           ],
+          "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(END_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM_OE%20(END_SP22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(END_SP22).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM_OE%20(END_SP22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(END_MO22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM_OE%20(END_SP23).pdf"
           ]
@@ -766,9 +957,11 @@
       "papers": {
         "2023": {
           "display": "2023",
+          "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(MID_SP23).pdf"
           ],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(END_SP23).pdf"
           ]
@@ -786,7 +979,9 @@
       "papers": {
         "2022": {
           "display": "2022",
+          "quiz1": [],
           "mid": [],
+          "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MT131%20UNDERSTANDING%20HARMONY%20(END_SP22).pdf"
           ]
