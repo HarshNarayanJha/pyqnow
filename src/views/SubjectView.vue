@@ -15,7 +15,6 @@ const year = route.params.year
 const filter = ref('')
 
 const { data, error, isFetching } = await fetchSubjects(year)
-console.log(error)
 
 const filteredSubjects = computed(() => {
   if (!data.value) return []
@@ -33,13 +32,11 @@ const filteredSubjects = computed(() => {
   <div class="container">
     <BackButton></BackButton>
 
-    <sl-alert variant="primary" open v-if="isFetching">
-      <sl-icon slot="icon" name="info-circle"></sl-icon>
-      <strong>Fetching...</strong>
+    <div v-if="isFetching">
       <sl-spinner style="font-size: 50px; --track-width: 10px"></sl-spinner>
-    </sl-alert>
+    </div>
 
-    <sl-alert variant="danger" open v-if="error" class="">
+    <sl-alert variant="danger" open v-else-if="error">
       <sl-icon slot="icon" name="exclamation-octagon"></sl-icon>
       <strong>{{ error }}</strong>
     </sl-alert>

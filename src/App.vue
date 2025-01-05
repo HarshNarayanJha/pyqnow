@@ -2,6 +2,9 @@
 import { RouterLink, RouterView } from 'vue-router'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+
+import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
+import '@shoelace-style/shoelace/dist/components/skeleton/skeleton.js'
 </script>
 
 <template>
@@ -15,7 +18,15 @@ import Footer from '@/components/Footer.vue'
         <RouterView />
       </template>
       <template #fallback>
-        <div>Loading...</div>
+        <div class="loader">
+          <sl-spinner style="font-size: 50px; --track-width: 10px"></sl-spinner>
+          <div class="skeleton">
+            <sl-skeleton effect="sheen"></sl-skeleton>
+            <sl-skeleton effect="sheen"></sl-skeleton>
+            <sl-skeleton effect="sheen"></sl-skeleton>
+            <sl-skeleton effect="sheen"></sl-skeleton>
+          </div>
+        </div>
       </template>
     </Suspense>
   </main>
@@ -34,10 +45,28 @@ header {
 main {
   margin-top: var(--sl-spacing-medium);
   display: flex;
+  flex-direction: column;
   align-items: start;
   justify-content: center;
 
   flex: 1;
+
+  .loader {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+
+    .skeleton {
+      display: flex;
+      flex-direction: column;
+      gap: 4em;
+      margin-top: 8em;
+
+      sl-skeleton {
+        height: 2em;
+      }
+    }
+  }
 }
 
 footer {
