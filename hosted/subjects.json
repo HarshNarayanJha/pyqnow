@@ -572,7 +572,37 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(END_MO22).pdf"
           ]
         }
-      }
+      },
+      "links": [
+        {
+          "name": "Infix to Prefix Conversion (Find others on the sidebar)",
+          "url": "https://www.calcont.in/Conversion/infix_to_prefix"
+        },
+        {
+          "name": "Stack Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/StackArray.html"
+        },
+        {
+          "name": "Queue Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/QueueArray.html"
+        },
+        {
+          "name": "Binary Search",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/Search.html"
+        },
+        {
+          "name": "Binary Search Tree",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/BST.html"
+        },
+        {
+          "name": "AVL Tree Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html"
+        },
+        {
+          "name": "More Visualizers",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+        }
+      ]
     },
     {
       "code": "CS231",
@@ -598,7 +628,37 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS231 DATA STRUCTURES (END 24).pdf"
           ]
         }
-      }
+      },
+      "links": [
+        {
+          "name": "Infix to Prefix Conversion (Find others on the sidebar)",
+          "url": "https://www.calcont.in/Conversion/infix_to_prefix"
+        },
+        {
+          "name": "Stack Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/StackArray.html"
+        },
+        {
+          "name": "Queue Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/QueueArray.html"
+        },
+        {
+          "name": "Binary Search",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/Search.html"
+        },
+        {
+          "name": "Binary Search Tree",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/BST.html"
+        },
+        {
+          "name": "AVL Tree Visualizer",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html"
+        },
+        {
+          "name": "More Visualizers",
+          "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+        }
+      ]
     },
     {
       "code": "CS204",
@@ -705,7 +765,13 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS203%20COMPUTER%20ORGANIZATION%20%26%20ARCHITECTURE_OE%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "links": [
+        {
+          "name": "Booth's Algorithm Calculator",
+          "url": "https://www.grahn.us/projects/booths-algorithm/"
+        }
+      ]
     },
     {
       "code": "CS235",
@@ -735,7 +801,13 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235 COMPUTER ORGANIZATION AND ARCHITECTURE (END 24).pdf"
           ]
         }
-      }
+      },
+      "links": [
+        {
+          "name": "Booth's Algorithm Calculator",
+          "url": "https://www.grahn.us/projects/booths-algorithm/"
+        }
+      ]
     },
     {
       "code": "MA203",

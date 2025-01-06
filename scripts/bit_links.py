@@ -42,6 +42,20 @@ subjects_2nd = {
     "MT131": "UHV2: Understanding Harmony",
 }
 
+extra_links = {
+    "Data Structures": [
+        {"name": "Infix to Prefix Conversion (Find others on the sidebar)", "url": "https://www.calcont.in/Conversion/infix_to_prefix"},
+        {"name": "Stack Visualizer", "url": "https://www.cs.usfca.edu/~galles/visualization/StackArray.html"},
+        {"name": "Queue Visualizer", "url": "https://www.cs.usfca.edu/~galles/visualization/QueueArray.html"},
+        {"name": "Binary Search", "url": "https://www.cs.usfca.edu/~galles/visualization/Search.html"},
+        {"name": "Binary Search Tree", "url": "https://www.cs.usfca.edu/~galles/visualization/BST.html"},
+        {"name": "AVL Tree Visualizer", "url": "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html"},
+        {"name": "More Visualizers", "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"},
+    ],
+    "Computer Organization and Architecture": [
+        {"name": "Booth's Algorithm Calculator", "url": "https://www.grahn.us/projects/booths-algorithm/"}
+    ],
+}
 cse_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/446"
 chem_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/379"
 env_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/445"
@@ -86,8 +100,8 @@ for url in remote_urls:
             if f"/{sub}" in href:
                 pdfs_2nd[sub].add(pdf_base_url + href if "https://" not in href else href)
 
-pprint(pdfs_1st)
-pprint(pdfs_2nd)
+# pprint(pdfs_1st)
+# pprint(pdfs_2nd)
 
 writable_file: dict[str, list[dict[str, str | dict[str, str | dict[str, str | list[str]]]]]] = {
     "1": [],
@@ -133,7 +147,12 @@ for p in pdfs_1st:
 
     papers = {k: papers[k] for k in sorted(papers.keys())}
 
-    writable_file["1"].append({"code": p, "display": subjects_1st[p], "papers": papers})
+    data = {"code": p, "display": subjects_1st[p], "papers": papers}
+
+    if subjects_1st[p] in extra_links:
+        data["links"] = extra_links[subjects_1st[p]]
+
+    writable_file["1"].append(data)
 
 for p in pdfs_2nd:
     _urls = pdfs_2nd[p]
@@ -170,9 +189,14 @@ for p in pdfs_2nd:
 
     papers = {k: papers[k] for k in sorted(papers.keys())}
 
-    writable_file["2"].append({"code": p, "display": subjects_2nd[p], "papers": papers})
+    data = {"code": p, "display": subjects_2nd[p], "papers": papers}
 
-pprint(writable_file)
+    if subjects_2nd[p] in extra_links:
+        data["links"] = extra_links[subjects_2nd[p]]
+
+    writable_file["2"].append(data)
+
+# pprint(writable_file)
 
 with open("hosted/subjects.json", "w") as fp:
     json.dump(writable_file, fp, indent=2, separators=(",", ": "))
