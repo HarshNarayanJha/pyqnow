@@ -1,7 +1,6 @@
 import glob
 import json
 import re
-from pprint import pprint
 
 import requests
 from bs4 import BeautifulSoup
@@ -146,6 +145,11 @@ for p in pdfs_1st:
             papers[year]["mid"].append(u)
 
     papers = {k: papers[k] for k in sorted(papers.keys())}
+    for year in papers:
+        papers[year]["mid"].sort()
+        papers[year]["end"].sort()
+        papers[year]["quiz1"].sort()
+        papers[year]["quiz2"].sort()
 
     data = {"code": p, "display": subjects_1st[p], "papers": papers}
 
@@ -186,6 +190,12 @@ for p in pdfs_2nd:
             papers[year]["quiz2"].append(u)
         else:
             papers[year]["mid"].append(u)
+
+    for year in papers:
+        papers[year]["mid"].sort()
+        papers[year]["end"].sort()
+        papers[year]["quiz1"].sort()
+        papers[year]["quiz2"].sort()
 
     papers = {k: papers[k] for k in sorted(papers.keys())}
 
