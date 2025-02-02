@@ -8,6 +8,10 @@ PYQNow is a free website which provides one click access to all PYQs PDFs of BIT
 
 PYQNow has papers for both CSE and ECE branches now. Enjoy!
 
+## Contributors
+
+- @SatyamIsSatyam assisted with decoding subjects from other branches
+
 ## Project Setup
 
 ```sh
