@@ -6,7 +6,7 @@ PYQs at your fingertips, success in sight
 
 PYQNow is a free website which provides one click access to all PYQs PDFs of BIT Exams.
 
-NOTE: For obvious reasons (and a bit bias), this only works for the CSE branch (which is my branch btw). The main reason being the time required to collect all those subjects and links.
+PYQNow has papers for both CSE and ECE branches now. Enjoy!
 
 ## Project Setup
 
