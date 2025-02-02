@@ -4,7 +4,8 @@ import '@shoelace-style/shoelace/dist/components/icon/icon.js'
 
 <template>
   <nav>
-    <p>Useful only for CSE branch students, for several reasons.</p>
+    <p><s>Useful only for CSE branch students, for several reasons.</s></p>
+    <p>PYQNow is now useful for all branches (Currently CSE and ECE, WIP)</p>
     <p>
       &copy; 2025 <a href="https://github.com/HarshNarayanJha" target="_blank">Harsh Narayan Jha</a>
     </p>

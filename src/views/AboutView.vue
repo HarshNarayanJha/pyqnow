@@ -17,8 +17,8 @@
       time wasting! (hopefully)
     </p>
     <p class="note">
-      NOTE: For obvious reasons (and a bit bias), this only works for the CSE branch (which is my
-      branch btw). The main reason being the time required to collect all those subjects and links.
+      NOTE: Now we have papers for both CSE and ECE branches. Rest are in progress/depends on my
+      moon.
     </p>
   </div>
 </template>
