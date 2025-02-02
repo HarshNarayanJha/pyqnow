@@ -1077,6 +1077,197 @@
           ]
         }
       }
+    },
+    {
+      "code": "EE205",
+      "display": "Circuit Theory",
+      "papers": {
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EE205%20CIRCUIT%20THEORY%20(MID_MO19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EE205%20CIRCUIT%20THEORY%20(END_MO19).pdf"
+          ]
+        },
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE205%20CIRCUIT%20THEORY%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE205%20CIRCUIT%20THEORY%20(END_MO22).pdf"
+          ]
+        }
+      }
+    },
+    {
+      "code": "EC201",
+      "display": "Electronic Devices",
+      "papers": {
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC201%20ELECTRONIC%20DEVICES%20(MID_MO19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC201%20ELECTRONIC%20DEVICES%20(END_MO19).pdf"
+          ]
+        },
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC201%20ELECTRONIC%20DEVICES%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        }
+      }
+    },
+    {
+      "code": "EC205",
+      "display": "Signals and Systems",
+      "papers": {
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC205%20SIGNALS%20AND%20SYSTEMS%20(MID_MO19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC205%20SIGNALS%20AND%20SYSTEMS%20(END_MO19).pdf"
+          ]
+        }
+      }
+    },
+    {
+      "code": "EC251",
+      "display": "Probability and Random Processes",
+      "papers": {
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EC251%20PROBABILITY%20AND%20RANDOM%20PROCESSES%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        },
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EC251%20PROBABILITY%20AND%20RANDOM%20PROCESSES%20(END_SP22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC251N%20SIGNALS%20AND%20SYSTEMS%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC251N%20SIGNALS%20AND%20SYSTEMS%20(END_SP23).pdf"
+          ]
+        }
+      }
+    },
+    {
+      "code": "EC253",
+      "display": "Analog Circuits",
+      "papers": {
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EC253%20ANALOG%20CIRCUITS%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        },
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EC253%20ANALOG%20CIRCUITS%20(END_SP22)(1).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC253N%20ANALOG%20COMMUNICATION%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC253N%20ANALOG%20COMMUNICATION%20(END_SP23).pdf"
+          ]
+        }
+      }
+    },
+    {
+      "code": "EC255",
+      "display": "Analog Communication",
+      "papers": {
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EC255%20ANALOG%20COMMUNICATION%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        }
+      }
+    },
+    {
+      "code": "EC257",
+      "display": "Electromagnetic Fields and Waves",
+      "papers": {
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EC257%20ELECTROMAGNETIC%20FIELDS%20%26%20WAVES%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        },
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EC257%20ELECTROMAGNETIC%20FIELDS%20AND%20WAVES%20(END_SP22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC257%20ELECTROMAGNETIC%20FIELD%20AND%20WAVES%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC257%20ELECTROMAGNETIC%20FIELDS%20AND%20WAVES%20(END_SP23).pdf"
+          ]
+        }
+      }
     }
   ],
   "3": [],
