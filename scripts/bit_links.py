@@ -19,6 +19,7 @@ subjects_1st = {
 }
 
 subjects_2nd = {
+    # cse/ece
     "MA205": "Discrete Mathematics",
     "EC203": "Digital System Design",
     "CS201": "Data Structures",
@@ -39,7 +40,31 @@ subjects_2nd = {
     "CS241": "Design and Analysis of Algorithm",
     "IT310": "Shell and Kernel Programming",
     "MT131": "UHV2: Understanding Harmony",
+    # ece
+    "EE205": "Circuit Theory",
+    "EC201": "Electronic Devices",
+    "EC205": "Signals and Systems",
+    "EC251": "Probability and Random Processes",
+    "EC253": "Analog Circuits",
+    "EC255": "Analog Communication",
+    "EC257": "Electromagnetic Fields and Waves",
 }
+
+# ece subjects to cover
+# PRP ok
+# ED ok
+# AC ok
+# EM
+# NT
+# 
+# SS ok
+# EFW ok
+# UHV2 ok
+# AC ok
+# NM ok
+# DSP
+# DCMT
+# MP
 
 extra_links = {
     "Data Structures": [

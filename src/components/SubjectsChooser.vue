@@ -1,7 +1,14 @@
 <script setup>
+import { ref } from 'vue'
+
 import '@shoelace-style/shoelace/dist/components/details/details.js'
 import '@shoelace-style/shoelace/dist/components/badge/badge.js'
 import '@shoelace-style/shoelace/dist/components/button/button.js'
+import '@shoelace-style/shoelace/dist/components/radio-button/radio-button.js'
+import '@shoelace-style/shoelace/dist/components/radio-group/radio-group.js'
+import { useModel } from 'vue'
+import { onMounted } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps({
   options: {
@@ -9,11 +16,31 @@ const props = defineProps({
     required: true,
   },
 })
+
+const branch = ref('cse')
+
+onMounted(() => {
+  const rg = document.querySelector('sl-radio-group')
+  rg.addEventListener('sl-change', event => {
+    branch.value = event.target.value
+  })
+  rg.value = branch.value
+})
+
+const branchOptions = computed(() => {
+  return props.options.filter(p => p.branch && p.branch.includes(branch.value))
+})
 </script>
 
 <template>
   <div class="options">
-    <sl-details v-for="sub in options" :summary="sub.code + ' - ' + sub.display">
+    <sl-radio-group>
+      <sl-radio-button value="cse" pill>CSE</sl-radio-button>
+      <sl-radio-button value="ece" pill>ECE</sl-radio-button>
+      <sl-radio-button value="eee" pill>EEE</sl-radio-button>
+    </sl-radio-group>
+
+    <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display">
       <sl-details v-if="sub.links">
         <div slot="summary">
           <sl-badge variant="primary" pill pulse>NEW</sl-badge> &nbsp; Some Useful websites for
@@ -85,6 +112,10 @@ const props = defineProps({
 .options {
   padding: 1.2em;
   margin: 3em 2em;
+
+  sl-radio-group {
+    margin: 1em 0;
+  }
 
   sl-details {
     margin: 1em 0;
