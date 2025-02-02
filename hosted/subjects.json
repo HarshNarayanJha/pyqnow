@@ -15,7 +15,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(END_MO22).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "CH101",
@@ -77,7 +82,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CH101%20CHEMISTRY%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "EC101",
@@ -139,7 +149,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC101%20BASICS%20OF%20ELECTRONICS%20AND%20COMMUNICATION%20ENGINEERING%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "ME101",
@@ -177,7 +192,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "MA107",
@@ -203,7 +223,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "PH113",
@@ -231,7 +256,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "CE101",
@@ -283,7 +313,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CE101%20ENVIRONMENTAL%20SCIENCE%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "CS101",
@@ -354,7 +389,12 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/CS101 PROGRAMMING FOR PROBLEM SOLVING (END 24).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "EE101",
@@ -416,7 +456,12 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE101%20BASICS%20OF%20ELECTRICAL%20ENGINEERING%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "BE101",
@@ -475,7 +520,12 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/BE101 BIOLOGICAL SCIENCE FOR ENGINEERS (END 24).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     }
   ],
   "2": [
@@ -519,7 +569,10 @@
           ],
           "end": []
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "EC203",
@@ -560,7 +613,11 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203 DIGITAL SYSTEM DESIGN (END 24).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece"
+      ]
     },
     {
       "code": "CS201",
@@ -620,6 +677,9 @@
           "name": "More Visualizers",
           "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
         }
+      ],
+      "branch": [
+        "cse"
       ]
     },
     {
@@ -676,6 +736,9 @@
           "name": "More Visualizers",
           "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
         }
+      ],
+      "branch": [
+        "cse"
       ]
     },
     {
@@ -714,7 +777,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS204%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS233",
@@ -744,7 +810,10 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS233 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (END 24).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS203",
@@ -789,6 +858,9 @@
           "name": "Booth's Algorithm Calculator",
           "url": "https://www.grahn.us/projects/booths-algorithm/"
         }
+      ],
+      "branch": [
+        "cse"
       ]
     },
     {
@@ -825,6 +897,9 @@
           "name": "Booth's Algorithm Calculator",
           "url": "https://www.grahn.us/projects/booths-algorithm/"
         }
+      ],
+      "branch": [
+        "cse"
       ]
     },
     {
@@ -853,7 +928,11 @@
           "quiz2": [],
           "end": []
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece"
+      ]
     },
     {
       "code": "CS301",
@@ -886,7 +965,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS237",
@@ -903,7 +985,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS247",
@@ -920,7 +1005,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS211",
@@ -947,7 +1035,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS211_CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS239",
@@ -964,7 +1055,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS303",
@@ -993,12 +1087,18 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS303%20OPERATING%20SYSTEMS%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS240",
       "display": "Shell and Kernel Programming",
-      "papers": {}
+      "papers": {},
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS206",
@@ -1039,7 +1139,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM_OE%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS241",
@@ -1056,12 +1159,18 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT310",
       "display": "Shell and Kernel Programming",
-      "papers": {}
+      "papers": {},
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "MT131",
@@ -1076,7 +1185,11 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MT131%20UNDERSTANDING%20HARMONY%20(END_SP22).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "cse",
+        "ece"
+      ]
     },
     {
       "code": "EE205",
@@ -1104,7 +1217,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE205%20CIRCUIT%20THEORY%20(END_MO22).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC201",
@@ -1130,7 +1246,10 @@
           "quiz2": [],
           "end": []
         }
-      }
+      },
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC205",
@@ -1147,7 +1266,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC205%20SIGNALS%20AND%20SYSTEMS%20(END_MO19).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC251",
@@ -1182,7 +1304,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC251N%20SIGNALS%20AND%20SYSTEMS%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC253",
@@ -1217,7 +1342,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC253N%20ANALOG%20COMMUNICATION%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC255",
@@ -1232,7 +1360,10 @@
           "quiz2": [],
           "end": []
         }
-      }
+      },
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC257",
@@ -1267,7 +1398,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC257%20ELECTROMAGNETIC%20FIELDS%20AND%20WAVES%20(END_SP23).pdf"
           ]
         }
-      }
+      },
+      "branch": [
+        "ece"
+      ]
     }
   ],
   "3": [],
