@@ -36,6 +36,10 @@ branches = {
     "EC253": ["ece"],
     "EC255": ["ece"],
     "EC257": ["ece"],
+    "EC207": ["ece"],
+    "EC209": ["ece"],
+    "EE251": ["ece"],
+    "EE305": ["ece"],
 }
 
 for sub in data["2"]:

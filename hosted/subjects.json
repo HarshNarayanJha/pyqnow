@@ -1272,6 +1272,46 @@
       ]
     },
     {
+      "code": "EC207",
+      "display": "Electronic Measurements",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC207%20ELECTRONIC%20MEASUREMENTS%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC207%20ELECTRONIC%20MEASUREMENTS%20(END_MO22).pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC209",
+      "display": "Network Theory",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC209%20NETWORK%20THEORY%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC209%20NETWORK%20THEORY%20(END_MO22).pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
       "code": "EC251",
       "display": "Probability and Random Processes",
       "papers": {
@@ -1396,6 +1436,75 @@
           "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC257%20ELECTROMAGNETIC%20FIELDS%20AND%20WAVES%20(END_SP23).pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EE305",
+      "display": "Digital Signal Processing",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(END_SP23).pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EE251",
+      "display": "DC Machines and Transformer",
+      "papers": {
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EE251%20DC%20MACHINES%20AND%20TRANSFORMER%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        },
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/EE251%20DC%20MACHINES%20AND%20TRANSFORMERS%20(END_SP22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE251%20DC%20MACHINES%20AND%20TRANSFORMER%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE251%20DC%20MACHINES%20AND%20TRANSFORMER%20(END_SP23).pdf"
           ]
         }
       },

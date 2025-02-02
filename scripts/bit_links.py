@@ -44,26 +44,30 @@ subjects_2nd = {
     "EE205": "Circuit Theory",
     "EC201": "Electronic Devices",
     "EC205": "Signals and Systems",
+    "EC207": "Electronic Measurements",
+    "EC209": "Network Theory",
     "EC251": "Probability and Random Processes",
     "EC253": "Analog Circuits",
     "EC255": "Analog Communication",
     "EC257": "Electromagnetic Fields and Waves",
+    "EE305": "Digital Signal Processing",
+    "EE251": "DC Machines and Transformer"
 }
 
 # ece subjects to cover
 # PRP ok
 # ED ok
 # AC ok
-# EM
-# NT
-# 
+# EM ok
+# NT ok
+#
 # SS ok
 # EFW ok
 # UHV2 ok
 # AC ok
 # NM ok
-# DSP
-# DCMT
+# DSP ok
+# DCMT ok
 # MP
 
 extra_links = {
