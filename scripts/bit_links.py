@@ -83,6 +83,14 @@ extra_links = {
     "Computer Organization and Architecture": [
         {"name": "Booth's Algorithm Calculator", "url": "https://www.grahn.us/projects/booths-algorithm/"}
     ],
+    "Operating System": [
+        {"name": "Process Scheduling Solver", "url": "https://process-scheduling-solver.boonsuen.com/"},
+        {"name": "CPU Scheduling Simulator", "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"}
+    ],
+    "Numerical Methods": [
+        {"name": "Bisection Method Calculator", "url": "https://www.codesansar.com/numerical-methods/bisection-method-online-calculator.htm"},
+        {"name": "Secant Method Calculator", "url": "https://www.codesansar.com/numerical-methods/secant-method-online-calculator.htm"}
+    ]
 }
 cse_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/446"
 chem_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/379"
@@ -93,8 +101,9 @@ math_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/451"
 mech_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/452"
 phy_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/453"
 bio_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/375"
+mgmt_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/439"
 
-remote_urls: tuple[str, ...] = (cse_url, chem_url, env_url, eee_url, ece_url, math_url, mech_url, phy_url, bio_url)
+remote_urls: tuple[str, ...] = (cse_url, chem_url, env_url, eee_url, ece_url, math_url, mech_url, phy_url, bio_url, mgmt_url)
 
 local_source = glob.glob("pyqs/*/*")
 local_url_base = "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/"

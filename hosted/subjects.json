@@ -927,8 +927,27 @@
           ],
           "quiz2": [],
           "end": []
+        },
+        "2025": {
+          "display": "2025",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MA203 NUMERICAL METHODS (QUIZ 1 25).pdf"
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
+      "links": [
+        {
+          "name": "Bisection Method Calculator",
+          "url": "https://www.codesansar.com/numerical-methods/bisection-method-online-calculator.htm"
+        },
+        {
+          "name": "Secant Method Calculator",
+          "url": "https://www.codesansar.com/numerical-methods/secant-method-online-calculator.htm"
+        }
+      ],
       "branch": [
         "cse",
         "ece"
@@ -989,7 +1008,10 @@
           "display": "2025",
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS237 DATABASE MANAGEMENT SYSTEM (QUIZ 1 25).pdf"
-          ]
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
@@ -1042,6 +1064,16 @@
           ]
         }
       },
+      "links": [
+        {
+          "name": "Process Scheduling Solver",
+          "url": "https://process-scheduling-solver.boonsuen.com/"
+        },
+        {
+          "name": "CPU Scheduling Simulator",
+          "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"
+        }
+      ],
       "branch": [
         "cse"
       ]
@@ -1064,10 +1096,24 @@
         "2025": {
           "display": "2025",
           "quiz1": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239 OPERATING SYSTEM (QUIZ 1 25).pdf"
-          ]
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239 OPERATING SYSTEM (QUIZ 1 25) (SET C).pdf",
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239 OPERATING SYSTEM (QUIZ 1 25) (SET D).pdf"
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
+      "links": [
+        {
+          "name": "Process Scheduling Solver",
+          "url": "https://process-scheduling-solver.boonsuen.com/"
+        },
+        {
+          "name": "CPU Scheduling Simulator",
+          "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"
+        }
+      ],
       "branch": [
         "cse"
       ]
@@ -1100,6 +1146,16 @@
           ]
         }
       },
+      "links": [
+        {
+          "name": "Process Scheduling Solver",
+          "url": "https://process-scheduling-solver.boonsuen.com/"
+        },
+        {
+          "name": "CPU Scheduling Simulator",
+          "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"
+        }
+      ],
       "branch": [
         "cse"
       ]
@@ -1175,7 +1231,10 @@
           "display": "2025",
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS241 DESIGN AND ANALYSIS OF ALGORITHMS (QUIZ 1 25).pdf"
-          ]
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
@@ -1202,6 +1261,24 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MT131%20UNDERSTANDING%20HARMONY%20(END_SP22).pdf"
           ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MT131%20UNDERSTANDING%20HARMONY%20(END_SP23).pdf"
+          ]
+        },
+        "2025": {
+          "display": "2025",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MT131 UNDERTANDING HARMONY (QUIZ 1 25).pdf"
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
