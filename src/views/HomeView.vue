@@ -4,26 +4,26 @@ import { ref } from 'vue'
 import Chooser from '@/components/Chooser.vue'
 
 const years = [
-  {
-    url: '/1',
-    display: '1st Year',
-    color: 'primary',
-  },
-  {
-    url: '/2',
-    display: '2nd Year',
-    color: 'danger',
-  },
-  {
-    url: '/3',
-    display: '3rd Year',
-    color: 'warning',
-  },
-  {
-    url: '/4',
-    display: '4th Year',
-    color: 'success',
-  },
+	{
+		url: '/1',
+		display: '1st Year',
+		color: 'primary',
+	},
+	{
+		url: '/2',
+		display: '2nd Year',
+		color: 'danger',
+	},
+	{
+		url: '/3',
+		display: '3rd Year',
+		color: 'warning',
+	},
+	{
+		url: '/4',
+		display: '4th Year',
+		color: 'success',
+	},
 ]
 </script>
 

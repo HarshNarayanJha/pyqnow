@@ -18,7 +18,7 @@
     </p>
     <p class="note">
       NOTE: Now we have papers for both CSE and ECE branches. Rest are in progress/depends on my
-      moon.
+      mood.
     </p>
   </div>
 </template>

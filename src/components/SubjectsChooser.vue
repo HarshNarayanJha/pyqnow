@@ -10,24 +10,24 @@ import { onMounted } from 'vue'
 import { computed } from 'vue'
 
 const props = defineProps({
-  options: {
-    type: Array,
-    required: true,
-  },
+	options: {
+		type: Array,
+		required: true,
+	},
 })
 
 const branch = ref('cse')
 
 onMounted(() => {
-  const rg = document.querySelector('sl-radio-group')
-  rg.addEventListener('sl-change', event => {
-    branch.value = event.target.value
-  })
-  rg.value = branch.value
+	const rg = document.querySelector('sl-radio-group')
+	rg.addEventListener('sl-change', event => {
+		branch.value = event.target.value
+	})
+	rg.value = branch.value
 })
 
 const branchOptions = computed(() => {
-  return props.options.filter(p => p.branch && p.branch.includes(branch.value))
+	return props.options.filter(p => p.branch?.includes(branch.value))
 })
 </script>
 
@@ -40,6 +40,11 @@ const branchOptions = computed(() => {
     </sl-radio-group>
 
     <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display">
+      <sl-button :href="`/syllabus/${sub.code}-${sub.display}`" target="_blank">
+        <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
+        Syllabus
+      </sl-button>
+
       <sl-details v-if="sub.links">
         <div slot="summary">
           <sl-badge variant="primary" pill pulse>NEW</sl-badge> &nbsp; Some Useful websites for

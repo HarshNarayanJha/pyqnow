@@ -1,14 +1,14 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { computed, ref } from 'vue'
 
-import '@shoelace-style/shoelace/dist/components/input/input.js'
 import '@shoelace-style/shoelace/dist/components/alert/alert.js'
+import '@shoelace-style/shoelace/dist/components/input/input.js'
 import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
 
-import SubjectsChooser from '@/components/SubjectsChooser.vue'
 import BackButton from '@/components/BackButton.vue'
-import { useRoute } from 'vue-router'
+import SubjectsChooser from '@/components/SubjectsChooser.vue'
 import { fetchSubjects } from '@/services/api'
+import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const year = route.params.year
@@ -17,14 +17,14 @@ const filter = ref('')
 const { data, error, isFetching } = await fetchSubjects(year)
 
 const filteredSubjects = computed(() => {
-  if (!data.value) return []
+	if (!data.value) return []
 
-  return data.value.filter(
-    e =>
-      e.code.toLowerCase().includes(filter.value.toLowerCase()) ||
-      e.display.toLowerCase().includes(filter.value.toLowerCase()) ||
-      Object.keys(e.papers).includes(filter.value)
-  )
+	return data.value.filter(
+		e =>
+			e.code.toLowerCase().includes(filter.value.toLowerCase()) ||
+			e.display.toLowerCase().includes(filter.value.toLowerCase()) ||
+			Object.keys(e.papers).includes(filter.value),
+	)
 })
 </script>
 

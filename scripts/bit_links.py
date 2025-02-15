@@ -35,10 +35,8 @@ subjects_2nd = {
     "CS211": "Operating System",
     "CS239": "Operating System",
     "CS303": "Operating System",
-    "CS240": "Shell and Kernel Programming",
     "CS206": "Design and Analysis of Algorithm",
     "CS241": "Design and Analysis of Algorithm",
-    "IT310": "Shell and Kernel Programming",
     "MT131": "UHV2: Understanding Harmony",
     # ece
     "EE205": "Circuit Theory",

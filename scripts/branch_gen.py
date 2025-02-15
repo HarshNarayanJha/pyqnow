@@ -23,10 +23,8 @@ branches = {
     "CS211": ["cse"],
     "CS239": ["cse"],
     "CS303": ["cse"],
-    "CS240": ["cse"],
     "CS206": ["cse"],
     "CS241": ["cse"],
-    "IT310": ["cse"],
     "MT131": ["cse", "ece"],
     # ece
     "EE205": ["ece"],
