@@ -1,0 +1,1439 @@
+{
+  "1": [
+    {
+      "code": "MA103",
+      "display": "Mathematics I",
+      "modules": {
+        "1": {
+          "Sequences and Series": {
+            "topics": [
+              "Sequences",
+              "Convergence of Sequence",
+              "Series",
+              "Convergence of Series",
+              "Tests for Convergence",
+              "Comparison tests",
+              "Ratio test",
+              "Cauchy's root test",
+              "Raabe's test",
+              "Gauss test",
+              "Cauchy's Integral test",
+              "Alternating series",
+              "Leibnitz test",
+              "Absolute and Conditional Convergence"
+            ]
+          }
+        },
+        "2": {
+          "Matrices": {
+            "topics": [
+              "Rank of a Matrix",
+              "Elementary transformations",
+              "Row-reduced Echelon form",
+              "Vectors",
+              "Linear Independence and Dependence of Vectors",
+              "Consistency of system of linear equations",
+              "Eigenvalues",
+              "Eigenvectors",
+              "Cayley-Hamilton theorem"
+            ]
+          }
+        },
+        "3": {
+          "Advance Differential Calculus": {
+            "topics": [
+              "Function of several variables",
+              "Limit",
+              "Continuity",
+              "Partial derivatives",
+              "Euler's theorem for homogeneous functions",
+              "Total derivatives",
+              "Chain rules",
+              "Jacobians and its properties",
+              "Taylor series for function of two variables",
+              "Maxima-Minima",
+              "Lagrange's method of multipliers"
+            ]
+          }
+        },
+        "4": {
+          "Advance Integral Calculus": {
+            "topics": [
+              "Beta and Gamma functions: definition and properties",
+              "Double integrals",
+              "Double integrals in polar coordinates",
+              "Change of order of integration",
+              "Triple Integrals",
+              "Cylindrical and spherical coordinate systems",
+              "Transformation of coordinates",
+              "Applications of double and triple integrals in areas and volumes"
+            ]
+          }
+        },
+        "5": {
+          "Vector Calculus": {
+            "topics": [
+              "Scalar and vector point functions",
+              "Gradient",
+              "Directional derivative",
+              "Divergence",
+              "Curl",
+              "Vector equations and identities",
+              "Line Integral",
+              "Work done",
+              "Conservative field",
+              "Green's theorem in a plane",
+              "Surface and volume integrals",
+              "Gauss-divergence theorem",
+              "Stoke's theorem"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CH101",
+      "display": "Chemistry",
+      "modules": {
+        "1": {
+          "Chemical Bonding": {
+            "topics": [
+              "Ionic bond: Radius ratio rule, Born-Landé equation, Born-Haber cycle",
+              "Metallic Bond: valence bond and band theories, defects in solids, Werner's Theory",
+              "Bonding in Transition metal complexes, Ligands, coordination complexes",
+              "Ligand Field, Crystal Field Theory, Octahedral, Tetrahedral and square planar complexes",
+              "CFSE, Jahn Teller theorem, electronic spectra, magnetism, and isomerization in coordination compounds"
+            ]
+          }
+        },
+        "2": {
+          "Organic Structure and Stereochemistry": {
+            "topics": [
+              "Covalent bond: Lewis structure, Valence Bond theory, Molecular orbital theory, Molecular orbital of diatomic and polyatomic system, hybridization, conjugated molecules, Huckel molecular orbital theory of conjugated systems",
+              "Isomerism, Geometrical isomerism: cis-trans and syn-anti isomerism",
+              "Optical isomerism & Chirality",
+              "Wedge, Fischer, Newmann and Sawhorse Projection formulae and interconversions",
+              "E/Z, D/L, R/S nomenclature system",
+              "Conformational studies of ethane, n-butane, Cyclohexane"
+            ]
+          }
+        },
+        "3": {
+          "Kinetics and Catalysis": {
+            "topics": [
+              "Order & molecularity of reactions: chain, parallel, Competing, Side, Consecutive reactions",
+              "Kinetics of Fast reactions, Characteristics of catalyst, types of catalysis, catalytic poison",
+              "Theories of catalysis",
+              "Acid base catalysis: including kinetics, Enzyme catalysis, Mechanism and kinetics of enzyme catalyzed reaction, Michaelis-Menten equation",
+              "Important catalysts in industrial processes: Hydrogenation using Wilkinsons catalyst, Hydroformylation by using Cobalt-catalyst, Phase transfer catalyst"
+            ]
+          }
+        },
+        "4": {
+          "Spectroscopic Techniques": {
+            "topics": [
+              "Absorption and emission Spectroscopy, Lambert-Beers Law",
+              "Principles and applications of UV-Visible, Factors influencing for UV-VIS spectrum",
+              "Rotational and Vibrational spectroscopy, Principle of FT-IR, and NMR spectroscopy",
+              "Modern techniques in structural elucidation of compounds by UV-VIS, IR, & NMR Spectroscopy"
+            ]
+          }
+        },
+        "5": {
+          "Phase and Chemical equilibrium": {
+            "topics": [
+              "Phase Rule: Terms Involved, Phase diagram of one component (Water) & two component (Pb/Ag) system & their applications",
+              "Law of chemical equilibrium, equilibrium constants and their significance, Weak and strong electrolytes",
+              "Standard electrode potential and its application to different kinds of half cells, EMF and its measurement and application",
+              "Batteries and Fuel Cells, Chemical and Electrochemical corrosion, Factors affecting the rate of corrosion"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC101",
+      "display": "Basics of Electronics and Communicaion Engineering",
+      "modules": {
+        "1": {
+          "Diodes and Applications": {
+            "topics": [
+              "Introduction to PN junction diodes",
+              "Characteristics of semiconductor diodes: V-I characteristics, diode-resistance, temperature-dependence, diode-capacitance",
+              "DC & AC load lines",
+              "Breakdown Mechanisms",
+              "Zener Diode - Operation and Applications",
+              "Diode as a Rectifier: Half Wave and Full Wave Rectifiers with and without C-Filters"
+            ]
+          }
+        },
+        "2": {
+          "Bipolar Junction Transistors (BJT)": {
+            "topics": [
+              "PNP and NPN Transistors",
+              "Basic Transistor Action",
+              "Input and Output Characteristics of CB, CE and CC Configurations",
+              "dc and ac load line analysis, operating point",
+              "Transistor biasing: Fixed bias, emitter bias/self-bias",
+              "Low-frequency response of CE amplifier"
+            ]
+          },
+          "Field Effect Transistors": {
+            "topics": [
+              "JFET, Idea of Channel Formation, Pinch-Off and saturation Voltage, Current-Voltage Output Characteristics",
+              "MOSFET: Basic structure, operation and characteristics"
+            ]
+          }
+        },
+        "3": {
+          "Sinusoidal Oscillators": {
+            "topics": [
+              "Concept of positive and negative feedback",
+              "Barkhausen criterion for sustained oscillations",
+              "Determination of Frequency and Condition of oscillation",
+              "Hartley and Colpitt's oscillator"
+            ]
+          },
+          "Operational Amplifiers": {
+            "topics": [
+              "Characteristics of an ideal and Practical Operational Amplifier (IC 741)",
+              "Inverting and non-inverting amplifiers",
+              "Offset error voltages and currents",
+              "Power supply rejection ratio",
+              "Slew Rate and concept of Virtual Ground",
+              "Summing and Difference Amplifiers",
+              "Differentiator and Integrator",
+              "RC phase shift oscillator"
+            ]
+          }
+        },
+        "4": {
+          "Logic Gates and Boolean algebra": {
+            "topics": [
+              "Introduction to Boolean Algebra and Boolean operators",
+              "Symbolic representation",
+              "Boolean algebraic function and Truth table of different Digital logic Gates (AND, OR, NOT, NAND, NOR, EX-OR, EX-NOR)",
+              "Realization of Basic logic gates using universal gates",
+              "Adder",
+              "Subtractor",
+              "adder/subtractor"
+            ]
+          }
+        },
+        "5": {
+          "Electronic communication": {
+            "topics": [
+              "Introduction to electronic communication system",
+              "Electromagnetic Communication spectrum band and applications",
+              "Elements of Electronic Communication System",
+              "Merits and demerits of analog and digital communication",
+              "Modes of communication",
+              "Signal radiation and propagation",
+              "Need for modulation",
+              "Introduction to Amplitude modulation and Angle modulation"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "ME101",
+      "display": "Basics of Mechanical Engineering",
+      "modules": {
+        "1": {
+          "System of Forces and Structure Mechanics": {
+            "topics": [
+              "Addition of Forces",
+              "Moment of a Force",
+              "Couple",
+              "Varignon's theorem",
+              "Free Body Diagram",
+              "Equilibrium in Two and Three Dimensions",
+              "Equivalent Forces and Moment",
+              "Types of Trusses",
+              "Plane and Space Trusses",
+              "Analysis of Plane Trusses by: Method of Joints and Method of Sections",
+              "Analysis of Frames with Hinged Joints",
+              "Hooke's Law of elasticity",
+              "Stress and Strain",
+              "Relation between elastic constants",
+              "Thermal Stresses",
+              "Properties of surfaces such as centroid and area moment of inertia"
+            ]
+          }
+        },
+        "2": {
+          "Kinematics & Kinetics of rigid bodies": {
+            "topics": [
+              "Types of rigid body motion- translation",
+              "Rotation about fixed axis",
+              "Equations defining the rotation of a rigid body about a fixed axis",
+              "Plane motion",
+              "Absolute and relative velocity in plane motion",
+              "Instantaneous center of rotation",
+              "Equation of translational and rotational motion",
+              "Newton's law and D'Alembert's principle -inertia force and inertia couple"
+            ]
+          }
+        },
+        "3": {
+          "Friction and Vibration": {
+            "topics": [
+              "Interfacial Friction (a) Laws of dry friction",
+              "Static & kinetic co-efficient of friction",
+              "Analysis of static",
+              "Kinetic and rolling friction.(b) Analysis of frictional forces in inclined planes",
+              "Wedges",
+              "Screw jacks and belt drives",
+              "Vibrations: Types of vibration",
+              "Free un-damped longitudinal vibrations",
+              "Free damped longitudinal vibrations"
+            ]
+          }
+        },
+        "4": {
+          "Boilers and Internal Combustion Engine": {
+            "topics": [
+              "Boiler Mountings and Accessories",
+              "Fire Tube and Water Tube boilers",
+              "Cochran Boiler",
+              "Babcock and Wilcox Boiler",
+              "Basic components and terminology of IC engines",
+              "Working of four stroke/two stroke - petrol/diesel engine",
+              "Classification and application of IC engines",
+              "Heat transfer: various modes of heat transfer",
+              "One dimensional steady state conduction",
+              "Application to composite walls and cylinder"
+            ]
+          }
+        },
+        "5": {
+          "Non-Conventional Energy and their resources": {
+            "topics": [
+              "Renewable and Non-renewable Energy Resources",
+              "Advantages and Disadvantages of Renewable Resources",
+              "Renewable Energy Forms and Conversion",
+              "Solar Energy",
+              "Wind Energy",
+              "Tidal Energy",
+              "Ocean Thermal Energy",
+              "Geothermal Energy",
+              "Nuclear Energy",
+              "Hydro Energy"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "MA107",
+      "display": "Mathematics II",
+      "modules": {
+        "1": {
+          "Ordinary Differential Equations - I": {
+            "topics": [
+              "Linear differential equations",
+              "Wronskian",
+              "Linear independence and dependence of solutions",
+              "Linear differential equations of 2nd and higher order with constant coefficients",
+              "Operator method",
+              "Legendre's and Euler-Cauchy's form of linear differential equation",
+              "Method of variation of parameters"
+            ]
+          }
+        },
+        "2": {
+          "Ordinary Differential Equations - II": {
+            "topics": [
+              "Ordinary and singular points of differential equation",
+              "Power and Frobenius' series solutions",
+              "Bessel's differential equation",
+              "Bessel function of first kind and its properties",
+              "Legendre's differential equation",
+              "Legendre's polynomial and its properties"
+            ]
+          }
+        },
+        "3": {
+          "Fourier series and Partial Differential Equations": {
+            "topics": [
+              "Fourier series: Euler formulae for Fourier series",
+              "Dirichlet conditions",
+              "Half range Fourier series",
+              "Linear partial differential equations",
+              "Lagrange's method",
+              "Method of separation of variables and its application in solving one dimensional wave and heat equations"
+            ]
+          }
+        },
+        "4": {
+          "Complex Variable-Differentiation & Integration": {
+            "topics": [
+              "Function of a complex variable",
+              "Limit",
+              "Continuity",
+              "Differentiability",
+              "Analyticity",
+              "Analytic functions",
+              "Cauchy-Riemann equations",
+              "Harmonic functions",
+              "Harmonic Conjugate",
+              "Cauchy's theorem",
+              "Cauchy's Integral formula",
+              "Taylor and Laurent series expansions",
+              "Singularities and its types",
+              "Residues",
+              "Residue theorem"
+            ]
+          }
+        },
+        "5": {
+          "Applied Probability": {
+            "topics": [
+              "Discrete and continuous random variables",
+              "Cumulative distribution function",
+              "Probability mass and density functions",
+              "Expectation",
+              "Variance",
+              "Moment generating function",
+              "Introduction to Binomial, Poisson and Normal Distribution"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "PH113",
+      "display": "Physics",
+      "modules": {
+        "1": {
+          "Physical Optics": {
+            "topics": [
+              "Polarization",
+              "Malus' Law",
+              "Brewster's Law",
+              "Double Refraction",
+              "Interference in thin films (Parallel films)",
+              "Interference in wedge-shaped layers",
+              "Newton's rings",
+              "Fraunhofer diffraction by single slit",
+              "Double slit"
+            ]
+          }
+        },
+        "2": {
+          "Electromagnetic Theory": {
+            "topics": [
+              "Curl",
+              "Gradient",
+              "Divergence",
+              "Gauss theorem",
+              "Stokes theorem",
+              "Gauss's law",
+              "Applications",
+              "Concept of electric potential",
+              "Relationship between E and V",
+              "Polarization of dielectrics",
+              "Dielectric constant",
+              "Boundary conditions for E & D",
+              "Gauss's law in magnetostatics",
+              "Ampere's circuital law",
+              "Boundary conditions for B & H",
+              "Equation of continuity of charge",
+              "Displacement current",
+              "Maxwell's equations"
+            ]
+          }
+        },
+        "3": {
+          "Special Theory of Relativity": {
+            "topics": [
+              "Introduction",
+              "Inertial frame of reference",
+              "Galilean transformations",
+              "Postulates",
+              "Lorentz transformations and its conclusions",
+              "Length contraction",
+              "Time dilation",
+              "Velocity addition",
+              "Mass change",
+              "Einstein's mass energy relation"
+            ]
+          }
+        },
+        "4": {
+          "Quantum Mechanics": {
+            "topics": [
+              "Planck's theory of black-body radiation",
+              "Compton effect",
+              "Wave particle duality",
+              "De Broglie waves",
+              "Davisson and Germer's experiment",
+              "Uncertainty principle",
+              "Physical interpretation of wave function",
+              "Schrodinger equation in one dimension",
+              "Free particle",
+              "Particle in an infinite square well"
+            ]
+          }
+        },
+        "5": {
+          "Lasers": {
+            "topics": [
+              "Spontaneous and stimulated emission",
+              "Einstein's A and B coefficients",
+              "Population-inversion",
+              "Light amplification",
+              "Basic laser action",
+              "Ruby and He-Ne lasers",
+              "Properties and applications of laser radiation",
+              "Elementary ideas of fiber optics and application of fiber optic cables"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CE101",
+      "display": "Environmental Science",
+      "modules": {
+        "1": {
+          "Ecosystem and Environment": {
+            "topics": [
+              "Concepts of Ecology and Environmental science",
+              "Ecosystem: structure, function and services",
+              "Biogeochemical cycles, energy and nutrient flow",
+              "Ecosystem management",
+              "Fate of environmental pollutants",
+              "Environmental status and reports on climate change"
+            ]
+          }
+        },
+        "2": {
+          "Air Pollution": {
+            "topics": [
+              "Structure and composition of unpolluted atmosphere",
+              "Classification of air pollution sources",
+              "Types of air pollutants",
+              "Effects of air pollution",
+              "Monitoring of air pollution",
+              "Control methods and equipment for air pollution control",
+              "Vehicular emissions and control",
+              "Indoor air pollution",
+              "Air pollution episodes and case studies"
+            ]
+          }
+        },
+        "3": {
+          "Water Pollution": {
+            "topics": [
+              "Water Resource",
+              "Water Pollution: types and Sources of Pollutants",
+              "Effects of water pollution",
+              "Water quality monitoring",
+              "Various water quality indices",
+              "Water and waste water treatment: primary, secondary and tertiary treatment",
+              "Advanced treatments (nitrate and phosphate removal)",
+              "Sludge treatment and disposal"
+            ]
+          }
+        },
+        "4": {
+          "Soil Pollution and Solid Waste Management": {
+            "topics": [
+              "Lithosphere composition",
+              "Soil properties",
+              "Soil pollution, ecological & health effects",
+              "Municipal solid waste management - classification of solid wastes",
+              "MSW characteristics",
+              "Collection, storage, transport and disposal methods",
+              "Sanitary landfills",
+              "Technologies for processing of MSW: incineration, composting, pyrolysis"
+            ]
+          }
+        },
+        "5": {
+          "Noise pollution & Radioactive pollution": {
+            "topics": [
+              "Noise pollution: introduction, sources: Point, line and area sources",
+              "Outdoor and indoor noise propagation",
+              "Effects of noise on health",
+              "Criteria noise standards and limit values",
+              "Noise measurement techniques and analysis",
+              "Prevention of noise pollution",
+              "Radioactive pollution: introduction, sources, classification, health and safety aspects",
+              "Hazards associated with nuclear reactors and disposal of spent fuel rods-safe guards from exposure to radiations",
+              "International regulation",
+              "Management of radioactive wastes"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS101",
+      "display": "Programming for Problem Solving",
+      "modules": {
+        "1": {
+          "Introduction to Programming": {
+            "topics": [
+              "Introduction to components of a computer system (disks, memory, processor, where a program is stored and executed, operating system, compilers etc.)",
+              "Idea of Algorithm: steps to solve logical and numerical problems.",
+              "Representation of Algorithm: Flowchart/Pseudo code with examples.",
+              "From algorithms to programs; source code, variables (with data types) variables and memory locations",
+              "Syntax and Logical Errors in compilation",
+              "Object and executable code"
+            ]
+          }
+        },
+        "2": {
+          "Arithmetic expressions and precedence": {
+            "topics": [
+              "Conditional Branching and Loops",
+              "Writing and evaluation of conditionals",
+              "Iterations",
+              "Loops"
+            ]
+          }
+        },
+        "3": {
+          "Array, Character array, strings": {
+            "topics": [
+              "Case studies Discuss the various Problems related to Basic science (Newton's Law, Kirchhoff's Law, Roots of an equation etc..)",
+              "Sorting",
+              "Searching"
+            ]
+          }
+        },
+        "4": {
+          "Functions (including using built in libraries)": {
+            "topics": [
+              "Parameter passing in functions",
+              "Call by value",
+              "Passing arrays to functions: idea of call by reference Recursion, as a different way of solving problems",
+              "Example programs, such as Finding Factorial, Fibonacci series, Ackerman function etc.",
+              "Quick sort or Merge sort"
+            ]
+          }
+        },
+        "5": {
+          "Structures": {
+            "topics": [
+              "Defining structures and Array of Structures",
+              "Pointers: Defining pointers",
+              "Use of Pointers in self-referential structures",
+              "Link List",
+              "File Handling"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "EE101",
+      "display": "Basics of Electrical Engineering",
+      "modules": {
+        "1": {
+          "Introduction": {
+            "topics": [
+              "Importance of Electrical Engineering in day-to-day life",
+              "Electrical elements, properties and their classification",
+              "Ideal and Real Sources",
+              "Source Conversion"
+            ]
+          },
+          "D.C. Circuits": {
+            "topics": [
+              "KCL and KVL",
+              "Loop current and Nodal voltage method Steady state analysis with independent and dependent sources",
+              "Star-Delta conversion"
+            ]
+          },
+          "Magnetic Circuits": {
+            "topics": [
+              "Introduction",
+              "Series-parallel magnetic circuits",
+              "Analysis of Linear and Non-linear magnetic circuits",
+              "Energy storage",
+              "A.C. excitation",
+              "Eddy currents and Hysteresis losses"
+            ]
+          }
+        },
+        "2": {
+          "Single-phase AC Circuits: Series Circuits": {
+            "topics": [
+              "Common signals and their waveforms",
+              "RMS and Average value",
+              "Form factor & Peak factor of sinusoidal waveform",
+              "Impedance of Series circuits",
+              "Phasor diagram",
+              "Active Power",
+              "Power factor",
+              "Power triangle"
+            ]
+          },
+          "Parallel Circuits": {
+            "topics": [
+              "Admittance method",
+              "Phasor diagram",
+              "Power",
+              "Power factor",
+              "Power triangle",
+              "Series-parallel Circuit",
+              "Power factor improvement",
+              "Series and Parallel Resonance: Resonance curve",
+              "Q-factor",
+              "Dynamic Impedance and Bandwidth"
+            ]
+          }
+        },
+        "3": {
+          "Three-Phase Circuits": {
+            "topics": [
+              "Line and Phase relation for Star and Delta connection",
+              "Power relations",
+              "Analysis of balanced and unbalanced 3 phase circuits",
+              "Measurement of Power"
+            ]
+          }
+        },
+        "4": {
+          "Circuit Theorems": {
+            "topics": [
+              "Superposition theorem",
+              "Thevenin's & Norton's Theorem",
+              "Maximum Power Transfer theorem for Independent and Dependent Sources for DC and AC circuits"
+            ]
+          },
+          "Coupled Circuits": {
+            "topics": ["Coupled Circuits (Dot rule)", "Self and mutual inductances", "Coefficient of coupling"]
+          }
+        },
+        "5": {
+          "principles of AC Generators, motors and transformers": {
+            "topics": [
+              "working principles of measuring equipments such as digital voltmeter",
+              "Ammeter",
+              "Power factor meter and wattmeter"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "BE101",
+      "display": "Biological Science for Engineers",
+      "modules": {
+        "1": {
+          "Basic Cell Biology": {
+            "topics": [
+              "Origin of life",
+              "Cell theory",
+              "Cell Structure and function",
+              "Biomolecules",
+              "Cell cycle and cell division",
+              "Biological Organization"
+            ]
+          }
+        },
+        "2": {
+          "Bioenergetics and Metabolism": {
+            "topics": [
+              "Gibbs free energy and thermodynamics",
+              "Aerobic and anaerobic respiration",
+              "Glycolysis",
+              "Krebs cycle and electron transport chain",
+              "Beta oxidation",
+              "Photosynthesis"
+            ]
+          }
+        },
+        "3": {
+          "Enzymes and its Application": {
+            "topics": [
+              "Classification of enzymes",
+              "Structure and mechanism of enzyme action and uses of enzymes",
+              "Factors affecting enzyme activity",
+              "Immobilization of enzymes and their application"
+            ]
+          }
+        },
+        "4": {
+          "Biological Signal Generation and Propagation": {
+            "topics": [
+              "Nerve cell structure and signal propagation",
+              "Mechanism of vision and hearing",
+              "Cell signaling",
+              "Circadian rhythm"
+            ]
+          }
+        },
+        "5": {
+          "Engineering Biological Systems and its Applications": {
+            "topics": [
+              "Central dogma of molecular biology",
+              "Methods in genetic engineering and application",
+              "PCR",
+              "ELISA and its application",
+              "Stem cell and tissue engineering",
+              "Artificial Intelligence in Biology",
+              "Plant factory"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "2": [
+    {
+      "code": "MA205",
+      "display": "Discrete Mathematics",
+      "modules": {
+        "1": {
+          "Mathematical logic and Mathematical Reasoning": {
+            "topics": [
+              "Compound Statements",
+              "Propositional Equivalences",
+              "Predicates and Quantifiers",
+              "Methods of Proof",
+              "Mathematical Induction",
+              "Well-ordering principal",
+              "Recursive Definition and Algorithms"
+            ]
+          }
+        },
+        "2": {
+          "Recurrence Relations": {
+            "topics": [
+              "Classification of Recurrence Relations and their solutions by Characteristic Root method",
+              "Generating function and their various aspects",
+              "Utility of Generating function in solving Recurrence Relations"
+            ]
+          }
+        },
+        "3": {
+          "Set, Operations on Set, Computer representation of Set": {
+            "topics": [
+              "Relations",
+              "Properties/Classification of Relations",
+              "Closure operations on Relations",
+              "Matrix representation of Relations",
+              "Digraphs",
+              "Functions and their Representation",
+              "Classification of Functions",
+              "Warshall's algorithm",
+              "Discrete Numeric Functions",
+              "Growth of Functions",
+              "Big O",
+              "Big Q",
+              "Hash Function",
+              "Growth Functions"
+            ]
+          }
+        },
+        "4": {
+          "Binary Operations, Groups": {
+            "topics": [
+              "Product and Quotients of Groups",
+              "Semi group",
+              "Products and Quotients of Semi groups",
+              "Permutation Group",
+              "Composition of Permutation",
+              "Inverse Permutation",
+              "Cyclic Permutation",
+              "Transposition",
+              "Even and Odd Permutation",
+              "Coding of Binary Information and Error Correction",
+              "Decoding and Error Correction"
+            ]
+          }
+        },
+        "5": {
+          "Introduction to Graph": {
+            "topics": [
+              "Graph Terminologies and their Representation",
+              "Connected & Disconnected graphs",
+              "Isomorphic Graph",
+              "Euler & Hamilton graphs",
+              "Introduction to Trees",
+              "Versatility of Trees",
+              "Tree traversal",
+              "Spanning Trees",
+              "Minimum Spanning Tree"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC203",
+      "display": "Digital System Design",
+      "modules": {
+        "1": {
+          "Basics of Digital Electronics": {
+            "topics": [
+              "Number representation",
+              "Binary number system",
+              "Number base conversion",
+              "Octal",
+              "Hexadecimal and BCD codes",
+              "Binary Arithmetic",
+              "Logic gates",
+              "Introduction to VHDL and Verilog",
+              "VHDL Models",
+              "Logic Families: TTL",
+              "ECL and CMOS Logic Circuits",
+              "Logic levels",
+              "Voltages and currents",
+              "Fan-in",
+              "Fan-out",
+              "Speed",
+              "Power dissipation",
+              "Comparison of logic families"
+            ]
+          }
+        },
+        "2": {
+          "Simplification of Boolean functions": {
+            "topics": [
+              "Boolean Algebra",
+              "Basic theorems and Properties",
+              "De Morgan's theorem",
+              "Canonical & Standard forms",
+              "Simplification of Boolean function using Karnaugh map",
+              "POS & SOP simplification",
+              "Prime implicant",
+              "NAND and NOR implementation"
+            ]
+          }
+        },
+        "3": {
+          "Design of Combinational Circuits": {
+            "topics": [
+              "Analysis and design procedure",
+              "Parity Generators and Checkers",
+              "Adders",
+              "Subtractors",
+              "Look ahead carry",
+              "Adder",
+              "4-bit BCD adder/subtractor",
+              "Magnitude comparator",
+              "Decoders",
+              "Encoders",
+              "Multiplexers",
+              "De-multiplexers",
+              "Design of 1 bit ALU for basic logic and arithmetic operations"
+            ]
+          }
+        },
+        "4": {
+          "Design of Sequential Circuits and Memories": {
+            "topics": [
+              "Basic Latch",
+              "Flip-Flops (SR, D, JK, T and Master-Slave)",
+              "Triggering of Flip Flops",
+              "Synchronous and asynchronous counters",
+              "Registers",
+              "Shift Registers",
+              "Memories and Programmable Logic design",
+              "Types of memories",
+              "Memory Expansion and its decoding",
+              "Programmable Logic Arrays (PLA)",
+              "Programmable Array Logic (PAL)"
+            ]
+          }
+        },
+        "5": {
+          "Design of simple computing machines": {
+            "topics": [
+              "SAP-I concepts with stress on timing diagrams",
+              "Microinstructions",
+              "Fetch and Execution cycle variable machine cycle",
+              "Hardware control Matrix",
+              "Macroinstructions",
+              "Microprogramming",
+              "Bus concepts",
+              "Multiplexed Minimum system",
+              "Pipelining concepts"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS201",
+      "display": "Data Structures",
+      "modules": {
+        "1": {
+          "Basic Concepts": {
+            "topics": [
+              "Definition and basics of: Data Structure, ADT, Algorithms, Time and Space Complexity",
+              "Asymptotic Notations (O, θ, Ω)",
+              "Time complexity computation of non-recursive algorithms (like Matrix addition, Selection sort using step count)",
+              "Array basic operations",
+              "Concept of multi-dimensional array",
+              "Polynomial operations using Array",
+              "Sparse Matrix"
+            ]
+          }
+        },
+        "2": {
+          "Stack and Queue": {
+            "topics": [
+              "Stack ADT: basic operations",
+              "Queue ADT: basic operations",
+              "Circular Queue",
+              "Evaluation of Expressions",
+              "Another application or Mazing Problem"
+            ]
+          }
+        },
+        "3": {
+          "Linked List": {
+            "topics": [
+              "Singly Linked List: concept, representation and operations",
+              "Circular Linked List",
+              "Polynomial and Sparse Matrix operations using LL.",
+              "Doubly Linked List: basic concept"
+            ]
+          }
+        },
+        "4": {
+          "Tree and Graph": {
+            "topics": [
+              "Basic concepts and terminologies",
+              "Binary Search Tree and Heap",
+              "Disjoint Set",
+              "Graph: concept and terminologies",
+              "Concept of BFS",
+              "DFS",
+              "Spanning Tree",
+              "Connected Components"
+            ]
+          }
+        },
+        "5": {
+          "Searching and Sorting": {
+            "topics": [
+              "Sequential Search and Binary Search",
+              "Insertion Sort",
+              "Heap Sort",
+              "Radix Sort",
+              "External Sorting: k-way merging approach"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "MA203",
+      "display": "Numerical Methods",
+      "modules": {
+        "1": {
+          "Errors and Nonlinear Equations": {
+            "topics": [
+              "Error Analysis: Definition and sources of errors, propagation of errors, floating-point arithmetic",
+              "Solution of Nonlinear equations: Bisection method, Regula-Falsi method, Secant method",
+              "Newton-Raphson method and its variants",
+              "General Iterative method"
+            ]
+          }
+        },
+        "2": {
+          "System of Linear Equations": {
+            "topics": [
+              "Gauss-Elimination",
+              "Gauss-Jordan",
+              "LU-Decomposition",
+              "Gauss-Jacobi and Gauss-Siedel methods to solve linear system of equations",
+              "Power method to find least and largest eigenvalues"
+            ]
+          }
+        },
+        "3": {
+          "Interpolation": {
+            "topics": [
+              "Lagrange's interpolation",
+              "Newton's divided differences interpolation formulas",
+              "Inverse interpolation",
+              "Interpolating polynomial using finite differences"
+            ]
+          }
+        },
+        "4": {
+          "Differentiation and Integration": {
+            "topics": [
+              "Differentiation using interpolation formulas",
+              "Integration using Newton-Cotes formulas: Trapezoidal rule, Simpson's rule"
+            ]
+          }
+        },
+        "5": {
+          "Solution of Ordinary Differential Equations": {
+            "topics": [
+              "Euler's method",
+              "Modified Euler's method",
+              "Runge - Kutta Methods of second and fourth order to solve initial value problems"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS203",
+      "display": "Computer Organization and Architecture",
+      "modules": {
+        "1": {
+          "Basic Structures of Computers": {
+            "topics": [
+              "Introduction to Digital Logic",
+              "Basic Structure of Computers: Computer Types",
+              "Functional Units",
+              "Input Unit",
+              "Memory Unit",
+              "Arithmetic and Logic Unit",
+              "Output Unit",
+              "Control Unit",
+              "Basic Operational Concepts: Fixed and floating point Representation and Arithmetic Operations",
+              "Performance",
+              "Historical Perspective"
+            ]
+          }
+        },
+        "2": {
+          "Instruction Set Architecture": {
+            "topics": [
+              "Memory Locations and Addresses: Byte Addressability",
+              "Big-Endian and Little-Endian Assignments",
+              "Word Alignment",
+              "Instructions and Instruction Sequencing",
+              "Addressing Modes",
+              "Assembly Language",
+              "Subroutines",
+              "Additional Instructions",
+              "Dealing with 32-Bit Immediate Values"
+            ]
+          }
+        },
+        "3": {
+          "Basic Processing Unit & Pipelining": {
+            "topics": [
+              "Basic Processing Unit: Some Fundamental Concepts",
+              "Instruction Execution",
+              "Hardware Components",
+              "Instruction Fetch and Execution Steps",
+              "Control Signals",
+              "Hardwired Control",
+              "CISC-Style Processors",
+              "Pipelining: Basic Concept",
+              "Pipeline Organization",
+              "Pipelining Issues",
+              "Data Dependencies",
+              "Memory Delays",
+              "Branch Delays",
+              "Pipeline Performance Evaluation"
+            ]
+          }
+        },
+        "4": {
+          "Memory Organization": {
+            "topics": [
+              "Basic Concepts",
+              "Semiconductor RAM Memories",
+              "Read-only Memories",
+              "Direct Memory Access",
+              "Memory Hierarchy",
+              "Cache Memories",
+              "Performance Considerations",
+              "Virtual Memory",
+              "Memory Management Requirements",
+              "Secondary Storage"
+            ]
+          }
+        },
+        "5": {
+          "Input Output & Parallel Processing": {
+            "topics": [
+              "Basic Input Output",
+              "Accessing I/O Devices",
+              "Interrupts",
+              "Input Output Organization",
+              "Bus Structure",
+              "Bus Operation",
+              "Arbitration",
+              "Interface",
+              "Interconnection Standards",
+              "Parallel Processing",
+              "Hardware Multithreading",
+              "Vector (SIMD) Processing",
+              "Shared-Memory Multiprocessors",
+              "Cache Coherence",
+              "Message-Passing Multicomputers",
+              "Parallel Programming for Multiprocessors",
+              "Performance Modeling"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS204",
+      "display": "Object Oriented Programming and Design Principles",
+      "modules": {
+        "1": {
+          "Introduction to Classes, Objects and Java": {
+            "topics": [
+              "Introduction to Object Technology",
+              "Java",
+              "Understanding the Java development environment",
+              "Programming in Java",
+              "Memory concepts",
+              "Doing basic Arithmetic",
+              "Comparing entities",
+              "Classes",
+              "Objects",
+              "Methods",
+              "Strings",
+              "Primitive vs reference types"
+            ]
+          }
+        },
+        "2": {
+          "Control Statements, Methods and Arrays": {
+            "topics": [
+              "Basic selection statements",
+              "Iterative constructs",
+              "Relative and Logical operators",
+              "break",
+              "continue",
+              "Methods",
+              "static methods",
+              "parameter passing",
+              "argument promotion and casting",
+              "scopes",
+              "method overloading",
+              "Arrays and ArrayList in Java",
+              "Enhanced for statement",
+              "Passing arrays to methods",
+              "Multidimensional arrays",
+              "Using command line arguments"
+            ]
+          }
+        },
+        "3": {
+          "Object Oriented Concepts: Polymorphism & Inheritance": {
+            "topics": [
+              "Controlling access to class members",
+              "The use of this keyword",
+              "getters and setters",
+              "Composition",
+              "enum",
+              "The use of static and final",
+              "Garbage collection",
+              "Superclass and subclass",
+              "protected members",
+              "Constructors in subclass",
+              "The Object class",
+              "Introduction to polymorphism",
+              "Abstract classes and methods",
+              "Assignment between subclass and superclass variables",
+              "Creating and using interfaces"
+            ]
+          }
+        },
+        "4": {
+          "Exception Handling & GUI Design": {
+            "topics": [
+              "When to use exception handling",
+              "Java exception hierarchy",
+              "finally block",
+              "Stack unwinding",
+              "Chained exceptions",
+              "Declaring new exception types",
+              "Assertions",
+              "try with resources",
+              "Simple I/O with GUI",
+              "Basic GUI Components",
+              "GUI Event handling",
+              "Adapter classes",
+              "Layout managers",
+              "Using panels"
+            ]
+          }
+        },
+        "5": {
+          "Strings, characters & Files": {
+            "topics": [
+              "Working with the String and StringBuilder class",
+              "Character class",
+              "Tokenizing strings",
+              "Regular Expressions",
+              "Files and Streams",
+              "Using NIO classes",
+              "Sequential file handling",
+              "Object serialization",
+              "JFileChooser",
+              "Introduction to threading",
+              "Introduction to Generics and lambda expressions"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS206",
+      "display": "Design and Analysis of Algorithms",
+      "modules": {
+        "1": {
+          "Algorithms and Complexity": {
+            "topics": [
+              "Introduction",
+              "Algorithm Complexity and various cases using Insertion Sort",
+              "Asymptotic Notations",
+              "Time complexity of Recursive Algorithm",
+              "Solving Recurrences using Iterative, Recursion Tree and Master Theorem"
+            ]
+          }
+        },
+        "2": {
+          "Divide and Conquer": {
+            "topics": [
+              "Discussion of basic approach using Binary Search",
+              "Merge Sort",
+              "Quick Sort",
+              "Selection in Expected linear time",
+              "Maximum Subarray",
+              "Matrix Multiplication",
+              "Introduction of Transform and Conquer and AVL Tree"
+            ]
+          }
+        },
+        "3": {
+          "Dynamic Programming": {
+            "topics": [
+              "Introduction and Approach",
+              "Rod Cutting",
+              "LCS",
+              "Optimal BST",
+              "Transitive closure and All-pair Shortest Path",
+              "Travelling Salesperson Problem"
+            ]
+          }
+        },
+        "4": {
+          "Greedy and other Design Approaches": {
+            "topics": [
+              "Introduction to greedy using fractional knapsack",
+              "Huffman Code",
+              "Minimum Spanning Tree - Prim and Kruskal",
+              "Single Source Shortest Path Dijkstra's and Bellman-Ford",
+              "Introduction to Backtracking using N-Queens problem",
+              "Introduction to Branch and Bound using Assignment Problem or TSP"
+            ]
+          }
+        },
+        "5": {
+          "NP Completeness and Other Advanced Topics": {
+            "topics": [
+              "Non-deterministic algorithms searching and sorting",
+              "Class P and NP",
+              "Decision and Optimization problem",
+              "Reduction and NPC and NPH",
+              "NP Completeness proof for: SAT, Max-Clique, Vertex Cover",
+              "Introduction to Randomized Algorithms",
+              "Introduction to Approximation Algorithms"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS211",
+      "display": "Operating Systems",
+      "modules": {
+        "1": {
+          "Operating system Overview": {
+            "topics": [
+              "Operating system Objective and Functions",
+              "Evolution of Operating System",
+              "Major Advances in OS Components",
+              "Characteristics of Modern Operating Systems"
+            ]
+          },
+          "Process Description and Control": {
+            "topics": [
+              "Process Concept",
+              "Process States",
+              "Process Description",
+              "Process Control",
+              "Threads",
+              "Types of Threads",
+              "Multicore and Multithreading"
+            ]
+          }
+        },
+        "2": {
+          "Scheduling": {
+            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"]
+          }
+        },
+        "3": {
+          "Concurrency": {
+            "topics": [
+              "Mutual Exclusion and Synchronization",
+              "Principle of Concurrency",
+              "Mutual Exclusion",
+              "Hardware Support",
+              "Semaphores",
+              "Monitors",
+              "Message Passing",
+              "Readers/Writers Problem",
+              "Deadlock and Starvation",
+              "Principle of Deadlock",
+              "Deadlock Prevention",
+              "Deadlock Avoidance",
+              "Deadlock Detection",
+              "Dining Philosopher Problem"
+            ]
+          }
+        },
+        "4": {
+          "Memory Management": {
+            "topics": [
+              "Memory Management Requirements",
+              "Memory Partitioning",
+              "Paging",
+              "Segmentation",
+              "Virtual Memory",
+              "Hardware and Control Structures",
+              "Operating System Policies for Virtual Memory"
+            ]
+          }
+        },
+        "5": {
+          "I/O Management and Disk Scheduling": {
+            "topics": [
+              "I/O device",
+              "Organization of the I/O Function",
+              "Operating System Design Issues",
+              "I/O Buffering",
+              "Disk Scheduling",
+              "RAID",
+              "Disk Cache",
+              "File Management",
+              "Overview",
+              "File Organization and Access",
+              "File Directories",
+              "File Sharing",
+              "Record Blocking",
+              "File Allocation and Free Space Management"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "3": [],
+  "4": []
+}
