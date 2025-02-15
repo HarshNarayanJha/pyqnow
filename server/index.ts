@@ -1,10 +1,20 @@
+import cors from 'cors'
 import express from 'express'
 import pyqRoutes from './routes/pyq'
 import syllabusRoutes from './routes/syllabus'
 
 const PORT = process.env.PORT || 5000
+const ALLOWED_ORIGINS = process.env.HOST_URL
+	? process.env.HOST_URL.split(' ')
+	: ['http://localhost:5173']
 
 const app = express()
+app.use(
+	cors({
+		origin: ALLOWED_ORIGINS,
+		methods: ['GET'],
+	}),
+)
 
 app.use(express.json())
 
