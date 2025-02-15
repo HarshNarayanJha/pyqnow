@@ -4,9 +4,9 @@ import type { Pyqs } from '../types/isubject'
 
 const getPyqsBase = async (): Promise<Pyqs> => {
 	return process.env.NODE_ENV === 'development'
-		? require(process.env.JSON_URL)
+		? require(process.env.PYQ_JSON_URL)
 		: axios
-				.get(process.env.JSON_URL)
+				.get(process.env.PYQ_JSON_URL)
 				.then(res => res.data)
 				.catch(err => console.error(err))
 }
