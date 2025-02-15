@@ -1,0 +1,25 @@
+{
+  "name": "pyqnow-server",
+  "author": {
+    "name": "Harsh Narayan Jha",
+    "email": "harshnj@proton.me"
+  },
+  "description": "API Server for the PYQNow website",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node index.ts",
+    "dev": "bun --watch index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
