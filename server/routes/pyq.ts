@@ -1,5 +1,5 @@
 import express from 'express'
-import { getPyqsByCode, getPyqsByYear, getPyqs } from '../controllers/pyq'
+import { getPyqs, getPyqsByCode, getPyqsByYear } from '../controllers/pyq'
 
 const router = express.Router()
 

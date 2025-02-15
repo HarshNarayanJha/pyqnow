@@ -1,19 +1,48 @@
+import axios from 'axios'
 import type express from 'express'
+import type { Pyqs } from '../types/isubject'
 
-export const getPyqs = async (_req: express.Request, res: express.Response) => {
-	res.send('Get all PYQs')
+const getPyqsBase = async (): Promise<Pyqs> => {
+	return process.env.NODE_ENV === 'development'
+		? require(process.env.JSON_URL)
+		: axios
+				.get(process.env.JSON_URL)
+				.then(res => res.data)
+				.catch(err => console.error(err))
+}
+
+export const getPyqs = async (req: express.Request, res: express.Response) => {
+	const pyqs: Pyqs = await getPyqsBase()
+	res.json(pyqs)
 }
 
 export const getPyqsByYear = async (
 	req: express.Request,
 	res: express.Response,
 ) => {
-	res.send(`Get PYQs by year of ${req.params.year}`)
+	const year = req.params.year
+	const pyqs: Pyqs = await getPyqsBase()
+
+	res.json(pyqs[year])
 }
 
 export const getPyqsByCode = async (
 	req: express.Request,
 	res: express.Response,
 ) => {
-	res.send(`Get PYQs by code of ${req.params.code}`)
+	const code = req.params.code
+	const pyqs: Pyqs = await getPyqsBase()
+
+	let k: keyof Pyqs
+	let subject: { code: string; message?: string } = {
+		code: code,
+		message: 'Subject not found',
+	}
+
+	for (k in pyqs) {
+		const sub = pyqs[k].find(s => s.code.toLowerCase() === code.toLowerCase())
+		subject = sub ?? subject
+	}
+
+	res.json(subject)
 }
