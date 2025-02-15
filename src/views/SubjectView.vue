@@ -30,7 +30,7 @@ const filteredSubjects = computed(() => {
 
 <template>
   <div class="container">
-    <BackButton></BackButton>
+    <BackButton />
 
     <div v-if="isFetching">
       <sl-spinner style="font-size: 50px; --track-width: 10px"></sl-spinner>
