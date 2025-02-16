@@ -1,7 +1,7 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import Header from '@/components/Header.vue'
+import { RouterLink, RouterView } from 'vue-router'
 
 import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
 import '@shoelace-style/shoelace/dist/components/skeleton/skeleton.js'
@@ -13,22 +13,31 @@ import '@shoelace-style/shoelace/dist/components/skeleton/skeleton.js'
   </header>
 
   <main>
-    <Suspense>
-      <template #default>
-        <RouterView />
-      </template>
-      <template #fallback>
-        <div class="loader">
-          <sl-spinner style="font-size: 50px; --track-width: 10px"></sl-spinner>
-          <div class="skeleton">
-            <sl-skeleton effect="sheen"></sl-skeleton>
-            <sl-skeleton effect="sheen"></sl-skeleton>
-            <sl-skeleton effect="sheen"></sl-skeleton>
-            <sl-skeleton effect="sheen"></sl-skeleton>
-          </div>
-        </div>
-      </template>
-    </Suspense>
+    <RouterView v-slot="{ Component }">
+      <Transition name="fade" mode="out-in">
+        <Suspense timeout="1">
+          <template #default>
+            <component :is="Component" :key="$route.path" />
+          </template>
+          <template #fallback>
+            <div class="loader">
+              <div class="spinner">
+                <sl-spinner style="font-size: 50px; --track-width: 8px"></sl-spinner>
+                <p v-if="$route.name === 'exam'">Loading PYQs Now...</p>
+                <p v-else-if="$route.name === 'syllabus'">Loading Syllabus Now...</p>
+                <p v-else>Loading Now...</p>
+              </div>
+              <div class="skeleton">
+                <sl-skeleton effect="sheen"></sl-skeleton>
+                <sl-skeleton effect="sheen"></sl-skeleton>
+                <sl-skeleton effect="sheen"></sl-skeleton>
+                <sl-skeleton effect="sheen"></sl-skeleton>
+              </div>
+            </div>
+          </template>
+        </Suspense>
+      </Transition>
+    </RouterView>
   </main>
 
   <footer>
@@ -56,17 +65,44 @@ main {
     max-width: 800px;
     margin: auto;
 
+    .spinner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      sl-spinner {
+        margin-bottom: 0.5em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
+    }
+
     .skeleton {
       display: flex;
       flex-direction: column;
-      gap: 4em;
+      gap: 2em;
       margin-top: 8em;
 
       sl-skeleton {
-        height: 2em;
+        height: 1.4em;
       }
     }
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: blur(0);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0.2;
+  filter: blur(8px);
 }
 
 footer {

@@ -1,4 +1,4 @@
-<script setup>
+<script async setup>
 import BackButton from '@/components/BackButton.vue'
 import { fetchSyllabus } from '@/services/api'
 import { useRoute } from 'vue-router'

@@ -1,4 +1,4 @@
-<script setup>
+<script async setup>
 import { computed, ref } from 'vue'
 
 import '@shoelace-style/shoelace/dist/components/alert/alert.js'
