@@ -11,6 +11,7 @@ const { data, error, isFetching } = await fetchSyllabus(code)
 
 <template>
   <div class="container">
+    <BackButton />
 
     <div v-if="isFetching">
       <sl-spinner style="font-size: 50px; --track-width: 10px"></sl-spinner>
@@ -21,7 +22,7 @@ const { data, error, isFetching } = await fetchSyllabus(code)
       <strong>{{ error }}</strong>
     </sl-alert>
 
-    <div v-else>
+    <div v-else class="syllabus-text">
       <h2>Syllabus for {{ data.code }} {{ data.display }}</h2>
 
       <div v-for="(module, key) in data.modules">
@@ -37,6 +38,7 @@ const { data, error, isFetching } = await fetchSyllabus(code)
 <style scoped>
 .container {
   width: 100%;
+  text-align: center;
   max-width: 1000px;
   margin: 0 auto;
 
@@ -60,6 +62,10 @@ const { data, error, isFetching } = await fetchSyllabus(code)
     margin-bottom: 1.5em;
     font-family: var(--font-mono);
     font-size: var(--sl-font-size-medium);
+  }
+
+  .syllabus-text {
+    text-align: start;
   }
 }
 

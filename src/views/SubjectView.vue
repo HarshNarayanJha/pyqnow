@@ -38,7 +38,7 @@ const filteredSubjects = computed(() => {
 
     <sl-alert variant="danger" open v-else-if="error">
       <sl-icon slot="icon" name="exclamation-octagon"></sl-icon>
-      <strong>{{ error }}</strong>
+      <strong>{{ error.message }}</strong>
     </sl-alert>
 
     <div v-else>

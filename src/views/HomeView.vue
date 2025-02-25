@@ -1,6 +1,4 @@
 <script setup>
-import { ref } from 'vue'
-
 import Chooser from '@/components/Chooser.vue'
 
 const years = [

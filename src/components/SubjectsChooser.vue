@@ -40,7 +40,7 @@ const branchOptions = computed(() => {
     </sl-radio-group>
 
     <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display">
-      <sl-button :href="`/syllabus/${sub.code}`" target="_blank">
+      <sl-button :href="`/syllabus/${sub.code}`">
         <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
         Syllabus
       </sl-button>

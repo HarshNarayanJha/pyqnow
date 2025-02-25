@@ -10,7 +10,7 @@ export const fetchSubjects = async year => {
 			refetch: false,
 			initialData: [],
 			onFetchError(ctx) {
-				console.log('Error fetching subjects list: ', ctx.error)
+				console.log('Error fetching subjects list:', ctx.error.message)
 				return ctx
 			},
 		},
@@ -26,7 +26,7 @@ export const fetchSyllabus = async code => {
 			refetch: false,
 			initialData: [],
 			onFetchError(ctx) {
-				console.log('Error fetching syllabus: ', ctx.error)
+				console.log('Error fetching syllabus:', ctx.error.message)
 				return ctx
 			},
 		},
