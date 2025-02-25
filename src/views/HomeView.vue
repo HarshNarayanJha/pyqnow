@@ -1,5 +1,8 @@
 <script setup>
 import Chooser from '@/components/Chooser.vue'
+import { pingServer } from '@/services/api'
+
+await pingServer()
 
 const years = [
 	{
