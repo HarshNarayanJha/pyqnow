@@ -1061,7 +1061,9 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(QUIZ%201%2025)%20(SET%20C).pdf",
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(QUIZ%201%2025)%20(SET%20D).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(MID%2025).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
@@ -1199,7 +1201,9 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(QUIZ%201%2025).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(MID%2025).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
