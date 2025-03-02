@@ -1,7 +1,7 @@
 <script setup>
 import Footer from '@/components/Footer.vue'
 import Header from '@/components/Header.vue'
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 
 import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
 import '@shoelace-style/shoelace/dist/components/skeleton/skeleton.js'

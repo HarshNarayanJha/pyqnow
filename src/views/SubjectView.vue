@@ -1,6 +1,6 @@
 <script async setup>
+import { Lit } from 'litlyx-js'
 import { computed, ref } from 'vue'
-
 import '@shoelace-style/shoelace/dist/components/alert/alert.js'
 import '@shoelace-style/shoelace/dist/components/input/input.js'
 import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
@@ -8,6 +8,7 @@ import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
 import BackButton from '@/components/BackButton.vue'
 import SubjectsChooser from '@/components/SubjectsChooser.vue'
 import { fetchSubjects } from '@/services/api'
+import { watch } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
@@ -26,6 +27,13 @@ const filteredSubjects = computed(() => {
 			Object.keys(e.papers).includes(filter.value),
 	)
 })
+
+const searchChanged = () =>
+	Lit.event('searched', {
+		metadata: {
+			filter: filter.value,
+		},
+	})
 </script>
 
 <template>
@@ -46,6 +54,7 @@ const filteredSubjects = computed(() => {
 
       <sl-input
         v-model.trim="filter"
+        :onblur="() => searchChanged()"
         label="Search"
         help-text="Filter By Subject or Year"
         placeholder="Start Typing...">

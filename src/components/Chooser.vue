@@ -1,17 +1,25 @@
 <script setup>
 import '@shoelace-style/shoelace/dist/components/button/button.js'
+import { Lit } from 'litlyx-js'
 
 const props = defineProps({
-  options: {
-    type: Array,
-    required: true,
-  },
+	options: {
+		type: Array,
+		required: true,
+	},
 })
+
+const sendAnalytics = p =>
+	Lit.event('year_button_click', {
+		metadata: {
+			year: p,
+		},
+	})
 </script>
 
 <template>
   <div class="options">
-    <RouterLink v-for="opt in options" :to="opt.url">
+    <RouterLink v-for="opt in options" :to="opt.url" :onclick="() => sendAnalytics(opt.display)">
       <sl-button :variant="opt.color" size="large" class="option" outline>
         {{ opt.display }}
       </sl-button>

@@ -1,6 +1,6 @@
 <script setup>
+import { Lit } from 'litlyx-js'
 import { ref } from 'vue'
-
 import '@shoelace-style/shoelace/dist/components/details/details.js'
 import '@shoelace-style/shoelace/dist/components/badge/badge.js'
 import '@shoelace-style/shoelace/dist/components/button/button.js'
@@ -8,6 +8,7 @@ import '@shoelace-style/shoelace/dist/components/radio-button/radio-button.js'
 import '@shoelace-style/shoelace/dist/components/radio-group/radio-group.js'
 import { onMounted } from 'vue'
 import { computed } from 'vue'
+import { RouterLink } from 'vue-router'
 
 const props = defineProps({
 	options: {
@@ -29,21 +30,46 @@ onMounted(() => {
 const branchOptions = computed(() => {
 	return props.options.filter(p => p.branch?.includes(branch.value))
 })
+
+const branchChanged = p =>
+	Lit.event('branch_changed', {
+		metadata: {
+			branch: p,
+		},
+	})
+
+const syllabusClicked = p =>
+	Lit.event('syllabus_clicked', {
+		metadata: {
+			subject: p,
+		},
+	})
+
+const paperClicked = (p, y, t) =>
+	Lit.event('paper_clicked', {
+		metadata: {
+			subject: p,
+			year: y,
+			paper: t,
+		},
+	})
 </script>
 
 <template>
   <div class="options">
     <sl-radio-group>
-      <sl-radio-button value="cse" pill>CSE</sl-radio-button>
-      <sl-radio-button value="ece" pill>ECE</sl-radio-button>
-      <sl-radio-button value="eee" pill>EEE</sl-radio-button>
+      <sl-radio-button value="cse" pill :onclick="() => branchChanged('CSE')">CSE</sl-radio-button>
+      <sl-radio-button value="ece" pill :onclick="() => branchChanged('ECE')">ECE</sl-radio-button>
+      <sl-radio-button value="eee" pill :onclick="() => branchChanged('EEE')">EEE</sl-radio-button>
     </sl-radio-group>
 
     <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display">
-      <sl-button :href="`/syllabus/${sub.code}`">
-        <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
-        Syllabus
-      </sl-button>
+      <RouterLink :to="`/syllabus/${sub.code}`" :onclick="() => syllabusClicked(sub.code)">
+        <sl-button>
+          <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
+          Syllabus
+        </sl-button>
+      </RouterLink>
 
       <sl-details v-if="sub.links">
         <div slot="summary">
@@ -51,7 +77,7 @@ const branchOptions = computed(() => {
           {{ sub.display }}
         </div>
         <ul>
-          <li v-for="link in sub.links">
+          <li v-for="link in sub.links" >
             {{ link.name }} - <a :href="link.url" target="_blank">{{ link.url }}</a>
           </li>
         </ul>
@@ -64,6 +90,7 @@ const branchOptions = computed(() => {
             :href="quiz1"
             target="_blank"
             variant="primary"
+            :onclick="() => paperClicked(sub.code, year.display, `Quiz 1 - ${i}`)"
             v-if="year.quiz1">
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. First Quiz
@@ -74,6 +101,7 @@ const branchOptions = computed(() => {
             :href="mid"
             target="_blank"
             variant="warning"
+            :onclick="() => paperClicked(sub.code, year.display, `Mid - ${i}`)"
             :disabled="!year.mid">
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. Mid Semester
@@ -84,6 +112,7 @@ const branchOptions = computed(() => {
             :href="quiz2"
             target="_blank"
             variant="success"
+            :onclick="() => paperClicked(sub.code, year.display, `Quiz 2 - ${i}`)"
             v-if="year.quiz2">
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. Second Quiz
@@ -94,6 +123,7 @@ const branchOptions = computed(() => {
             :href="end"
             target="_blank"
             variant="danger"
+            :onclick="() => paperClicked(sub.code, year.display, `End - ${i}`)"
             :disabled="!year.end">
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. End Semester
