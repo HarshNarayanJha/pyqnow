@@ -928,24 +928,71 @@
           "quiz2": [],
           "end": []
         },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/MA203%20NUMERICAL%20METHODS%20(MID%2024).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        },
         "2025": {
           "display": "2025",
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MA203%20NUMERICAL%20METHODS%20(QUIZ%201%2025).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MA203%20NUMERICAL%20METHODS%20(MID%2025).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
       },
       "links": [
         {
+          "name": "Resource for Those who really want to learn NM (Holistic NM)",
+          "url": "https://nm.mathforcollege.com/topics-of-numerical-methods/"
+        },
+        {
           "name": "Bisection Method Calculator",
           "url": "https://www.codesansar.com/numerical-methods/bisection-method-online-calculator.htm"
         },
         {
+          "name": "Regula Falsi Calculator",
+          "url": "https://www.codesansar.com/numerical-methods/regula-falsi-or-false-position-method-online-calculator.htm"
+        },
+        {
+          "name": "Newton-Raphson Calculator",
+          "url": "https://www.codesansar.com/numerical-methods/newton-raphson-method-online-calculator.htm"
+        },
+        {
+          "name": "Gaussian Elimination Calculator",
+          "url": "https://www.dcode.fr/gaussian-elimination"
+        },
+        {
+          "name": "Gaussian Jordan Calculator",
+          "url": "https://www.codesansar.com/numerical-methods/gauss-jordan-method-online-calculator.htm"
+        },
+        {
+          "name": "Fixed Point Iteration Calculator",
+          "url": "https://www.codesansar.com/numerical-methods/fixed-point-iteration-method-online-calculator.htm"
+        },
+        {
           "name": "Secant Method Calculator",
           "url": "https://www.codesansar.com/numerical-methods/secant-method-online-calculator.htm"
+        },
+        {
+          "name": "LU Decomposition Calculator",
+          "url": "https://www.dcode.fr/matrix-lu-decomposition"
+        },
+        {
+          "name": "Langrange Interpolation Polynomials",
+          "url": "https://www.dcode.fr/lagrange-interpolating-polynomial"
+        },
+        {
+          "name": "Netwon's Divided Difference Polynomials",
+          "url": "https://www.dcode.fr/newton-interpolating-polynomial"
         }
       ],
       "branch": [
@@ -981,6 +1028,12 @@
           ]
         }
       },
+      "links": [
+        {
+          "name": "ER Diagram Generator",
+          "url": "https://ereasy.streamlit.app/"
+        }
+      ],
       "branch": [
         "cse"
       ]
@@ -994,11 +1047,19 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(QUIZ%201%2025).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS237%20DATABASE%20MANAGEMENT%20SYSTEMS%20(MID%2025).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
       },
+      "links": [
+        {
+          "name": "ER Diagram Generator",
+          "url": "https://ereasy.streamlit.app/"
+        }
+      ],
       "branch": [
         "cse"
       ]
@@ -1007,6 +1068,12 @@
       "code": "CS247",
       "display": "Database Management System",
       "papers": {},
+      "links": [
+        {
+          "name": "ER Diagram Generator",
+          "url": "https://ereasy.streamlit.app/"
+        }
+      ],
       "branch": [
         "cse"
       ]
@@ -1053,6 +1120,15 @@
       "code": "CS239",
       "display": "Operating System",
       "papers": {
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/CS239%20OPERATING%20SYSTEM%20(MID%2024).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        },
         "2025": {
           "display": "2025",
           "quiz1": [
