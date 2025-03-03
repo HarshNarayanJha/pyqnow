@@ -1,5 +1,8 @@
 import json
+import logging
 from typing import Required, TypedDict
+
+logging.basicConfig(level=logging.INFO, format="\033[36m%(asctime)s\033[0m - \033[32m%(levelname)s\033[0m - \033[35m%(message)s\033[0m")
 
 
 class ExtraLink(TypedDict):
@@ -23,9 +26,14 @@ class BranchSubject(TypedDict, total=False):
     branch: list[str]
 
 
+logging.info("\n\n------------\nBranch Gen Script...")
+logging.info("Reading hosted/subjects.json")
+
 with open("hosted/subjects.json", "r") as fp:
     data: dict[str, list[BranchSubject]] = json.load(fp)
 
+
+logging.info("Setting all branches to all 1st year subjects")
 for sub in data["1"]:
     sub["branch"] = ["cse", "ece", "eee"]
 
@@ -64,8 +72,10 @@ branches = {
     "EE305": ["ece"],
 }
 
+logging.info("Setting 2nd year branches")
 for sub in data["2"]:
     sub["branch"] = branches[sub["code"]]
 
+logging.info("Writing back to hosted/subjects.json")
 with open("hosted/subjects.json", "w") as fp:
     json.dump(data, fp, indent=2, separators=(",", ": "))
