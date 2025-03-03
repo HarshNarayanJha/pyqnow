@@ -11,48 +11,69 @@ import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
 const props = defineProps({
-	options: {
-		type: Array,
-		required: true,
-	},
+  sub: {
+    type: String,
+    required: false,
+  },
+  options: {
+    type: Array,
+    required: true,
+  },
 })
 
 const branch = ref('cse')
 
 onMounted(() => {
-	const rg = document.querySelector('sl-radio-group')
-	rg.addEventListener('sl-change', event => {
-		branch.value = event.target.value
-	})
-	rg.value = branch.value
+  const rg = document.querySelector('sl-radio-group')
+  rg.addEventListener('sl-change', event => {
+    branch.value = event.target.value
+  })
+  rg.value = branch.value
 })
 
 const branchOptions = computed(() => {
-	return props.options.filter(p => p.branch?.includes(branch.value))
+  return props.options.filter(p => p.branch?.includes(branch.value))
 })
 
 const branchChanged = p =>
-	Lit.event('branch_changed', {
-		metadata: {
-			branch: p,
-		},
-	})
+  Lit.event('branch_changed', {
+    metadata: {
+      branch: p,
+    },
+  })
 
 const syllabusClicked = p =>
-	Lit.event('syllabus_clicked', {
-		metadata: {
-			subject: p,
-		},
-	})
+  Lit.event('syllabus_clicked', {
+    metadata: {
+      subject: p,
+    },
+  })
 
 const paperClicked = (p, y, t) =>
-	Lit.event('paper_clicked', {
-		metadata: {
-			subject: p,
-			year: y,
-			paper: t,
-		},
-	})
+  Lit.event('paper_clicked', {
+    metadata: {
+      subject: p,
+      year: y,
+      paper: t,
+    },
+  })
+
+onMounted(async () => {
+  if (props.sub) {
+    const sec = document.getElementById(props.sub)
+
+    await new Promise(resolve => setTimeout(resolve, 200))
+    sec.scrollIntoView({ behavior: 'smooth' })
+    await new Promise(resolve => setTimeout(resolve, 800))
+    sec.show()
+
+    Lit.event('subject_query', {
+      metadata: {
+        sub: props.sub,
+      },
+    })
+  }
+})
 </script>
 
 <template>
@@ -63,7 +84,7 @@ const paperClicked = (p, y, t) =>
       <sl-radio-button value="eee" pill :onclick="() => branchChanged('EEE')">EEE</sl-radio-button>
     </sl-radio-group>
 
-    <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display">
+    <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display" :id="sub.code">
       <RouterLink :to="`/syllabus/${sub.code}`" :onclick="() => syllabusClicked(sub.code)">
         <sl-button>
           <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>

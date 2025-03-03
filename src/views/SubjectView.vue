@@ -8,32 +8,39 @@ import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
 import BackButton from '@/components/BackButton.vue'
 import SubjectsChooser from '@/components/SubjectsChooser.vue'
 import { fetchSubjects } from '@/services/api'
-import { watch } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
+const query = route.query
 const year = route.params.year
 const filter = ref('')
+
+const sub = ref('')
+
+if (query.sub) {
+  sub.value = query.sub
+  console.log('Found subject', sub.value)
+}
 
 const { data, error, isFetching } = await fetchSubjects(year)
 
 const filteredSubjects = computed(() => {
-	if (!data.value) return []
+  if (!data.value) return []
 
-	return data.value.filter(
-		e =>
-			e.code.toLowerCase().includes(filter.value.toLowerCase()) ||
-			e.display.toLowerCase().includes(filter.value.toLowerCase()) ||
-			Object.keys(e.papers).includes(filter.value),
-	)
+  return data.value.filter(
+    e =>
+      e.code.toLowerCase().includes(filter.value.toLowerCase()) ||
+      e.display.toLowerCase().includes(filter.value.toLowerCase()) ||
+      Object.keys(e.papers).includes(filter.value),
+  )
 })
 
 const searchChanged = () =>
-	Lit.event('searched', {
-		metadata: {
-			filter: filter.value,
-		},
-	})
+  Lit.event('searched', {
+    metadata: {
+      filter: filter.value,
+    },
+  })
 </script>
 
 <template>
@@ -60,7 +67,7 @@ const searchChanged = () =>
         placeholder="Start Typing...">
         <sl-icon name="search" slot="prefix"></sl-icon>
       </sl-input>
-      <SubjectsChooser :options="filteredSubjects"></SubjectsChooser>
+      <SubjectsChooser :sub="sub" :options="filteredSubjects"></SubjectsChooser>
     </div>
   </div>
 </template>

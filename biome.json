@@ -26,7 +26,9 @@
     "formatter": {
       "quoteStyle": "single",
       "semicolons": "asNeeded",
-      "arrowParentheses": "asNeeded"
+      "arrowParentheses": "asNeeded",
+      "indentWidth": 2,
+      "indentStyle": "space"
     }
   }
 }
