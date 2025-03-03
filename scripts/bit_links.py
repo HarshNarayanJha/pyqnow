@@ -100,9 +100,28 @@ extra_links: dict[str, list[ExtraLink]] = {
         {"name": "Process Scheduling", "url": "https://www.algorithmroom.com/calculator/process-scheduling"},
         {"name": "CPU Scheduling Simulator", "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"},
     ],
+    "Database Management System": [{"name": "ER Diagram Generator", "url": "https://ereasy.streamlit.app/"}],
     "Numerical Methods": [
+        {
+            "name": "Resource for Those who really want to learn NM (Holistic NM)",
+            "url": "https://nm.mathforcollege.com/topics-of-numerical-methods/",
+        },
         {"name": "Bisection Method Calculator", "url": "https://www.codesansar.com/numerical-methods/bisection-method-online-calculator.htm"},
+        {
+            "name": "Regula Falsi Calculator",
+            "url": "https://www.codesansar.com/numerical-methods/regula-falsi-or-false-position-method-online-calculator.htm",
+        },
+        {"name": "Newton-Raphson Calculator", "url": "https://www.codesansar.com/numerical-methods/newton-raphson-method-online-calculator.htm"},
+        {"name": "Gaussian Elimination Calculator", "url": "https://www.dcode.fr/gaussian-elimination"},
+        {"name": "Gaussian Jordan Calculator", "url": "https://www.codesansar.com/numerical-methods/gauss-jordan-method-online-calculator.htm"},
+        {
+            "name": "Fixed Point Iteration Calculator",
+            "url": "https://www.codesansar.com/numerical-methods/fixed-point-iteration-method-online-calculator.htm",
+        },
         {"name": "Secant Method Calculator", "url": "https://www.codesansar.com/numerical-methods/secant-method-online-calculator.htm"},
+        {"name": "LU Decomposition Calculator", "url": "https://www.dcode.fr/matrix-lu-decomposition"},
+        {"name": "Langrange Interpolation Polynomials", "url": "https://www.dcode.fr/lagrange-interpolating-polynomial"},
+        {"name": "Netwon's Divided Difference Polynomials", "url": "https://www.dcode.fr/newton-interpolating-polynomial"},
     ],
     "Design and Analysis of Algorithms": [
         {"name": "Master's Theorem Solver", "url": "https://onlinetoolkit.co/master-theorem-calculator/"},
