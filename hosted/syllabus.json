@@ -21,7 +21,8 @@
               "Alternating series",
               "Leibnitz test",
               "Absolute and Conditional Convergence"
-            ]
+            ],
+            "important_topics": [1, 3, 5, 6, 11, 12]
           }
         },
         "2": {
@@ -36,7 +37,8 @@
               "Eigenvalues",
               "Eigenvectors",
               "Cayley-Hamilton theorem"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 6, 7]
           }
         },
         "3": {
@@ -53,7 +55,8 @@
               "Taylor series for function of two variables",
               "Maxima-Minima",
               "Lagrange's method of multipliers"
-            ]
+            ],
+            "important_topics": [0, 3, 9, 10]
           }
         },
         "4": {
@@ -67,7 +70,8 @@
               "Cylindrical and spherical coordinate systems",
               "Transformation of coordinates",
               "Applications of double and triple integrals in areas and volumes"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4, 7]
           }
         },
         "5": {
@@ -86,7 +90,8 @@
               "Surface and volume integrals",
               "Gauss-divergence theorem",
               "Stoke's theorem"
-            ]
+            ],
+            "important_topics": [0, 1, 5, 6, 10]
           }
         }
       }
@@ -98,12 +103,13 @@
         "1": {
           "Chemical Bonding": {
             "topics": [
-              "Ionic bond: Radius ratio rule, Born-Landé equation, Born-Haber cycle",
+              "Ionic bond: Radius ratio rule, Born-Land\u00e9 equation, Born-Haber cycle",
               "Metallic Bond: valence bond and band theories, defects in solids, Werner's Theory",
               "Bonding in Transition metal complexes, Ligands, coordination complexes",
               "Ligand Field, Crystal Field Theory, Octahedral, Tetrahedral and square planar complexes",
               "CFSE, Jahn Teller theorem, electronic spectra, magnetism, and isomerization in coordination compounds"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -115,7 +121,8 @@
               "Wedge, Fischer, Newmann and Sawhorse Projection formulae and interconversions",
               "E/Z, D/L, R/S nomenclature system",
               "Conformational studies of ethane, n-butane, Cyclohexane"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 4]
           }
         },
         "3": {
@@ -126,7 +133,8 @@
               "Theories of catalysis",
               "Acid base catalysis: including kinetics, Enzyme catalysis, Mechanism and kinetics of enzyme catalyzed reaction, Michaelis-Menten equation",
               "Important catalysts in industrial processes: Hydrogenation using Wilkinsons catalyst, Hydroformylation by using Cobalt-catalyst, Phase transfer catalyst"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -136,7 +144,8 @@
               "Principles and applications of UV-Visible, Factors influencing for UV-VIS spectrum",
               "Rotational and Vibrational spectroscopy, Principle of FT-IR, and NMR spectroscopy",
               "Modern techniques in structural elucidation of compounds by UV-VIS, IR, & NMR Spectroscopy"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "5": {
@@ -146,7 +155,8 @@
               "Law of chemical equilibrium, equilibrium constants and their significance, Weak and strong electrolytes",
               "Standard electrode potential and its application to different kinds of half cells, EMF and its measurement and application",
               "Batteries and Fuel Cells, Chemical and Electrochemical corrosion, Factors affecting the rate of corrosion"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -164,7 +174,8 @@
               "Breakdown Mechanisms",
               "Zener Diode - Operation and Applications",
               "Diode as a Rectifier: Half Wave and Full Wave Rectifiers with and without C-Filters"
-            ]
+            ],
+            "important_topics": [0, 1, 4, 5]
           }
         },
         "2": {
@@ -176,13 +187,15 @@
               "dc and ac load line analysis, operating point",
               "Transistor biasing: Fixed bias, emitter bias/self-bias",
               "Low-frequency response of CE amplifier"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 5]
           },
           "Field Effect Transistors": {
             "topics": [
               "JFET, Idea of Channel Formation, Pinch-Off and saturation Voltage, Current-Voltage Output Characteristics",
               "MOSFET: Basic structure, operation and characteristics"
-            ]
+            ],
+            "important_topics": [0, 1]
           }
         },
         "3": {
@@ -192,7 +205,8 @@
               "Barkhausen criterion for sustained oscillations",
               "Determination of Frequency and Condition of oscillation",
               "Hartley and Colpitt's oscillator"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           },
           "Operational Amplifiers": {
             "topics": [
@@ -204,7 +218,8 @@
               "Summing and Difference Amplifiers",
               "Differentiator and Integrator",
               "RC phase shift oscillator"
-            ]
+            ],
+            "important_topics": [0, 1, 5, 6]
           }
         },
         "4": {
@@ -217,7 +232,8 @@
               "Adder",
               "Subtractor",
               "adder/subtractor"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -231,7 +247,8 @@
               "Signal radiation and propagation",
               "Need for modulation",
               "Introduction to Amplitude modulation and Angle modulation"
-            ]
+            ],
+            "important_topics": [0, 1, 4, 5]
           }
         }
       }
@@ -259,7 +276,8 @@
               "Relation between elastic constants",
               "Thermal Stresses",
               "Properties of surfaces such as centroid and area moment of inertia"
-            ]
+            ],
+            "important_topics": [0, 1, 5, 6, 10]
           }
         },
         "2": {
@@ -273,7 +291,8 @@
               "Instantaneous center of rotation",
               "Equation of translational and rotational motion",
               "Newton's law and D'Alembert's principle -inertia force and inertia couple"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 6]
           }
         },
         "3": {
@@ -288,7 +307,8 @@
               "Vibrations: Types of vibration",
               "Free un-damped longitudinal vibrations",
               "Free damped longitudinal vibrations"
-            ]
+            ],
+            "important_topics": [0, 1, 5, 6]
           }
         },
         "4": {
@@ -304,7 +324,8 @@
               "Heat transfer: various modes of heat transfer",
               "One dimensional steady state conduction",
               "Application to composite walls and cylinder"
-            ]
+            ],
+            "important_topics": [0, 1, 4, 5]
           }
         },
         "5": {
@@ -320,7 +341,8 @@
               "Geothermal Energy",
               "Nuclear Energy",
               "Hydro Energy"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -339,7 +361,8 @@
               "Operator method",
               "Legendre's and Euler-Cauchy's form of linear differential equation",
               "Method of variation of parameters"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 5]
           }
         },
         "2": {
@@ -351,7 +374,8 @@
               "Bessel function of first kind and its properties",
               "Legendre's differential equation",
               "Legendre's polynomial and its properties"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -363,7 +387,8 @@
               "Linear partial differential equations",
               "Lagrange's method",
               "Method of separation of variables and its application in solving one dimensional wave and heat equations"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -384,7 +409,8 @@
               "Singularities and its types",
               "Residues",
               "Residue theorem"
-            ]
+            ],
+            "important_topics": [0, 1, 5, 6]
           }
         },
         "5": {
@@ -397,7 +423,8 @@
               "Variance",
               "Moment generating function",
               "Introduction to Binomial, Poisson and Normal Distribution"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 4]
           }
         }
       }
@@ -418,7 +445,8 @@
               "Newton's rings",
               "Fraunhofer diffraction by single slit",
               "Double slit"
-            ]
+            ],
+            "important_topics": [0, 1, 4, 5]
           }
         },
         "2": {
@@ -442,7 +470,8 @@
               "Equation of continuity of charge",
               "Displacement current",
               "Maxwell's equations"
-            ]
+            ],
+            "important_topics": [0, 1, 6, 7]
           }
         },
         "3": {
@@ -458,7 +487,8 @@
               "Velocity addition",
               "Mass change",
               "Einstein's mass energy relation"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -474,7 +504,8 @@
               "Schrodinger equation in one dimension",
               "Free particle",
               "Particle in an infinite square well"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 6]
           }
         },
         "5": {
@@ -488,7 +519,8 @@
               "Ruby and He-Ne lasers",
               "Properties and applications of laser radiation",
               "Elementary ideas of fiber optics and application of fiber optic cables"
-            ]
+            ],
+            "important_topics": [0, 1, 4, 5]
           }
         }
       }
@@ -506,7 +538,8 @@
               "Ecosystem management",
               "Fate of environmental pollutants",
               "Environmental status and reports on climate change"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -521,7 +554,8 @@
               "Vehicular emissions and control",
               "Indoor air pollution",
               "Air pollution episodes and case studies"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -535,7 +569,8 @@
               "Water and waste water treatment: primary, secondary and tertiary treatment",
               "Advanced treatments (nitrate and phosphate removal)",
               "Sludge treatment and disposal"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -549,7 +584,8 @@
               "Collection, storage, transport and disposal methods",
               "Sanitary landfills",
               "Technologies for processing of MSW: incineration, composting, pyrolysis"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -565,7 +601,8 @@
               "Hazards associated with nuclear reactors and disposal of spent fuel rods-safe guards from exposure to radiations",
               "International regulation",
               "Management of radioactive wastes"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -583,7 +620,8 @@
               "From algorithms to programs; source code, variables (with data types) variables and memory locations",
               "Syntax and Logical Errors in compilation",
               "Object and executable code"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -593,7 +631,8 @@
               "Writing and evaluation of conditionals",
               "Iterations",
               "Loops"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "3": {
@@ -602,7 +641,8 @@
               "Case studies Discuss the various Problems related to Basic science (Newton's Law, Kirchhoff's Law, Roots of an equation etc..)",
               "Sorting",
               "Searching"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "4": {
@@ -613,7 +653,8 @@
               "Passing arrays to functions: idea of call by reference Recursion, as a different way of solving problems",
               "Example programs, such as Finding Factorial, Fibonacci series, Ackerman function etc.",
               "Quick sort or Merge sort"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -624,7 +665,8 @@
               "Use of Pointers in self-referential structures",
               "Link List",
               "File Handling"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -640,14 +682,16 @@
               "Electrical elements, properties and their classification",
               "Ideal and Real Sources",
               "Source Conversion"
-            ]
+            ],
+            "important_topics": [0, 1, 3]
           },
           "D.C. Circuits": {
             "topics": [
               "KCL and KVL",
               "Loop current and Nodal voltage method Steady state analysis with independent and dependent sources",
               "Star-Delta conversion"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           },
           "Magnetic Circuits": {
             "topics": [
@@ -657,7 +701,8 @@
               "Energy storage",
               "A.C. excitation",
               "Eddy currents and Hysteresis losses"
-            ]
+            ],
+            "important_topics": [0, 1, 3]
           }
         },
         "2": {
@@ -671,7 +716,8 @@
               "Active Power",
               "Power factor",
               "Power triangle"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 5]
           },
           "Parallel Circuits": {
             "topics": [
@@ -685,7 +731,8 @@
               "Series and Parallel Resonance: Resonance curve",
               "Q-factor",
               "Dynamic Impedance and Bandwidth"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 5]
           }
         },
         "3": {
@@ -695,7 +742,8 @@
               "Power relations",
               "Analysis of balanced and unbalanced 3 phase circuits",
               "Measurement of Power"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "4": {
@@ -704,10 +752,12 @@
               "Superposition theorem",
               "Thevenin's & Norton's Theorem",
               "Maximum Power Transfer theorem for Independent and Dependent Sources for DC and AC circuits"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           },
           "Coupled Circuits": {
-            "topics": ["Coupled Circuits (Dot rule)", "Self and mutual inductances", "Coefficient of coupling"]
+            "topics": ["Coupled Circuits (Dot rule)", "Self and mutual inductances", "Coefficient of coupling"],
+            "important_topics": [0, 1]
           }
         },
         "5": {
@@ -716,7 +766,8 @@
               "working principles of measuring equipments such as digital voltmeter",
               "Ammeter",
               "Power factor meter and wattmeter"
-            ]
+            ],
+            "important_topics": [0, 1]
           }
         }
       }
@@ -734,7 +785,8 @@
               "Biomolecules",
               "Cell cycle and cell division",
               "Biological Organization"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -746,7 +798,8 @@
               "Krebs cycle and electron transport chain",
               "Beta oxidation",
               "Photosynthesis"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -756,7 +809,8 @@
               "Structure and mechanism of enzyme action and uses of enzymes",
               "Factors affecting enzyme activity",
               "Immobilization of enzymes and their application"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "4": {
@@ -766,7 +820,8 @@
               "Mechanism of vision and hearing",
               "Cell signaling",
               "Circadian rhythm"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "5": {
@@ -779,7 +834,8 @@
               "Stem cell and tissue engineering",
               "Artificial Intelligence in Biology",
               "Plant factory"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -800,7 +856,8 @@
               "Mathematical Induction",
               "Well-ordering principal",
               "Recursive Definition and Algorithms"
-            ]
+            ],
+            "important_topics": [1, 3, 4]
           }
         },
         "2": {
@@ -809,7 +866,8 @@
               "Classification of Recurrence Relations and their solutions by Characteristic Root method",
               "Generating function and their various aspects",
               "Utility of Generating function in solving Recurrence Relations"
-            ]
+            ],
+            "important_topics": [0, 1]
           }
         },
         "3": {
@@ -829,7 +887,8 @@
               "Big Q",
               "Hash Function",
               "Growth Functions"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -846,7 +905,8 @@
               "Even and Odd Permutation",
               "Coding of Binary Information and Error Correction",
               "Decoding and Error Correction"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "5": {
@@ -861,7 +921,8 @@
               "Tree traversal",
               "Spanning Trees",
               "Minimum Spanning Tree"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -891,7 +952,8 @@
               "Speed",
               "Power dissipation",
               "Comparison of logic families"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -905,7 +967,8 @@
               "POS & SOP simplification",
               "Prime implicant",
               "NAND and NOR implementation"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "3": {
@@ -924,7 +987,8 @@
               "Multiplexers",
               "De-multiplexers",
               "Design of 1 bit ALU for basic logic and arithmetic operations"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "4": {
@@ -941,7 +1005,8 @@
               "Memory Expansion and its decoding",
               "Programmable Logic Arrays (PLA)",
               "Programmable Array Logic (PAL)"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "5": {
@@ -956,7 +1021,8 @@
               "Bus concepts",
               "Multiplexed Minimum system",
               "Pipelining concepts"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -969,13 +1035,14 @@
           "Basic Concepts": {
             "topics": [
               "Definition and basics of: Data Structure, ADT, Algorithms, Time and Space Complexity",
-              "Asymptotic Notations (O, θ, Ω)",
+              "Asymptotic Notations (O, \u03b8, \u03a9)",
               "Time complexity computation of non-recursive algorithms (like Matrix addition, Selection sort using step count)",
               "Array basic operations",
               "Concept of multi-dimensional array",
               "Polynomial operations using Array",
               "Sparse Matrix"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -986,7 +1053,8 @@
               "Circular Queue",
               "Evaluation of Expressions",
               "Another application or Mazing Problem"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "3": {
@@ -996,7 +1064,8 @@
               "Circular Linked List",
               "Polynomial and Sparse Matrix operations using LL.",
               "Doubly Linked List: basic concept"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "4": {
@@ -1010,7 +1079,8 @@
               "DFS",
               "Spanning Tree",
               "Connected Components"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "5": {
@@ -1021,7 +1091,8 @@
               "Heap Sort",
               "Radix Sort",
               "External Sorting: k-way merging approach"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -1034,13 +1105,14 @@
           "Basic Concepts": {
             "topics": [
               "Definition and basics of: Data Structure, ADT, Algorithms, Time and Space Complexity",
-              "Asymptotic Notations (O, θ, Ω)",
+              "Asymptotic Notations (O, \u03b8, \u03a9)",
               "Time complexity computation of non-recursive algorithms (like Matrix addition, Selection sort using step count)",
               "Array basic operations",
               "Concept of multi-dimensional array",
               "Polynomial operations using Array",
               "Sparse Matrix"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1051,7 +1123,8 @@
               "Circular Queue",
               "Evaluation of Expressions",
               "Another application or Mazing Problem"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "3": {
@@ -1061,7 +1134,8 @@
               "Circular Linked List",
               "Polynomial and Sparse Matrix operations using LL.",
               "Doubly Linked List: basic concept"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "4": {
@@ -1075,7 +1149,8 @@
               "DFS",
               "Spanning Tree",
               "Connected Components"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "5": {
@@ -1086,7 +1161,8 @@
               "Heap Sort",
               "Radix Sort",
               "External Sorting: k-way merging approach"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -1102,7 +1178,8 @@
               "Solution of Nonlinear equations: Bisection method, Regula-Falsi method, Secant method",
               "Newton-Raphson method and its variants",
               "General Iterative method"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "2": {
@@ -1113,7 +1190,8 @@
               "LU-Decomposition",
               "Gauss-Jacobi and Gauss-Siedel methods to solve linear system of equations",
               "Power method to find least and largest eigenvalues"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "3": {
@@ -1123,7 +1201,8 @@
               "Newton's divided differences interpolation formulas",
               "Inverse interpolation",
               "Interpolating polynomial using finite differences"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         },
         "4": {
@@ -1131,7 +1210,8 @@
             "topics": [
               "Differentiation using interpolation formulas",
               "Integration using Newton-Cotes formulas: Trapezoidal rule, Simpson's rule"
-            ]
+            ],
+            "important_topics": [0, 1]
           }
         },
         "5": {
@@ -1140,7 +1220,8 @@
               "Euler's method",
               "Modified Euler's method",
               "Runge - Kutta Methods of second and fourth order to solve initial value problems"
-            ]
+            ],
+            "important_topics": [0, 1, 2]
           }
         }
       }
@@ -1163,7 +1244,8 @@
               "Basic Operational Concepts: Fixed and floating point Representation and Arithmetic Operations",
               "Performance",
               "Historical Perspective"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1178,7 +1260,8 @@
               "Subroutines",
               "Additional Instructions",
               "Dealing with 32-Bit Immediate Values"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -1198,7 +1281,8 @@
               "Memory Delays",
               "Branch Delays",
               "Pipeline Performance Evaluation"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -1214,7 +1298,8 @@
               "Virtual Memory",
               "Memory Management Requirements",
               "Secondary Storage"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -1237,7 +1322,8 @@
               "Message-Passing Multicomputers",
               "Parallel Programming for Multiprocessors",
               "Performance Modeling"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -1260,7 +1346,8 @@
               "Basic Operational Concepts: Fixed and floating point Representation and Arithmetic Operations",
               "Performance",
               "Historical Perspective"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1275,7 +1362,8 @@
               "Subroutines",
               "Additional Instructions",
               "Dealing with 32-Bit Immediate Values"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -1295,7 +1383,8 @@
               "Memory Delays",
               "Branch Delays",
               "Pipeline Performance Evaluation"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -1311,7 +1400,8 @@
               "Virtual Memory",
               "Memory Management Requirements",
               "Secondary Storage"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -1334,7 +1424,8 @@
               "Message-Passing Multicomputers",
               "Parallel Programming for Multiprocessors",
               "Performance Modeling"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -1358,7 +1449,8 @@
               "Methods",
               "Strings",
               "Primitive vs reference types"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1380,7 +1472,8 @@
               "Passing arrays to methods",
               "Multidimensional arrays",
               "Using command line arguments"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "3": {
@@ -1401,7 +1494,8 @@
               "Abstract classes and methods",
               "Assignment between subclass and superclass variables",
               "Creating and using interfaces"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -1421,7 +1515,8 @@
               "Adapter classes",
               "Layout managers",
               "Using panels"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -1438,7 +1533,8 @@
               "JFileChooser",
               "Introduction to threading",
               "Introduction to Generics and lambda expressions"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -1462,7 +1558,8 @@
               "Methods",
               "Strings",
               "Primitive vs reference types"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1484,7 +1581,8 @@
               "Passing arrays to methods",
               "Multidimensional arrays",
               "Using command line arguments"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "3": {
@@ -1505,7 +1603,8 @@
               "Abstract classes and methods",
               "Assignment between subclass and superclass variables",
               "Creating and using interfaces"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -1525,7 +1624,8 @@
               "Adapter classes",
               "Layout managers",
               "Using panels"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -1542,7 +1642,8 @@
               "JFileChooser",
               "Introduction to threading",
               "Introduction to Generics and lambda expressions"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -1559,7 +1660,8 @@
               "Asymptotic Notations",
               "Time complexity of Recursive Algorithm",
               "Solving Recurrences using Iterative, Recursion Tree and Master Theorem"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1572,7 +1674,8 @@
               "Maximum Subarray",
               "Matrix Multiplication",
               "Introduction of Transform and Conquer and AVL Tree"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "3": {
@@ -1584,7 +1687,8 @@
               "Single Source Shortest Path Dijkstra's and Bellman-Ford",
               "Introduction to Backtracking using N-Queens problem",
               "Introduction to Branch and Bound using Assignment Problem or TSP"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "4": {
@@ -1596,7 +1700,8 @@
               "Optimal BST",
               "Transitive closure and All-pair Shortest Path",
               "Travelling Salesperson Problem"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "5": {
@@ -1609,7 +1714,8 @@
               "NP Completeness proof for: SAT, Max-Clique, Vertex Cover",
               "Introduction to Randomized Algorithms",
               "Introduction to Approximation Algorithms"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -1626,7 +1732,8 @@
               "Asymptotic Notations",
               "Time complexity of Recursive Algorithm",
               "Solving Recurrences using Iterative, Recursion Tree and Master Theorem"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1639,7 +1746,8 @@
               "Maximum Subarray",
               "Matrix Multiplication",
               "Introduction of Transform and Conquer and AVL Tree"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "3": {
@@ -1651,7 +1759,8 @@
               "Single Source Shortest Path Dijkstra's and Bellman-Ford",
               "Introduction to Backtracking using N-Queens problem",
               "Introduction to Branch and Bound using Assignment Problem or TSP"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "4": {
@@ -1663,7 +1772,8 @@
               "Optimal BST",
               "Transitive closure and All-pair Shortest Path",
               "Travelling Salesperson Problem"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "5": {
@@ -1676,7 +1786,8 @@
               "NP Completeness proof for: SAT, Max-Clique, Vertex Cover",
               "Introduction to Randomized Algorithms",
               "Introduction to Approximation Algorithms"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         }
       }
@@ -1692,7 +1803,8 @@
               "Evolution of Operating System",
               "Major Advances in OS Components",
               "Characteristics of Modern Operating Systems"
-            ]
+            ],
+            "important_topics": [0, 1, 3]
           },
           "Process Description and Control": {
             "topics": [
@@ -1703,12 +1815,14 @@
               "Threads",
               "Types of Threads",
               "Multicore and Multithreading"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
           "Scheduling": {
-            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"]
+            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"],
+            "important_topics": [0, 1]
           }
         },
         "3": {
@@ -1728,7 +1842,8 @@
               "Deadlock Avoidance",
               "Deadlock Detection",
               "Dining Philosopher Problem"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -1741,7 +1856,8 @@
               "Virtual Memory",
               "Hardware and Control Structures",
               "Operating System Policies for Virtual Memory"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -1761,7 +1877,8 @@
               "File Sharing",
               "Record Blocking",
               "File Allocation and Free Space Management"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -1777,7 +1894,8 @@
               "Evolution of Operating System",
               "Major Advances in OS Components",
               "Characteristics of Modern Operating Systems"
-            ]
+            ],
+            "important_topics": [0, 1, 3]
           },
           "Process Description and Control": {
             "topics": [
@@ -1788,12 +1906,14 @@
               "Threads",
               "Types of Threads",
               "Multicore and Multithreading"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
           "Scheduling": {
-            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"]
+            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"],
+            "important_topics": [0, 1]
           }
         },
         "3": {
@@ -1813,7 +1933,8 @@
               "Deadlock Avoidance",
               "Deadlock Detection",
               "Dining Philosopher Problem"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -1826,7 +1947,8 @@
               "Virtual Memory",
               "Hardware and Control Structures",
               "Operating System Policies for Virtual Memory"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -1846,7 +1968,8 @@
               "File Sharing",
               "Record Blocking",
               "File Allocation and Free Space Management"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -1862,7 +1985,8 @@
               "Evolution of Operating System",
               "Major Advances in OS Components",
               "Characteristics of Modern Operating Systems"
-            ]
+            ],
+            "important_topics": [0, 1, 3]
           },
           "Process Description and Control": {
             "topics": [
@@ -1873,12 +1997,14 @@
               "Threads",
               "Types of Threads",
               "Multicore and Multithreading"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
           "Scheduling": {
-            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"]
+            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"],
+            "important_topics": [0, 1]
           }
         },
         "3": {
@@ -1898,7 +2024,8 @@
               "Deadlock Avoidance",
               "Deadlock Detection",
               "Dining Philosopher Problem"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "4": {
@@ -1911,7 +2038,8 @@
               "Virtual Memory",
               "Hardware and Control Structures",
               "Operating System Policies for Virtual Memory"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -1931,7 +2059,8 @@
               "File Sharing",
               "Record Blocking",
               "File Allocation and Free Space Management"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -1953,12 +2082,13 @@
               "Overview of design process",
               "E-R model",
               "Constraints",
-              "E–R Diagram",
+              "E\u2013R Diagram",
               "E-R Diagram issues",
               "Weak Entity Sets",
-              "Extended E – R Features",
-              "Reduction to E–R Schemas"
-            ]
+              "Extended E \u2013 R Features",
+              "Reduction to E\u2013R Schemas"
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -1984,7 +2114,8 @@
               "Authorization",
               "Embedded SQL",
               "Triggers"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -2000,7 +2131,8 @@
               "Multivalued dependencies and Fourth normal form",
               "Join dependencies and Fifth normal form",
               "DKNF"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "4": {
@@ -2017,7 +2149,8 @@
               "Measure of Query Cost",
               "Selection Operation",
               "Evaluation of Expressions"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -2034,7 +2167,8 @@
               "Multiple Granularity",
               "Multiversion Schemes",
               "Deadlock Handling"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -2056,12 +2190,13 @@
               "Overview of design process",
               "E-R model",
               "Constraints",
-              "E–R Diagram",
+              "E\u2013R Diagram",
               "E-R Diagram issues",
               "Weak Entity Sets",
-              "Extended E – R Features",
-              "Reduction to E–R Schemas"
-            ]
+              "Extended E \u2013 R Features",
+              "Reduction to E\u2013R Schemas"
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -2087,7 +2222,8 @@
               "Authorization",
               "Embedded SQL",
               "Triggers"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -2103,7 +2239,8 @@
               "Multivalued dependencies and Fourth normal form",
               "Join dependencies and Fifth normal form",
               "DKNF"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "4": {
@@ -2120,7 +2257,8 @@
               "Measure of Query Cost",
               "Selection Operation",
               "Evaluation of Expressions"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -2137,7 +2275,8 @@
               "Multiple Granularity",
               "Multiversion Schemes",
               "Deadlock Handling"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }
@@ -2159,12 +2298,13 @@
               "Overview of design process",
               "E-R model",
               "Constraints",
-              "E–R Diagram",
+              "E\u2013R Diagram",
               "E-R Diagram issues",
               "Weak Entity Sets",
-              "Extended E – R Features",
-              "Reduction to E–R Schemas"
-            ]
+              "Extended E \u2013 R Features",
+              "Reduction to E\u2013R Schemas"
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "2": {
@@ -2190,7 +2330,8 @@
               "Authorization",
               "Embedded SQL",
               "Triggers"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "3": {
@@ -2206,7 +2347,8 @@
               "Multivalued dependencies and Fourth normal form",
               "Join dependencies and Fifth normal form",
               "DKNF"
-            ]
+            ],
+            "important_topics": [0, 1, 2, 3]
           }
         },
         "4": {
@@ -2223,7 +2365,8 @@
               "Measure of Query Cost",
               "Selection Operation",
               "Evaluation of Expressions"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         },
         "5": {
@@ -2240,7 +2383,8 @@
               "Multiple Granularity",
               "Multiversion Schemes",
               "Deadlock Handling"
-            ]
+            ],
+            "important_topics": [0, 1, 3, 4]
           }
         }
       }

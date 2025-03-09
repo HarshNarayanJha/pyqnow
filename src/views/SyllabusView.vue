@@ -1,4 +1,6 @@
 <script async setup>
+import '@shoelace-style/shoelace/dist/components/card/card.js'
+
 import BackButton from '@/components/BackButton.vue'
 import { fetchSyllabus } from '@/services/api'
 import { useRoute } from 'vue-router'
@@ -7,6 +9,11 @@ const route = useRoute()
 const code = route.params.code
 
 const { data, error, isFetching } = await fetchSyllabus(code)
+
+const getYoutubeSearchUrl = (topic, display) => {
+  if (!topic || !display) return '#'
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${topic} in ${display}`)}`
+}
 </script>
 
 <template>
@@ -23,13 +30,29 @@ const { data, error, isFetching } = await fetchSyllabus(code)
     </sl-alert>
 
     <div v-else class="syllabus-text">
-      <h2>Syllabus for {{ data.code }} {{ data.display }}</h2>
+      <h2>Syllabus for {{ data.code }} - {{ data.display }}</h2>
 
       <div v-for="(module, key) in data.modules">
         <h3>Module {{ key }}</h3>
         <div v-for="(mod, name) in module">
-          <h4 style="margin-top: 1.2em;">{{ name }}</h4>
-          <p>{{ mod.topics.join(', ') }}</p>
+          <h4>{{ name }}</h4>
+
+          <!-- the actual topics -->
+          <p>
+            <template v-for="(t, index) in mod.topics" :key="index">
+              <a
+                v-if="mod.important_topics?.includes(index)"
+                :href="getYoutubeSearchUrl(t, data.display)"
+                target="_blank"
+                rel="noopener"
+                class="topic-important"
+              >
+                {{ t }}
+              </a>
+              <span v-else>{{ t }}</span>
+              <span v-if="index < mod.topics.length - 1" style="user-select: none;" class="topic-separator">, </span>
+            </template>
+          </p>
         </div>
         <sl-divider></sl-divider>
       </div>
@@ -59,11 +82,21 @@ const { data, error, isFetching } = await fetchSyllabus(code)
     font-size: var(--sl-font-size-large);
   }
 
+  h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+  }
+
   p {
     margin-top: 0.2em;
     margin-bottom: 1.5em;
     font-family: var(--font-mono);
     font-size: var(--sl-font-size-medium);
+  }
+
+  a.topic-important {
+    color: inherit;
+    font-weight: var(--sl-font-weight-bold);
   }
 
   .syllabus-text {
