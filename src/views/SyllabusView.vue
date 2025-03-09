@@ -47,10 +47,9 @@ const getYoutubeSearchUrl = (topic, display) => {
                 rel="noopener"
                 class="topic-important"
               >
-                {{ t }}
+                {{ t }},
               </a>
-              <span v-else>{{ t }}</span>
-              <span v-if="index < mod.topics.length - 1" style="user-select: none;" class="topic-separator">, </span>
+              <span v-else>{{ t }},&nbsp;</span>
             </template>
           </p>
         </div>
@@ -71,7 +70,7 @@ const getYoutubeSearchUrl = (topic, display) => {
     margin-top: 1em;
     margin-bottom: 1em;
     font-weight: var(--sl-font-weight-bold);
-    font-size: var(--sl-font-size-2x-large);
+    font-size: var(--sl-font-size-x-large);
   }
 
   h3 {
@@ -85,6 +84,8 @@ const getYoutubeSearchUrl = (topic, display) => {
   h4 {
     margin-top: 1.2em;
     margin-bottom: 0.4em;
+    color: var(--color-text);
+    font-weight: var(--sl-font-weight-bold);
   }
 
   p {
@@ -95,8 +96,14 @@ const getYoutubeSearchUrl = (topic, display) => {
   }
 
   a.topic-important {
-    color: inherit;
+    color: var(--sl-color-sky-700);
     font-weight: var(--sl-font-weight-bold);
+    text-decoration: dotted underline;
+    text-decoration-thickness: 5%;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--sl-color-gray-400);
+    text-decoration-skip-ink: none;
+    text-decoration-skip: none;
   }
 
   .syllabus-text {

@@ -2082,11 +2082,11 @@
               "Overview of design process",
               "E-R model",
               "Constraints",
-              "E\u2013R Diagram",
+              "E-R Diagram",
               "E-R Diagram issues",
               "Weak Entity Sets",
-              "Extended E \u2013 R Features",
-              "Reduction to E\u2013R Schemas"
+              "Extended E-R Features",
+              "Reduction to E-R Schemas"
             ],
             "important_topics": [0, 1, 3, 4]
           }
@@ -2190,11 +2190,11 @@
               "Overview of design process",
               "E-R model",
               "Constraints",
-              "E\u2013R Diagram",
+              "E-R Diagram",
               "E-R Diagram issues",
               "Weak Entity Sets",
-              "Extended E \u2013 R Features",
-              "Reduction to E\u2013R Schemas"
+              "Extended E-R Features",
+              "Reduction to E-R Schemas"
             ],
             "important_topics": [0, 1, 3, 4]
           }
@@ -2298,11 +2298,11 @@
               "Overview of design process",
               "E-R model",
               "Constraints",
-              "E\u2013R Diagram",
+              "E-R Diagram",
               "E-R Diagram issues",
               "Weak Entity Sets",
-              "Extended E \u2013 R Features",
-              "Reduction to E\u2013R Schemas"
+              "Extended E-R Features",
+              "Reduction to E-R Schemas"
             ],
             "important_topics": [0, 1, 3, 4]
           }
@@ -2385,6 +2385,964 @@
               "Deadlock Handling"
             ],
             "important_topics": [0, 1, 3, 4]
+          }
+        }
+      }
+    },
+    {
+      "code": "EE205",
+      "display": "Circuit Theory",
+      "modules": {
+        "1": {
+          "Network Topology & Equations": {
+            "topics": [
+              "Definition and properties",
+              "Matrices of Graph",
+              "Node and Mesh transformation",
+              "Generalized element",
+              "Source transformation",
+              "Formulation of network equations",
+              "Network with controlled sources",
+              "Transform networks",
+              "Properties of network matrices",
+              "Solution of equations",
+              "Linear time-invariant networks",
+              "Evaluation of initial conditions",
+              "Frequency and impedance scaling"
+            ],
+            "important_topics": [0, 5, 9, 11]
+          }
+        },
+        "2": {
+          "Network Theorems & State Space": {
+            "topics": [
+              "Substitution theorem",
+              "Tellegen's theorem",
+              "Reciprocity theorem",
+              "State space concept",
+              "State variable modelling"
+            ],
+            "important_topics": [0, 2, 3, 4]
+          }
+        },
+        "3": {
+          "Multi-terminal Networks": {
+            "topics": [
+              "Network function",
+              "Transform networks",
+              "Natural frequency (OCNF and SCNF)",
+              "Two-port parameters",
+              "Equivalent networks"
+            ],
+            "important_topics": [0, 3, 4]
+          }
+        },
+        "4": {
+          "Elements of Network Synthesis": {
+            "topics": [
+              "Positive real function",
+              "Reactance functions",
+              "RC functions",
+              "RL Network",
+              "Two-port functions",
+              "Minimum phase networks"
+            ],
+            "important_topics": [0, 1, 3, 4]
+          }
+        },
+        "5": {
+          "Approximation": {
+            "topics": [
+              "Filter specifications",
+              "Butterworth approximation",
+              "Chebyshev approximation",
+              "Frequency transformation",
+              "High pass",
+              "Band pass",
+              "All pass and notch filter approximation"
+            ],
+            "important_topics": [0, 1, 2, 3]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC201",
+      "display": "Electronic Devices",
+      "modules": {
+        "1": {
+          "Semiconductors: Atoms, Electrons, Energy Bands, and Charge Carriers": {
+            "topics": [
+              "Quantum Mechanics",
+              "Bonding Forces and Energy Bands in Solids",
+              "Direct and Indirect Semiconductors",
+              "LED",
+              "Variation of Energy Bands with Alloy Composition",
+              "Effective Mass",
+              "Electrons and Holes in Quantum Wells",
+              "Gunn Diode",
+              "Temperature Dependence of Carrier Concentrations",
+              "Conductivity and Mobility",
+              "High-Field Effects",
+              "The Hall Effect"
+            ],
+            "important_topics": [1, 2, 9, 11]
+          }
+        },
+        "2": {
+          "Excess Carriers in Semiconductors": {
+            "topics": [
+              "Optical Absorption",
+              "Luminescence",
+              "Carrier Lifetime and Photoconductivity",
+              "Solar Cells",
+              "Diffusion Processes",
+              "Diffusion and Drift of Carriers",
+              "Built-in Fields",
+              "Diffusion and Recombination",
+              "The Continuity Equation",
+              "Steady State Carrier Injection",
+              "Diffusion Length",
+              "The Haynes Shockley Experiment"
+            ],
+            "important_topics": [2, 5, 7, 10]
+          }
+        },
+        "3": {
+          "PN Junction and Junction Diodes": {
+            "topics": [
+              "Charge at Junction",
+              "Contact Potential",
+              "Capacitance of p-n Junctions",
+              "Reverse-Bias Breakdown",
+              "Zener diode",
+              "Varactor Diode",
+              "Effects of Contact Potential on Carrier Injection",
+              "Recombination and Generation in Transition Region",
+              "Metal Semiconductor Junctions",
+              "PIN diodes",
+              "Step Recovery Diodes",
+              "IMPATT diodes",
+              "Tunnel Diode"
+            ],
+            "important_topics": [2, 4, 8, 12]
+          }
+        },
+        "4": {
+          "Bipolar Junction Transistor (BJT)": {
+            "topics": [
+              "Fundamentals of BJT Operation",
+              "Amplification with BJTs",
+              "Minority Carrier Distributions and Terminal Currents",
+              "Drift in the Base Region",
+              "Base Narrowing",
+              "Avalanche Breakdown",
+              "Gummel Poon Model",
+              "Kirk Effect",
+              "Frequency Limitations of Transistors",
+              "High-Frequency Transistors",
+              "Heterojunction Bipolar Transistors"
+            ],
+            "important_topics": [0, 1, 6, 10]
+          }
+        },
+        "5": {
+          "Field-Effect Transistors": {
+            "topics": [
+              "Junction FET",
+              "GaAs MESFET",
+              "High Electron Mobility Transistor (HEMT)",
+              "Metal Insulator Semiconductor FET",
+              "MOSFET: Output Characteristics",
+              "MOSFET: Transfer Characteristics",
+              "Mobility Models",
+              "Short Channel MOSFET I V Characteristics",
+              "Threshold Voltage Expression",
+              "Substrate Bias Effects",
+              "Subthreshold Characteristics",
+              "Equivalent Circuit for the MOSFET",
+              "CMOS processes"
+            ],
+            "important_topics": [4, 5, 8, 12]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC205",
+      "display": "Signals and Systems",
+      "modules": {
+        "1": {
+          "Introduction To Signals And Systems": {
+            "topics": [
+              "Signals and systems in everyday life",
+              "Signal properties: periodicity, absolute integrability, determinism, stochastic",
+              "Special signals: unit step, unit impulse, sinusoid, complex exponential",
+              "Continuous and discrete time signals",
+              "Continuous and discrete amplitude signals",
+              "System properties: linearity, additivity and homogeneity",
+              "Shift-invariance",
+              "Causality",
+              "Stability",
+              "Realizability"
+            ],
+            "important_topics": [1, 2, 5, 7, 8]
+          }
+        },
+        "2": {
+          "Behavior Of Continuous And Discrete Time Lti Systems": {
+            "topics": [
+              "Impulse response and step response",
+              "Convolution",
+              "Input-output behavior with aperiodic convergent inputs",
+              "Cascade interconnections",
+              "Characterization of causality and stability of LTI systems",
+              "System representation through differential equations and difference equations",
+              "State-space Representation of systems",
+              "State-Space Analysis",
+              "Multi-input, multi-output representation",
+              "State Transition Matrix and its Role",
+              "Periodic inputs to an LTI system",
+              "Frequency response and its relation to the impulse response"
+            ],
+            "important_topics": [1, 4, 6, 9, 11]
+          }
+        },
+        "3": {
+          "Fourier And Laplace Transforms": {
+            "topics": [
+              "Fourier series representation of periodic signals",
+              "Waveform Symmetries",
+              "Calculation of Fourier Coefficients",
+              "Fourier Transform",
+              "Convolution/multiplication and their effect in the frequency domain",
+              "Magnitude and phase response",
+              "Fourier domain duality",
+              "Laplace Transform for continuous-time signals and systems",
+              "Transfer/system functions",
+              "Poles and zeros of system functions and signals",
+              "Laplace domain analysis",
+              "Solution to differential equations and system behavior"
+            ],
+            "important_topics": [3, 4, 7, 9]
+          }
+        },
+        "4": {
+          "Z Transform, DTFT, And DFT": {
+            "topics": [
+              "Z-transform",
+              "Region of convergence and its properties",
+              "Inverse Z transform",
+              "Properties of ZT",
+              "Discrete-Time Fourier Transform (DTFT)",
+              "Discrete Fourier Transform (DFT)",
+              "Parseval's Theorem",
+              "Properties of DTFT and DFT",
+              "Convolution property",
+              "Multiplication property",
+              "Duality",
+              "Systems Characterized by Linear Constant Coefficient Difference Equation",
+              "z-Transform for discrete time signals and systems",
+              "System functions",
+              "Poles and zeros of systems and sequences",
+              "z-domain analysis"
+            ],
+            "important_topics": [0, 1, 4, 5, 7, 12]
+          }
+        },
+        "5": {
+          "Sampling And Reconstruction": {
+            "topics": [
+              "Sampling Theorem and its implications",
+              "Spectra of sampled signals",
+              "Reconstruction: ideal interpolator, zero-order hold, first-order hold",
+              "Aliasing and its effects",
+              "Relation between continuous and discrete time systems",
+              "Applications of signal and system theory: modulation for communication",
+              "Filtering",
+              "Feedback control systems"
+            ],
+            "important_topics": [0, 2, 3, 4, 5]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC207",
+      "display": "Electronic Measurements",
+      "modules": {
+        "1": {
+          "Introduction to Measurements and Measurement Systems": {
+            "topics": [
+              "Significance of measurements",
+              "Different methods of measurements",
+              "Instruments used in measurements",
+              "Electronic Instruments and its classification",
+              "Elements of a Generalized Measurement System",
+              "Characteristics of instruments",
+              "Static characteristics",
+              "Errors in measurements",
+              "Scale, range, and scale span",
+              "Calibration",
+              "Reproducibility and drift",
+              "Noise",
+              "Accuracy and precision",
+              "Significant figures",
+              "Linearity",
+              "Hysteresis",
+              "Threshold",
+              "Dead time",
+              "Dead zone",
+              "Resolution",
+              "Loading Effects"
+            ],
+            "important_topics": [0, 4, 7, 12, 20]
+          }
+        },
+        "2": {
+          "Analogue Instruments": {
+            "topics": [
+              "Classification and Principles of Operation",
+              "Working Details Moving Coil (PMMC) and Moving Iron Instruments Construction",
+              "DC Ammeter",
+              "DC Voltmeter",
+              "Series and Shunt type Ohmmeter",
+              "Analogue Electronic voltmeter",
+              "DC Voltmeter with chopper type DC amplifier"
+            ],
+            "important_topics": [1, 2, 3, 4]
+          }
+        },
+        "3": {
+          "DC and AC Bridges & Oscilloscopes": {
+            "topics": [
+              "Introduction of DC and AC Bridges",
+              "Wheatstone Bridge",
+              "Kelvin Double Bridge",
+              "Bridge, Sources of errors in Bridges and their elimination by shielding and grounding",
+              "Q meter",
+              "Oscilloscopes: CRT, Construction",
+              "Basic CRO circuits",
+              "Block diagram of a modern oscilloscope",
+              "Y-amplifiers",
+              "X-amplifiers",
+              "Triggering",
+              "Oscilloscopic measurement",
+              "Special CRO's: Dual trace, Dual beam"
+            ],
+            "important_topics": [1, 2, 7, 11]
+          }
+        },
+        "4": {
+          "Digital Instruments and D/A and A/D converters": {
+            "topics": [
+              "Sample-and-hold circuit",
+              "D/A converters: Weighted-resistor D/A Converter",
+              "R-2R Ladder type D/A converter",
+              "Specifications for D/A Converters",
+              "A/D Converters: Parallel-comparator type A/D converter",
+              "Successive approximation type A/D converter",
+              "Counter type A/D converter",
+              "Dual slope converter",
+              "Comparison of converter types",
+              "Digital Voltmeters",
+              "Digital Multimeters",
+              "Digital frequency Meter",
+              "Sampling oscilloscope",
+              "Storage CROs"
+            ],
+            "important_topics": [1, 4, 9, 10]
+          }
+        },
+        "5": {
+          "Transducers": {
+            "topics": [
+              "Definition",
+              "Classification",
+              "Principle of Analogue transducer: Resistive (Strain Gauge, POT, Thermistor and RTD)",
+              "Capacitive",
+              "Piezoelectric",
+              "Thermocouple and Inductive (LVDT) and RVDT) transducer",
+              "Working principle of Digital Transducer and Optical transducer",
+              "Application of above transducers to be discussed on the basis of Pressure, Displacement, Level, Flow and Temperature measurements"
+            ],
+            "important_topics": [2, 3, 4, 5, 7]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC209",
+      "display": "Network Theory",
+      "modules": {
+        "1": {
+          "Network Topology & Equations": {
+            "topics": [
+              "Definition and properties",
+              "Matrices of Graph",
+              "Node and Mesh transformation",
+              "Generalized element",
+              "Source transformation",
+              "Formulation of network equations",
+              "Network with controlled sources",
+              "Transform networks",
+              "Properties of network matrices",
+              "Solution of equations",
+              "Linear time-invariant networks",
+              "Evaluation of initial conditions",
+              "Frequency and impedance scaling"
+            ],
+            "important_topics": [0, 5, 9, 11]
+          }
+        },
+        "2": {
+          "Network Theorems & State Space": {
+            "topics": [
+              "Substitution theorem",
+              "Tellegen's theorem",
+              "Reciprocity theorem",
+              "State space concept",
+              "State variable modelling"
+            ],
+            "important_topics": [0, 2, 3, 4]
+          }
+        },
+        "3": {
+          "Multi-terminal Networks": {
+            "topics": [
+              "Network function",
+              "Transform networks",
+              "Natural frequency (OCNF and SCNF)",
+              "Two-port parameters",
+              "Equivalent networks"
+            ],
+            "important_topics": [0, 3, 4]
+          }
+        },
+        "4": {
+          "Elements of Network Synthesis": {
+            "topics": [
+              "Positive real function",
+              "Reactance functions",
+              "RC functions",
+              "RL Network",
+              "Two-port functions",
+              "Minimum phase networks"
+            ],
+            "important_topics": [0, 1, 3, 4]
+          }
+        },
+        "5": {
+          "Approximation": {
+            "topics": [
+              "Filter specifications",
+              "Butterworth approximation",
+              "Chebyshev approximation",
+              "Frequency transformation",
+              "High pass",
+              "Band pass",
+              "All pass and notch filter approximation"
+            ],
+            "important_topics": [0, 1, 2, 3]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC251",
+      "display": "Probability and Random Processes",
+      "modules": {
+        "1": {
+          "Randomness, Uncertainty and its Description": {
+            "topics": [
+              "Random experiments/phenomenon",
+              "Outcomes of the random experiment",
+              "Sample Space",
+              "Events",
+              "Probability of an event",
+              "Concepts of sets and probability theory",
+              "Probability space",
+              "Conditional probability",
+              "Independence and Bayes theorem",
+              "Combinatorial probability and sampling models"
+            ],
+            "important_topics": [4, 6, 7, 8]
+          }
+        },
+        "2": {
+          "Random Variable and its characterization": {
+            "topics": [
+              "Continuous random variables: distribution function, probability density function",
+              "Conditional Densities and Distributions",
+              "Gaussian, Rayleigh, and Rician distributions",
+              "Exponential, chi-squared, gamma distributions",
+              "Discrete random variables: distribution function, probability mass function",
+              "Bernoulli, binomial, Poisson, geometric, negative binomial distributions",
+              "Expectations",
+              "Variance",
+              "MGF and Characteristics Function of Random Variable",
+              "Moments of Random Variable"
+            ],
+            "important_topics": [0, 2, 4, 6, 7]
+          }
+        },
+        "3": {
+          "Random vector and its characterization": {
+            "topics": [
+              "Joint Events",
+              "Joint CDF and PDF",
+              "Properties of Joint CDF and PDF",
+              "Bivariate Gaussian Distributions",
+              "Joint Moments",
+              "Random Vectors",
+              "Vector Gaussian Random Variables",
+              "Moments of Random Vectors",
+              "Independence of two random vectors"
+            ],
+            "important_topics": [1, 3, 4, 6]
+          }
+        },
+        "4": {
+          "Inequalities, Convergences, and Limit Theorems": {
+            "topics": [
+              "Random sequences Markov, Chebyshev and Chernoff bounds",
+              "Modes of convergence (everywhere, almost everywhere, probability, distribution and mean square)",
+              "Stochastic convergence",
+              "Law of large numbers",
+              "Central limit theorem",
+              "Limit theorems",
+              "Strong and weak laws of large numbers"
+            ],
+            "important_topics": [1, 3, 4, 6]
+          }
+        },
+        "5": {
+          "Random Processes and Linear Systems": {
+            "topics": [
+              "Random Data/Signals",
+              "Stationarity; mean, correlation, and covariance functions",
+              "WSS random process",
+              "Autocorrelation and cross-correlation functions",
+              "Transmission of a random process through a linear System",
+              "Power spectral density",
+              "White random process",
+              "Gaussian process",
+              "Poisson process",
+              "Application of Probability and Random Processes"
+            ],
+            "important_topics": [1, 3, 4, 5, 9]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC253",
+      "display": "Analog Circuits",
+      "modules": {
+        "1": {
+          "Wave Shaping Circuits & BJT Amplifiers": {
+            "topics": [
+              "RC low pass and high pass circuits",
+              "Response to sinusoidal, step, pulse, and square wave inputs",
+              "Clipping and clamping circuits",
+              "Review of hybrid and simplified models of CE, CB, CC configurations of BJT",
+              "CE amplifier with emitter resistance",
+              "Emitter follower",
+              "Darlington Circuit",
+              "Cascode Amplifier"
+            ],
+            "important_topics": [0, 1, 3, 4, 7]
+          }
+        },
+        "2": {
+          "Transistor Power & Multistage Amplifiers": {
+            "topics": [
+              "Class A, Class B, Class C and Push-Pull Configurations",
+              "Frequency response of an amplifier",
+              "Bandpass of cascaded stages",
+              "Low frequency response of RC coupled amplifier",
+              "Hybrid model and parameters",
+              "High frequency response of CE transistor amplifier",
+              "Gain-Bandwidth product",
+              "Emitter follower at high frequencies",
+              "FET (CS & CD) at high frequencies",
+              "Single-tuned amplifier"
+            ],
+            "important_topics": [0, 1, 5, 6, 9]
+          }
+        },
+        "3": {
+          "Feedback Amplifiers & Oscillators": {
+            "topics": [
+              "Classification of amplifiers",
+              "Feedback concept",
+              "Transfer gain with feedback",
+              "Characteristics of negative-feedback amplifier",
+              "Method of analysis of feedback amplifiers",
+              "Voltage-series feedback",
+              "Current-series feedback",
+              "Current-shunt feedback",
+              "Voltage-shunt feedback",
+              "Concept of stability, gain margin and phase margin",
+              "RC phase shift oscillator",
+              "Wien bridge oscillator",
+              "Crystal oscillator",
+              "Current mirror circuits"
+            ],
+            "important_topics": [1, 3, 9, 11, 12]
+          }
+        },
+        "4": {
+          "Differential Amplifiers & Op-Amps": {
+            "topics": [
+              "Emitter-coupled differential amplifier",
+              "Transfer characteristics of differential amplifier",
+              "IC of operational amplifier: gain stages and output stages",
+              "Electronic analog computation using op-amp",
+              "Non-linear applications of OP-AMP: zero-crossing detector, precision rectifier, peak detector, logarithmic amplifier, Schmitt trigger",
+              "Active filters: Low pass, high pass, band pass and band stop",
+              "Design guidelines"
+            ],
+            "important_topics": [2, 3, 4, 5]
+          }
+        },
+        "5": {
+          "Negative Resistance Devices & Sweep Circuits": {
+            "topics": [
+              "Negative resistance switching devices and circuits: Tunnel diode, UJT",
+              "Voltage controlled and Current controlled negative resistance circuits",
+              "Negative Resistance Characteristics",
+              "Monostable, Bistable, and Astable operations",
+              "Applications using Tunnel diode and UJT",
+              "Sweep circuits: Time base Signal",
+              "Miller and Bootstrap Time base Generators-Basic Principles",
+              "Transistor Miller Time Base generator",
+              "Transistor Bootstrap Time Base Generator",
+              "Transistor Current Time Base Generators",
+              "Methods of Linearity improvement"
+            ],
+            "important_topics": [0, 3, 4, 6, 9]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC255",
+      "display": "Analog Communication",
+      "modules": {
+        "1": {
+          "Signal analysis": {
+            "topics": [
+              "Time domain and frequency domain representation of a signal",
+              "Fourier series",
+              "Complex Fourier spectrum (discrete spectrum or line spectrum)",
+              "Fourier transform",
+              "Properties of Fourier transform",
+              "Energy and power spectral density spectrum",
+              "Distortion less transmission",
+              "Causality and physical realizability",
+              "Pre-envelope and canonical representation of band pass signals"
+            ],
+            "important_topics": [1, 2, 3, 5]
+          }
+        },
+        "2": {
+          "Amplitude modulation-demodulation communication systems": {
+            "topics": [
+              "Amplitude modulation",
+              "Square law modulator",
+              "Switching modulator",
+              "Square law demodulator",
+              "Envelope detector",
+              "Double side band suppressed carrier modulation",
+              "Balanced and ring modulators",
+              "Single side band modulation",
+              "Frequency discrimination and phase discrimination modulators",
+              "Coherent detection of SSB",
+              "Frequency division multiplexing and time division multiplexing",
+              "Super heterodyne AM receiver and its characteristics"
+            ],
+            "important_topics": [0, 2, 3, 5]
+          }
+        },
+        "3": {
+          "Angle modulation-demodulation communication systems": {
+            "topics": [
+              "Basics of frequency and phase modulation",
+              "Single tone frequency modulation",
+              "NBFM",
+              "WBFM",
+              "Transmission bandwidth of FM wave",
+              "Indirect and direct methods of FM generation",
+              "Frequency discriminator",
+              "Phase locked loop demodulator",
+              "Super heterodyne FM receiver"
+            ],
+            "important_topics": [0, 1, 3, 4]
+          }
+        },
+        "4": {
+          "Pulse modulation demodulation communication systems": {
+            "topics": [
+              "Sampling process",
+              "Pulse amplitude modulation",
+              "Pulse duration modulation",
+              "Pulse position modulation"
+            ],
+            "important_topics": [0, 1, 2, 3]
+          }
+        },
+        "5": {
+          "Noise in communication systems": {
+            "topics": [
+              "Noise",
+              "Shot noise",
+              "Thermal noise",
+              "White noise",
+              "Noise equivalent bandwidth",
+              "Signal to noise ratio for coherent detection of DSBSC",
+              "SNR for coherent reception with SSB modulation",
+              "SNR for AM receiver using envelope detection",
+              "Noise in FM reception",
+              "FM Threshold effect",
+              "Pre emphasis and de-emphasis"
+            ],
+            "important_topics": [0, 2, 3]
+          }
+        }
+      }
+    },
+    {
+      "code": "EC257",
+      "display": "Electromagnetic Fields and Waves",
+      "modules": {
+        "1": {
+          "Introduction to Maxwell's Equations": {
+            "topics": [
+              "Faraday's Law",
+              "Transformer & Motional EMF",
+              "Displacement Current",
+              "Maxwell's Equations (Generalized form)"
+            ],
+            "important_topics": [0, 1, 2, 3]
+          },
+          "Boundary Conditions and Wave Equation": {
+            "topics": ["Electromagnetic Boundary Conditions"],
+            "important_topics": [0]
+          },
+          "Time varying Potentials & Fields": {
+            "topics": ["Time varying Potentials", "Time harmonic fields", "Time harmonics Maxwell's Equations"],
+            "important_topics": [0, 1, 2]
+          }
+        },
+        "2": {
+          "EM Wave Propagation": {
+            "topics": [
+              "Wave Equation & Plane Waves in unbounded homogeneous, plane waves in free space and lossy media",
+              "Skin depth",
+              "Poynting vector and Power considerations",
+              "Polarization of Electromagnetic waves",
+              "Reflection of a plane wave at Normal incidence and Oblique incidence. Parallel & Perpendicular Polarization at perfect conducting & dielectric boundaries",
+              "Brewster's Angle"
+            ],
+            "important_topics": [0, 1, 2, 3, 4, 5]
+          }
+        },
+        "3": {
+          "Transmission Lines": {
+            "topics": [
+              "Transmission line parameters & Equations",
+              "Input Impedance, SWR and Power, The Smith Chart",
+              "Quarter Wave Transformer Matching, Single Stub Tuner(Matching), Slotted line (Impedance Measurement",
+              "Transients on transmission lines, Microstrip Transmission lines, strip lines, Slot lines and Co-planar lines"
+            ],
+            "important_topics": [0, 1, 2, 3]
+          }
+        },
+        "4": {
+          "Waveguides": {
+            "topics": [
+              "Transverse Electric and Transverse Magnetic wave propagation in Rectangular Waveguide",
+              "Rectangular Cavity Resonator",
+              "Circular Cavity Resonator",
+              "Quality factor of the rectangular Cavity Resonator"
+            ],
+            "important_topics": [0, 1, 2, 3]
+          }
+        },
+        "5": {
+          "Antennas": {
+            "topics": [
+              "Radiation from the Hertz dipole",
+              "Power radiated by Hertzian dipole",
+              "Radiation Parameters of antenna",
+              "Monopole and Dipole antenna"
+            ],
+            "important_topics": [0, 1, 2, 3]
+          }
+        }
+      }
+    },
+    {
+      "code": "EE305",
+      "display": "Digital Signal Processing",
+      "modules": {
+        "1": {
+          "Introduction to Signals and Systems": {
+            "topics": [
+              "Classification of Signals and systems",
+              "Fourier analysis of periodic and a periodic continuous time signal",
+              "Application of Laplace Transform to system analysis",
+              "Discrete-Time Signals",
+              "Shanon's sampling theorem",
+              "Difference equation description",
+              "Properties of discrete time system (linearity, time-variance, convolution)",
+              "BIBO stability",
+              "Structure for realization of LTI discrete time systems",
+              "Direct form I&II, cascade, parallel"
+            ],
+            "important_topics": [1, 2, 6, 7]
+          }
+        },
+        "2": {
+          "Frequency Domain Analysis": {
+            "topics": [
+              "Z-transform definition",
+              "Region of convergence (ROC)",
+              "Relationship between Laplace and Z-transforms",
+              "Discrete Time Fourier Transform (DTFT)",
+              "Discrete Fourier Transform (DFT)",
+              "Periodic convolution",
+              "Direct evaluation of DFT",
+              "FFT algorithms decimation in time and frequency",
+              "Relationship between Fourier and Z-transforms"
+            ],
+            "important_topics": [1, 3, 4, 7]
+          }
+        },
+        "3": {
+          "Filter Function Approximations and Transformations": {
+            "topics": [
+              "Review of approximations of ideal analog filter response",
+              "Butterworth filter",
+              "Chebyshev Type I & II",
+              "Frequency Transformations: Frequency transformation in analog domain",
+              "Frequency transformation in digital domain",
+              "Design of IIR Filter based on Impulse invariance method",
+              "Bilinear transformation"
+            ],
+            "important_topics": [1, 2, 5, 6]
+          }
+        },
+        "4": {
+          "Design of FIR Filters": {
+            "topics": [
+              "Characteristic of FIR filters with linear phase",
+              "Symmetric and anti-symmetric FIR filters",
+              "Design of linear phase FIR filters using windows",
+              "Frequency sampling methods",
+              "Comparison of FIR and IIR filters"
+            ],
+            "important_topics": [0, 2, 3, 4]
+          }
+        },
+        "5": {
+          "Application of DSP": {
+            "topics": [
+              "Introduction to DSP processors",
+              "Types of architectures",
+              "DSP support tools",
+              "Code composer studio",
+              "Compiler, assembler and linker",
+              "Introduction TMS320 C6x architecture",
+              "Digital signal processing application in the area of biomedical signal",
+              "Speech, and image"
+            ],
+            "important_topics": [0, 1, 5, 6, 7]
+          }
+        }
+      }
+    },
+    {
+      "code": "EE251",
+      "display": "DC Machines and Transformer",
+      "modules": {
+        "1": {
+          "Single Phase Transformers": {
+            "topics": [
+              "Introduction to transformer",
+              "Basic Principle of operation",
+              "Classification, Rating, Construction of single phase transformer and Practical considerations",
+              "Transformer winding",
+              "Ideal and physical transformers",
+              "EMF equation, transformation ratio, Phasor diagram",
+              "Performance analysis, Equivalent circuit, Losses and efficiency",
+              "Condition for maximum efficiency",
+              "Determination of equivalent circuit parameters by O.C. and S.C. tests",
+              "Per-unit calculation, Voltage regulation, all day efficiency"
+            ],
+            "important_topics": [0, 1, 4, 5, 6, 7]
+          }
+        },
+        "2": {
+          "Three Phase Transformer": {
+            "topics": [
+              "Advantage, Principle of operation, Connections of 3-phase transformer",
+              "Transformer vector grouping, Open delta connection, three-phase to two-phase conversion (Scott connection) and six phase conversion",
+              "Three winding transformer, rating. OC & SC Test, Polarity test, Sumpner's-to-back test",
+              "Parallel operation and Load sharing in single & three phase transformer",
+              "Different types of transformers: Autotransformer- construction, working, advantage & disadvantage and application",
+              "Introduction to Power transformers, Distribution transformers, Instrument transformers, Tap changing transformers, Pulse Transformer, Welding Transformer",
+              "Transformer cooling, grounding, maintenance, and rating"
+            ],
+            "important_topics": [0, 3, 4, 5]
+          }
+        },
+        "3": {
+          "Basic Concept of Rotating Machines": {
+            "topics": [
+              "Electromagnetism, Electromagnetic induction, Flux Linkage",
+              "Force on a conductor in a magnetic field & between two current carrying conductor, statistically & dynamically induced EMF",
+              "Magnetomotive Force (MMF), Classification of Rotating Machines, Electromagnetic Torque",
+              "Constructional parts of DC machines and their function. Armature Winding, Ring winding, Drum Winding, type of DC machine Winding",
+              "Principle of DC Generator and its operation, EMF generated in DC Generator",
+              "Principle of DC Motor"
+            ],
+            "important_topics": [2, 3, 4, 5]
+          }
+        },
+        "4": {
+          "DC Generators": {
+            "topics": [
+              "Types of DC Machines, EMF equation, Losses in DC Generator, Power Stages, Efficiency, Condition for maximum efficiency",
+              "Armature reaction, Compensating winding, Inter-poles, Process of Commutation, Reactance Voltage, Methods of improving commutation, equalizer rings",
+              "Method of excitation, Characteristics of DC Generators- Magnetization, Process of voltage build-up of shunt generator, Internal and external characteristics, voltage regulation, Critical resistance and Critical speed",
+              "Parallel operation of DC generators, Applications of DC Generators"
+            ],
+            "important_topics": [0, 2, 3]
+          }
+        },
+        "5": {
+          "DC Motors": {
+            "topics": [
+              "Basic equation for voltage, Back EMF, Power, condition for maximum power, armature Torque, Rotational losses, and speed of DC Motors",
+              "Operating characteristics of DC Motors speed back emf & flux, Torque-current, Speed-current and Torque-speed characteristics. Speed regulation",
+              "Speed control of DC motors, Starters for DC Motors, Electric Breaking"
+            ],
+            "important_topics": [0, 1, 3]
+          },
+          "Testing of DC machines": {
+            "topics": [
+              "Break Test",
+              "Swineburne's",
+              "Hopkinson's and Series Field Tests",
+              "Retarding or Running Test",
+              "Calculation of efficiency",
+              "Applications of DC Motors",
+              "Special DC motors",
+              "Brushless DC Motor"
+            ],
+            "important_topics": []
           }
         }
       }
