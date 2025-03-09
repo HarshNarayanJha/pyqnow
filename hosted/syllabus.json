@@ -1027,6 +1027,71 @@
       }
     },
     {
+      "code": "CS231",
+      "display": "Data Structures",
+      "modules": {
+        "1": {
+          "Basic Concepts": {
+            "topics": [
+              "Definition and basics of: Data Structure, ADT, Algorithms, Time and Space Complexity",
+              "Asymptotic Notations (O, θ, Ω)",
+              "Time complexity computation of non-recursive algorithms (like Matrix addition, Selection sort using step count)",
+              "Array basic operations",
+              "Concept of multi-dimensional array",
+              "Polynomial operations using Array",
+              "Sparse Matrix"
+            ]
+          }
+        },
+        "2": {
+          "Stack and Queue": {
+            "topics": [
+              "Stack ADT: basic operations",
+              "Queue ADT: basic operations",
+              "Circular Queue",
+              "Evaluation of Expressions",
+              "Another application or Mazing Problem"
+            ]
+          }
+        },
+        "3": {
+          "Linked List": {
+            "topics": [
+              "Singly Linked List: concept, representation and operations",
+              "Circular Linked List",
+              "Polynomial and Sparse Matrix operations using LL.",
+              "Doubly Linked List: basic concept"
+            ]
+          }
+        },
+        "4": {
+          "Tree and Graph": {
+            "topics": [
+              "Basic concepts and terminologies",
+              "Binary Search Tree and Heap",
+              "Disjoint Set",
+              "Graph: concept and terminologies",
+              "Concept of BFS",
+              "DFS",
+              "Spanning Tree",
+              "Connected Components"
+            ]
+          }
+        },
+        "5": {
+          "Searching and Sorting": {
+            "topics": [
+              "Sequential Search and Binary Search",
+              "Insertion Sort",
+              "Heap Sort",
+              "Radix Sort",
+              "External Sorting: k-way merging approach"
+            ]
+          }
+        }
+      }
+    },
+    {
       "code": "MA203",
       "display": "Numerical Methods",
       "modules": {
@@ -1082,6 +1147,103 @@
     },
     {
       "code": "CS203",
+      "display": "Computer Organization and Architecture",
+      "modules": {
+        "1": {
+          "Basic Structures of Computers": {
+            "topics": [
+              "Introduction to Digital Logic",
+              "Basic Structure of Computers: Computer Types",
+              "Functional Units",
+              "Input Unit",
+              "Memory Unit",
+              "Arithmetic and Logic Unit",
+              "Output Unit",
+              "Control Unit",
+              "Basic Operational Concepts: Fixed and floating point Representation and Arithmetic Operations",
+              "Performance",
+              "Historical Perspective"
+            ]
+          }
+        },
+        "2": {
+          "Instruction Set Architecture": {
+            "topics": [
+              "Memory Locations and Addresses: Byte Addressability",
+              "Big-Endian and Little-Endian Assignments",
+              "Word Alignment",
+              "Instructions and Instruction Sequencing",
+              "Addressing Modes",
+              "Assembly Language",
+              "Subroutines",
+              "Additional Instructions",
+              "Dealing with 32-Bit Immediate Values"
+            ]
+          }
+        },
+        "3": {
+          "Basic Processing Unit & Pipelining": {
+            "topics": [
+              "Basic Processing Unit: Some Fundamental Concepts",
+              "Instruction Execution",
+              "Hardware Components",
+              "Instruction Fetch and Execution Steps",
+              "Control Signals",
+              "Hardwired Control",
+              "CISC-Style Processors",
+              "Pipelining: Basic Concept",
+              "Pipeline Organization",
+              "Pipelining Issues",
+              "Data Dependencies",
+              "Memory Delays",
+              "Branch Delays",
+              "Pipeline Performance Evaluation"
+            ]
+          }
+        },
+        "4": {
+          "Memory Organization": {
+            "topics": [
+              "Basic Concepts",
+              "Semiconductor RAM Memories",
+              "Read-only Memories",
+              "Direct Memory Access",
+              "Memory Hierarchy",
+              "Cache Memories",
+              "Performance Considerations",
+              "Virtual Memory",
+              "Memory Management Requirements",
+              "Secondary Storage"
+            ]
+          }
+        },
+        "5": {
+          "Input Output & Parallel Processing": {
+            "topics": [
+              "Basic Input Output",
+              "Accessing I/O Devices",
+              "Interrupts",
+              "Input Output Organization",
+              "Bus Structure",
+              "Bus Operation",
+              "Arbitration",
+              "Interface",
+              "Interconnection Standards",
+              "Parallel Processing",
+              "Hardware Multithreading",
+              "Vector (SIMD) Processing",
+              "Shared-Memory Multiprocessors",
+              "Cache Coherence",
+              "Message-Passing Multicomputers",
+              "Parallel Programming for Multiprocessors",
+              "Performance Modeling"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS235",
       "display": "Computer Organization and Architecture",
       "modules": {
         "1": {
@@ -1282,6 +1444,110 @@
       }
     },
     {
+      "code": "CS233",
+      "display": "Object Oriented Programming and Design Principles",
+      "modules": {
+        "1": {
+          "Introduction to Classes, Objects and Java": {
+            "topics": [
+              "Introduction to Object Technology",
+              "Java",
+              "Understanding the Java development environment",
+              "Programming in Java",
+              "Memory concepts",
+              "Doing basic Arithmetic",
+              "Comparing entities",
+              "Classes",
+              "Objects",
+              "Methods",
+              "Strings",
+              "Primitive vs reference types"
+            ]
+          }
+        },
+        "2": {
+          "Control Statements, Methods and Arrays": {
+            "topics": [
+              "Basic selection statements",
+              "Iterative constructs",
+              "Relative and Logical operators",
+              "break",
+              "continue",
+              "Methods",
+              "static methods",
+              "parameter passing",
+              "argument promotion and casting",
+              "scopes",
+              "method overloading",
+              "Arrays and ArrayList in Java",
+              "Enhanced for statement",
+              "Passing arrays to methods",
+              "Multidimensional arrays",
+              "Using command line arguments"
+            ]
+          }
+        },
+        "3": {
+          "Object Oriented Concepts: Polymorphism & Inheritance": {
+            "topics": [
+              "Controlling access to class members",
+              "The use of this keyword",
+              "getters and setters",
+              "Composition",
+              "enum",
+              "The use of static and final",
+              "Garbage collection",
+              "Superclass and subclass",
+              "protected members",
+              "Constructors in subclass",
+              "The Object class",
+              "Introduction to polymorphism",
+              "Abstract classes and methods",
+              "Assignment between subclass and superclass variables",
+              "Creating and using interfaces"
+            ]
+          }
+        },
+        "4": {
+          "Exception Handling & GUI Design": {
+            "topics": [
+              "When to use exception handling",
+              "Java exception hierarchy",
+              "finally block",
+              "Stack unwinding",
+              "Chained exceptions",
+              "Declaring new exception types",
+              "Assertions",
+              "try with resources",
+              "Simple I/O with GUI",
+              "Basic GUI Components",
+              "GUI Event handling",
+              "Adapter classes",
+              "Layout managers",
+              "Using panels"
+            ]
+          }
+        },
+        "5": {
+          "Strings, characters & Files": {
+            "topics": [
+              "Working with the String and StringBuilder class",
+              "Character class",
+              "Tokenizing strings",
+              "Regular Expressions",
+              "Files and Streams",
+              "Using NIO classes",
+              "Sequential file handling",
+              "Object serialization",
+              "JFileChooser",
+              "Introduction to threading",
+              "Introduction to Generics and lambda expressions"
+            ]
+          }
+        }
+      }
+    },
+    {
       "code": "CS206",
       "display": "Design and Analysis of Algorithms",
       "modules": {
@@ -1310,6 +1576,18 @@
           }
         },
         "3": {
+          "Greedy and other Design Approaches": {
+            "topics": [
+              "Introduction to greedy using fractional knapsack",
+              "Huffman Code",
+              "Minimum Spanning Tree - Prim and Kruskal",
+              "Single Source Shortest Path Dijkstra's and Bellman-Ford",
+              "Introduction to Backtracking using N-Queens problem",
+              "Introduction to Branch and Bound using Assignment Problem or TSP"
+            ]
+          }
+        },
+        "4": {
           "Dynamic Programming": {
             "topics": [
               "Introduction and Approach",
@@ -1321,7 +1599,50 @@
             ]
           }
         },
-        "4": {
+        "5": {
+          "NP Completeness and Other Advanced Topics": {
+            "topics": [
+              "Non-deterministic algorithms searching and sorting",
+              "Class P and NP",
+              "Decision and Optimization problem",
+              "Reduction and NPC and NPH",
+              "NP Completeness proof for: SAT, Max-Clique, Vertex Cover",
+              "Introduction to Randomized Algorithms",
+              "Introduction to Approximation Algorithms"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS241",
+      "display": "Design and Analysis of Algorithms",
+      "modules": {
+        "1": {
+          "Algorithms and Complexity": {
+            "topics": [
+              "Introduction",
+              "Algorithm Complexity and various cases using Insertion Sort",
+              "Asymptotic Notations",
+              "Time complexity of Recursive Algorithm",
+              "Solving Recurrences using Iterative, Recursion Tree and Master Theorem"
+            ]
+          }
+        },
+        "2": {
+          "Divide and Conquer": {
+            "topics": [
+              "Discussion of basic approach using Binary Search",
+              "Merge Sort",
+              "Quick Sort",
+              "Selection in Expected linear time",
+              "Maximum Subarray",
+              "Matrix Multiplication",
+              "Introduction of Transform and Conquer and AVL Tree"
+            ]
+          }
+        },
+        "3": {
           "Greedy and other Design Approaches": {
             "topics": [
               "Introduction to greedy using fractional knapsack",
@@ -1330,6 +1651,18 @@
               "Single Source Shortest Path Dijkstra's and Bellman-Ford",
               "Introduction to Backtracking using N-Queens problem",
               "Introduction to Branch and Bound using Assignment Problem or TSP"
+            ]
+          }
+        },
+        "4": {
+          "Dynamic Programming": {
+            "topics": [
+              "Introduction and Approach",
+              "Rod Cutting",
+              "LCS",
+              "Optimal BST",
+              "Transitive closure and All-pair Shortest Path",
+              "Travelling Salesperson Problem"
             ]
           }
         },
@@ -1428,6 +1761,485 @@
               "File Sharing",
               "Record Blocking",
               "File Allocation and Free Space Management"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS239",
+      "display": "Operating Systems",
+      "modules": {
+        "1": {
+          "Operating system Overview": {
+            "topics": [
+              "Operating system Objective and Functions",
+              "Evolution of Operating System",
+              "Major Advances in OS Components",
+              "Characteristics of Modern Operating Systems"
+            ]
+          },
+          "Process Description and Control": {
+            "topics": [
+              "Process Concept",
+              "Process States",
+              "Process Description",
+              "Process Control",
+              "Threads",
+              "Types of Threads",
+              "Multicore and Multithreading"
+            ]
+          }
+        },
+        "2": {
+          "Scheduling": {
+            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"]
+          }
+        },
+        "3": {
+          "Concurrency": {
+            "topics": [
+              "Mutual Exclusion and Synchronization",
+              "Principle of Concurrency",
+              "Mutual Exclusion",
+              "Hardware Support",
+              "Semaphores",
+              "Monitors",
+              "Message Passing",
+              "Readers/Writers Problem",
+              "Deadlock and Starvation",
+              "Principle of Deadlock",
+              "Deadlock Prevention",
+              "Deadlock Avoidance",
+              "Deadlock Detection",
+              "Dining Philosopher Problem"
+            ]
+          }
+        },
+        "4": {
+          "Memory Management": {
+            "topics": [
+              "Memory Management Requirements",
+              "Memory Partitioning",
+              "Paging",
+              "Segmentation",
+              "Virtual Memory",
+              "Hardware and Control Structures",
+              "Operating System Policies for Virtual Memory"
+            ]
+          }
+        },
+        "5": {
+          "I/O Management and Disk Scheduling": {
+            "topics": [
+              "I/O device",
+              "Organization of the I/O Function",
+              "Operating System Design Issues",
+              "I/O Buffering",
+              "Disk Scheduling",
+              "RAID",
+              "Disk Cache",
+              "File Management",
+              "Overview",
+              "File Organization and Access",
+              "File Directories",
+              "File Sharing",
+              "Record Blocking",
+              "File Allocation and Free Space Management"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS303",
+      "display": "Operating Systems",
+      "modules": {
+        "1": {
+          "Operating system Overview": {
+            "topics": [
+              "Operating system Objective and Functions",
+              "Evolution of Operating System",
+              "Major Advances in OS Components",
+              "Characteristics of Modern Operating Systems"
+            ]
+          },
+          "Process Description and Control": {
+            "topics": [
+              "Process Concept",
+              "Process States",
+              "Process Description",
+              "Process Control",
+              "Threads",
+              "Types of Threads",
+              "Multicore and Multithreading"
+            ]
+          }
+        },
+        "2": {
+          "Scheduling": {
+            "topics": ["Type of scheduling", "Uniprocessor Scheduling", "Multiprocessor Scheduling"]
+          }
+        },
+        "3": {
+          "Concurrency": {
+            "topics": [
+              "Mutual Exclusion and Synchronization",
+              "Principle of Concurrency",
+              "Mutual Exclusion",
+              "Hardware Support",
+              "Semaphores",
+              "Monitors",
+              "Message Passing",
+              "Readers/Writers Problem",
+              "Deadlock and Starvation",
+              "Principle of Deadlock",
+              "Deadlock Prevention",
+              "Deadlock Avoidance",
+              "Deadlock Detection",
+              "Dining Philosopher Problem"
+            ]
+          }
+        },
+        "4": {
+          "Memory Management": {
+            "topics": [
+              "Memory Management Requirements",
+              "Memory Partitioning",
+              "Paging",
+              "Segmentation",
+              "Virtual Memory",
+              "Hardware and Control Structures",
+              "Operating System Policies for Virtual Memory"
+            ]
+          }
+        },
+        "5": {
+          "I/O Management and Disk Scheduling": {
+            "topics": [
+              "I/O device",
+              "Organization of the I/O Function",
+              "Operating System Design Issues",
+              "I/O Buffering",
+              "Disk Scheduling",
+              "RAID",
+              "Disk Cache",
+              "File Management",
+              "Overview",
+              "File Organization and Access",
+              "File Directories",
+              "File Sharing",
+              "Record Blocking",
+              "File Allocation and Free Space Management"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS301",
+      "display": "Database Management System",
+      "modules": {
+        "1": {
+          "Database Design and Entity - Relational Model": {
+            "topics": [
+              "Purpose of Database System",
+              "View of Data",
+              "Database Languages",
+              "Transaction Management",
+              "Database architecture",
+              "Database Users and Administrator",
+              "Types of database System",
+              "Overview of design process",
+              "E-R model",
+              "Constraints",
+              "E–R Diagram",
+              "E-R Diagram issues",
+              "Weak Entity Sets",
+              "Extended E – R Features",
+              "Reduction to E–R Schemas"
+            ]
+          }
+        },
+        "2": {
+          "Relational Model": {
+            "topics": [
+              "Structure of Relational Database",
+              "Codd's Rules",
+              "Fundamental Relational Algebra Operations",
+              "Additional Relational Algebra Operations",
+              "Extended Relational Algebra Operations",
+              "Data definition",
+              "Basic structure of SQL queries",
+              "Set Operations",
+              "Aggregate Functions",
+              "Null Values",
+              "Nested Sub Queries",
+              "Complex queries",
+              "Views",
+              "Modification of database",
+              "Joined relations",
+              "SQL data types & schemas",
+              "Integrity constraints",
+              "Authorization",
+              "Embedded SQL",
+              "Triggers"
+            ]
+          }
+        },
+        "3": {
+          "Relational Database Design": {
+            "topics": [
+              "Functional dependency",
+              "Decomposition",
+              "Normalization",
+              "First normal form",
+              "Second normal form",
+              "Third normal form",
+              "BCNF",
+              "Multivalued dependencies and Fourth normal form",
+              "Join dependencies and Fifth normal form",
+              "DKNF"
+            ]
+          }
+        },
+        "4": {
+          "Indexing & Hashing": {
+            "topics": [
+              "Ordered Indices",
+              "B+ Tree index files",
+              "B-Tree index files",
+              "Multiple key access Static hashing",
+              "Dynamic Hashing",
+              "Comparison of ordered indexing and hashing",
+              "Index definition in SQL",
+              "Query Processing",
+              "Measure of Query Cost",
+              "Selection Operation",
+              "Evaluation of Expressions"
+            ]
+          }
+        },
+        "5": {
+          "Transaction & Concurrency Control": {
+            "topics": [
+              "Transaction Concepts & ACID Properties",
+              "Transaction States",
+              "Implementation of Atomicity & Durability",
+              "Concurrent Executions",
+              "Serializability & Its Testing",
+              "Recoverability",
+              "Lock-Based protocols",
+              "Validation based protocol",
+              "Multiple Granularity",
+              "Multiversion Schemes",
+              "Deadlock Handling"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS237",
+      "display": "Database Management System",
+      "modules": {
+        "1": {
+          "Database Design and Entity - Relational Model": {
+            "topics": [
+              "Purpose of Database System",
+              "View of Data",
+              "Database Languages",
+              "Transaction Management",
+              "Database architecture",
+              "Database Users and Administrator",
+              "Types of database System",
+              "Overview of design process",
+              "E-R model",
+              "Constraints",
+              "E–R Diagram",
+              "E-R Diagram issues",
+              "Weak Entity Sets",
+              "Extended E – R Features",
+              "Reduction to E–R Schemas"
+            ]
+          }
+        },
+        "2": {
+          "Relational Model": {
+            "topics": [
+              "Structure of Relational Database",
+              "Codd's Rules",
+              "Fundamental Relational Algebra Operations",
+              "Additional Relational Algebra Operations",
+              "Extended Relational Algebra Operations",
+              "Data definition",
+              "Basic structure of SQL queries",
+              "Set Operations",
+              "Aggregate Functions",
+              "Null Values",
+              "Nested Sub Queries",
+              "Complex queries",
+              "Views",
+              "Modification of database",
+              "Joined relations",
+              "SQL data types & schemas",
+              "Integrity constraints",
+              "Authorization",
+              "Embedded SQL",
+              "Triggers"
+            ]
+          }
+        },
+        "3": {
+          "Relational Database Design": {
+            "topics": [
+              "Functional dependency",
+              "Decomposition",
+              "Normalization",
+              "First normal form",
+              "Second normal form",
+              "Third normal form",
+              "BCNF",
+              "Multivalued dependencies and Fourth normal form",
+              "Join dependencies and Fifth normal form",
+              "DKNF"
+            ]
+          }
+        },
+        "4": {
+          "Indexing & Hashing": {
+            "topics": [
+              "Ordered Indices",
+              "B+ Tree index files",
+              "B-Tree index files",
+              "Multiple key access Static hashing",
+              "Dynamic Hashing",
+              "Comparison of ordered indexing and hashing",
+              "Index definition in SQL",
+              "Query Processing",
+              "Measure of Query Cost",
+              "Selection Operation",
+              "Evaluation of Expressions"
+            ]
+          }
+        },
+        "5": {
+          "Transaction & Concurrency Control": {
+            "topics": [
+              "Transaction Concepts & ACID Properties",
+              "Transaction States",
+              "Implementation of Atomicity & Durability",
+              "Concurrent Executions",
+              "Serializability & Its Testing",
+              "Recoverability",
+              "Lock-Based protocols",
+              "Validation based protocol",
+              "Multiple Granularity",
+              "Multiversion Schemes",
+              "Deadlock Handling"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS247",
+      "display": "Database Management System",
+      "modules": {
+        "1": {
+          "Database Design and Entity - Relational Model": {
+            "topics": [
+              "Purpose of Database System",
+              "View of Data",
+              "Database Languages",
+              "Transaction Management",
+              "Database architecture",
+              "Database Users and Administrator",
+              "Types of database System",
+              "Overview of design process",
+              "E-R model",
+              "Constraints",
+              "E–R Diagram",
+              "E-R Diagram issues",
+              "Weak Entity Sets",
+              "Extended E – R Features",
+              "Reduction to E–R Schemas"
+            ]
+          }
+        },
+        "2": {
+          "Relational Model": {
+            "topics": [
+              "Structure of Relational Database",
+              "Codd's Rules",
+              "Fundamental Relational Algebra Operations",
+              "Additional Relational Algebra Operations",
+              "Extended Relational Algebra Operations",
+              "Data definition",
+              "Basic structure of SQL queries",
+              "Set Operations",
+              "Aggregate Functions",
+              "Null Values",
+              "Nested Sub Queries",
+              "Complex queries",
+              "Views",
+              "Modification of database",
+              "Joined relations",
+              "SQL data types & schemas",
+              "Integrity constraints",
+              "Authorization",
+              "Embedded SQL",
+              "Triggers"
+            ]
+          }
+        },
+        "3": {
+          "Relational Database Design": {
+            "topics": [
+              "Functional dependency",
+              "Decomposition",
+              "Normalization",
+              "First normal form",
+              "Second normal form",
+              "Third normal form",
+              "BCNF",
+              "Multivalued dependencies and Fourth normal form",
+              "Join dependencies and Fifth normal form",
+              "DKNF"
+            ]
+          }
+        },
+        "4": {
+          "Indexing & Hashing": {
+            "topics": [
+              "Ordered Indices",
+              "B+ Tree index files",
+              "B-Tree index files",
+              "Multiple key access Static hashing",
+              "Dynamic Hashing",
+              "Comparison of ordered indexing and hashing",
+              "Index definition in SQL",
+              "Query Processing",
+              "Measure of Query Cost",
+              "Selection Operation",
+              "Evaluation of Expressions"
+            ]
+          }
+        },
+        "5": {
+          "Transaction & Concurrency Control": {
+            "topics": [
+              "Transaction Concepts & ACID Properties",
+              "Transaction States",
+              "Implementation of Atomicity & Durability",
+              "Concurrent Executions",
+              "Serializability & Its Testing",
+              "Recoverability",
+              "Lock-Based protocols",
+              "Validation based protocol",
+              "Multiple Granularity",
+              "Multiversion Schemes",
+              "Deadlock Handling"
             ]
           }
         }
