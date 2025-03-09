@@ -1,6 +1,5 @@
 <script setup>
 import { Lit } from 'litlyx-js'
-import { ref } from 'vue'
 import '@shoelace-style/shoelace/dist/components/details/details.js'
 import '@shoelace-style/shoelace/dist/components/badge/badge.js'
 import '@shoelace-style/shoelace/dist/components/button/button.js'
@@ -8,9 +7,10 @@ import '@shoelace-style/shoelace/dist/components/radio-button/radio-button.js'
 import '@shoelace-style/shoelace/dist/components/radio-group/radio-group.js'
 import '@shoelace-style/shoelace/dist/components/divider/divider.js'
 import '@shoelace-style/shoelace/dist/components/copy-button/copy-button.js'
-import { onMounted } from 'vue'
-import { computed } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
+
+import { useStorage } from '@vueuse/core'
 
 const props = defineProps({
   year: {
@@ -27,7 +27,7 @@ const props = defineProps({
   },
 })
 
-const branch = ref('cse')
+const branch = useStorage('branch', 'cse')
 
 onMounted(() => {
   const rg = document.querySelector('sl-radio-group')
