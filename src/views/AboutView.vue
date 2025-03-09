@@ -20,6 +20,9 @@
       NOTE: Now we have papers for both CSE and ECE branches. Rest are in progress/depends on my
       mood.
     </p>
+    <p class="note">
+      PYQNow uses analytics powered by <a href="https://litlyx.com">litlyx.com</a> to improve user experience and continuously enhance the platform based on usage patterns.
+    </p>
   </div>
 </template>
 

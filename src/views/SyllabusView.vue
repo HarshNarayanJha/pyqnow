@@ -26,10 +26,12 @@ const { data, error, isFetching } = await fetchSyllabus(code)
       <h2>Syllabus for {{ data.code }} {{ data.display }}</h2>
 
       <div v-for="(module, key) in data.modules">
+        <h3>Module {{ key }}</h3>
         <div v-for="(mod, name) in module">
-          <h3>{{ key }}. {{ name }}</h3>
+          <h4 style="margin-top: 1.2em;">{{ name }}</h4>
           <p>{{ mod.topics.join(', ') }}</p>
         </div>
+        <sl-divider></sl-divider>
       </div>
     </div>
   </div>

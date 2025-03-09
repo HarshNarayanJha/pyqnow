@@ -67,7 +67,7 @@ const searchChanged = () =>
         placeholder="Start Typing...">
         <sl-icon name="search" slot="prefix"></sl-icon>
       </sl-input>
-      <SubjectsChooser :sub="sub" :options="filteredSubjects"></SubjectsChooser>
+      <SubjectsChooser :year="year" :sub="sub" :options="filteredSubjects"></SubjectsChooser>
     </div>
   </div>
 </template>

@@ -6,7 +6,6 @@ import '@shoelace-style/shoelace/dist/components/tooltip/tooltip.js'
 <template>
   <nav>
     <RouterLink to="/">PYQNow</RouterLink>
-    <RouterLink to="/syllabus">Syllabus</RouterLink>
     <RouterLink to="/about">About</RouterLink>
     <a href="https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/361" target="_blank">
       BIT Questions Archive

@@ -6,11 +6,17 @@ import '@shoelace-style/shoelace/dist/components/badge/badge.js'
 import '@shoelace-style/shoelace/dist/components/button/button.js'
 import '@shoelace-style/shoelace/dist/components/radio-button/radio-button.js'
 import '@shoelace-style/shoelace/dist/components/radio-group/radio-group.js'
+import '@shoelace-style/shoelace/dist/components/divider/divider.js'
+import '@shoelace-style/shoelace/dist/components/copy-button/copy-button.js'
 import { onMounted } from 'vue'
 import { computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
 const props = defineProps({
+  year: {
+    type: String,
+    required: true,
+  },
   sub: {
     type: String,
     required: false,
@@ -86,7 +92,7 @@ onMounted(async () => {
 
     <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display" :id="sub.code">
       <RouterLink :to="`/syllabus/${sub.code}`" :onclick="() => syllabusClicked(sub.code)">
-        <sl-button>
+        <sl-button pill>
           <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
           Syllabus
         </sl-button>

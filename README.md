@@ -29,3 +29,7 @@ bun dev
 ```sh
 bun run build
 ```
+
+## Analytics
+
+🔍 **Note:** PYQNow uses [Litlyx](https://litlyx.com) for minimal, privacy-respecting analytics to enhance your experience and help us make continuous improvements to the platform.
