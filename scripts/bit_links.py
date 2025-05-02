@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "beautifulsoup4",
+#     "requests",
+# ]
+# ///
+
 import glob
 import json
 import logging
@@ -8,7 +16,9 @@ from typing import Required, TypedDict
 import requests
 from bs4 import BeautifulSoup
 
-logging.basicConfig(level=logging.INFO, format="\033[36m%(asctime)s\033[0m - \033[32m%(levelname)s\033[0m - \033[35m%(message)s\033[0m")
+logging.basicConfig(
+    level=logging.INFO, format="\033[36m%(asctime)s\033[0m - \033[32m%(levelname)s\033[0m - \033[35m%(message)s\033[0m"
+)
 
 subjects_1st = {
     "MA103": "Mathematics I",
@@ -40,6 +50,7 @@ subjects_2nd = {
     "CS211": "Operating System",
     "CS239": "Operating System",
     "CS303": "Operating System",
+    "CS240": "Shell and Kernel Lab",
     "CS206": "Design and Analysis of Algorithm",
     "CS241": "Design and Analysis of Algorithm",
     "CS6101": "Design and Analysis of Algorithm",
@@ -83,7 +94,10 @@ class Subject(TypedDict, total=False):
 
 extra_links: dict[str, list[ExtraLink]] = {
     "Data Structures": [
-        {"name": "Infix to Prefix Conversion (Find others on the sidebar)", "url": "https://www.calcont.in/Conversion/infix_to_prefix"},
+        {
+            "name": "Infix to Prefix Conversion (Find others on the sidebar)",
+            "url": "https://www.calcont.in/Conversion/infix_to_prefix",
+        },
         {"name": "Stack Visualizer", "url": "https://www.cs.usfca.edu/~galles/visualization/StackArray.html"},
         {"name": "Queue Visualizer", "url": "https://www.cs.usfca.edu/~galles/visualization/QueueArray.html"},
         {"name": "Binary Search", "url": "https://www.cs.usfca.edu/~galles/visualization/Search.html"},
@@ -96,9 +110,15 @@ extra_links: dict[str, list[ExtraLink]] = {
     ],
     "Operating System": [
         {"name": "Process Scheduling Solver", "url": "https://process-scheduling-solver.boonsuen.com/"},
-        {"name": "Process Scheduling Calculator", "url": "https://aadhil2k4.github.io/Process_Scheduling_Calculator/#/"},
+        {
+            "name": "Process Scheduling Calculator",
+            "url": "https://aadhil2k4.github.io/Process_Scheduling_Calculator/#/",
+        },
         {"name": "Process Scheduling", "url": "https://www.algorithmroom.com/calculator/process-scheduling"},
-        {"name": "CPU Scheduling Simulator", "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"},
+        {
+            "name": "CPU Scheduling Simulator",
+            "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html",
+        },
     ],
     "Database Management System": [{"name": "ER Diagram Generator", "url": "https://ereasy.streamlit.app/"}],
     "Numerical Methods": [
@@ -106,22 +126,40 @@ extra_links: dict[str, list[ExtraLink]] = {
             "name": "Resource for Those who really want to learn NM (Holistic NM)",
             "url": "https://nm.mathforcollege.com/topics-of-numerical-methods/",
         },
-        {"name": "Bisection Method Calculator", "url": "https://www.codesansar.com/numerical-methods/bisection-method-online-calculator.htm"},
+        {
+            "name": "Bisection Method Calculator",
+            "url": "https://www.codesansar.com/numerical-methods/bisection-method-online-calculator.htm",
+        },
         {
             "name": "Regula Falsi Calculator",
             "url": "https://www.codesansar.com/numerical-methods/regula-falsi-or-false-position-method-online-calculator.htm",
         },
-        {"name": "Newton-Raphson Calculator", "url": "https://www.codesansar.com/numerical-methods/newton-raphson-method-online-calculator.htm"},
+        {
+            "name": "Newton-Raphson Calculator",
+            "url": "https://www.codesansar.com/numerical-methods/newton-raphson-method-online-calculator.htm",
+        },
         {"name": "Gaussian Elimination Calculator", "url": "https://www.dcode.fr/gaussian-elimination"},
-        {"name": "Gaussian Jordan Calculator", "url": "https://www.codesansar.com/numerical-methods/gauss-jordan-method-online-calculator.htm"},
+        {
+            "name": "Gaussian Jordan Calculator",
+            "url": "https://www.codesansar.com/numerical-methods/gauss-jordan-method-online-calculator.htm",
+        },
         {
             "name": "Fixed Point Iteration Calculator",
             "url": "https://www.codesansar.com/numerical-methods/fixed-point-iteration-method-online-calculator.htm",
         },
-        {"name": "Secant Method Calculator", "url": "https://www.codesansar.com/numerical-methods/secant-method-online-calculator.htm"},
+        {
+            "name": "Secant Method Calculator",
+            "url": "https://www.codesansar.com/numerical-methods/secant-method-online-calculator.htm",
+        },
         {"name": "LU Decomposition Calculator", "url": "https://www.dcode.fr/matrix-lu-decomposition"},
-        {"name": "Langrange Interpolation Polynomials", "url": "https://www.dcode.fr/lagrange-interpolating-polynomial"},
-        {"name": "Netwon's Divided Difference Polynomials", "url": "https://www.dcode.fr/newton-interpolating-polynomial"},
+        {
+            "name": "Langrange Interpolation Polynomials",
+            "url": "https://www.dcode.fr/lagrange-interpolating-polynomial",
+        },
+        {
+            "name": "Netwon's Divided Difference Polynomials",
+            "url": "https://www.dcode.fr/newton-interpolating-polynomial",
+        },
     ],
     "Design and Analysis of Algorithms": [
         {"name": "Master's Theorem Solver", "url": "https://onlinetoolkit.co/master-theorem-calculator/"},
@@ -143,7 +181,18 @@ phy_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/453"
 bio_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/375"
 mgmt_url = "https://www.bitmesra.ac.in/Other-Department-Pages/content/1/258/439"
 
-remote_urls: tuple[str, ...] = (cse_url, chem_url, env_url, eee_url, ece_url, math_url, mech_url, phy_url, bio_url, mgmt_url)
+remote_urls: tuple[str, ...] = (
+    cse_url,
+    chem_url,
+    env_url,
+    eee_url,
+    ece_url,
+    math_url,
+    mech_url,
+    phy_url,
+    bio_url,
+    mgmt_url,
+)
 
 local_source = glob.glob("pyqs/*/*")
 local_url_base = "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/"
@@ -273,6 +322,8 @@ for p in pdfs_1st:
             papers[year]["quiz1"].append(u)
         elif "QUIZ%202" in u:
             papers[year]["quiz2"].append(u)
+        elif u.endswith("(1).pdf"):
+            papers[year]["end"].append(u)
         else:
             papers[year]["mid"].append(u)
 
@@ -326,6 +377,8 @@ for p in pdfs_2nd:
             papers[year]["quiz1"].append(u)
         elif "QUIZ%202" in u:
             papers[year]["quiz2"].append(u)
+        elif u.endswith("(1).pdf"):
+            papers[year]["end"].append(u)
         else:
             papers[year]["mid"].append(u)
 
