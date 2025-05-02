@@ -235,6 +235,13 @@ blacklisted_403_urls = {
     "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf",
 }
 
+blacklisted_improper_name_urls = {
+    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING(1).pdf",
+    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS(1).pdf",
+    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MA203%20NUMERICAL%20METHODS.pdf",
+    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS239%20OPERATING%20SYSTEM.pdf"
+}
+
 for url in remote_urls:
     response = requests.get(url, headers=headers)
     logging.info(f"Requesting {url}")
@@ -256,6 +263,9 @@ for url in remote_urls:
                 if pdf_base_url + href in blacklisted_403_urls:
                     logging.warning(f"Blacklisted 403 URL {pdf_base_url + href}")
                     continue
+                if pdf_base_url + href in blacklisted_improper_name_urls:
+                    logging.warning(f"Blacklisted Existing PDF URL {pdf_base_url + href}")
+                    continue
 
                 pdfs_1st[sub].add(pdf_base_url + href)
 
@@ -265,6 +275,9 @@ for url in remote_urls:
 
                 if pdf_base_url + href in blacklisted_403_urls:
                     logging.warning(f"Blacklisted 403 URL {pdf_base_url + href}")
+                    continue
+                if pdf_base_url + href in blacklisted_improper_name_urls:
+                    logging.warning(f"Blacklisted Existing PDF URL {pdf_base_url + href}")
                     continue
 
                 pdfs_2nd[sub].add(pdf_base_url + href)
@@ -327,7 +340,7 @@ for p in pdfs_1st:
         else:
             papers[year]["mid"].append(u)
 
-    logging.info("Sorting Papers for 1st year")
+    # logging.info("Sorting Papers for 1st year")
 
     papers = {k: papers[k] for k in sorted(papers.keys())}
     for year in papers:
@@ -382,7 +395,7 @@ for p in pdfs_2nd:
         else:
             papers[year]["mid"].append(u)
 
-    logging.info("Sorting Papers for 2nd year")
+    # logging.info("Sorting Papers for 2nd year")
 
     for year in papers:
         papers[year]["mid"].sort()
