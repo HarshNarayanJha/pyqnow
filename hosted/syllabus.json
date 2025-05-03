@@ -3348,6 +3348,97 @@
       }
     }
   ],
-  "3": [],
+  "3": [
+    {
+      "code": "IT301",
+      "display": "Data Communication and Computer Networking",
+      "modules": {
+        "1": {
+          "Data Communications and Networking Overview": {
+            "topics": [
+              "A Communications Model",
+              "Data Communications",
+              "Data Communication Networking",
+              "The Need for Protocol Architecture",
+              "A Simple Protocol Architecture",
+              "OSI",
+              "The TCP/IP Protocol Architecture",
+              "Data Transmission Concepts and Terminology",
+              "Analog and Digital Data Transmission",
+              "Transmission Impairments",
+              "Channel Capacity"
+            ],
+            "important_topics": [5, 6, 8]
+          }
+        },
+        "2": {
+          "Transmission Media and Signal Encoding Techniques": {
+            "topics": [
+              "Guided Transmission Media",
+              "Wireless Transmission",
+              "Wireless Propagation",
+              "Line-of-Sight Transmission",
+              "Digital Data Digital Signals",
+              "Digital Data Analog Signals",
+              "Analog Data Digital Signals",
+              "Analog Data Analog Signals"
+            ],
+            "important_topics": [0, 1, 4, 5, 6, 7]
+          }
+        },
+        "3": {
+          "Digital Data Communication Techniques and Data Link Control": {
+            "topics": [
+              "Asynchronous and Synchronous Transmission",
+              "Types of Errors",
+              "Error Detection",
+              "Error Correction",
+              "Line Configurations",
+              "Interfacing",
+              "Flow Control",
+              "Error Control",
+              "High-Level Data Link Control (HDLC)"
+            ],
+            "important_topics": [0, 2, 3, 6, 7, 8]
+          }
+        },
+        "4": {
+          "Multiplexing, Circuit Switching and Packet Switching": {
+            "topics": [
+              "Multiplexing Frequency Division Multiplexing",
+              "Synchronous Time Division Multiplexing",
+              "Statistical Time Division Multiplexing",
+              "Switching Networks",
+              "Circuit-Switching Networks",
+              "Circuit-Switching Concepts",
+              "Control Signaling",
+              "Softswitch Architecture",
+              "Packet-Switching Principles",
+              "X.25",
+              "Frame Relay"
+            ],
+            "important_topics": [0, 1, 2, 4, 5, 9]
+          }
+        },
+        "5": {
+          "Asynchronous Transfer Model": {
+            "topics": [
+              "Protocol Architecture",
+              "ATM Logical Connections",
+              "ATM Cells",
+              "Transmission of ATM Cells",
+              "ATM Service Categories",
+              "ATM Adaptation Layer",
+              "Routing in Switched Networks",
+              "Routing in Circuit-Switching Networks",
+              "Routing in Packet-Switching Networks",
+              "Least-Cost Algorithms"
+            ],
+            "important_topics": [0, 1, 2, 6, 8, 9]
+          }
+        }
+      }
+    }
+  ],
   "4": []
 }

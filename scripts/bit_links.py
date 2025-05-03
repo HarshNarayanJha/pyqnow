@@ -69,6 +69,11 @@ subjects_2nd = {
     "EE251": "DC Machines and Transformer",
 }
 
+subjects_3rd = {
+    # cse
+    "IT301": "Data Communication and Computer Networking",
+}
+
 logging.info(f"Working with {len(subjects_1st)} 1st year subjects and {len(subjects_2nd)} 2nd year subjects")
 
 
@@ -239,7 +244,7 @@ blacklisted_improper_name_urls = {
     "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING(1).pdf",
     "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/BE101%20BIOLOGICAL%20SCIENCE%20FOR%20ENGINEERS(1).pdf",
     "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MA203%20NUMERICAL%20METHODS.pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS239%20OPERATING%20SYSTEM.pdf"
+    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS239%20OPERATING%20SYSTEM.pdf",
 }
 
 for url in remote_urls:
