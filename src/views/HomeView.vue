@@ -1,30 +1,30 @@
 <script setup>
-import Chooser from '@/components/Chooser.vue'
-import { pingServer } from '@/services/api'
+import Chooser from "@/components/Chooser.vue"
+import { pingServer } from "@/services/api"
 
 pingServer()
 
 const years = [
-	{
-		url: '/1',
-		display: '1st Year',
-		color: 'primary',
-	},
-	{
-		url: '/2',
-		display: '2nd Year',
-		color: 'danger',
-	},
-	{
-		url: '/3',
-		display: '3rd Year',
-		color: 'warning',
-	},
-	{
-		url: '/4',
-		display: '4th Year',
-		color: 'success',
-	},
+  {
+    url: "/1",
+    display: "1st Year",
+    color: "primary",
+  },
+  {
+    url: "/2",
+    display: "2nd Year",
+    color: "danger",
+  },
+  {
+    url: "/3",
+    display: "3rd Year",
+    color: "warning",
+  },
+  {
+    url: "/4",
+    display: "4th Year",
+    color: "success",
+  },
 ]
 </script>
 
@@ -44,7 +44,8 @@ const years = [
       rel="preload"
       fetchpriority="high"
       as="image"
-      alt="logo" />
+      alt="logo"
+    />
     <p>PYQs at your fingertips, success in sight</p>
 
     <Chooser :options="years"></Chooser>

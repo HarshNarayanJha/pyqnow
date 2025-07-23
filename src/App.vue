@@ -1,10 +1,10 @@
 <script setup>
-import Footer from '@/components/Footer.vue'
-import Header from '@/components/Header.vue'
-import { RouterView } from 'vue-router'
+import Footer from "@/components/Footer.vue"
+import Header from "@/components/Header.vue"
+import { RouterView } from "vue-router"
 
-import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
-import '@shoelace-style/shoelace/dist/components/skeleton/skeleton.js'
+import "@shoelace-style/shoelace/dist/components/spinner/spinner.js"
+import "@shoelace-style/shoelace/dist/components/skeleton/skeleton.js"
 </script>
 
 <template>
@@ -14,29 +14,31 @@ import '@shoelace-style/shoelace/dist/components/skeleton/skeleton.js'
 
   <main>
     <RouterView v-slot="{ Component }">
-      <Transition name="fade" mode="out-in">
-        <Suspense timeout="1">
-          <template #default>
-            <component :is="Component" :key="$route.path" />
-          </template>
-          <template #fallback>
-            <div class="loader">
-              <div class="spinner">
-                <sl-spinner style="font-size: 50px; --track-width: 8px"></sl-spinner>
-                <p v-if="$route.name === 'exam'">Loading PYQs Now...</p>
-                <p v-else-if="$route.name === 'syllabus'">Loading Syllabus Now...</p>
-                <p v-else>Loading Now...</p>
-              </div>
-              <div class="skeleton">
-                <sl-skeleton effect="sheen"></sl-skeleton>
-                <sl-skeleton effect="sheen"></sl-skeleton>
-                <sl-skeleton effect="sheen"></sl-skeleton>
-                <sl-skeleton effect="sheen"></sl-skeleton>
-              </div>
-            </div>
-          </template>
-        </Suspense>
-      </Transition>
+      <template v-if="Component">
+        <Transition name="fade" mode="out-in">
+          <KeepAlive>
+            <Suspense timeout="1">
+              <component :is="Component" :key="$route.path" />
+              <template #fallback>
+                <div class="loader">
+                  <div class="spinner">
+                    <sl-spinner style="font-size: 50px; --track-width: 8px"></sl-spinner>
+                    <p v-if="$route.name === 'exam'">Loading PYQs Now...</p>
+                    <p v-else-if="$route.name === 'syllabus'">Loading Syllabus Now...</p>
+                    <p v-else>Loading Now...</p>
+                  </div>
+                  <div class="skeleton">
+                    <sl-skeleton effect="sheen"></sl-skeleton>
+                    <sl-skeleton effect="sheen"></sl-skeleton>
+                    <sl-skeleton effect="sheen"></sl-skeleton>
+                    <sl-skeleton effect="sheen"></sl-skeleton>
+                  </div>
+                </div>
+              </template>
+            </Suspense>
+          </KeepAlive>
+        </Transition>
+      </template>
     </RouterView>
   </main>
 

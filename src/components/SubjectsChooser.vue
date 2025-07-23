@@ -1,16 +1,16 @@
 <script setup>
-import { Lit } from 'litlyx-js'
-import '@shoelace-style/shoelace/dist/components/details/details.js'
-import '@shoelace-style/shoelace/dist/components/badge/badge.js'
-import '@shoelace-style/shoelace/dist/components/button/button.js'
-import '@shoelace-style/shoelace/dist/components/radio-button/radio-button.js'
-import '@shoelace-style/shoelace/dist/components/radio-group/radio-group.js'
-import '@shoelace-style/shoelace/dist/components/divider/divider.js'
-import '@shoelace-style/shoelace/dist/components/copy-button/copy-button.js'
-import { computed, onMounted, ref } from 'vue'
-import { RouterLink } from 'vue-router'
+import { Lit } from "litlyx-js"
+import "@shoelace-style/shoelace/dist/components/details/details.js"
+import "@shoelace-style/shoelace/dist/components/badge/badge.js"
+import "@shoelace-style/shoelace/dist/components/button/button.js"
+import "@shoelace-style/shoelace/dist/components/radio-button/radio-button.js"
+import "@shoelace-style/shoelace/dist/components/radio-group/radio-group.js"
+import "@shoelace-style/shoelace/dist/components/divider/divider.js"
+import "@shoelace-style/shoelace/dist/components/copy-button/copy-button.js"
+import { computed, onMounted, ref } from "vue"
+import { RouterLink } from "vue-router"
 
-import { useStorage } from '@vueuse/core'
+import { useStorage } from "@vueuse/core"
 
 const props = defineProps({
   year: {
@@ -27,11 +27,11 @@ const props = defineProps({
   },
 })
 
-const branch = useStorage('branch', 'cse')
+const branch = useStorage("branch", "cse")
 
 onMounted(() => {
-  const rg = document.querySelector('sl-radio-group')
-  rg.addEventListener('sl-change', event => {
+  const rg = document.querySelector("sl-radio-group")
+  rg.addEventListener("sl-change", event => {
     branch.value = event.target.value
   })
   rg.value = branch.value
@@ -42,21 +42,21 @@ const branchOptions = computed(() => {
 })
 
 const branchChanged = p =>
-  Lit.event('branch_changed', {
+  Lit.event("branch_changed", {
     metadata: {
       branch: p,
     },
   })
 
 const syllabusClicked = p =>
-  Lit.event('syllabus_clicked', {
+  Lit.event("syllabus_clicked", {
     metadata: {
       subject: p,
     },
   })
 
 const paperClicked = (p, y, t) =>
-  Lit.event('paper_clicked', {
+  Lit.event("paper_clicked", {
     metadata: {
       subject: p,
       year: y,
@@ -69,11 +69,11 @@ onMounted(async () => {
     const sec = document.getElementById(props.sub)
 
     await new Promise(resolve => setTimeout(resolve, 200))
-    sec.scrollIntoView({ behavior: 'smooth' })
+    sec.scrollIntoView({ behavior: "smooth" })
     await new Promise(resolve => setTimeout(resolve, 800))
     sec.show()
 
-    Lit.event('subject_query', {
+    Lit.event("subject_query", {
       metadata: {
         sub: props.sub,
       },
@@ -90,7 +90,11 @@ onMounted(async () => {
       <sl-radio-button value="eee" pill :onclick="() => branchChanged('EEE')">EEE</sl-radio-button>
     </sl-radio-group>
 
-    <sl-details v-for="sub in branchOptions" :summary="sub.code + ' - ' + sub.display" :id="sub.code">
+    <sl-details
+      v-for="sub in branchOptions"
+      :summary="sub.code + ' - ' + sub.display"
+      :id="sub.code"
+    >
       <RouterLink :to="`/syllabus/${sub.code}`" :onclick="() => syllabusClicked(sub.code)">
         <sl-button pill>
           <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
@@ -104,7 +108,7 @@ onMounted(async () => {
           {{ sub.display }}
         </div>
         <ul>
-          <li v-for="link in sub.links" >
+          <li v-for="link in sub.links">
             {{ link.name }} - <a :href="link.url" target="_blank">{{ link.url }}</a>
           </li>
         </ul>
@@ -118,7 +122,8 @@ onMounted(async () => {
             target="_blank"
             variant="primary"
             :onclick="() => paperClicked(sub.code, year.display, `Quiz 1 - ${i}`)"
-            v-if="year.quiz1">
+            v-if="year.quiz1"
+          >
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. First Quiz
           </sl-button>
@@ -129,7 +134,8 @@ onMounted(async () => {
             target="_blank"
             variant="warning"
             :onclick="() => paperClicked(sub.code, year.display, `Mid - ${i}`)"
-            :disabled="!year.mid">
+            :disabled="!year.mid"
+          >
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. Mid Semester
           </sl-button>
@@ -140,7 +146,8 @@ onMounted(async () => {
             target="_blank"
             variant="success"
             :onclick="() => paperClicked(sub.code, year.display, `Quiz 2 - ${i}`)"
-            v-if="year.quiz2">
+            v-if="year.quiz2"
+          >
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. Second Quiz
           </sl-button>
@@ -151,7 +158,8 @@ onMounted(async () => {
             target="_blank"
             variant="danger"
             :onclick="() => paperClicked(sub.code, year.display, `End - ${i}`)"
-            :disabled="!year.end">
+            :disabled="!year.end"
+          >
             <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
             {{ i + 1 }}. End Semester
           </sl-button>

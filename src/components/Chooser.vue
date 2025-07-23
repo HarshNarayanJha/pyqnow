@@ -1,20 +1,20 @@
 <script setup>
-import '@shoelace-style/shoelace/dist/components/button/button.js'
-import { Lit } from 'litlyx-js'
+import "@shoelace-style/shoelace/dist/components/button/button.js"
+import { Lit } from "litlyx-js"
 
 const props = defineProps({
-	options: {
-		type: Array,
-		required: true,
-	},
+  options: {
+    type: Array,
+    required: true,
+  },
 })
 
 const sendAnalytics = p =>
-	Lit.event('year_button_click', {
-		metadata: {
-			year: p,
-		},
-	})
+  Lit.event("year_button_click", {
+    metadata: {
+      year: p,
+    },
+  })
 </script>
 
 <template>

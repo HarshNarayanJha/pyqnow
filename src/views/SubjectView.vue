@@ -1,25 +1,25 @@
 <script async setup>
-import { Lit } from 'litlyx-js'
-import { computed, ref } from 'vue'
-import '@shoelace-style/shoelace/dist/components/alert/alert.js'
-import '@shoelace-style/shoelace/dist/components/input/input.js'
-import '@shoelace-style/shoelace/dist/components/spinner/spinner.js'
+import { Lit } from "litlyx-js"
+import { computed, ref } from "vue"
+import "@shoelace-style/shoelace/dist/components/alert/alert.js"
+import "@shoelace-style/shoelace/dist/components/input/input.js"
+import "@shoelace-style/shoelace/dist/components/spinner/spinner.js"
 
-import BackButton from '@/components/BackButton.vue'
-import SubjectsChooser from '@/components/SubjectsChooser.vue'
-import { fetchSubjects } from '@/services/api'
-import { useRoute } from 'vue-router'
+import BackButton from "@/components/BackButton.vue"
+import SubjectsChooser from "@/components/SubjectsChooser.vue"
+import { fetchSubjects } from "@/services/api"
+import { useRoute } from "vue-router"
 
 const route = useRoute()
 const query = route.query
 const year = route.params.year
-const filter = ref('')
+const filter = ref("")
 
-const sub = ref('')
+const sub = ref("")
 
 if (query.sub) {
   sub.value = query.sub
-  console.log('Found subject', sub.value)
+  console.log("Found subject", sub.value)
 }
 
 const { data, error, isFetching } = await fetchSubjects(year)
@@ -36,7 +36,7 @@ const filteredSubjects = computed(() => {
 })
 
 const searchChanged = () =>
-  Lit.event('searched', {
+  Lit.event("searched", {
     metadata: {
       filter: filter.value,
     },
@@ -64,7 +64,8 @@ const searchChanged = () =>
         :onblur="() => searchChanged()"
         label="Search"
         help-text="Filter By Subject or Year"
-        placeholder="Start Typing...">
+        placeholder="Start Typing..."
+      >
         <sl-icon name="search" slot="prefix"></sl-icon>
       </sl-input>
       <SubjectsChooser :year="year" :sub="sub" :options="filteredSubjects"></SubjectsChooser>

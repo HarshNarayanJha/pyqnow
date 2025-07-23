@@ -1,9 +1,10 @@
 <script async setup>
-import '@shoelace-style/shoelace/dist/components/card/card.js'
+import "@shoelace-style/shoelace/dist/components/card/card.js"
+import "@shoelace-style/shoelace/dist/components/tooltip/tooltip.js"
 
-import BackButton from '@/components/BackButton.vue'
-import { fetchSyllabus } from '@/services/api'
-import { useRoute } from 'vue-router'
+import BackButton from "@/components/BackButton.vue"
+import { fetchSyllabus } from "@/services/api"
+import { useRoute } from "vue-router"
 
 const route = useRoute()
 const code = route.params.code
@@ -11,7 +12,7 @@ const code = route.params.code
 const { data, error, isFetching } = await fetchSyllabus(code)
 
 const getYoutubeSearchUrl = (topic, display) => {
-  if (!topic || !display) return '#'
+  if (!topic || !display) return "#"
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${topic} in ${display}`)}`
 }
 </script>
@@ -40,16 +41,18 @@ const getYoutubeSearchUrl = (topic, display) => {
           <!-- the actual topics -->
           <p>
             <template v-for="(t, index) in mod.topics" :key="index">
-              <a
-                v-if="mod.important_topics?.includes(index)"
-                :href="getYoutubeSearchUrl(t, data.display)"
-                target="_blank"
-                rel="noopener"
-                class="topic-important"
-              >
-                {{ t }},
-              </a>
-              <span v-else>{{ t }},&nbsp;</span>
+              <sl-tooltip :content="`Search ${t} on YouTube`">
+                <a
+                  v-if="mod.important_topics?.includes(index)"
+                  :href="getYoutubeSearchUrl(t, data.display)"
+                  target="_blank"
+                  rel="noopener"
+                  class="topic-important"
+                >
+                  {{ t }},
+                </a>
+                <span v-else>{{ t }},&nbsp;</span>
+              </sl-tooltip>
             </template>
           </p>
         </div>

@@ -1,5 +1,5 @@
 <script setup>
-import '@shoelace-style/shoelace/dist/components/icon/icon.js'
+import "@shoelace-style/shoelace/dist/components/icon/icon.js"
 </script>
 
 <template>
@@ -17,13 +17,15 @@ import '@shoelace-style/shoelace/dist/components/icon/icon.js'
         Star PYQNow on GitHub &nbsp;
         <img
           src="https://img.shields.io/github/stars/HarshNarayanJha/pyqnow?style=social"
-          alt="GitHub Repo stars" />
+          alt="GitHub Repo stars"
+        />
       </a>
     </p>
     <br />
     <img
       src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fpyqnow.netlify.app%2F&s=32&c=006fff&bg=00000000&no=2&ff=electrolize&tb=Visits%3A+&ta="
-      alt="visits" />
+      alt="visits"
+    />
   </nav>
 </template>
 

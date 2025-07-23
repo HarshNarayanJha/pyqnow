@@ -6,6 +6,15 @@ import SyllabusView from "@/views/SyllabusView.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  scrollBehavior(to, _from, savedPosition) {
+    if (to.hash) {
+      return { el: to.hash, behavior: 'smooth', }
+    }
+
+    if (savedPosition)
+      return savedPosition
+    return { top: 0, behavior: 'smooth', }
+  },
   routes: [
     {
       path: "/",
