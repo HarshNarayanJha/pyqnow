@@ -285,6 +285,13 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/PH113%20PHYSICS_END_MO23.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(END_SP23).pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": ["https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/PH113%20PHYSICS.pdf"],
+          "quiz2": [],
+          "end": ["https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/PH113%20PHYSICS(1).pdf"]
         }
       },
       "branch": ["cse", "ece", "eee"]
@@ -345,6 +352,8 @@
           "display": "2024",
           "quiz1": [],
           "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CE101%20ENVIRONEMNTAL%20SCIENCE.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CE101%20ENVIRONMENTAL%20SCIENCES_.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CE101%20ENVIRONMENTAL%20SCIENCE.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CE101%20ENVIRONMENTAL%20SCIENCE_BAM.pdf"
           ],
@@ -611,12 +620,15 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205%20DISCRETE%20MATHEMATICS%20(QUIZ%201%2024).pdf"
           ],
           "mid": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205%20DISCRETE%20MATHEMATICS%20(MID%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205%20DISCRETE%20MATHEMATICS%20(MID%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA205%20DISCRETE%20MATHEMATICS.pdf"
           ],
           "quiz2": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205%20DISCRETE%20MATHEMATICS%20(QUIZ%202%2024).pdf"
           ],
-          "end": []
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA205%20DISCRETE%20MATHEMATICS(1).pdf"
+          ]
         }
       },
       "branch": ["cse"]
@@ -775,10 +787,13 @@
         "2024": {
           "display": "2024",
           "quiz1": [],
-          "mid": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS231%20DATA%20STRUCTURES.pdf"
+          ],
           "quiz2": [],
           "end": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS231%20DATA%20STRUCTURES%20(END%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS231%20DATA%20STRUCTURES%20(END%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS231%20DATA%20STRUCTURES(1).pdf"
           ]
         }
       },
@@ -896,7 +911,9 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS233%20OBJECT%20ORIENTED%20PROGGRAMMING%20AND%20DESIGN%20PATTERNS%20(QUIZ%201%2024).pdf"
           ],
           "mid": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20PATTERNS%20(MID%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20AND%20DESIGN%20PATTERNS%20(MID%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERN.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS233%20OBJECT%20ORIENTED%20PROGRAMMING%20%26%20DESIGN%20PATTERNS.pdf"
           ],
           "quiz2": [],
           "end": [
@@ -984,7 +1001,9 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(QUIZ%201%2024).pdf"
           ],
           "mid": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(MID%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(MID%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20RCHITECTURE.pdf"
           ],
           "quiz2": [],
           "end": [
@@ -1033,10 +1052,12 @@
           "display": "2024",
           "quiz1": [],
           "mid": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/MA203%20NUMERICAL%20METHODS%20(MID%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/MA203%20NUMERICAL%20METHODS%20(MID%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA203%20NUMERICAL%20METHODS.pdf"
           ],
           "quiz2": [],
           "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA203%20NUMERICAL%20METHODS(1).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MA203%20NUMERICAL%20METHODS(1).pdf"
           ]
         },
@@ -1159,10 +1180,12 @@
           "display": "2024",
           "quiz1": [],
           "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEMS.pdf"
           ],
           "quiz2": [],
           "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM(1).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEMS(1).pdf"
           ]
         },
@@ -1244,10 +1267,12 @@
           "display": "2024",
           "quiz1": [],
           "mid": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/CS239%20OPERATING%20SYSTEM%20(MID%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/CS239%20OPERATING%20SYSTEM%20(MID%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS239%20OPERATING%20SYSTEM.pdf"
           ],
           "quiz2": [],
           "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS239%20OPERATING%20SYSTEM(1).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS239%20OPERATING%20SYSTEM(1).pdf"
           ]
         },
@@ -1405,6 +1430,17 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS_END_MO23.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM_OE%20(END_SP23).pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS206%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS(1).pdf"
+          ]
         }
       },
       "branch": ["cse"]
@@ -1428,10 +1464,12 @@
           "display": "2024",
           "quiz1": [],
           "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS24101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM.pdf"
           ],
           "quiz2": [],
           "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS24101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING(1).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM(1).pdf"
           ]
         },
