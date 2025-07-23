@@ -1,11 +1,11 @@
 interface IModule {
-	topics: string[]
+  topics: string[]
 }
 
 interface ISyllabus {
-	code: string
-	display: string
-	modules: Record<string, Record<string, IModule>>
+  code: string
+  display: string
+  modules: Record<string, Record<string, IModule>>
 }
 
 export type Syllabus = Record<string, ISyllabus[]>
