@@ -1960,6 +1960,509 @@
       "branch": ["ece"]
     }
   ],
-  "3": [],
+  "3": [
+    {
+      "code": "CS341",
+      "display": "Optimization Techniques",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS341%20OPTIMIZATION%20TECHNIQUE.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS341%20OPTIMIZATION%20TECHNIQUE_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS341%20OPTIMIZATION%20TECHNIQUE.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS341%20OPTIMIZATION%20TECHNIQUES.pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT6027",
+      "display": "Optimization Techniques",
+      "papers": {
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/IT6027%20OPTIMIZATION%20TECHNIQUES%20(MID_SP19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/IT6027-OPTIMIZATION%20TECHNIQUES%20(END_SP19).pdf"
+          ]
+        },
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/IT6027-OPTIMIZATION%20TECHNIQUES%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS310",
+      "display": "Formal Languages and Automata Theory",
+      "papers": {
+        "2018": {
+          "display": "2018",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS3101-%20JAVA%20PROGRAMMING%20%26%20WEB%20TECHNOLOGY%20(MID_MO18).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/CS3101%20JAVA%20PROGRAMMING%20%26%20WEB%20TECHNOLOGY%20END_MO2018).pdf"
+          ]
+        },
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS310%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS310%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS310%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS310%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS310%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS310%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY(1).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS331",
+      "display": "Formal Languages and Automata Theory",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS331%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS331%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY(1).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS5101",
+      "display": "Formal Languages and Automata Theory",
+      "papers": {
+        "2018": {
+          "display": "2018",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS5101-FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(MID_MO18).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS5101%20FORMAL%20LANGUAGE%20%26%20AUTOMATA%20THEORY%20(END_MO2018).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS5101-FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(END_MO2018).pdf"
+          ]
+        },
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS5101%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(MID_MO19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS5101%20FORMAL%20LANGUAGE%20%26%20AUTOMATA%20THEORY%20(END_MO19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS5101%20FORMAL%20LANGUAGE%20%26%20AUTOMATA%20THEORY_IMSC%20(END_MO19).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS332",
+      "display": "Basic IT Workshop",
+      "papers": {},
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS343",
+      "display": "System Programming",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS343%20SYSTEM%20PROGRAMMING.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS343%20SYSTEM%20PROGRAMMING_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS343%20SYSTEM%20PROGRAMMING.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS343%20SYSTEM%20PROGRAMMING(1).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS6103",
+      "display": "System Programming",
+      "papers": {
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6103%20SYSTEM%20PROGRAMMING%20(MID_SP19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6103-SYSTEM%20PROGRAMMING%20(END_SP19).pdf"
+          ]
+        },
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS6103%20SYSTEM%20PROGRAMMING%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS321",
+      "display": "Soft Computing",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS321%20SOFT%20COMPUTING%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS321-SOFT%20COMPUTING%20(END_MO22).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS347",
+      "display": "Soft Computing",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS347%20SOFT%20COMPUTING.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS347%20SOFT%20COMPUTING_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS347%20SOFT%20COMPUTING.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS347%20SOFT%20COMPUTING(1).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS5015",
+      "display": "Soft Computing",
+      "papers": {},
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT301",
+      "display": "Data Communication and Computer Network",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT301%20DATA%20COMMUNICATION%20%26%20COMPUTER%20NETWORK%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT301%20DATA%20COMMUNICATION%20%26%20COMPUTER%20NETWORK%20(END_MO22).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT333",
+      "display": "Data Communication and Computer Network",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORK_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORK_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT334",
+      "display": "Data Communication and Computer Network Lab",
+      "papers": {},
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT335",
+      "display": "Data Mining Concepts and Techniques",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT335%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT335%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT426",
+      "display": "Data Mining Concepts and Techniques",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES%20(MID_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_OE%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_OE%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES%20(OE).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT426%20DATA%20MINING%20CONCEPTS%20AND%20TECHNIQUES_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_END_MO23.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_OE_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT7021",
+      "display": "Data Mining Concepts and Techniques",
+      "papers": {
+        "2018": {
+          "display": "2018",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/IT7021%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES%20(MID_MO18).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/IT7021-DATA%20MINING%20CONCEPTS%20AND%20TECHNIQUES%20(END_MO2018).pdf"
+          ]
+        },
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/IT7021%20DATA%20MINING%20CONCEPTS%20AND%20TECHNIQUES%20(MID_MO19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/IT7021%20DATA%20MINING%20CONCEPTS%20AND%20TECHNIQUES%20(END_MO19).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT336",
+      "display": "Data Mining Concepts and Techniques Lab",
+      "papers": {},
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT305",
+      "display": "Software Engineering",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT305%20SOFTWARE%20ENGINEERING%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/IT305%20SOFTWARE%20ENGINEERING%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/IT305%20SOFTWARE%20ENGINEERING%20(END_SP22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/IT305%20SOFTWARE%20ENGINEERING%20(MID_SP23).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/IT305%20SOFTWARE%20ENGINEERING_OE%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/IT305%20SOFTWARE%20ENGINEERING%20(END_SP23).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/IT305%20SOFTWARE%20ENGINEERING_OE%20(END_SP23).pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT337",
+      "display": "Software Engineering",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT337%20SOFTWARE%20ENGINEERING.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT337%20SOFTWARE%20ENGINEERING_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "CS6109",
+      "display": "Software Engineering",
+      "papers": {
+        "2018": {
+          "display": "2018",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(END_MO2018).pdf"
+          ]
+        },
+        "2019": {
+          "display": "2019",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(MID_SP19).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(END_MO19).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6109-SOFTWARE%20ENGINEERING%20(END_SP19).pdf"
+          ]
+        },
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        }
+      },
+      "branch": ["cse"]
+    },
+    {
+      "code": "IT338",
+      "display": "Software Engineering Lab",
+      "papers": {},
+      "branch": ["cse"]
+    }
+  ],
   "4": []
 }

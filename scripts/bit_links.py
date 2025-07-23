@@ -71,10 +71,33 @@ subjects_2nd = {
 
 subjects_3rd = {
     # cse
-    "IT301": "Data Communication and Computer Networking",
+    "CS341": "Optimization Techniques",
+    "IT6027": "Optimization Techniques",
+    "CS310": "Formal Languages and Automata Theory",
+    "CS331": "Formal Languages and Automata Theory",
+    "CS5101": "Formal Languages and Automata Theory",
+    "CS332": "Basic IT Workshop",
+    "CS343": "System Programming",
+    "CS6103": "System Programming",
+    "CS321": "Soft Computing",
+    "CS347": "Soft Computing",
+    "CS5015": "Soft Computing",
+    "IT301": "Data Communication and Computer Network",
+    "IT333": "Data Communication and Computer Network",
+    "IT334": "Data Communication and Computer Network Lab",
+    "IT335": "Data Mining Concepts and Techniques",
+    "IT426": "Data Mining Concepts and Techniques",
+    "IT7021": "Data Mining Concepts and Techniques",
+    "IT336": "Data Mining Concepts and Techniques Lab",
+    "IT305": "Software Engineering",
+    "IT337": "Software Engineering",
+    "CS6109": "Software Engineering",
+    "IT338": "Software Engineering Lab",
 }
 
-logging.info(f"Working with {len(subjects_1st)} 1st year subjects and {len(subjects_2nd)} 2nd year subjects")
+logging.info(
+    f"Working with {len(subjects_1st)} 1st year subjects and {len(subjects_2nd)} 2nd year subjects and {len(subjects_3rd)} 3rd year subjects"
+)
 
 
 class ExtraLink(TypedDict):
@@ -209,6 +232,7 @@ headers = {
 pdf_base_url = "https://www.bitmesra.ac.in"
 pdfs_1st: dict[str, set[str]] = {key: set() for key in subjects_1st}
 pdfs_2nd: dict[str, set[str]] = {key: set() for key in subjects_2nd}
+pdfs_3rd: dict[str, set[str]] = {key: set() for key in subjects_3rd}
 
 blacklisted_403_urls = {
     "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_MO22).pdf",
@@ -287,6 +311,19 @@ for url in remote_urls:
 
                 pdfs_2nd[sub].add(pdf_base_url + href)
 
+        for sub in subjects_3rd:
+            if f"/{sub}" in href:
+                # logging.info(f"Found Subject {sub}")
+
+                if pdf_base_url + href in blacklisted_403_urls:
+                    logging.warning(f"Blacklisted 403 URL {pdf_base_url + href}")
+                    continue
+                if pdf_base_url + href in blacklisted_improper_name_urls:
+                    logging.warning(f"Blacklisted Existing PDF URL {pdf_base_url + href}")
+                    continue
+
+                pdfs_3rd[sub].add(pdf_base_url + href)
+
 for href in local_source:
     logging.info(f"Reading Local File {href}")
 
@@ -298,6 +335,10 @@ for href in local_source:
         if f"/{sub}" in href:
             logging.info(f"Found Local Paper for {sub}")
             pdfs_2nd[sub].add(local_url_base + urllib.parse.quote(href, safe="/()"))
+    for sub in subjects_3rd:
+        if f"/{sub}" in href:
+            logging.info(f"Found Local Paper for {sub}")
+            pdfs_3rd[sub].add(local_url_base + urllib.parse.quote(href, safe="/()"))
 
 writable_file: dict[str, list[Subject]] = {
     "1": [],
@@ -306,116 +347,64 @@ writable_file: dict[str, list[Subject]] = {
     "4": [],
 }
 
-logging.info("Creating subjects JSON structure for 1st year")
 
-for p in pdfs_1st:
-    _urls = pdfs_1st[p]
-    papers: dict[str, Paper] = {}
+for pdfs, subjects, y in zip(
+    [pdfs_1st, pdfs_2nd, pdfs_3rd], [subjects_1st, subjects_2nd, subjects_3rd], ["1", "2", "3"]
+):
+    logging.info(f"Creating subjects JSON structure for {y} year")
+    for p in pdfs:
+        _urls = pdfs[p]
+        papers: dict[str, Paper] = {}
 
-    for u in _urls:
-        m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
-        if m is None:
-            continue
+        for u in _urls:
+            m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
+            if m is None:
+                continue
 
-        year = m.group(2)
-        papers[year] = {
-            "display": year,
-            "quiz1": [],
-            "mid": [],
-            "quiz2": [],
-            "end": [],
-        }
+            year = m.group(2)
+            papers[year] = {
+                "display": year,
+                "quiz1": [],
+                "mid": [],
+                "quiz2": [],
+                "end": [],
+            }
 
-    for u in _urls:
-        m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
-        if m is None:
-            continue
+        for u in _urls:
+            m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
+            if m is None:
+                continue
 
-        year = m.group(2)
-        if "MID" in u:
-            papers[year]["mid"].append(u)
-        elif "END" in u:
-            papers[year]["end"].append(u)
-        elif "QUIZ%201" in u:
-            papers[year]["quiz1"].append(u)
-        elif "QUIZ%202" in u:
-            papers[year]["quiz2"].append(u)
-        elif u.endswith("(1).pdf"):
-            papers[year]["end"].append(u)
-        else:
-            papers[year]["mid"].append(u)
+            year = m.group(2)
+            if "MID" in u:
+                papers[year]["mid"].append(u)
+            elif "END" in u:
+                papers[year]["end"].append(u)
+            elif "QUIZ%201" in u:
+                papers[year]["quiz1"].append(u)
+            elif "QUIZ%202" in u:
+                papers[year]["quiz2"].append(u)
+            elif u.endswith("(1).pdf"):
+                papers[year]["end"].append(u)
+            else:
+                papers[year]["mid"].append(u)
 
-    # logging.info("Sorting Papers for 1st year")
+        # logging.info(f"Sorting Papers for {y} year")
 
-    papers = {k: papers[k] for k in sorted(papers.keys())}
-    for year in papers:
-        papers[year]["mid"].sort()
-        papers[year]["end"].sort()
-        papers[year]["quiz1"].sort()
-        papers[year]["quiz2"].sort()
+        papers = {k: papers[k] for k in sorted(papers.keys())}
+        for year in papers:
+            papers[year]["mid"].sort()
+            papers[year]["end"].sort()
+            papers[year]["quiz1"].sort()
+            papers[year]["quiz2"].sort()
 
-    data: Subject = {"code": p, "display": subjects_1st[p], "papers": papers}
+        data: Subject = {"code": p, "display": subjects[p], "papers": papers}
 
-    if subjects_1st[p] in extra_links:
-        data["links"] = extra_links[subjects_1st[p]]
+        if subjects[p] in extra_links:
+            data["links"] = extra_links[subjects[p]]
 
-    writable_file["1"].append(data)
+        writable_file[y].append(data)
 
-logging.info("Creating subjects JSON structure for 2nd year")
-
-for p in pdfs_2nd:
-    _urls = pdfs_2nd[p]
-    papers = {}
-
-    for u in _urls:
-        m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
-        if m is None:
-            continue
-
-        year = m.group(2)
-        papers[year] = {
-            "display": year,
-            "quiz1": [],
-            "mid": [],
-            "quiz2": [],
-            "end": [],
-        }
-
-    for u in _urls:
-        m = re.search(re.compile(r"(SP|MO)(\d{4})"), u)
-        if m is None:
-            continue
-
-        year = m.group(2)
-        if "MID" in u:
-            papers[year]["mid"].append(u)
-        elif "END" in u:
-            papers[year]["end"].append(u)
-        elif "QUIZ%201" in u:
-            papers[year]["quiz1"].append(u)
-        elif "QUIZ%202" in u:
-            papers[year]["quiz2"].append(u)
-        elif u.endswith("(1).pdf"):
-            papers[year]["end"].append(u)
-        else:
-            papers[year]["mid"].append(u)
-
-    # logging.info("Sorting Papers for 2nd year")
-
-    for year in papers:
-        papers[year]["mid"].sort()
-        papers[year]["end"].sort()
-        papers[year]["quiz1"].sort()
-        papers[year]["quiz2"].sort()
-
-    papers = {k: papers[k] for k in sorted(papers.keys())}
-
-    data = {"code": p, "display": subjects_2nd[p], "papers": papers}
-
-    if subjects_2nd[p] in extra_links:
-        data["links"] = extra_links[subjects_2nd[p]]
-
-    writable_file["2"].append(data)
 
 logging.info("Writing to hosted/subjects.json")
 
