@@ -35,12 +35,15 @@ const filteredSubjects = computed(() => {
   )
 })
 
-const searchChanged = () =>
-  Lit.event("searched", {
-    metadata: {
-      filter: filter.value,
-    },
-  })
+const searchChanged = () => {
+  if (filter.value.trim()) {
+    Lit.event("searched", {
+      metadata: {
+        filter: filter.value,
+      },
+    })
+  }
+}
 </script>
 
 <template>
