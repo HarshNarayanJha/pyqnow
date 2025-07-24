@@ -1,3 +1,7 @@
+<script setup>
+import NewsletterBox from "@/components/NewsletterBox.vue"
+</script>
+
 <template>
   <div class="about">
     <h1>PYQNOW</h1>
@@ -24,6 +28,7 @@
       experience and continuously enhance the platform based on usage patterns. We do not and will
       never collect any user data whatsoever.
     </p>
+    <NewsletterBox />
   </div>
 </template>
 

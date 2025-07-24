@@ -3,7 +3,7 @@ import "@shoelace-style/shoelace/dist/components/icon/icon.js"
 </script>
 
 <template>
-  <nav>
+  <footer>
     <p>PYQNow is now useful for all branches (Currently CSE and ECE, WIP)</p>
     <p>
       &copy; 2025 <a href="https://github.com/HarshNarayanJha" target="_blank">Harsh Narayan Jha</a>
@@ -26,14 +26,15 @@ import "@shoelace-style/shoelace/dist/components/icon/icon.js"
       src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fpyqnow.netlify.app%2F&s=32&c=006fff&bg=00000000&no=2&ff=electrolize&tb=Visits%3A+&ta="
       alt="visits"
     />
-  </nav>
+  </footer>
 </template>
 
 <style scoped>
-nav {
+footer {
   width: 100%;
-  font-size: 16px;
+  font-size: var(--sl-font-size-medium);
   text-align: center;
+  margin-inline: auto;
   padding: 2em;
 
   p {
@@ -59,7 +60,7 @@ nav {
 }
 
 @media (max-width: 500px) {
-  nav {
+  footer {
     padding: 0.6em;
     font-size: 15px;
   }

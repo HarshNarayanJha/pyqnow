@@ -42,9 +42,7 @@ import "@shoelace-style/shoelace/dist/components/skeleton/skeleton.js"
     </RouterView>
   </main>
 
-  <footer>
-    <Footer></Footer>
-  </footer>
+  <Footer />
 </template>
 
 <style scoped>
@@ -105,10 +103,6 @@ main {
 .fade-leave-to {
   opacity: 0.2;
   filter: blur(8px);
-}
-
-footer {
-  height: 100px;
 }
 
 @media (min-width: 1024px) {

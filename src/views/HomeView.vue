@@ -1,5 +1,6 @@
 <script setup>
 import Chooser from "@/components/Chooser.vue"
+import NewsletterBox from "@/components/NewsletterBox.vue"
 import { pingServer } from "@/services/api"
 
 pingServer()
@@ -49,6 +50,7 @@ const years = [
     <p>PYQs at your fingertips, success in sight</p>
 
     <Chooser :options="years"></Chooser>
+    <NewsletterBox />
   </div>
 </template>
 
