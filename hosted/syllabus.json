@@ -3350,7 +3350,388 @@
   ],
   "3": [
     {
-      "code": "IT301",
+      "code": "CS341",
+      "display": "Optimization Techniques",
+      "modules": {
+        "1": {
+          "Introduction to Linear Programming": {
+            "topics": [
+              "Introduction to Linear Programming",
+              "Solving Linear Programming Problems – Graphical Method",
+              "The Simplex Method",
+              "The Revised Simplex Method",
+              "Duality Theory",
+              "Dual Simplex Method",
+              "Sensitivity Analysis"
+            ],
+            "important_topics": [2, 4, 6]
+          }
+        },
+        "2": {
+          "Integer and Network Optimization": {
+            "topics": [
+              "Integer Programming",
+              "Gomory’s Cutting Plane Method",
+              "The Branch-and-Bound Technique for Binary and Mixed-Integer programming",
+              "Network Optimization Models",
+              "The Network Simplex Method"
+            ],
+            "important_topics": [0, 2, 4]
+          }
+        },
+        "3": {
+          "Dynamic Programming": {
+            "topics": [
+              "Characteristics of Dynamic Programming Problem",
+              "Deterministic Dynamic Programming",
+              "Probabilistic Dynamic Programming"
+            ],
+            "important_topics": [1, 2]
+          }
+        },
+        "4": {
+          "Nonlinear Programming": {
+            "topics": [
+              "Graphical Illustration of Nonlinear Programming Problems",
+              "Types of Nonlinear Programming Problems",
+              "Unconstrained Optimization",
+              "The Karush‑Kuhn‑Tucker (KKT) Conditions for Constrained Optimization",
+              "Quadratic Programming",
+              "Separable Programming",
+              "Convex Programming"
+            ],
+            "important_topics": [2, 3, 6]
+          }
+        },
+        "5": {
+          "Queuing & Metaheuristics": {
+            "topics": [
+              "Basic Structure of Queueing Models",
+              "Examples of Real Queueing Systems",
+              "Role of Exponential Distribution",
+              "The Birth‑and‑Death Process",
+              "Different Queuing Models",
+              "Heuristic Programming and Metaheuristics: The Nature of Meta‑Heuristics",
+              "Search",
+              "Simulated Annealing",
+              "Genetic Algorithms"
+            ],
+            "important_topics": [0, 5, 8]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS331",
+      "display": "Formal Languages & Automata Theory",
+      "modules": {
+        "1": {
+          "Introduction to Automata": {
+            "topics": [
+              "Mathematical model of digital devices, including real computer",
+              "State Transition Graph",
+              "Finite Automaton (FA) and its types",
+              "Deterministic Finite Automaton (DFA)",
+              "Non‑deterministic Finite Automaton (NDFA)",
+              "Complement, Union, Intersection of FAs",
+              "Conversion Strategy from NDFA to DFA",
+              "Minimization of FA",
+              "Finite Automaton with Output",
+              "Applications of FA"
+            ],
+            "important_topics": [2, 6, 8]
+          }
+        },
+        "2": {
+          "Regular Expressions": {
+            "topics": [
+              "Introduction to Regular Expressions (RE)",
+              "REs and basic operations",
+              "Algebraic laws on Regular Expressions",
+              "Finite and Infinite Languages",
+              "Equivalence of Finite Automaton and Regular Expressions",
+              "Constructing NDFA from Regular Expression",
+              "Pumping Lemma for Regular Language",
+              "Closure properties of Regular Languages",
+              "Non‑regular languages",
+              "Applications of Regular Expression"
+            ],
+            "important_topics": [4, 6, 7]
+          }
+        },
+        "3": {
+          "Grammar": {
+            "topics": [
+              "Introduction",
+              "Formal Definition of Grammar",
+              "The Chomsky Hierarchy of Grammar",
+              "Designing Regular grammar from DFA",
+              "Context Free Grammar",
+              "Closure properties of Context Free Languages",
+              "CFG and Normal form: Chomsky Normal Form",
+              "Greibach Normal Form",
+              "Non‑Context Free Language",
+              "Applications of CFGs"
+            ],
+            "important_topics": [2, 4, 6]
+          }
+        },
+        "4": {
+          "Push Down Automaton (PDA)": {
+            "topics": [
+              "Introduction",
+              "Definition of PDA",
+              "Types of Pushdown Automata (DPDA and NPDA)",
+              "Converting CFG to PDA",
+              "Derivation (Parsing)",
+              "Parsing Techniques",
+              "Ambiguous and Unambiguous Grammar",
+              "Demerits of Ambiguous Grammar"
+            ],
+            "important_topics": [2, 4, 6]
+          }
+        },
+        "5": {
+          "Turing Machine (TM)": {
+            "topics": [
+              "Single Tape TM",
+              "Variations of TM",
+              "Halting Problem",
+              "Turing Machine and Languages",
+              "Enumerable Languages",
+              "Decidable, Recognizable and Undecidable languages",
+              "Solvable and Unsolvable problems",
+              "Post Correspondence Problems (PCP)",
+              "Classes of Problems: P, NP, NP‑C and NP‑Hard"
+            ],
+            "important_topics": [2, 5, 8]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS332",
+      "display": "Basic IT Workshop",
+      "modules": {
+        "1": {
+          "Introduction to MATLAB and Basics Part I": {
+            "topics": [
+              "Introduction to MATLAB",
+              "Advantages and Disadvantages of MATLAB",
+              "MATLAB Environment",
+              "Variables and Arrays",
+              "Built‑in Functions of MATLAB",
+              "Subarrays",
+              "Multidimensional Arrays",
+              "Data Files"
+            ],
+            "important_topics": [3, 4, 6]
+          }
+        },
+        "2": {
+          "MATLAB Basics Part II": {
+            "topics": [
+              "Scalar and Array Operations",
+              "Hierarchy of Operations",
+              "Introduction to Plotting",
+              "Polar Plots",
+              "Subplots",
+              "MATLAB Profiler",
+              "String Functions",
+              "Complex Data",
+              "Three‑Dimensional Plots"
+            ],
+            "important_topics": [0, 2, 8]
+          }
+        },
+        "3": {
+          "MATLAB Advanced Features": {
+            "topics": [
+              "Sparse Arrays",
+              "Cell Arrays",
+              "Structure Arrays",
+              "I/O Functions",
+              "Object Handles",
+              "Position and Units",
+              "Graphical User Interface: Dialog Boxes, Menus, Toolbars"
+            ],
+            "important_topics": [0, 6]
+          }
+        },
+        "4": {
+          "Introduction to Python Basics": {
+            "topics": ["Basics of Python", "Python I/O", "Data Types", "Operators", "Arrays", "Plotting with Python"],
+            "important_topics": [2, 5]
+          }
+        },
+        "5": {
+          "Python Programming Part II": {
+            "topics": ["Functions and Loops", "Object‑Oriented Programming in Python", "Numerical Formalism"],
+            "important_topics": [0, 1]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS343",
+      "display": "System Programming",
+      "modules": {
+        "1": {
+          "Introduction to System Software": {
+            "topics": [
+              "System Software & its Components",
+              "System Software and Machine Architecture",
+              "Traditional (CISC) machines",
+              "RISC Machines",
+              "Inputs and processing steps on language translators",
+              "Evolution of System Softwares: Operating System, Loaders, Interpreters, Compilers, Linkers, Assemblers"
+            ],
+            "important_topics": [0, 4, 5]
+          }
+        },
+        "2": {
+          "Assemblers": {
+            "topics": [
+              "Elements of Assembly Language Programming",
+              "Assembly Process",
+              "Single Pass Assembler",
+              "Design of a 2-Pass Assembler",
+              "Implementation Examples"
+            ],
+            "important_topics": [2, 3]
+          }
+        },
+        "3": {
+          "Loaders": {
+            "topics": [
+              "Basic Loader Functions",
+              "Absolute Loader",
+              "Compile & Go Loader",
+              "Relocating Loader",
+              "Direct Linking Loader"
+            ],
+            "important_topics": [1, 3]
+          }
+        },
+        "4": {
+          "Macros & Macro Processors": {
+            "topics": [
+              "Macros",
+              "Different forms of Macros",
+              "Macros using AIF, AGO, REPT, etc.",
+              "Design of a Macro Processor",
+              "Macro Assembler"
+            ],
+            "important_topics": [0, 3]
+          }
+        },
+        "5": {
+          "Linkage Editors & Software Tools": {
+            "topics": [
+              "Linking and Relocation",
+              "Program Reliability",
+              "Linkage Editor and its Application in IBM‑PC",
+              "Linking for Program Overlay",
+              "Software Tools: Spectrum of Software Tools",
+              "Text Editors",
+              "Interpreter and Program Generators",
+              "Debug Monitors",
+              "Programming Environments"
+            ],
+            "important_topics": [0, 4, 8]
+          }
+        }
+      }
+    },
+    {
+      "code": "CS347",
+      "display": "Soft Computing",
+      "modules": {
+        "1": {
+          "Fuzzy Set Theory": {
+            "topics": [
+              "Basic Definition and Terminology",
+              "Set Theoretic Operations",
+              "Fuzzy types and levels",
+              "Membership Function (MF) Formulation and Parameterization",
+              "MF of two dimensions",
+              "Fuzzy Union, Intersection and Complement",
+              "Fuzzy Number",
+              "Fuzzy measure"
+            ],
+            "important_topics": [0, 3, 5]
+          }
+        },
+        "2": {
+          "Fuzzy Logic & Inference Systems": {
+            "topics": [
+              "Extension Principles and Fuzzy Relations",
+              "Fuzzy IF–THEN Rules",
+              "Defuzzification",
+              "Fuzzy Reasoning",
+              "Fuzzy Inference System: Introduction",
+              "Mamdani Fuzzy Models",
+              "Other Variants",
+              "Sugeno Fuzzy Models",
+              "Tsukamoto Fuzzy Models"
+            ],
+            "important_topics": [1, 2, 5]
+          }
+        },
+        "3": {
+          "Fundamentals of Genetic Algorithms": {
+            "topics": [
+              "Basic Concepts",
+              "Creation of Offsprings",
+              "Encoding",
+              "Fitness Functions",
+              "Reproduction",
+              "Genetic Modelling: Inheritance Operators",
+              "Crossover",
+              "Inversion and Detection",
+              "Mutation operator",
+              "Bitwise operators"
+            ],
+            "important_topics": [0, 3, 6]
+          }
+        },
+        "4": {
+          "Introduction to Artificial Neural Networks": {
+            "topics": [
+              "What is a Neural Network?",
+              "Human Brain Models",
+              "Models of Neuron",
+              "Neural Network viewed as Directed Graphs",
+              "Feedback",
+              "Network Architecture",
+              "Knowledge Representation",
+              "Learning processes: Error correction, Memory‑Based, Hebbian, Competitive, Boltzmann, Supervised, Unsupervised",
+              "Memory",
+              "Adaptation"
+            ],
+            "important_topics": [2, 7, 8]
+          }
+        },
+        "5": {
+          "Advanced Neural Network Models": {
+            "topics": [
+              "Perceptrons",
+              "Adaline",
+              "Back Propagation Algorithm",
+              "Methods of Speeding",
+              "Convolutional Neural Networks",
+              "Radial Basis Function Networks",
+              "Cover's Theorem",
+              "Interpolation Learning",
+              "The Hopfield Network"
+            ],
+            "important_topics": [2, 4, 8]
+          }
+        }
+      }
+    },
+    {
+      "code": "IT333",
       "display": "Data Communication and Computer Networking",
       "modules": {
         "1": {
@@ -3361,14 +3742,14 @@
               "Data Communication Networking",
               "The Need for Protocol Architecture",
               "A Simple Protocol Architecture",
-              "OSI",
-              "The TCP/IP Protocol Architecture",
+              "OSI Model",
+              "TCP/IP Protocol Architecture",
               "Data Transmission Concepts and Terminology",
               "Analog and Digital Data Transmission",
               "Transmission Impairments",
               "Channel Capacity"
             ],
-            "important_topics": [5, 6, 8]
+            "important_topics": [0, 3, 7]
           }
         },
         "2": {
@@ -3383,7 +3764,7 @@
               "Analog Data Digital Signals",
               "Analog Data Analog Signals"
             ],
-            "important_topics": [0, 1, 4, 5, 6, 7]
+            "important_topics": [0, 1, 4]
           }
         },
         "3": {
@@ -3399,29 +3780,30 @@
               "Error Control",
               "High-Level Data Link Control (HDLC)"
             ],
-            "important_topics": [0, 2, 3, 6, 7, 8]
+            "important_topics": [2, 4, 8]
           }
         },
         "4": {
           "Multiplexing, Circuit Switching and Packet Switching": {
             "topics": [
-              "Multiplexing Frequency Division Multiplexing",
+              "Multiplexing",
+              "Frequency Division Multiplexing",
               "Synchronous Time Division Multiplexing",
               "Statistical Time Division Multiplexing",
               "Switching Networks",
               "Circuit-Switching Networks",
               "Circuit-Switching Concepts",
               "Control Signaling",
-              "Softswitch Architecture",
+              "Soft Switch Architecture",
               "Packet-Switching Principles",
               "X.25",
               "Frame Relay"
             ],
-            "important_topics": [0, 1, 2, 4, 5, 9]
+            "important_topics": [0, 4, 10]
           }
         },
         "5": {
-          "Asynchronous Transfer Model": {
+          "Asynchronous Transfer Mode and Routing in Switched Networks": {
             "topics": [
               "Protocol Architecture",
               "ATM Logical Connections",
@@ -3429,13 +3811,304 @@
               "Transmission of ATM Cells",
               "ATM Service Categories",
               "ATM Adaptation Layer",
-              "Routing in Switched Networks",
               "Routing in Circuit-Switching Networks",
               "Routing in Packet-Switching Networks",
               "Least-Cost Algorithms"
             ],
-            "important_topics": [0, 1, 2, 6, 8, 9]
+            "important_topics": [1, 3, 7]
           }
+        }
+      }
+    },
+    {
+      "code": "IT334",
+      "display": "Data Communication and Computer Networking Lab",
+      "modules": {
+        "1": {
+          "Lab Assignment No: 1": {
+            "topics": [
+              "Familiarization with Lab Network Topology",
+              "Locating Interfaces, Routers, and Switches",
+              "Studying IP Address Pools",
+              "Implementing Data Link Layer Framing Methods",
+              "Using Networking Commands (e.g., PING, TRACEROUTE)",
+              "Remote Login Using Telnet",
+              "Measuring Network Delays"
+            ],
+            "important_topics": [0, 1, 3]
+          }
+        },
+        "2": {
+          "Lab Assignment No: 2": {
+            "topics": [
+              "Determining Machine's IP Address",
+              "Comparing IP Addresses with Neighbors",
+              "Using PING Command for Various URLs",
+              "Tracing Routes to Different Websites",
+              "Network Commands on Linux/Unix"
+            ],
+            "important_topics": [0, 2, 3]
+          }
+        },
+        "3": {
+          "Lab Assignment No: 3": {
+            "topics": [
+              "Implementing CRC Polynomials (CRC-12, CRC-16, CRC-32)",
+              "Implementing Sub-netting and Super-netting",
+              "Studying Transmission Media and Topologies",
+              "Configuring Modem, HUB, and Switches"
+            ],
+            "important_topics": [0, 1, 3]
+          }
+        },
+        "4": {
+          "Lab Assignment No: 4": {
+            "topics": [
+              "C/C++ Program to Determine IP Address Class",
+              "C/C++ Program to Translate Dotted Decimal IP to 32-bit Address",
+              "Implementing Routing Protocols",
+              "C/C++ Program for Bit Stuffing and De-stuffing"
+            ],
+            "important_topics": [0, 1, 3]
+          }
+        },
+        "5": {
+          "Lab Assignment No: 5": {
+            "topics": [
+              "Implementing Dijkstra’s Algorithm",
+              "Implementing Distance Vector Routing Algorithm",
+              "Constructing Broadcast Tree for Hosts"
+            ],
+            "important_topics": [0, 1, 2]
+          }
+        },
+        "6": {
+          "Lab Assignment No: 6": {
+            "topics": [
+              "Building Implementations of Internet Protocols",
+              "Implementing Stop and Wait Protocol",
+              "Implementing Sliding Window Protocol",
+              "Simulating ARP/RARP Protocols"
+            ],
+            "important_topics": [0, 1, 2]
+          }
+        },
+        "7": {
+          "Lab Assignment No: 7": {
+            "topics": [
+              "Creating Socket for HTTP Web Page Upload and Download",
+              "Simulating PING and TRACEROUTE Commands"
+            ],
+            "important_topics": [0, 1]
+          }
+        },
+        "8": {
+          "Lab Assignment No: 8": {
+            "topics": [
+              "Implementing Socket Programming and Client-Server Model",
+              "Simulating Link Layer Protocols using NS2"
+            ],
+            "important_topics": [0, 1]
+          }
+        },
+        "9": {
+          "Lab Assignment No: 9": {
+            "topics": [
+              "Studying Application Protocols (HTTP, FTP, SMTP)",
+              "Using Network Packet Sniffers and Analyzers (e.g., Wireshark)",
+              "Socket Programming Exercises in C/C++/Java"
+            ],
+            "important_topics": [0, 1, 2]
+          }
+        },
+        "10": {
+          "Lab Assignment No: 10": {
+            "topics": [
+              "Encrypting 64-bit Plaintext using DES Algorithm",
+              "Decrypting DES Encrypted Text",
+              "Encrypting and Decrypting Data using RSA Algorithm"
+            ],
+            "important_topics": [0, 1, 2]
+          }
+        },
+        "11": {
+          "Lab Assignment No: 11": {
+            "topics": [
+              "Implementing Applications using TCP and UDP Sockets",
+              "Studying Network Simulator (NS) for Congestion Control Algorithms",
+              "Implementing Echo Client and Server, Chat, File Transfer"
+            ],
+            "important_topics": [0, 1, 2]
+          }
+        }
+      }
+    },
+    {
+      "code": "IT335",
+      "display": "Data Mining Concepts and Techniques",
+      "modules": {
+        "1": {
+          "name": "Introduction to Data Mining and Data Processing",
+          "topics": [
+            "Data Mining: Introduction",
+            "Relational Databases",
+            "Data Warehouses",
+            "Transactional Databases",
+            "Advanced Database Systems and Applications",
+            "Data Mining Functionalities",
+            "Classification of Data Mining Systems",
+            "Major Issues in Data Mining",
+            "Data Processing: Data Cleaning",
+            "Data Integration and Transformation",
+            "Data Reduction",
+            "Data Discretization",
+            "Concept Hierarchy Generation"
+          ],
+          "important_topics": [5, 6, 8]
+        },
+        "2": {
+          "name": "Data Warehouse and OLAP Technology",
+          "topics": [
+            "Introduction to Data Warehouse",
+            "Multidimensional Data Model",
+            "Data Warehouse Architecture",
+            "Data Warehouse Implementation",
+            "Data Cube Technology",
+            "From Data Warehousing to Data Mining",
+            "Data Cube Computation",
+            "Data Generalization"
+          ],
+          "important_topics": [1, 2, 4]
+        },
+        "3": {
+          "name": "Mining Association Rules in Large Databases",
+          "topics": [
+            "Association Rule Mining",
+            "Single-Dimensional Boolean Association Rules",
+            "Multilevel Association Rules from Transaction Databases",
+            "Multidimensional Association Rules from Relational Databases",
+            "From Association Mining to Correlation Analysis",
+            "Constraint-Based Association Mining"
+          ],
+          "important_topics": [0, 2, 5]
+        },
+        "4": {
+          "name": "Classification and Prediction",
+          "topics": [
+            "Classification and Prediction",
+            "Issues Regarding Classification and Prediction",
+            "Classification by Decision Tree Induction",
+            "Bayesian Classification",
+            "Classification by Backpropagation",
+            "Classification Based on Concepts and Association Rule Analysis",
+            "Other Classification Methods",
+            "Prediction",
+            "Classification Accuracy"
+          ],
+          "important_topics": [2, 3, 7]
+        },
+        "5": {
+          "name": "Cluster Analysis",
+          "topics": [
+            "Introduction to Cluster Analysis",
+            "Types of Data in Cluster Analysis",
+            "Categorization of Major Clustering Methods",
+            "Partitioning Method - k-Medoids Algorithm",
+            "CLARANS",
+            "Hierarchical Methods - BIRCH",
+            "ROCK",
+            "Density-Based Methods - DBSCAN",
+            "Grid-Based Methods – STING",
+            "WaveCluster",
+            "Outlier Analysis"
+          ],
+          "important_topics": [3, 6, 9]
+        }
+      }
+    },
+    {
+      "code": "IT337",
+      "display": "Software Engineering",
+      "modules": {
+        "1": {
+          "name": "Introduction to Software Engineering",
+          "topics": [
+            "Some Definitions",
+            "FAQs about Software Engineering",
+            "The Evolving Role of Software",
+            "Software Process Models",
+            "Waterfall Model",
+            "Prototyping Model",
+            "Spiral Model",
+            "RAD and Incremental Model",
+            "Management Activities",
+            "Project Planning",
+            "Project Scheduling"
+          ],
+          "important_topics": [3, 4, 5]
+        },
+        "2": {
+          "name": "Software Requirements",
+          "topics": [
+            "Functional and Non-Functional Requirements",
+            "User Requirements",
+            "System Requirements",
+            "Software Requirements Document",
+            "IEEE Standard of SRS",
+            "Quality of Good SRS",
+            "Requirement Engineering Process",
+            "Feasibility Study",
+            "Requirements Elicitation and Analysis",
+            "Requirements Validation",
+            "Requirement Management"
+          ],
+          "important_topics": [0, 4, 9]
+        },
+        "3": {
+          "name": "Design Engineering",
+          "topics": [
+            "Design Process and Design Quality",
+            "Design Concepts",
+            "Design Models",
+            "Object-Oriented Design",
+            "UML: Class Diagram",
+            "UML: Sequence Diagram",
+            "UML: Collaboration Diagram"
+          ],
+          "important_topics": [3, 4, 5]
+        },
+        "4": {
+          "name": "Verification and Validation",
+          "topics": [
+            "Verification and Validation Planning",
+            "Software Inspection",
+            "Static Analysis",
+            "Software Testing",
+            "Testing Functions",
+            "Test Case Design",
+            "White Box Testing",
+            "Black Box Testing",
+            "Unit Testing",
+            "Integration Testing",
+            "System Testing",
+            "Reliability"
+          ],
+          "important_topics": [3, 7, 11]
+        },
+        "5": {
+          "name": "Software Metrics and Quality Assurance",
+          "topics": [
+            "Process Metrics",
+            "Software Measurement",
+            "Software Project Estimation",
+            "Decomposition Techniques",
+            "Empirical Estimation Models",
+            "Quality Assurance and Standards",
+            "Quality Planning",
+            "Quality Control",
+            "Software Maintenance"
+          ],
+          "important_topics": [2, 4, 8]
         }
       }
     }
