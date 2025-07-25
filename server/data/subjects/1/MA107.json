@@ -1,0 +1,31 @@
+{
+  "code": "MA107",
+  "display": "Mathematics II",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA107%20MATHEMATICS-II%20(END_SP22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA107%20MATHEMATICS-II%20(END_SP23).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse",
+    "ece",
+    "eee"
+  ]
+}

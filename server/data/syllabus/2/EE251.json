@@ -1,0 +1,109 @@
+{
+  "code": "EE251",
+  "display": "DC Machines and Transformer",
+  "modules": {
+    "1": {
+      "Single Phase Transformers": {
+        "topics": [
+          "Introduction to transformer",
+          "Basic Principle of operation",
+          "Classification, Rating, Construction of single phase transformer and Practical considerations",
+          "Transformer winding",
+          "Ideal and physical transformers",
+          "EMF equation, transformation ratio, Phasor diagram",
+          "Performance analysis, Equivalent circuit, Losses and efficiency",
+          "Condition for maximum efficiency",
+          "Determination of equivalent circuit parameters by O.C. and S.C. tests",
+          "Per-unit calculation, Voltage regulation, all day efficiency"
+        ],
+        "important_topics": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    "2": {
+      "Three Phase Transformer": {
+        "topics": [
+          "Advantage, Principle of operation, Connections of 3-phase transformer",
+          "Transformer vector grouping, Open delta connection, three-phase to two-phase conversion (Scott connection) and six phase conversion",
+          "Three winding transformer, rating. OC & SC Test, Polarity test, Sumpner's-to-back test",
+          "Parallel operation and Load sharing in single & three phase transformer",
+          "Different types of transformers: Autotransformer- construction, working, advantage & disadvantage and application",
+          "Introduction to Power transformers, Distribution transformers, Instrument transformers, Tap changing transformers, Pulse Transformer, Welding Transformer",
+          "Transformer cooling, grounding, maintenance, and rating"
+        ],
+        "important_topics": [
+          0,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "3": {
+      "Basic Concept of Rotating Machines": {
+        "topics": [
+          "Electromagnetism, Electromagnetic induction, Flux Linkage",
+          "Force on a conductor in a magnetic field & between two current carrying conductor, statistically & dynamically induced EMF",
+          "Magnetomotive Force (MMF), Classification of Rotating Machines, Electromagnetic Torque",
+          "Constructional parts of DC machines and their function. Armature Winding, Ring winding, Drum Winding, type of DC machine Winding",
+          "Principle of DC Generator and its operation, EMF generated in DC Generator",
+          "Principle of DC Motor"
+        ],
+        "important_topics": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "4": {
+      "DC Generators": {
+        "topics": [
+          "Types of DC Machines, EMF equation, Losses in DC Generator, Power Stages, Efficiency, Condition for maximum efficiency",
+          "Armature reaction, Compensating winding, Inter-poles, Process of Commutation, Reactance Voltage, Methods of improving commutation, equalizer rings",
+          "Method of excitation, Characteristics of DC Generators- Magnetization, Process of voltage build-up of shunt generator, Internal and external characteristics, voltage regulation, Critical resistance and Critical speed",
+          "Parallel operation of DC generators, Applications of DC Generators"
+        ],
+        "important_topics": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    "5": {
+      "DC Motors": {
+        "topics": [
+          "Basic equation for voltage, Back EMF, Power, condition for maximum power, armature Torque, Rotational losses, and speed of DC Motors",
+          "Operating characteristics of DC Motors speed back emf & flux, Torque-current, Speed-current and Torque-speed characteristics. Speed regulation",
+          "Speed control of DC motors, Starters for DC Motors, Electric Breaking"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3
+        ]
+      },
+      "Testing of DC machines": {
+        "topics": [
+          "Break Test",
+          "Swineburne's",
+          "Hopkinson's and Series Field Tests",
+          "Retarding or Running Test",
+          "Calculation of efficiency",
+          "Applications of DC Motors",
+          "Special DC motors",
+          "Brushless DC Motor"
+        ],
+        "important_topics": []
+      }
+    }
+  }
+}

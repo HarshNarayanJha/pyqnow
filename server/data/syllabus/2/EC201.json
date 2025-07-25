@@ -1,0 +1,127 @@
+{
+  "code": "EC201",
+  "display": "Electronic Devices",
+  "modules": {
+    "1": {
+      "Semiconductors: Atoms, Electrons, Energy Bands, and Charge Carriers": {
+        "topics": [
+          "Quantum Mechanics",
+          "Bonding Forces and Energy Bands in Solids",
+          "Direct and Indirect Semiconductors",
+          "LED",
+          "Variation of Energy Bands with Alloy Composition",
+          "Effective Mass",
+          "Electrons and Holes in Quantum Wells",
+          "Gunn Diode",
+          "Temperature Dependence of Carrier Concentrations",
+          "Conductivity and Mobility",
+          "High-Field Effects",
+          "The Hall Effect"
+        ],
+        "important_topics": [
+          1,
+          2,
+          9,
+          11
+        ]
+      }
+    },
+    "2": {
+      "Excess Carriers in Semiconductors": {
+        "topics": [
+          "Optical Absorption",
+          "Luminescence",
+          "Carrier Lifetime and Photoconductivity",
+          "Solar Cells",
+          "Diffusion Processes",
+          "Diffusion and Drift of Carriers",
+          "Built-in Fields",
+          "Diffusion and Recombination",
+          "The Continuity Equation",
+          "Steady State Carrier Injection",
+          "Diffusion Length",
+          "The Haynes Shockley Experiment"
+        ],
+        "important_topics": [
+          2,
+          5,
+          7,
+          10
+        ]
+      }
+    },
+    "3": {
+      "PN Junction and Junction Diodes": {
+        "topics": [
+          "Charge at Junction",
+          "Contact Potential",
+          "Capacitance of p-n Junctions",
+          "Reverse-Bias Breakdown",
+          "Zener diode",
+          "Varactor Diode",
+          "Effects of Contact Potential on Carrier Injection",
+          "Recombination and Generation in Transition Region",
+          "Metal Semiconductor Junctions",
+          "PIN diodes",
+          "Step Recovery Diodes",
+          "IMPATT diodes",
+          "Tunnel Diode"
+        ],
+        "important_topics": [
+          2,
+          4,
+          8,
+          12
+        ]
+      }
+    },
+    "4": {
+      "Bipolar Junction Transistor (BJT)": {
+        "topics": [
+          "Fundamentals of BJT Operation",
+          "Amplification with BJTs",
+          "Minority Carrier Distributions and Terminal Currents",
+          "Drift in the Base Region",
+          "Base Narrowing",
+          "Avalanche Breakdown",
+          "Gummel Poon Model",
+          "Kirk Effect",
+          "Frequency Limitations of Transistors",
+          "High-Frequency Transistors",
+          "Heterojunction Bipolar Transistors"
+        ],
+        "important_topics": [
+          0,
+          1,
+          6,
+          10
+        ]
+      }
+    },
+    "5": {
+      "Field-Effect Transistors": {
+        "topics": [
+          "Junction FET",
+          "GaAs MESFET",
+          "High Electron Mobility Transistor (HEMT)",
+          "Metal Insulator Semiconductor FET",
+          "MOSFET: Output Characteristics",
+          "MOSFET: Transfer Characteristics",
+          "Mobility Models",
+          "Short Channel MOSFET I V Characteristics",
+          "Threshold Voltage Expression",
+          "Substrate Bias Effects",
+          "Subthreshold Characteristics",
+          "Equivalent Circuit for the MOSFET",
+          "CMOS processes"
+        ],
+        "important_topics": [
+          4,
+          5,
+          8,
+          12
+        ]
+      }
+    }
+  }
+}

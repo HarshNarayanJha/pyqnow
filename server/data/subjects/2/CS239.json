@@ -1,0 +1,58 @@
+{
+  "code": "CS239",
+  "display": "Operating System",
+  "papers": {
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/CS239%20OPERATING%20SYSTEM%20(MID%2024).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS239%20OPERATING%20SYSTEM.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS239%20OPERATING%20SYSTEM(1).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS239%20OPERATING%20SYSTEM(1).pdf"
+      ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(QUIZ%201%2025)%20(SET%20A).pdf",
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(QUIZ%201%2025)%20(SET%20B).pdf",
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(QUIZ%201%2025)%20(SET%20C).pdf",
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(QUIZ%201%2025)%20(SET%20D).pdf"
+      ],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(MID%2025).pdf"
+      ],
+      "quiz2": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(QUIZ%202%2025).pdf"
+      ],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS239%20OPERATING%20SYSTEM%20(END%2025).pdf"
+      ]
+    }
+  },
+  "links": [
+    {
+      "name": "Process Scheduling Solver",
+      "url": "https://process-scheduling-solver.boonsuen.com/"
+    },
+    {
+      "name": "Process Scheduling Calculator",
+      "url": "https://aadhil2k4.github.io/Process_Scheduling_Calculator/#/"
+    },
+    {
+      "name": "Process Scheduling",
+      "url": "https://www.algorithmroom.com/calculator/process-scheduling"
+    },
+    {
+      "name": "CPU Scheduling Simulator",
+      "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"
+    }
+  ],
+  "branch": [
+    "cse"
+  ]
+}

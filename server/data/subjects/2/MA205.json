@@ -1,0 +1,52 @@
+{
+  "code": "MA205",
+  "display": "Discrete Mathematics",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_MO22).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA205%20DISCRETE%20MATHEMATICS_BTECH.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA205%20DISCRETE%20MATHEMATICS_IMSC_MID_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA205%20DISCRETE%20MATHEMATICS_BTECH_END_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA205%20DISCRETE%20MATHEMATICS_IMSC_END_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA205%20DISCRETE%20MATHEMATICS%20(END_SP23).pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205%20DISCRETE%20MATHEMATICS%20(QUIZ%201%2024).pdf"
+      ],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205%20DISCRETE%20MATHEMATICS%20(MID%2024).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA205%20DISCRETE%20MATHEMATICS.pdf"
+      ],
+      "quiz2": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/MA205%20DISCRETE%20MATHEMATICS%20(QUIZ%202%2024).pdf"
+      ],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA205%20DISCRETE%20MATHEMATICS(1).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

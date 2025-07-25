@@ -1,0 +1,18 @@
+{
+  "code": "CS240",
+  "display": "Shell and Kernel Lab",
+  "papers": {
+    "2025": {
+      "display": "2025",
+      "quiz1": [],
+      "mid": [],
+      "quiz2": [],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS240%20SHELL%20AND%20KERNEL%20LAB%20(END%2025).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

@@ -1,11 +1,14 @@
-interface IModule {
+export interface IModule {
   topics: string[]
+  important_topics: number[]
 }
 
-interface ISyllabus {
+export interface ISyllabus {
   code: string
   display: string
   modules: Record<string, Record<string, IModule>>
 }
 
 export type Syllabus = Record<string, ISyllabus[]>
+
+export type SIndex = Record<string, string>

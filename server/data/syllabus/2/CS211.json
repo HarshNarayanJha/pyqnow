@@ -1,0 +1,122 @@
+{
+  "code": "CS211",
+  "display": "Operating Systems",
+  "modules": {
+    "1": {
+      "Operating system Overview": {
+        "topics": [
+          "Operating system Objective and Functions",
+          "Evolution of Operating System",
+          "Major Advances in OS Components",
+          "Characteristics of Modern Operating Systems"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3
+        ]
+      },
+      "Process Description and Control": {
+        "topics": [
+          "Process Concept",
+          "Process States",
+          "Process Description",
+          "Process Control",
+          "Threads",
+          "Types of Threads",
+          "Multicore and Multithreading"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Scheduling": {
+        "topics": [
+          "Type of scheduling",
+          "Uniprocessor Scheduling",
+          "Multiprocessor Scheduling"
+        ],
+        "important_topics": [
+          0,
+          1
+        ]
+      }
+    },
+    "3": {
+      "Concurrency": {
+        "topics": [
+          "Mutual Exclusion and Synchronization",
+          "Principle of Concurrency",
+          "Mutual Exclusion",
+          "Hardware Support",
+          "Semaphores",
+          "Monitors",
+          "Message Passing",
+          "Readers/Writers Problem",
+          "Deadlock and Starvation",
+          "Principle of Deadlock",
+          "Deadlock Prevention",
+          "Deadlock Avoidance",
+          "Deadlock Detection",
+          "Dining Philosopher Problem"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Memory Management": {
+        "topics": [
+          "Memory Management Requirements",
+          "Memory Partitioning",
+          "Paging",
+          "Segmentation",
+          "Virtual Memory",
+          "Hardware and Control Structures",
+          "Operating System Policies for Virtual Memory"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "I/O Management and Disk Scheduling": {
+        "topics": [
+          "I/O device",
+          "Organization of the I/O Function",
+          "Operating System Design Issues",
+          "I/O Buffering",
+          "Disk Scheduling",
+          "RAID",
+          "Disk Cache",
+          "File Management",
+          "Overview",
+          "File Organization and Access",
+          "File Directories",
+          "File Sharing",
+          "Record Blocking",
+          "File Allocation and Free Space Management"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    }
+  }
+}

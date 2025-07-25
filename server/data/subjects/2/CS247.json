@@ -1,0 +1,14 @@
+{
+  "code": "CS247",
+  "display": "Database Management System",
+  "papers": {},
+  "links": [
+    {
+      "name": "ER Diagram Generator",
+      "url": "https://ereasy.streamlit.app/"
+    }
+  ],
+  "branch": [
+    "cse"
+  ]
+}

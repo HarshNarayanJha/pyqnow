@@ -1,0 +1,110 @@
+{
+  "code": "EC257",
+  "display": "Electromagnetic Fields and Waves",
+  "modules": {
+    "1": {
+      "Introduction to Maxwell's Equations": {
+        "topics": [
+          "Faraday's Law",
+          "Transformer & Motional EMF",
+          "Displacement Current",
+          "Maxwell's Equations (Generalized form)"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "Boundary Conditions and Wave Equation": {
+        "topics": [
+          "Electromagnetic Boundary Conditions"
+        ],
+        "important_topics": [
+          0
+        ]
+      },
+      "Time varying Potentials & Fields": {
+        "topics": [
+          "Time varying Potentials",
+          "Time harmonic fields",
+          "Time harmonics Maxwell's Equations"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "2": {
+      "EM Wave Propagation": {
+        "topics": [
+          "Wave Equation & Plane Waves in unbounded homogeneous, plane waves in free space and lossy media",
+          "Skin depth",
+          "Poynting vector and Power considerations",
+          "Polarization of Electromagnetic waves",
+          "Reflection of a plane wave at Normal incidence and Oblique incidence. Parallel & Perpendicular Polarization at perfect conducting & dielectric boundaries",
+          "Brewster's Angle"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "3": {
+      "Transmission Lines": {
+        "topics": [
+          "Transmission line parameters & Equations",
+          "Input Impedance, SWR and Power, The Smith Chart",
+          "Quarter Wave Transformer Matching, Single Stub Tuner(Matching), Slotted line (Impedance Measurement",
+          "Transients on transmission lines, Microstrip Transmission lines, strip lines, Slot lines and Co-planar lines"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "4": {
+      "Waveguides": {
+        "topics": [
+          "Transverse Electric and Transverse Magnetic wave propagation in Rectangular Waveguide",
+          "Rectangular Cavity Resonator",
+          "Circular Cavity Resonator",
+          "Quality factor of the rectangular Cavity Resonator"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "5": {
+      "Antennas": {
+        "topics": [
+          "Radiation from the Hertz dipole",
+          "Power radiated by Hertzian dipole",
+          "Radiation Parameters of antenna",
+          "Monopole and Dipole antenna"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

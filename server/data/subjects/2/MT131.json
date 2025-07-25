@@ -1,0 +1,39 @@
+{
+  "code": "MT131",
+  "display": "UHV2: Understanding Harmony",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MT131%20UNDERSTANDING%20HARMONY%20(END_SP22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MT131%20UNDERSTANDING%20HARMONY%20(END_SP23).pdf"
+      ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MT131%20UNDERTANDING%20HARMONY%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [],
+      "quiz2": [],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MT131%20UNDERTANDING%20HARMONY%20(END%2025).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse",
+    "ece"
+  ]
+}

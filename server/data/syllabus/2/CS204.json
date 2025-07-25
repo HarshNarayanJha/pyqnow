@@ -1,0 +1,134 @@
+{
+  "code": "CS204",
+  "display": "Object Oriented Programming and Design Principles",
+  "modules": {
+    "1": {
+      "Introduction to Classes, Objects and Java": {
+        "topics": [
+          "Introduction to Object Technology",
+          "Java",
+          "Understanding the Java development environment",
+          "Programming in Java",
+          "Memory concepts",
+          "Doing basic Arithmetic",
+          "Comparing entities",
+          "Classes",
+          "Objects",
+          "Methods",
+          "Strings",
+          "Primitive vs reference types"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Control Statements, Methods and Arrays": {
+        "topics": [
+          "Basic selection statements",
+          "Iterative constructs",
+          "Relative and Logical operators",
+          "break",
+          "continue",
+          "Methods",
+          "static methods",
+          "parameter passing",
+          "argument promotion and casting",
+          "scopes",
+          "method overloading",
+          "Arrays and ArrayList in Java",
+          "Enhanced for statement",
+          "Passing arrays to methods",
+          "Multidimensional arrays",
+          "Using command line arguments"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "3": {
+      "Object Oriented Concepts: Polymorphism & Inheritance": {
+        "topics": [
+          "Controlling access to class members",
+          "The use of this keyword",
+          "getters and setters",
+          "Composition",
+          "enum",
+          "The use of static and final",
+          "Garbage collection",
+          "Superclass and subclass",
+          "protected members",
+          "Constructors in subclass",
+          "The Object class",
+          "Introduction to polymorphism",
+          "Abstract classes and methods",
+          "Assignment between subclass and superclass variables",
+          "Creating and using interfaces"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Exception Handling & GUI Design": {
+        "topics": [
+          "When to use exception handling",
+          "Java exception hierarchy",
+          "finally block",
+          "Stack unwinding",
+          "Chained exceptions",
+          "Declaring new exception types",
+          "Assertions",
+          "try with resources",
+          "Simple I/O with GUI",
+          "Basic GUI Components",
+          "GUI Event handling",
+          "Adapter classes",
+          "Layout managers",
+          "Using panels"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "Strings, characters & Files": {
+        "topics": [
+          "Working with the String and StringBuilder class",
+          "Character class",
+          "Tokenizing strings",
+          "Regular Expressions",
+          "Files and Streams",
+          "Using NIO classes",
+          "Sequential file handling",
+          "Object serialization",
+          "JFileChooser",
+          "Introduction to threading",
+          "Introduction to Generics and lambda expressions"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    }
+  }
+}

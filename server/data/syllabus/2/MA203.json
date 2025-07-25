@@ -1,0 +1,80 @@
+{
+  "code": "MA203",
+  "display": "Numerical Methods",
+  "modules": {
+    "1": {
+      "Errors and Nonlinear Equations": {
+        "topics": [
+          "Error Analysis: Definition and sources of errors, propagation of errors, floating-point arithmetic",
+          "Solution of Nonlinear equations: Bisection method, Regula-Falsi method, Secant method",
+          "Newton-Raphson method and its variants",
+          "General Iterative method"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "2": {
+      "System of Linear Equations": {
+        "topics": [
+          "Gauss-Elimination",
+          "Gauss-Jordan",
+          "LU-Decomposition",
+          "Gauss-Jacobi and Gauss-Siedel methods to solve linear system of equations",
+          "Power method to find least and largest eigenvalues"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "3": {
+      "Interpolation": {
+        "topics": [
+          "Lagrange's interpolation",
+          "Newton's divided differences interpolation formulas",
+          "Inverse interpolation",
+          "Interpolating polynomial using finite differences"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "4": {
+      "Differentiation and Integration": {
+        "topics": [
+          "Differentiation using interpolation formulas",
+          "Integration using Newton-Cotes formulas: Trapezoidal rule, Simpson's rule"
+        ],
+        "important_topics": [
+          0,
+          1
+        ]
+      }
+    },
+    "5": {
+      "Solution of Ordinary Differential Equations": {
+        "topics": [
+          "Euler's method",
+          "Modified Euler's method",
+          "Runge - Kutta Methods of second and fourth order to solve initial value problems"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    }
+  }
+}

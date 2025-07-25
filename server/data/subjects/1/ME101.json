@@ -1,0 +1,55 @@
+{
+  "code": "ME101",
+  "display": "Basics of Mechanical Engineering",
+  "papers": {
+    "2020": {
+      "display": "2020",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(MID_SP20).pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    },
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(END_MO22).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(END_SP22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING_MID_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING_END_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING%20(END_SP23).pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/ME101%20BASICS%20OF%20MECHANICAL%20ENGINEERING_.pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    }
+  },
+  "branch": [
+    "cse",
+    "ece",
+    "eee"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "code": "CS101",
+  "display": "Programming for Problem Solving",
+  "papers": {
+    "2018": {
+      "display": "2018",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO18).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO2018).pdf"
+      ]
+    },
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO19).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO19).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP19).pdf"
+      ]
+    },
+    "2020": {
+      "display": "2020",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP20).pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    },
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_MO22).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING_MID-MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING_END_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END_SP23).pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING%20(END%2024).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse",
+    "ece",
+    "eee"
+  ]
+}

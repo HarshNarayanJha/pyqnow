@@ -1,0 +1,131 @@
+{
+  "code": "EC207",
+  "display": "Electronic Measurements",
+  "modules": {
+    "1": {
+      "Introduction to Measurements and Measurement Systems": {
+        "topics": [
+          "Significance of measurements",
+          "Different methods of measurements",
+          "Instruments used in measurements",
+          "Electronic Instruments and its classification",
+          "Elements of a Generalized Measurement System",
+          "Characteristics of instruments",
+          "Static characteristics",
+          "Errors in measurements",
+          "Scale, range, and scale span",
+          "Calibration",
+          "Reproducibility and drift",
+          "Noise",
+          "Accuracy and precision",
+          "Significant figures",
+          "Linearity",
+          "Hysteresis",
+          "Threshold",
+          "Dead time",
+          "Dead zone",
+          "Resolution",
+          "Loading Effects"
+        ],
+        "important_topics": [
+          0,
+          4,
+          7,
+          12,
+          20
+        ]
+      }
+    },
+    "2": {
+      "Analogue Instruments": {
+        "topics": [
+          "Classification and Principles of Operation",
+          "Working Details Moving Coil (PMMC) and Moving Iron Instruments Construction",
+          "DC Ammeter",
+          "DC Voltmeter",
+          "Series and Shunt type Ohmmeter",
+          "Analogue Electronic voltmeter",
+          "DC Voltmeter with chopper type DC amplifier"
+        ],
+        "important_topics": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "3": {
+      "DC and AC Bridges & Oscilloscopes": {
+        "topics": [
+          "Introduction of DC and AC Bridges",
+          "Wheatstone Bridge",
+          "Kelvin Double Bridge",
+          "Bridge, Sources of errors in Bridges and their elimination by shielding and grounding",
+          "Q meter",
+          "Oscilloscopes: CRT, Construction",
+          "Basic CRO circuits",
+          "Block diagram of a modern oscilloscope",
+          "Y-amplifiers",
+          "X-amplifiers",
+          "Triggering",
+          "Oscilloscopic measurement",
+          "Special CRO's: Dual trace, Dual beam"
+        ],
+        "important_topics": [
+          1,
+          2,
+          7,
+          11
+        ]
+      }
+    },
+    "4": {
+      "Digital Instruments and D/A and A/D converters": {
+        "topics": [
+          "Sample-and-hold circuit",
+          "D/A converters: Weighted-resistor D/A Converter",
+          "R-2R Ladder type D/A converter",
+          "Specifications for D/A Converters",
+          "A/D Converters: Parallel-comparator type A/D converter",
+          "Successive approximation type A/D converter",
+          "Counter type A/D converter",
+          "Dual slope converter",
+          "Comparison of converter types",
+          "Digital Voltmeters",
+          "Digital Multimeters",
+          "Digital frequency Meter",
+          "Sampling oscilloscope",
+          "Storage CROs"
+        ],
+        "important_topics": [
+          1,
+          4,
+          9,
+          10
+        ]
+      }
+    },
+    "5": {
+      "Transducers": {
+        "topics": [
+          "Definition",
+          "Classification",
+          "Principle of Analogue transducer: Resistive (Strain Gauge, POT, Thermistor and RTD)",
+          "Capacitive",
+          "Piezoelectric",
+          "Thermocouple and Inductive (LVDT) and RVDT) transducer",
+          "Working principle of Digital Transducer and Optical transducer",
+          "Application of above transducers to be discussed on the basis of Pressure, Displacement, Level, Flow and Temperature measurements"
+        ],
+        "important_topics": [
+          2,
+          3,
+          4,
+          5,
+          7
+        ]
+      }
+    }
+  }
+}

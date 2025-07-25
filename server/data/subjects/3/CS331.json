@@ -1,0 +1,31 @@
+{
+  "code": "CS331",
+  "display": "Formal Languages and Automata Theory",
+  "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS331%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY_MID_MO23.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS331%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY_END_MO23.pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY(1).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

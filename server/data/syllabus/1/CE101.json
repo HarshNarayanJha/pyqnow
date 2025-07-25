@@ -1,0 +1,107 @@
+{
+  "code": "CE101",
+  "display": "Environmental Science",
+  "modules": {
+    "1": {
+      "Ecosystem and Environment": {
+        "topics": [
+          "Concepts of Ecology and Environmental science",
+          "Ecosystem: structure, function and services",
+          "Biogeochemical cycles, energy and nutrient flow",
+          "Ecosystem management",
+          "Fate of environmental pollutants",
+          "Environmental status and reports on climate change"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Air Pollution": {
+        "topics": [
+          "Structure and composition of unpolluted atmosphere",
+          "Classification of air pollution sources",
+          "Types of air pollutants",
+          "Effects of air pollution",
+          "Monitoring of air pollution",
+          "Control methods and equipment for air pollution control",
+          "Vehicular emissions and control",
+          "Indoor air pollution",
+          "Air pollution episodes and case studies"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Water Pollution": {
+        "topics": [
+          "Water Resource",
+          "Water Pollution: types and Sources of Pollutants",
+          "Effects of water pollution",
+          "Water quality monitoring",
+          "Various water quality indices",
+          "Water and waste water treatment: primary, secondary and tertiary treatment",
+          "Advanced treatments (nitrate and phosphate removal)",
+          "Sludge treatment and disposal"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Soil Pollution and Solid Waste Management": {
+        "topics": [
+          "Lithosphere composition",
+          "Soil properties",
+          "Soil pollution, ecological & health effects",
+          "Municipal solid waste management - classification of solid wastes",
+          "MSW characteristics",
+          "Collection, storage, transport and disposal methods",
+          "Sanitary landfills",
+          "Technologies for processing of MSW: incineration, composting, pyrolysis"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "Noise pollution & Radioactive pollution": {
+        "topics": [
+          "Noise pollution: introduction, sources: Point, line and area sources",
+          "Outdoor and indoor noise propagation",
+          "Effects of noise on health",
+          "Criteria noise standards and limit values",
+          "Noise measurement techniques and analysis",
+          "Prevention of noise pollution",
+          "Radioactive pollution: introduction, sources, classification, health and safety aspects",
+          "Hazards associated with nuclear reactors and disposal of spent fuel rods-safe guards from exposure to radiations",
+          "International regulation",
+          "Management of radioactive wastes"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    }
+  }
+}

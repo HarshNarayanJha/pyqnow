@@ -1,0 +1,49 @@
+{
+  "code": "CS301",
+  "display": "Database Management System",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEMS%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_MO22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20_IMSC%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_IMSC%20(END_SP23).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_SP23).pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM(1).pdf"
+      ]
+    }
+  },
+  "links": [
+    {
+      "name": "ER Diagram Generator",
+      "url": "https://ereasy.streamlit.app/"
+    }
+  ],
+  "branch": [
+    "cse"
+  ]
+}

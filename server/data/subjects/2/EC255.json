@@ -1,0 +1,18 @@
+{
+  "code": "EC255",
+  "display": "Analog Communication",
+  "papers": {
+    "2020": {
+      "display": "2020",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/EC255%20ANALOG%20COMMUNICATION%20(MID_SP20).pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    }
+  },
+  "branch": [
+    "ece"
+  ]
+}

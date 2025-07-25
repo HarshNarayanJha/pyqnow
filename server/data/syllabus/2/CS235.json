@@ -1,0 +1,127 @@
+{
+  "code": "CS235",
+  "display": "Computer Organization and Architecture",
+  "modules": {
+    "1": {
+      "Basic Structures of Computers": {
+        "topics": [
+          "Introduction to Digital Logic",
+          "Basic Structure of Computers: Computer Types",
+          "Functional Units",
+          "Input Unit",
+          "Memory Unit",
+          "Arithmetic and Logic Unit",
+          "Output Unit",
+          "Control Unit",
+          "Basic Operational Concepts: Fixed and floating point Representation and Arithmetic Operations",
+          "Performance",
+          "Historical Perspective"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Instruction Set Architecture": {
+        "topics": [
+          "Memory Locations and Addresses: Byte Addressability",
+          "Big-Endian and Little-Endian Assignments",
+          "Word Alignment",
+          "Instructions and Instruction Sequencing",
+          "Addressing Modes",
+          "Assembly Language",
+          "Subroutines",
+          "Additional Instructions",
+          "Dealing with 32-Bit Immediate Values"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Basic Processing Unit & Pipelining": {
+        "topics": [
+          "Basic Processing Unit: Some Fundamental Concepts",
+          "Instruction Execution",
+          "Hardware Components",
+          "Instruction Fetch and Execution Steps",
+          "Control Signals",
+          "Hardwired Control",
+          "CISC-Style Processors",
+          "Pipelining: Basic Concept",
+          "Pipeline Organization",
+          "Pipelining Issues",
+          "Data Dependencies",
+          "Memory Delays",
+          "Branch Delays",
+          "Pipeline Performance Evaluation"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Memory Organization": {
+        "topics": [
+          "Basic Concepts",
+          "Semiconductor RAM Memories",
+          "Read-only Memories",
+          "Direct Memory Access",
+          "Memory Hierarchy",
+          "Cache Memories",
+          "Performance Considerations",
+          "Virtual Memory",
+          "Memory Management Requirements",
+          "Secondary Storage"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "Input Output & Parallel Processing": {
+        "topics": [
+          "Basic Input Output",
+          "Accessing I/O Devices",
+          "Interrupts",
+          "Input Output Organization",
+          "Bus Structure",
+          "Bus Operation",
+          "Arbitration",
+          "Interface",
+          "Interconnection Standards",
+          "Parallel Processing",
+          "Hardware Multithreading",
+          "Vector (SIMD) Processing",
+          "Shared-Memory Multiprocessors",
+          "Cache Coherence",
+          "Message-Passing Multicomputers",
+          "Parallel Programming for Multiprocessors",
+          "Performance Modeling"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    }
+  }
+}

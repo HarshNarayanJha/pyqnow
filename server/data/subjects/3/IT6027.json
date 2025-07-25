@@ -1,0 +1,29 @@
+{
+  "code": "IT6027",
+  "display": "Optimization Techniques",
+  "papers": {
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/IT6027%20OPTIMIZATION%20TECHNIQUES%20(MID_SP19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/IT6027-OPTIMIZATION%20TECHNIQUES%20(END_SP19).pdf"
+      ]
+    },
+    "2020": {
+      "display": "2020",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/IT6027-OPTIMIZATION%20TECHNIQUES%20(MID_SP20).pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

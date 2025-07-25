@@ -1,0 +1,97 @@
+{
+  "code": "CS206",
+  "display": "Design and Analysis of Algorithms",
+  "modules": {
+    "1": {
+      "Algorithms and Complexity": {
+        "topics": [
+          "Introduction",
+          "Algorithm Complexity and various cases using Insertion Sort",
+          "Asymptotic Notations",
+          "Time complexity of Recursive Algorithm",
+          "Solving Recurrences using Iterative, Recursion Tree and Master Theorem"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Divide and Conquer": {
+        "topics": [
+          "Discussion of basic approach using Binary Search",
+          "Merge Sort",
+          "Quick Sort",
+          "Selection in Expected linear time",
+          "Maximum Subarray",
+          "Matrix Multiplication",
+          "Introduction of Transform and Conquer and AVL Tree"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "3": {
+      "Greedy and other Design Approaches": {
+        "topics": [
+          "Introduction to greedy using fractional knapsack",
+          "Huffman Code",
+          "Minimum Spanning Tree - Prim and Kruskal",
+          "Single Source Shortest Path Dijkstra's and Bellman-Ford",
+          "Introduction to Backtracking using N-Queens problem",
+          "Introduction to Branch and Bound using Assignment Problem or TSP"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "4": {
+      "Dynamic Programming": {
+        "topics": [
+          "Introduction and Approach",
+          "Rod Cutting",
+          "LCS",
+          "Optimal BST",
+          "Transitive closure and All-pair Shortest Path",
+          "Travelling Salesperson Problem"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "5": {
+      "NP Completeness and Other Advanced Topics": {
+        "topics": [
+          "Non-deterministic algorithms searching and sorting",
+          "Class P and NP",
+          "Decision and Optimization problem",
+          "Reduction and NPC and NPH",
+          "NP Completeness proof for: SAT, Max-Clique, Vertex Cover",
+          "Introduction to Randomized Algorithms",
+          "Introduction to Approximation Algorithms"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

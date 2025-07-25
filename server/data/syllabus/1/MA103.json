@@ -1,0 +1,126 @@
+{
+  "code": "MA103",
+  "display": "Mathematics I",
+  "modules": {
+    "1": {
+      "Sequences and Series": {
+        "topics": [
+          "Sequences",
+          "Convergence of Sequence",
+          "Series",
+          "Convergence of Series",
+          "Tests for Convergence",
+          "Comparison tests",
+          "Ratio test",
+          "Cauchy's root test",
+          "Raabe's test",
+          "Gauss test",
+          "Cauchy's Integral test",
+          "Alternating series",
+          "Leibnitz test",
+          "Absolute and Conditional Convergence"
+        ],
+        "important_topics": [
+          1,
+          3,
+          5,
+          6,
+          11,
+          12
+        ]
+      }
+    },
+    "2": {
+      "Matrices": {
+        "topics": [
+          "Rank of a Matrix",
+          "Elementary transformations",
+          "Row-reduced Echelon form",
+          "Vectors",
+          "Linear Independence and Dependence of Vectors",
+          "Consistency of system of linear equations",
+          "Eigenvalues",
+          "Eigenvectors",
+          "Cayley-Hamilton theorem"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          6,
+          7
+        ]
+      }
+    },
+    "3": {
+      "Advance Differential Calculus": {
+        "topics": [
+          "Function of several variables",
+          "Limit",
+          "Continuity",
+          "Partial derivatives",
+          "Euler's theorem for homogeneous functions",
+          "Total derivatives",
+          "Chain rules",
+          "Jacobians and its properties",
+          "Taylor series for function of two variables",
+          "Maxima-Minima",
+          "Lagrange's method of multipliers"
+        ],
+        "important_topics": [
+          0,
+          3,
+          9,
+          10
+        ]
+      }
+    },
+    "4": {
+      "Advance Integral Calculus": {
+        "topics": [
+          "Beta and Gamma functions: definition and properties",
+          "Double integrals",
+          "Double integrals in polar coordinates",
+          "Change of order of integration",
+          "Triple Integrals",
+          "Cylindrical and spherical coordinate systems",
+          "Transformation of coordinates",
+          "Applications of double and triple integrals in areas and volumes"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4,
+          7
+        ]
+      }
+    },
+    "5": {
+      "Vector Calculus": {
+        "topics": [
+          "Scalar and vector point functions",
+          "Gradient",
+          "Directional derivative",
+          "Divergence",
+          "Curl",
+          "Vector equations and identities",
+          "Line Integral",
+          "Work done",
+          "Conservative field",
+          "Green's theorem in a plane",
+          "Surface and volume integrals",
+          "Gauss-divergence theorem",
+          "Stoke's theorem"
+        ],
+        "important_topics": [
+          0,
+          1,
+          5,
+          6,
+          10
+        ]
+      }
+    }
+  }
+}

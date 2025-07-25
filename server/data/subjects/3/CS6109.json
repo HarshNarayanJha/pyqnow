@@ -1,0 +1,39 @@
+{
+  "code": "CS6109",
+  "display": "Software Engineering",
+  "papers": {
+    "2018": {
+      "display": "2018",
+      "quiz1": [],
+      "mid": [],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(END_MO2018).pdf"
+      ]
+    },
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(MID_SP19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(END_MO19).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6109-SOFTWARE%20ENGINEERING%20(END_SP19).pdf"
+      ]
+    },
+    "2020": {
+      "display": "2020",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS6109%20SOFTWARE%20ENGINEERING%20(MID_SP20).pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

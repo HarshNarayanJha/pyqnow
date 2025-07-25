@@ -1,0 +1,74 @@
+{
+  "code": "CS201",
+  "display": "Data Structures",
+  "papers": {
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS201%20DATA%20STRUCTURES%20(MID_MO19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS201%20DATA%20STRUCTURES%20(END_MO19).pdf"
+      ]
+    },
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES%20(MID_MO22).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_IMSC%20(END_MO22).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS201%20DATA%20STRUCTURES_OE%20(END_MO22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS201%20DATA%20STRUCTURE.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS201-DATA%20STRUCTURE_IMH_END_MO23.pdf"
+      ]
+    }
+  },
+  "links": [
+    {
+      "name": "Infix to Prefix Conversion (Find others on the sidebar)",
+      "url": "https://www.calcont.in/Conversion/infix_to_prefix"
+    },
+    {
+      "name": "Stack Visualizer",
+      "url": "https://www.cs.usfca.edu/~galles/visualization/StackArray.html"
+    },
+    {
+      "name": "Queue Visualizer",
+      "url": "https://www.cs.usfca.edu/~galles/visualization/QueueArray.html"
+    },
+    {
+      "name": "Binary Search",
+      "url": "https://www.cs.usfca.edu/~galles/visualization/Search.html"
+    },
+    {
+      "name": "Binary Search Tree",
+      "url": "https://www.cs.usfca.edu/~galles/visualization/BST.html"
+    },
+    {
+      "name": "AVL Tree Visualizer",
+      "url": "https://www.cs.usfca.edu/~galles/visualization/AVLtree.html"
+    },
+    {
+      "name": "More Visualizers",
+      "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+    }
+  ],
+  "branch": [
+    "cse"
+  ]
+}

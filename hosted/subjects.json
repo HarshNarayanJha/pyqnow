@@ -27,7 +27,11 @@
           ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "CH101",
@@ -102,7 +106,11 @@
           ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "EC101",
@@ -178,7 +186,11 @@
           ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "ME101",
@@ -229,7 +241,11 @@
           "end": []
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "MA107",
@@ -256,7 +272,11 @@
           ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "PH113",
@@ -289,12 +309,20 @@
         "2024": {
           "display": "2024",
           "quiz1": [],
-          "mid": ["https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/PH113%20PHYSICS.pdf"],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/PH113%20PHYSICS.pdf"
+          ],
           "quiz2": [],
-          "end": ["https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/PH113%20PHYSICS(1).pdf"]
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/PH113%20PHYSICS(1).pdf"
+          ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "CE101",
@@ -364,7 +392,11 @@
           ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "CS101",
@@ -440,7 +472,11 @@
           ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "EE101",
@@ -515,7 +551,11 @@
           "end": []
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     },
     {
       "code": "BE101",
@@ -579,7 +619,11 @@
           ]
         }
       },
-      "branch": ["cse", "ece", "eee"]
+      "branch": [
+        "cse",
+        "ece",
+        "eee"
+      ]
     }
   ],
   "2": [
@@ -631,7 +675,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "EC203",
@@ -684,7 +730,10 @@
           ]
         }
       },
-      "branch": ["cse", "ece"]
+      "branch": [
+        "cse",
+        "ece"
+      ]
     },
     {
       "code": "CS201",
@@ -756,7 +805,9 @@
           "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS231",
@@ -827,7 +878,9 @@
           "url": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS204",
@@ -877,7 +930,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS233",
@@ -921,7 +976,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS203",
@@ -967,7 +1024,9 @@
           "url": "https://www.grahn.us/projects/booths-algorithm/"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS235",
@@ -1017,7 +1076,9 @@
           "url": "https://www.grahn.us/projects/booths-algorithm/"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "MA203",
@@ -1123,7 +1184,10 @@
           "url": "https://www.dcode.fr/newton-interpolating-polynomial"
         }
       ],
-      "branch": ["cse", "ece"]
+      "branch": [
+        "cse",
+        "ece"
+      ]
     },
     {
       "code": "CS301",
@@ -1170,7 +1234,9 @@
           "url": "https://ereasy.streamlit.app/"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS237",
@@ -1209,7 +1275,9 @@
           "url": "https://ereasy.streamlit.app/"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS247",
@@ -1221,7 +1289,9 @@
           "url": "https://ereasy.streamlit.app/"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS211",
@@ -1257,7 +1327,9 @@
           "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS239",
@@ -1313,7 +1385,9 @@
           "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS303",
@@ -1372,7 +1446,9 @@
           "url": "https://da111003.github.io/CPU_Scheduler/backend/ganttcharts.html"
         }
       ],
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS240",
@@ -1388,7 +1464,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS206",
@@ -1443,7 +1521,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS241",
@@ -1489,7 +1569,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS6101",
@@ -1518,7 +1600,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "MT131",
@@ -1554,7 +1638,10 @@
           ]
         }
       },
-      "branch": ["cse", "ece"]
+      "branch": [
+        "cse",
+        "ece"
+      ]
     },
     {
       "code": "EE205",
@@ -1594,7 +1681,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC201",
@@ -1632,7 +1721,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC205",
@@ -1650,7 +1741,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC207",
@@ -1679,7 +1772,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC209",
@@ -1708,7 +1803,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC251",
@@ -1757,7 +1854,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC253",
@@ -1806,7 +1905,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC255",
@@ -1822,7 +1923,9 @@
           "end": []
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EC257",
@@ -1870,7 +1973,9 @@
           "end": []
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EE305",
@@ -1910,7 +2015,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     },
     {
       "code": "EE251",
@@ -1957,7 +2064,9 @@
           ]
         }
       },
-      "branch": ["ece"]
+      "branch": [
+        "ece"
+      ]
     }
   ],
   "3": [
@@ -1987,7 +2096,9 @@
           "end": []
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT6027",
@@ -2014,7 +2125,9 @@
           "end": []
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS310",
@@ -2065,7 +2178,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS331",
@@ -2094,7 +2209,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS5101",
@@ -2125,13 +2242,17 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS332",
       "display": "Basic IT Workshop",
       "papers": {},
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS343",
@@ -2160,7 +2281,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS6103",
@@ -2187,7 +2310,9 @@
           "end": []
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS321",
@@ -2205,7 +2330,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS347",
@@ -2234,13 +2361,17 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS5015",
       "display": "Soft Computing",
       "papers": {},
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT301",
@@ -2258,7 +2389,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT333",
@@ -2276,13 +2409,17 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT334",
       "display": "Data Communication and Computer Network Lab",
       "papers": {},
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT335",
@@ -2300,7 +2437,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT426",
@@ -2333,7 +2472,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT7021",
@@ -2362,13 +2503,17 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT336",
       "display": "Data Mining Concepts and Techniques Lab",
       "papers": {},
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT305",
@@ -2400,7 +2545,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT337",
@@ -2418,7 +2565,9 @@
           ]
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "CS6109",
@@ -2455,13 +2604,17 @@
           "end": []
         }
       },
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     },
     {
       "code": "IT338",
       "display": "Software Engineering Lab",
       "papers": {},
-      "branch": ["cse"]
+      "branch": [
+        "cse"
+      ]
     }
   ],
   "4": []

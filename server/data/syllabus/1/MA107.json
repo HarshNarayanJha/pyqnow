@@ -1,0 +1,107 @@
+{
+  "code": "MA107",
+  "display": "Mathematics II",
+  "modules": {
+    "1": {
+      "Ordinary Differential Equations - I": {
+        "topics": [
+          "Linear differential equations",
+          "Wronskian",
+          "Linear independence and dependence of solutions",
+          "Linear differential equations of 2nd and higher order with constant coefficients",
+          "Operator method",
+          "Legendre's and Euler-Cauchy's form of linear differential equation",
+          "Method of variation of parameters"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          5
+        ]
+      }
+    },
+    "2": {
+      "Ordinary Differential Equations - II": {
+        "topics": [
+          "Ordinary and singular points of differential equation",
+          "Power and Frobenius' series solutions",
+          "Bessel's differential equation",
+          "Bessel function of first kind and its properties",
+          "Legendre's differential equation",
+          "Legendre's polynomial and its properties"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Fourier series and Partial Differential Equations": {
+        "topics": [
+          "Fourier series: Euler formulae for Fourier series",
+          "Dirichlet conditions",
+          "Half range Fourier series",
+          "Linear partial differential equations",
+          "Lagrange's method",
+          "Method of separation of variables and its application in solving one dimensional wave and heat equations"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Complex Variable-Differentiation & Integration": {
+        "topics": [
+          "Function of a complex variable",
+          "Limit",
+          "Continuity",
+          "Differentiability",
+          "Analyticity",
+          "Analytic functions",
+          "Cauchy-Riemann equations",
+          "Harmonic functions",
+          "Harmonic Conjugate",
+          "Cauchy's theorem",
+          "Cauchy's Integral formula",
+          "Taylor and Laurent series expansions",
+          "Singularities and its types",
+          "Residues",
+          "Residue theorem"
+        ],
+        "important_topics": [
+          0,
+          1,
+          5,
+          6
+        ]
+      }
+    },
+    "5": {
+      "Applied Probability": {
+        "topics": [
+          "Discrete and continuous random variables",
+          "Cumulative distribution function",
+          "Probability mass and density functions",
+          "Expectation",
+          "Variance",
+          "Moment generating function",
+          "Introduction to Binomial, Poisson and Normal Distribution"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    }
+  }
+}

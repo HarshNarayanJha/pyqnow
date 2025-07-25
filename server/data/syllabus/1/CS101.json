@@ -1,0 +1,87 @@
+{
+  "code": "CS101",
+  "display": "Programming for Problem Solving",
+  "modules": {
+    "1": {
+      "Introduction to Programming": {
+        "topics": [
+          "Introduction to components of a computer system (disks, memory, processor, where a program is stored and executed, operating system, compilers etc.)",
+          "Idea of Algorithm: steps to solve logical and numerical problems.",
+          "Representation of Algorithm: Flowchart/Pseudo code with examples.",
+          "From algorithms to programs; source code, variables (with data types) variables and memory locations",
+          "Syntax and Logical Errors in compilation",
+          "Object and executable code"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Arithmetic expressions and precedence": {
+        "topics": [
+          "Conditional Branching and Loops",
+          "Writing and evaluation of conditionals",
+          "Iterations",
+          "Loops"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "3": {
+      "Array, Character array, strings": {
+        "topics": [
+          "Case studies Discuss the various Problems related to Basic science (Newton's Law, Kirchhoff's Law, Roots of an equation etc..)",
+          "Sorting",
+          "Searching"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "4": {
+      "Functions (including using built in libraries)": {
+        "topics": [
+          "Parameter passing in functions",
+          "Call by value",
+          "Passing arrays to functions: idea of call by reference Recursion, as a different way of solving problems",
+          "Example programs, such as Finding Factorial, Fibonacci series, Ackerman function etc.",
+          "Quick sort or Merge sort"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "Structures": {
+        "topics": [
+          "Defining structures and Array of Structures",
+          "Pointers: Defining pointers",
+          "Use of Pointers in self-referential structures",
+          "Link List",
+          "File Handling"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

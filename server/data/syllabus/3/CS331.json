@@ -1,0 +1,108 @@
+{
+  "code": "CS331",
+  "display": "Formal Languages & Automata Theory",
+  "modules": {
+    "1": {
+      "Introduction to Automata": {
+        "topics": [
+          "Mathematical model of digital devices, including real computer",
+          "State Transition Graph",
+          "Finite Automaton (FA) and its types",
+          "Deterministic Finite Automaton (DFA)",
+          "Non\u2011deterministic Finite Automaton (NDFA)",
+          "Complement, Union, Intersection of FAs",
+          "Conversion Strategy from NDFA to DFA",
+          "Minimization of FA",
+          "Finite Automaton with Output",
+          "Applications of FA"
+        ],
+        "important_topics": [
+          2,
+          6,
+          8
+        ]
+      }
+    },
+    "2": {
+      "Regular Expressions": {
+        "topics": [
+          "Introduction to Regular Expressions (RE)",
+          "REs and basic operations",
+          "Algebraic laws on Regular Expressions",
+          "Finite and Infinite Languages",
+          "Equivalence of Finite Automaton and Regular Expressions",
+          "Constructing NDFA from Regular Expression",
+          "Pumping Lemma for Regular Language",
+          "Closure properties of Regular Languages",
+          "Non\u2011regular languages",
+          "Applications of Regular Expression"
+        ],
+        "important_topics": [
+          4,
+          6,
+          7
+        ]
+      }
+    },
+    "3": {
+      "Grammar": {
+        "topics": [
+          "Introduction",
+          "Formal Definition of Grammar",
+          "The Chomsky Hierarchy of Grammar",
+          "Designing Regular grammar from DFA",
+          "Context Free Grammar",
+          "Closure properties of Context Free Languages",
+          "CFG and Normal form: Chomsky Normal Form",
+          "Greibach Normal Form",
+          "Non\u2011Context Free Language",
+          "Applications of CFGs"
+        ],
+        "important_topics": [
+          2,
+          4,
+          6
+        ]
+      }
+    },
+    "4": {
+      "Push Down Automaton (PDA)": {
+        "topics": [
+          "Introduction",
+          "Definition of PDA",
+          "Types of Pushdown Automata (DPDA and NPDA)",
+          "Converting CFG to PDA",
+          "Derivation (Parsing)",
+          "Parsing Techniques",
+          "Ambiguous and Unambiguous Grammar",
+          "Demerits of Ambiguous Grammar"
+        ],
+        "important_topics": [
+          2,
+          4,
+          6
+        ]
+      }
+    },
+    "5": {
+      "Turing Machine (TM)": {
+        "topics": [
+          "Single Tape TM",
+          "Variations of TM",
+          "Halting Problem",
+          "Turing Machine and Languages",
+          "Enumerable Languages",
+          "Decidable, Recognizable and Undecidable languages",
+          "Solvable and Unsolvable problems",
+          "Post Correspondence Problems (PCP)",
+          "Classes of Problems: P, NP, NP\u2011C and NP\u2011Hard"
+        ],
+        "important_topics": [
+          2,
+          5,
+          8
+        ]
+      }
+    }
+  }
+}

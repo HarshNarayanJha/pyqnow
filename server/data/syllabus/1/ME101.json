@@ -1,0 +1,120 @@
+{
+  "code": "ME101",
+  "display": "Basics of Mechanical Engineering",
+  "modules": {
+    "1": {
+      "System of Forces and Structure Mechanics": {
+        "topics": [
+          "Addition of Forces",
+          "Moment of a Force",
+          "Couple",
+          "Varignon's theorem",
+          "Free Body Diagram",
+          "Equilibrium in Two and Three Dimensions",
+          "Equivalent Forces and Moment",
+          "Types of Trusses",
+          "Plane and Space Trusses",
+          "Analysis of Plane Trusses by: Method of Joints and Method of Sections",
+          "Analysis of Frames with Hinged Joints",
+          "Hooke's Law of elasticity",
+          "Stress and Strain",
+          "Relation between elastic constants",
+          "Thermal Stresses",
+          "Properties of surfaces such as centroid and area moment of inertia"
+        ],
+        "important_topics": [
+          0,
+          1,
+          5,
+          6,
+          10
+        ]
+      }
+    },
+    "2": {
+      "Kinematics & Kinetics of rigid bodies": {
+        "topics": [
+          "Types of rigid body motion- translation",
+          "Rotation about fixed axis",
+          "Equations defining the rotation of a rigid body about a fixed axis",
+          "Plane motion",
+          "Absolute and relative velocity in plane motion",
+          "Instantaneous center of rotation",
+          "Equation of translational and rotational motion",
+          "Newton's law and D'Alembert's principle -inertia force and inertia couple"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          6
+        ]
+      }
+    },
+    "3": {
+      "Friction and Vibration": {
+        "topics": [
+          "Interfacial Friction (a) Laws of dry friction",
+          "Static & kinetic co-efficient of friction",
+          "Analysis of static",
+          "Kinetic and rolling friction.(b) Analysis of frictional forces in inclined planes",
+          "Wedges",
+          "Screw jacks and belt drives",
+          "Vibrations: Types of vibration",
+          "Free un-damped longitudinal vibrations",
+          "Free damped longitudinal vibrations"
+        ],
+        "important_topics": [
+          0,
+          1,
+          5,
+          6
+        ]
+      }
+    },
+    "4": {
+      "Boilers and Internal Combustion Engine": {
+        "topics": [
+          "Boiler Mountings and Accessories",
+          "Fire Tube and Water Tube boilers",
+          "Cochran Boiler",
+          "Babcock and Wilcox Boiler",
+          "Basic components and terminology of IC engines",
+          "Working of four stroke/two stroke - petrol/diesel engine",
+          "Classification and application of IC engines",
+          "Heat transfer: various modes of heat transfer",
+          "One dimensional steady state conduction",
+          "Application to composite walls and cylinder"
+        ],
+        "important_topics": [
+          0,
+          1,
+          4,
+          5
+        ]
+      }
+    },
+    "5": {
+      "Non-Conventional Energy and their resources": {
+        "topics": [
+          "Renewable and Non-renewable Energy Resources",
+          "Advantages and Disadvantages of Renewable Resources",
+          "Renewable Energy Forms and Conversion",
+          "Solar Energy",
+          "Wind Energy",
+          "Tidal Energy",
+          "Ocean Thermal Energy",
+          "Geothermal Energy",
+          "Nuclear Energy",
+          "Hydro Energy"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

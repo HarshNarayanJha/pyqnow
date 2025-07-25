@@ -1,0 +1,114 @@
+{
+  "code": "EC251",
+  "display": "Probability and Random Processes",
+  "modules": {
+    "1": {
+      "Randomness, Uncertainty and its Description": {
+        "topics": [
+          "Random experiments/phenomenon",
+          "Outcomes of the random experiment",
+          "Sample Space",
+          "Events",
+          "Probability of an event",
+          "Concepts of sets and probability theory",
+          "Probability space",
+          "Conditional probability",
+          "Independence and Bayes theorem",
+          "Combinatorial probability and sampling models"
+        ],
+        "important_topics": [
+          4,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "2": {
+      "Random Variable and its characterization": {
+        "topics": [
+          "Continuous random variables: distribution function, probability density function",
+          "Conditional Densities and Distributions",
+          "Gaussian, Rayleigh, and Rician distributions",
+          "Exponential, chi-squared, gamma distributions",
+          "Discrete random variables: distribution function, probability mass function",
+          "Bernoulli, binomial, Poisson, geometric, negative binomial distributions",
+          "Expectations",
+          "Variance",
+          "MGF and Characteristics Function of Random Variable",
+          "Moments of Random Variable"
+        ],
+        "important_topics": [
+          0,
+          2,
+          4,
+          6,
+          7
+        ]
+      }
+    },
+    "3": {
+      "Random vector and its characterization": {
+        "topics": [
+          "Joint Events",
+          "Joint CDF and PDF",
+          "Properties of Joint CDF and PDF",
+          "Bivariate Gaussian Distributions",
+          "Joint Moments",
+          "Random Vectors",
+          "Vector Gaussian Random Variables",
+          "Moments of Random Vectors",
+          "Independence of two random vectors"
+        ],
+        "important_topics": [
+          1,
+          3,
+          4,
+          6
+        ]
+      }
+    },
+    "4": {
+      "Inequalities, Convergences, and Limit Theorems": {
+        "topics": [
+          "Random sequences Markov, Chebyshev and Chernoff bounds",
+          "Modes of convergence (everywhere, almost everywhere, probability, distribution and mean square)",
+          "Stochastic convergence",
+          "Law of large numbers",
+          "Central limit theorem",
+          "Limit theorems",
+          "Strong and weak laws of large numbers"
+        ],
+        "important_topics": [
+          1,
+          3,
+          4,
+          6
+        ]
+      }
+    },
+    "5": {
+      "Random Processes and Linear Systems": {
+        "topics": [
+          "Random Data/Signals",
+          "Stationarity; mean, correlation, and covariance functions",
+          "WSS random process",
+          "Autocorrelation and cross-correlation functions",
+          "Transmission of a random process through a linear System",
+          "Power spectral density",
+          "White random process",
+          "Gaussian process",
+          "Poisson process",
+          "Application of Probability and Random Processes"
+        ],
+        "important_topics": [
+          1,
+          3,
+          4,
+          5,
+          9
+        ]
+      }
+    }
+  }
+}

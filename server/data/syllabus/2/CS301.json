@@ -1,0 +1,133 @@
+{
+  "code": "CS301",
+  "display": "Database Management System",
+  "modules": {
+    "1": {
+      "Database Design and Entity - Relational Model": {
+        "topics": [
+          "Purpose of Database System",
+          "View of Data",
+          "Database Languages",
+          "Transaction Management",
+          "Database architecture",
+          "Database Users and Administrator",
+          "Types of database System",
+          "Overview of design process",
+          "E-R model",
+          "Constraints",
+          "E-R Diagram",
+          "E-R Diagram issues",
+          "Weak Entity Sets",
+          "Extended E-R Features",
+          "Reduction to E-R Schemas"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Relational Model": {
+        "topics": [
+          "Structure of Relational Database",
+          "Codd's Rules",
+          "Fundamental Relational Algebra Operations",
+          "Additional Relational Algebra Operations",
+          "Extended Relational Algebra Operations",
+          "Data definition",
+          "Basic structure of SQL queries",
+          "Set Operations",
+          "Aggregate Functions",
+          "Null Values",
+          "Nested Sub Queries",
+          "Complex queries",
+          "Views",
+          "Modification of database",
+          "Joined relations",
+          "SQL data types & schemas",
+          "Integrity constraints",
+          "Authorization",
+          "Embedded SQL",
+          "Triggers"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Relational Database Design": {
+        "topics": [
+          "Functional dependency",
+          "Decomposition",
+          "Normalization",
+          "First normal form",
+          "Second normal form",
+          "Third normal form",
+          "BCNF",
+          "Multivalued dependencies and Fourth normal form",
+          "Join dependencies and Fifth normal form",
+          "DKNF"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "4": {
+      "Indexing & Hashing": {
+        "topics": [
+          "Ordered Indices",
+          "B+ Tree index files",
+          "B-Tree index files",
+          "Multiple key access Static hashing",
+          "Dynamic Hashing",
+          "Comparison of ordered indexing and hashing",
+          "Index definition in SQL",
+          "Query Processing",
+          "Measure of Query Cost",
+          "Selection Operation",
+          "Evaluation of Expressions"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "Transaction & Concurrency Control": {
+        "topics": [
+          "Transaction Concepts & ACID Properties",
+          "Transaction States",
+          "Implementation of Atomicity & Durability",
+          "Concurrent Executions",
+          "Serializability & Its Testing",
+          "Recoverability",
+          "Lock-Based protocols",
+          "Validation based protocol",
+          "Multiple Granularity",
+          "Multiversion Schemes",
+          "Deadlock Handling"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    }
+  }
+}

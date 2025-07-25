@@ -1,0 +1,108 @@
+{
+  "code": "IT335",
+  "display": "Data Mining Concepts and Techniques",
+  "modules": {
+    "1": {
+      "Introduction to Data Mining and Data Processing": {
+        "topics": [
+          "Data Mining: Introduction",
+          "Relational Databases",
+          "Data Warehouses",
+          "Transactional Databases",
+          "Advanced Database Systems and Applications",
+          "Data Mining Functionalities",
+          "Classification of Data Mining Systems",
+          "Major Issues in Data Mining",
+          "Data Processing: Data Cleaning",
+          "Data Integration and Transformation",
+          "Data Reduction",
+          "Data Discretization",
+          "Concept Hierarchy Generation"
+        ],
+        "important_topics": [
+          5,
+          6,
+          8
+        ]
+      }
+    },
+    "2": {
+      "Data Warehouse and OLAP Technology": {
+        "topics": [
+          "Introduction to Data Warehouse",
+          "Multidimensional Data Model",
+          "Data Warehouse Architecture",
+          "Data Warehouse Implementation",
+          "Data Cube Technology",
+          "From Data Warehousing to Data Mining",
+          "Data Cube Computation",
+          "Data Generalization"
+        ],
+        "important_topics": [
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Mining Association Rules in Large Databases": {
+        "topics": [
+          "Association Rule Mining",
+          "Single-Dimensional Boolean Association Rules",
+          "Multilevel Association Rules from Transaction Databases",
+          "Multidimensional Association Rules from Relational Databases",
+          "From Association Mining to Correlation Analysis",
+          "Constraint-Based Association Mining"
+        ],
+        "important_topics": [
+          0,
+          2,
+          5
+        ]
+      }
+    },
+    "4": {
+      "Classification and Prediction": {
+        "topics": [
+          "Classification and Prediction",
+          "Issues Regarding Classification and Prediction",
+          "Classification by Decision Tree Induction",
+          "Bayesian Classification",
+          "Classification by Backpropagation",
+          "Classification Based on Concepts and Association Rule Analysis",
+          "Other Classification Methods",
+          "Prediction",
+          "Classification Accuracy"
+        ],
+        "important_topics": [
+          2,
+          3,
+          7
+        ]
+      }
+    },
+    "5": {
+      "Cluster Analysis": {
+        "topics": [
+          "Introduction to Cluster Analysis",
+          "Types of Data in Cluster Analysis",
+          "Categorization of Major Clustering Methods",
+          "Partitioning Method - k-Medoids Algorithm",
+          "CLARANS",
+          "Hierarchical Methods - BIRCH",
+          "ROCK",
+          "Density-Based Methods - DBSCAN",
+          "Grid-Based Methods \u2013 STING",
+          "WaveCluster",
+          "Outlier Analysis"
+        ],
+        "important_topics": [
+          3,
+          6,
+          9
+        ]
+      }
+    }
+  }
+}

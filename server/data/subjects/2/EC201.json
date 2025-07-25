@@ -1,0 +1,40 @@
+{
+  "code": "EC201",
+  "display": "Electronic Devices",
+  "papers": {
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC201%20ELECTRONIC%20DEVICES%20(MID_MO19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC201%20ELECTRONIC%20DEVICES%20(END_MO19).pdf"
+      ]
+    },
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC201%20ELECTRONIC%20DEVICES%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC201%20ELECTRONIC%20DEVICES_MID_MO23.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC201%20ELECTRONIC%20DEVICES_END_MO23.pdf"
+      ]
+    }
+  },
+  "branch": [
+    "ece"
+  ]
+}

@@ -30,6 +30,37 @@ bun dev
 bun run build
 ```
 
+## Instructions
+
+### Fetch latest papers from BIT website and update local PDF index
+
+```sh
+./generate_subjects.sh
+```
+
+This will run `scripts/bit_links.py`, `scripts/branch_gen.py` which will format and update `hosted/subjects.json`,
+then `scripts/subjects_split_json.py` which will split that big file to `server/data/subjects/*`, which are ultimately used by the deployed server.
+
+### Add a new syllabus entry
+
+```sh
+uv run --with 'pydantic' scripts/add_syllabus.py
+```
+
+It will scaffold a new syllabus code file at `server/data/syllabus/`.
+
+### Deploy Server
+
+Just go to the render dashboard and deploy the latest commit
+
+### Deploy Client
+
+```sh
+bun run dev
+```
+
+and then upload `build/` as a new deploy on netlify.
+
 ## Analytics
 
 🔍 **Note:** PYQNow uses [Litlyx](https://litlyx.com) for minimal, privacy-respecting analytics to enhance your experience and help us make continuous improvements to the platform.

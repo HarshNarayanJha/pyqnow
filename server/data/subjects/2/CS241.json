@@ -1,0 +1,48 @@
+{
+  "code": "CS241",
+  "display": "Design and Analysis of Algorithm",
+  "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM%20(END_SP23).pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS24101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS24101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING(1).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM(1).pdf"
+      ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(MID%2025).pdf"
+      ],
+      "quiz2": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(QUIZ%202%2025).pdf"
+      ],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHMS%20(END%2025).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

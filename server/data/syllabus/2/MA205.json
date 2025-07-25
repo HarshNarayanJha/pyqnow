@@ -1,0 +1,107 @@
+{
+  "code": "MA205",
+  "display": "Discrete Mathematics",
+  "modules": {
+    "1": {
+      "Mathematical logic and Mathematical Reasoning": {
+        "topics": [
+          "Compound Statements",
+          "Propositional Equivalences",
+          "Predicates and Quantifiers",
+          "Methods of Proof",
+          "Mathematical Induction",
+          "Well-ordering principal",
+          "Recursive Definition and Algorithms"
+        ],
+        "important_topics": [
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Recurrence Relations": {
+        "topics": [
+          "Classification of Recurrence Relations and their solutions by Characteristic Root method",
+          "Generating function and their various aspects",
+          "Utility of Generating function in solving Recurrence Relations"
+        ],
+        "important_topics": [
+          0,
+          1
+        ]
+      }
+    },
+    "3": {
+      "Set, Operations on Set, Computer representation of Set": {
+        "topics": [
+          "Relations",
+          "Properties/Classification of Relations",
+          "Closure operations on Relations",
+          "Matrix representation of Relations",
+          "Digraphs",
+          "Functions and their Representation",
+          "Classification of Functions",
+          "Warshall's algorithm",
+          "Discrete Numeric Functions",
+          "Growth of Functions",
+          "Big O",
+          "Big Q",
+          "Hash Function",
+          "Growth Functions"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Binary Operations, Groups": {
+        "topics": [
+          "Product and Quotients of Groups",
+          "Semi group",
+          "Products and Quotients of Semi groups",
+          "Permutation Group",
+          "Composition of Permutation",
+          "Inverse Permutation",
+          "Cyclic Permutation",
+          "Transposition",
+          "Even and Odd Permutation",
+          "Coding of Binary Information and Error Correction",
+          "Decoding and Error Correction"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "5": {
+      "Introduction to Graph": {
+        "topics": [
+          "Graph Terminologies and their Representation",
+          "Connected & Disconnected graphs",
+          "Isomorphic Graph",
+          "Euler & Hamilton graphs",
+          "Introduction to Trees",
+          "Versatility of Trees",
+          "Tree traversal",
+          "Spanning Trees",
+          "Minimum Spanning Tree"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

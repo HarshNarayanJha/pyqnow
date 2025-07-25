@@ -1,0 +1,129 @@
+{
+  "code": "EC205",
+  "display": "Signals and Systems",
+  "modules": {
+    "1": {
+      "Introduction To Signals And Systems": {
+        "topics": [
+          "Signals and systems in everyday life",
+          "Signal properties: periodicity, absolute integrability, determinism, stochastic",
+          "Special signals: unit step, unit impulse, sinusoid, complex exponential",
+          "Continuous and discrete time signals",
+          "Continuous and discrete amplitude signals",
+          "System properties: linearity, additivity and homogeneity",
+          "Shift-invariance",
+          "Causality",
+          "Stability",
+          "Realizability"
+        ],
+        "important_topics": [
+          1,
+          2,
+          5,
+          7,
+          8
+        ]
+      }
+    },
+    "2": {
+      "Behavior Of Continuous And Discrete Time Lti Systems": {
+        "topics": [
+          "Impulse response and step response",
+          "Convolution",
+          "Input-output behavior with aperiodic convergent inputs",
+          "Cascade interconnections",
+          "Characterization of causality and stability of LTI systems",
+          "System representation through differential equations and difference equations",
+          "State-space Representation of systems",
+          "State-Space Analysis",
+          "Multi-input, multi-output representation",
+          "State Transition Matrix and its Role",
+          "Periodic inputs to an LTI system",
+          "Frequency response and its relation to the impulse response"
+        ],
+        "important_topics": [
+          1,
+          4,
+          6,
+          9,
+          11
+        ]
+      }
+    },
+    "3": {
+      "Fourier And Laplace Transforms": {
+        "topics": [
+          "Fourier series representation of periodic signals",
+          "Waveform Symmetries",
+          "Calculation of Fourier Coefficients",
+          "Fourier Transform",
+          "Convolution/multiplication and their effect in the frequency domain",
+          "Magnitude and phase response",
+          "Fourier domain duality",
+          "Laplace Transform for continuous-time signals and systems",
+          "Transfer/system functions",
+          "Poles and zeros of system functions and signals",
+          "Laplace domain analysis",
+          "Solution to differential equations and system behavior"
+        ],
+        "important_topics": [
+          3,
+          4,
+          7,
+          9
+        ]
+      }
+    },
+    "4": {
+      "Z Transform, DTFT, And DFT": {
+        "topics": [
+          "Z-transform",
+          "Region of convergence and its properties",
+          "Inverse Z transform",
+          "Properties of ZT",
+          "Discrete-Time Fourier Transform (DTFT)",
+          "Discrete Fourier Transform (DFT)",
+          "Parseval's Theorem",
+          "Properties of DTFT and DFT",
+          "Convolution property",
+          "Multiplication property",
+          "Duality",
+          "Systems Characterized by Linear Constant Coefficient Difference Equation",
+          "z-Transform for discrete time signals and systems",
+          "System functions",
+          "Poles and zeros of systems and sequences",
+          "z-domain analysis"
+        ],
+        "important_topics": [
+          0,
+          1,
+          4,
+          5,
+          7,
+          12
+        ]
+      }
+    },
+    "5": {
+      "Sampling And Reconstruction": {
+        "topics": [
+          "Sampling Theorem and its implications",
+          "Spectra of sampled signals",
+          "Reconstruction: ideal interpolator, zero-order hold, first-order hold",
+          "Aliasing and its effects",
+          "Relation between continuous and discrete time systems",
+          "Applications of signal and system theory: modulation for communication",
+          "Filtering",
+          "Feedback control systems"
+        ],
+        "important_topics": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    }
+  }
+}

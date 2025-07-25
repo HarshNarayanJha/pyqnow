@@ -1,0 +1,124 @@
+{
+  "code": "EC101",
+  "display": "Basics of Electronics and Communicaion Engineering",
+  "modules": {
+    "1": {
+      "Diodes and Applications": {
+        "topics": [
+          "Introduction to PN junction diodes",
+          "Characteristics of semiconductor diodes: V-I characteristics, diode-resistance, temperature-dependence, diode-capacitance",
+          "DC & AC load lines",
+          "Breakdown Mechanisms",
+          "Zener Diode - Operation and Applications",
+          "Diode as a Rectifier: Half Wave and Full Wave Rectifiers with and without C-Filters"
+        ],
+        "important_topics": [
+          0,
+          1,
+          4,
+          5
+        ]
+      }
+    },
+    "2": {
+      "Bipolar Junction Transistors (BJT)": {
+        "topics": [
+          "PNP and NPN Transistors",
+          "Basic Transistor Action",
+          "Input and Output Characteristics of CB, CE and CC Configurations",
+          "dc and ac load line analysis, operating point",
+          "Transistor biasing: Fixed bias, emitter bias/self-bias",
+          "Low-frequency response of CE amplifier"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          5
+        ]
+      },
+      "Field Effect Transistors": {
+        "topics": [
+          "JFET, Idea of Channel Formation, Pinch-Off and saturation Voltage, Current-Voltage Output Characteristics",
+          "MOSFET: Basic structure, operation and characteristics"
+        ],
+        "important_topics": [
+          0,
+          1
+        ]
+      }
+    },
+    "3": {
+      "Sinusoidal Oscillators": {
+        "topics": [
+          "Concept of positive and negative feedback",
+          "Barkhausen criterion for sustained oscillations",
+          "Determination of Frequency and Condition of oscillation",
+          "Hartley and Colpitt's oscillator"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      },
+      "Operational Amplifiers": {
+        "topics": [
+          "Characteristics of an ideal and Practical Operational Amplifier (IC 741)",
+          "Inverting and non-inverting amplifiers",
+          "Offset error voltages and currents",
+          "Power supply rejection ratio",
+          "Slew Rate and concept of Virtual Ground",
+          "Summing and Difference Amplifiers",
+          "Differentiator and Integrator",
+          "RC phase shift oscillator"
+        ],
+        "important_topics": [
+          0,
+          1,
+          5,
+          6
+        ]
+      }
+    },
+    "4": {
+      "Logic Gates and Boolean algebra": {
+        "topics": [
+          "Introduction to Boolean Algebra and Boolean operators",
+          "Symbolic representation",
+          "Boolean algebraic function and Truth table of different Digital logic Gates (AND, OR, NOT, NAND, NOR, EX-OR, EX-NOR)",
+          "Realization of Basic logic gates using universal gates",
+          "Adder",
+          "Subtractor",
+          "adder/subtractor"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "Electronic communication": {
+        "topics": [
+          "Introduction to electronic communication system",
+          "Electromagnetic Communication spectrum band and applications",
+          "Elements of Electronic Communication System",
+          "Merits and demerits of analog and digital communication",
+          "Modes of communication",
+          "Signal radiation and propagation",
+          "Need for modulation",
+          "Introduction to Amplitude modulation and Angle modulation"
+        ],
+        "important_topics": [
+          0,
+          1,
+          4,
+          5
+        ]
+      }
+    }
+  }
+}

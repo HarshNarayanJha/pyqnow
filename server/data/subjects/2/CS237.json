@@ -1,0 +1,41 @@
+{
+  "code": "CS237",
+  "display": "Database Management System",
+  "papers": {
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEMS.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM(1).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEMS(1).pdf"
+      ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS237%20DATABASE%20MANAGEMENT%20SYSTEMS%20(MID%2025).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(END%2025).pdf"
+      ]
+    }
+  },
+  "links": [
+    {
+      "name": "ER Diagram Generator",
+      "url": "https://ereasy.streamlit.app/"
+    }
+  ],
+  "branch": [
+    "cse"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "code": "EE305",
+  "display": "Digital Signal Processing",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(END_MO22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING%20(END_SP23).pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/EE305%20DIGITAL%20SIGNAL%20PROCESSING(1).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "ece"
+  ]
+}

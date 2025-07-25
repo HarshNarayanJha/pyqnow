@@ -1,0 +1,20 @@
+{
+  "code": "EC205",
+  "display": "Signals and Systems",
+  "papers": {
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC205%20SIGNALS%20AND%20SYSTEMS%20(MID_MO19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/EC205%20SIGNALS%20AND%20SYSTEMS%20(END_MO19).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "ece"
+  ]
+}

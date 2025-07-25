@@ -1,0 +1,92 @@
+{
+  "code": "BE101",
+  "display": "Biological Science for Engineers",
+  "modules": {
+    "1": {
+      "Basic Cell Biology": {
+        "topics": [
+          "Origin of life",
+          "Cell theory",
+          "Cell Structure and function",
+          "Biomolecules",
+          "Cell cycle and cell division",
+          "Biological Organization"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Bioenergetics and Metabolism": {
+        "topics": [
+          "Gibbs free energy and thermodynamics",
+          "Aerobic and anaerobic respiration",
+          "Glycolysis",
+          "Krebs cycle and electron transport chain",
+          "Beta oxidation",
+          "Photosynthesis"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Enzymes and its Application": {
+        "topics": [
+          "Classification of enzymes",
+          "Structure and mechanism of enzyme action and uses of enzymes",
+          "Factors affecting enzyme activity",
+          "Immobilization of enzymes and their application"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "4": {
+      "Biological Signal Generation and Propagation": {
+        "topics": [
+          "Nerve cell structure and signal propagation",
+          "Mechanism of vision and hearing",
+          "Cell signaling",
+          "Circadian rhythm"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "5": {
+      "Engineering Biological Systems and its Applications": {
+        "topics": [
+          "Central dogma of molecular biology",
+          "Methods in genetic engineering and application",
+          "PCR",
+          "ELISA and its application",
+          "Stem cell and tissue engineering",
+          "Artificial Intelligence in Biology",
+          "Plant factory"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    }
+  }
+}

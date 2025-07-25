@@ -1,0 +1,88 @@
+{
+  "code": "CS343",
+  "display": "System Programming",
+  "modules": {
+    "1": {
+      "Introduction to System Software": {
+        "topics": [
+          "System Software & its Components",
+          "System Software and Machine Architecture",
+          "Traditional (CISC) machines",
+          "RISC Machines",
+          "Inputs and processing steps on language translators",
+          "Evolution of System Softwares: Operating System, Loaders, Interpreters, Compilers, Linkers, Assemblers"
+        ],
+        "important_topics": [
+          0,
+          4,
+          5
+        ]
+      }
+    },
+    "2": {
+      "Assemblers": {
+        "topics": [
+          "Elements of Assembly Language Programming",
+          "Assembly Process",
+          "Single Pass Assembler",
+          "Design of a 2-Pass Assembler",
+          "Implementation Examples"
+        ],
+        "important_topics": [
+          2,
+          3
+        ]
+      }
+    },
+    "3": {
+      "Loaders": {
+        "topics": [
+          "Basic Loader Functions",
+          "Absolute Loader",
+          "Compile & Go Loader",
+          "Relocating Loader",
+          "Direct Linking Loader"
+        ],
+        "important_topics": [
+          1,
+          3
+        ]
+      }
+    },
+    "4": {
+      "Macros & Macro Processors": {
+        "topics": [
+          "Macros",
+          "Different forms of Macros",
+          "Macros using AIF, AGO, REPT, etc.",
+          "Design of a Macro Processor",
+          "Macro Assembler"
+        ],
+        "important_topics": [
+          0,
+          3
+        ]
+      }
+    },
+    "5": {
+      "Linkage Editors & Software Tools": {
+        "topics": [
+          "Linking and Relocation",
+          "Program Reliability",
+          "Linkage Editor and its Application in IBM\u2011PC",
+          "Linking for Program Overlay",
+          "Software Tools: Spectrum of Software Tools",
+          "Text Editors",
+          "Interpreter and Program Generators",
+          "Debug Monitors",
+          "Programming Environments"
+        ],
+        "important_topics": [
+          0,
+          4,
+          8
+        ]
+      }
+    }
+  }
+}

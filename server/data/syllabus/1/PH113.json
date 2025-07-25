@@ -1,0 +1,121 @@
+{
+  "code": "PH113",
+  "display": "Physics",
+  "modules": {
+    "1": {
+      "Physical Optics": {
+        "topics": [
+          "Polarization",
+          "Malus' Law",
+          "Brewster's Law",
+          "Double Refraction",
+          "Interference in thin films (Parallel films)",
+          "Interference in wedge-shaped layers",
+          "Newton's rings",
+          "Fraunhofer diffraction by single slit",
+          "Double slit"
+        ],
+        "important_topics": [
+          0,
+          1,
+          4,
+          5
+        ]
+      }
+    },
+    "2": {
+      "Electromagnetic Theory": {
+        "topics": [
+          "Curl",
+          "Gradient",
+          "Divergence",
+          "Gauss theorem",
+          "Stokes theorem",
+          "Gauss's law",
+          "Applications",
+          "Concept of electric potential",
+          "Relationship between E and V",
+          "Polarization of dielectrics",
+          "Dielectric constant",
+          "Boundary conditions for E & D",
+          "Gauss's law in magnetostatics",
+          "Ampere's circuital law",
+          "Boundary conditions for B & H",
+          "Equation of continuity of charge",
+          "Displacement current",
+          "Maxwell's equations"
+        ],
+        "important_topics": [
+          0,
+          1,
+          6,
+          7
+        ]
+      }
+    },
+    "3": {
+      "Special Theory of Relativity": {
+        "topics": [
+          "Introduction",
+          "Inertial frame of reference",
+          "Galilean transformations",
+          "Postulates",
+          "Lorentz transformations and its conclusions",
+          "Length contraction",
+          "Time dilation",
+          "Velocity addition",
+          "Mass change",
+          "Einstein's mass energy relation"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Quantum Mechanics": {
+        "topics": [
+          "Planck's theory of black-body radiation",
+          "Compton effect",
+          "Wave particle duality",
+          "De Broglie waves",
+          "Davisson and Germer's experiment",
+          "Uncertainty principle",
+          "Physical interpretation of wave function",
+          "Schrodinger equation in one dimension",
+          "Free particle",
+          "Particle in an infinite square well"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          6
+        ]
+      }
+    },
+    "5": {
+      "Lasers": {
+        "topics": [
+          "Spontaneous and stimulated emission",
+          "Einstein's A and B coefficients",
+          "Population-inversion",
+          "Light amplification",
+          "Basic laser action",
+          "Ruby and He-Ne lasers",
+          "Properties and applications of laser radiation",
+          "Elementary ideas of fiber optics and application of fiber optic cables"
+        ],
+        "important_topics": [
+          0,
+          1,
+          4,
+          5
+        ]
+      }
+    }
+  }
+}

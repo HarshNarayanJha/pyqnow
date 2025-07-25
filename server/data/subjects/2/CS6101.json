@@ -1,0 +1,31 @@
+{
+  "code": "CS6101",
+  "display": "Design and Analysis of Algorithm",
+  "papers": {
+    "2018": {
+      "display": "2018",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS6101%20DESIGN%20AND%20ANALYSIS%20OF%20COMPUTER%20ALGORITHMS%20(MID_MO18).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS6101%20DESIGN%20%26%20ANALYSIS%20OF%20COMPUTER%20ALGORITHMS%20(END_MO2018).pdf"
+      ]
+    },
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6101%20%20DESIGN%20AND%20ANALYSIS%20OF%20COMPUTER%20ALGORITHM_IMSC%20(MID_SP19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS6101%20DESIGN%20AND%20ANALYSIS%20OF%20COMPUTER%20ALGORITHM%20(END_SP19).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "code": "CS343",
+  "display": "System Programming",
+  "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS343%20SYSTEM%20PROGRAMMING.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS343%20SYSTEM%20PROGRAMMING_END_MO23.pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS343%20SYSTEM%20PROGRAMMING.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS343%20SYSTEM%20PROGRAMMING(1).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

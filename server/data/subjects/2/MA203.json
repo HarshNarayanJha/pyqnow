@@ -1,0 +1,109 @@
+{
+  "code": "MA203",
+  "display": "Numerical Methods",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA203%20NUMERICAL%20METHODS%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_MO22).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/MA203%20NUMERICAL%20METHODS%20(END_SP22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA203%20NUMERICAL%20METHODS_MID_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203%20NUMERICAL%20METHODS%20(MID_SP23).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA203%20NUMERICAL%20METHODS_END_MO23.pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2024/MA203%20NUMERICAL%20METHODS%20(MID%2024).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA203%20NUMERICAL%20METHODS.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MA203%20NUMERICAL%20METHODS(1).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MA203%20NUMERICAL%20METHODS(1).pdf"
+      ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MA203%20NUMERICAL%20METHODS%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MA203%20NUMERICAL%20METHODS%20(MID%2025).pdf"
+      ],
+      "quiz2": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MA203%20NUMERICAL%20METHODS%20(QUIZ%202%2025).pdf"
+      ],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2025/MA203%20NUMERICAL%20METHODS%20(END%2025).pdf"
+      ]
+    }
+  },
+  "links": [
+    {
+      "name": "Resource for Those who really want to learn NM (Holistic NM)",
+      "url": "https://nm.mathforcollege.com/topics-of-numerical-methods/"
+    },
+    {
+      "name": "Bisection Method Calculator",
+      "url": "https://www.codesansar.com/numerical-methods/bisection-method-online-calculator.htm"
+    },
+    {
+      "name": "Regula Falsi Calculator",
+      "url": "https://www.codesansar.com/numerical-methods/regula-falsi-or-false-position-method-online-calculator.htm"
+    },
+    {
+      "name": "Newton-Raphson Calculator",
+      "url": "https://www.codesansar.com/numerical-methods/newton-raphson-method-online-calculator.htm"
+    },
+    {
+      "name": "Gaussian Elimination Calculator",
+      "url": "https://www.dcode.fr/gaussian-elimination"
+    },
+    {
+      "name": "Gaussian Jordan Calculator",
+      "url": "https://www.codesansar.com/numerical-methods/gauss-jordan-method-online-calculator.htm"
+    },
+    {
+      "name": "Fixed Point Iteration Calculator",
+      "url": "https://www.codesansar.com/numerical-methods/fixed-point-iteration-method-online-calculator.htm"
+    },
+    {
+      "name": "Secant Method Calculator",
+      "url": "https://www.codesansar.com/numerical-methods/secant-method-online-calculator.htm"
+    },
+    {
+      "name": "LU Decomposition Calculator",
+      "url": "https://www.dcode.fr/matrix-lu-decomposition"
+    },
+    {
+      "name": "Langrange Interpolation Polynomials",
+      "url": "https://www.dcode.fr/lagrange-interpolating-polynomial"
+    },
+    {
+      "name": "Netwon's Divided Difference Polynomials",
+      "url": "https://www.dcode.fr/newton-interpolating-polynomial"
+    }
+  ],
+  "branch": [
+    "cse",
+    "ece"
+  ]
+}

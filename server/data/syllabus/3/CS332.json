@@ -1,0 +1,91 @@
+{
+  "code": "CS332",
+  "display": "Basic IT Workshop",
+  "modules": {
+    "1": {
+      "Introduction to MATLAB and Basics Part I": {
+        "topics": [
+          "Introduction to MATLAB",
+          "Advantages and Disadvantages of MATLAB",
+          "MATLAB Environment",
+          "Variables and Arrays",
+          "Built\u2011in Functions of MATLAB",
+          "Subarrays",
+          "Multidimensional Arrays",
+          "Data Files"
+        ],
+        "important_topics": [
+          3,
+          4,
+          6
+        ]
+      }
+    },
+    "2": {
+      "MATLAB Basics Part II": {
+        "topics": [
+          "Scalar and Array Operations",
+          "Hierarchy of Operations",
+          "Introduction to Plotting",
+          "Polar Plots",
+          "Subplots",
+          "MATLAB Profiler",
+          "String Functions",
+          "Complex Data",
+          "Three\u2011Dimensional Plots"
+        ],
+        "important_topics": [
+          0,
+          2,
+          8
+        ]
+      }
+    },
+    "3": {
+      "MATLAB Advanced Features": {
+        "topics": [
+          "Sparse Arrays",
+          "Cell Arrays",
+          "Structure Arrays",
+          "I/O Functions",
+          "Object Handles",
+          "Position and Units",
+          "Graphical User Interface: Dialog Boxes, Menus, Toolbars"
+        ],
+        "important_topics": [
+          0,
+          6
+        ]
+      }
+    },
+    "4": {
+      "Introduction to Python Basics": {
+        "topics": [
+          "Basics of Python",
+          "Python I/O",
+          "Data Types",
+          "Operators",
+          "Arrays",
+          "Plotting with Python"
+        ],
+        "important_topics": [
+          2,
+          5
+        ]
+      }
+    },
+    "5": {
+      "Python Programming Part II": {
+        "topics": [
+          "Functions and Loops",
+          "Object\u2011Oriented Programming in Python",
+          "Numerical Formalism"
+        ],
+        "important_topics": [
+          0,
+          1
+        ]
+      }
+    }
+  }
+}

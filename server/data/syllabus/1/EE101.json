@@ -1,0 +1,141 @@
+{
+  "code": "EE101",
+  "display": "Basics of Electrical Engineering",
+  "modules": {
+    "1": {
+      "Introduction": {
+        "topics": [
+          "Importance of Electrical Engineering in day-to-day life",
+          "Electrical elements, properties and their classification",
+          "Ideal and Real Sources",
+          "Source Conversion"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3
+        ]
+      },
+      "D.C. Circuits": {
+        "topics": [
+          "KCL and KVL",
+          "Loop current and Nodal voltage method Steady state analysis with independent and dependent sources",
+          "Star-Delta conversion"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      },
+      "Magnetic Circuits": {
+        "topics": [
+          "Introduction",
+          "Series-parallel magnetic circuits",
+          "Analysis of Linear and Non-linear magnetic circuits",
+          "Energy storage",
+          "A.C. excitation",
+          "Eddy currents and Hysteresis losses"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3
+        ]
+      }
+    },
+    "2": {
+      "Single-phase AC Circuits: Series Circuits": {
+        "topics": [
+          "Common signals and their waveforms",
+          "RMS and Average value",
+          "Form factor & Peak factor of sinusoidal waveform",
+          "Impedance of Series circuits",
+          "Phasor diagram",
+          "Active Power",
+          "Power factor",
+          "Power triangle"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          5
+        ]
+      },
+      "Parallel Circuits": {
+        "topics": [
+          "Admittance method",
+          "Phasor diagram",
+          "Power",
+          "Power factor",
+          "Power triangle",
+          "Series-parallel Circuit",
+          "Power factor improvement",
+          "Series and Parallel Resonance: Resonance curve",
+          "Q-factor",
+          "Dynamic Impedance and Bandwidth"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          5
+        ]
+      }
+    },
+    "3": {
+      "Three-Phase Circuits": {
+        "topics": [
+          "Line and Phase relation for Star and Delta connection",
+          "Power relations",
+          "Analysis of balanced and unbalanced 3 phase circuits",
+          "Measurement of Power"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "4": {
+      "Circuit Theorems": {
+        "topics": [
+          "Superposition theorem",
+          "Thevenin's & Norton's Theorem",
+          "Maximum Power Transfer theorem for Independent and Dependent Sources for DC and AC circuits"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      },
+      "Coupled Circuits": {
+        "topics": [
+          "Coupled Circuits (Dot rule)",
+          "Self and mutual inductances",
+          "Coefficient of coupling"
+        ],
+        "important_topics": [
+          0,
+          1
+        ]
+      }
+    },
+    "5": {
+      "principles of AC Generators, motors and transformers": {
+        "topics": [
+          "working principles of measuring equipments such as digital voltmeter",
+          "Ammeter",
+          "Power factor meter and wattmeter"
+        ],
+        "important_topics": [
+          0,
+          1
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "code": "EC255",
+  "display": "Analog Communication",
+  "modules": {
+    "1": {
+      "Signal analysis": {
+        "topics": [
+          "Time domain and frequency domain representation of a signal",
+          "Fourier series",
+          "Complex Fourier spectrum (discrete spectrum or line spectrum)",
+          "Fourier transform",
+          "Properties of Fourier transform",
+          "Energy and power spectral density spectrum",
+          "Distortion less transmission",
+          "Causality and physical realizability",
+          "Pre-envelope and canonical representation of band pass signals"
+        ],
+        "important_topics": [
+          1,
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "2": {
+      "Amplitude modulation-demodulation communication systems": {
+        "topics": [
+          "Amplitude modulation",
+          "Square law modulator",
+          "Switching modulator",
+          "Square law demodulator",
+          "Envelope detector",
+          "Double side band suppressed carrier modulation",
+          "Balanced and ring modulators",
+          "Single side band modulation",
+          "Frequency discrimination and phase discrimination modulators",
+          "Coherent detection of SSB",
+          "Frequency division multiplexing and time division multiplexing",
+          "Super heterodyne AM receiver and its characteristics"
+        ],
+        "important_topics": [
+          0,
+          2,
+          3,
+          5
+        ]
+      }
+    },
+    "3": {
+      "Angle modulation-demodulation communication systems": {
+        "topics": [
+          "Basics of frequency and phase modulation",
+          "Single tone frequency modulation",
+          "NBFM",
+          "WBFM",
+          "Transmission bandwidth of FM wave",
+          "Indirect and direct methods of FM generation",
+          "Frequency discriminator",
+          "Phase locked loop demodulator",
+          "Super heterodyne FM receiver"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Pulse modulation demodulation communication systems": {
+        "topics": [
+          "Sampling process",
+          "Pulse amplitude modulation",
+          "Pulse duration modulation",
+          "Pulse position modulation"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "5": {
+      "Noise in communication systems": {
+        "topics": [
+          "Noise",
+          "Shot noise",
+          "Thermal noise",
+          "White noise",
+          "Noise equivalent bandwidth",
+          "Signal to noise ratio for coherent detection of DSBSC",
+          "SNR for coherent reception with SSB modulation",
+          "SNR for AM receiver using envelope detection",
+          "Noise in FM reception",
+          "FM Threshold effect",
+          "Pre emphasis and de-emphasis"
+        ],
+        "important_topics": [
+          0,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "code": "EE305",
+  "display": "Digital Signal Processing",
+  "modules": {
+    "1": {
+      "Introduction to Signals and Systems": {
+        "topics": [
+          "Classification of Signals and systems",
+          "Fourier analysis of periodic and a periodic continuous time signal",
+          "Application of Laplace Transform to system analysis",
+          "Discrete-Time Signals",
+          "Shanon's sampling theorem",
+          "Difference equation description",
+          "Properties of discrete time system (linearity, time-variance, convolution)",
+          "BIBO stability",
+          "Structure for realization of LTI discrete time systems",
+          "Direct form I&II, cascade, parallel"
+        ],
+        "important_topics": [
+          1,
+          2,
+          6,
+          7
+        ]
+      }
+    },
+    "2": {
+      "Frequency Domain Analysis": {
+        "topics": [
+          "Z-transform definition",
+          "Region of convergence (ROC)",
+          "Relationship between Laplace and Z-transforms",
+          "Discrete Time Fourier Transform (DTFT)",
+          "Discrete Fourier Transform (DFT)",
+          "Periodic convolution",
+          "Direct evaluation of DFT",
+          "FFT algorithms decimation in time and frequency",
+          "Relationship between Fourier and Z-transforms"
+        ],
+        "important_topics": [
+          1,
+          3,
+          4,
+          7
+        ]
+      }
+    },
+    "3": {
+      "Filter Function Approximations and Transformations": {
+        "topics": [
+          "Review of approximations of ideal analog filter response",
+          "Butterworth filter",
+          "Chebyshev Type I & II",
+          "Frequency Transformations: Frequency transformation in analog domain",
+          "Frequency transformation in digital domain",
+          "Design of IIR Filter based on Impulse invariance method",
+          "Bilinear transformation"
+        ],
+        "important_topics": [
+          1,
+          2,
+          5,
+          6
+        ]
+      }
+    },
+    "4": {
+      "Design of FIR Filters": {
+        "topics": [
+          "Characteristic of FIR filters with linear phase",
+          "Symmetric and anti-symmetric FIR filters",
+          "Design of linear phase FIR filters using windows",
+          "Frequency sampling methods",
+          "Comparison of FIR and IIR filters"
+        ],
+        "important_topics": [
+          0,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "5": {
+      "Application of DSP": {
+        "topics": [
+          "Introduction to DSP processors",
+          "Types of architectures",
+          "DSP support tools",
+          "Code composer studio",
+          "Compiler, assembler and linker",
+          "Introduction TMS320 C6x architecture",
+          "Digital signal processing application in the area of biomedical signal",
+          "Speech, and image"
+        ],
+        "important_topics": [
+          0,
+          1,
+          5,
+          6,
+          7
+        ]
+      }
+    }
+  }
+}

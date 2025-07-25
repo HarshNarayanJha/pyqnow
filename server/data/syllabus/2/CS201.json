@@ -1,0 +1,93 @@
+{
+  "code": "CS201",
+  "display": "Data Structures",
+  "modules": {
+    "1": {
+      "Basic Concepts": {
+        "topics": [
+          "Definition and basics of: Data Structure, ADT, Algorithms, Time and Space Complexity",
+          "Asymptotic Notations (O, \u03b8, \u03a9)",
+          "Time complexity computation of non-recursive algorithms (like Matrix addition, Selection sort using step count)",
+          "Array basic operations",
+          "Concept of multi-dimensional array",
+          "Polynomial operations using Array",
+          "Sparse Matrix"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Stack and Queue": {
+        "topics": [
+          "Stack ADT: basic operations",
+          "Queue ADT: basic operations",
+          "Circular Queue",
+          "Evaluation of Expressions",
+          "Another application or Mazing Problem"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "3": {
+      "Linked List": {
+        "topics": [
+          "Singly Linked List: concept, representation and operations",
+          "Circular Linked List",
+          "Polynomial and Sparse Matrix operations using LL.",
+          "Doubly Linked List: basic concept"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "4": {
+      "Tree and Graph": {
+        "topics": [
+          "Basic concepts and terminologies",
+          "Binary Search Tree and Heap",
+          "Disjoint Set",
+          "Graph: concept and terminologies",
+          "Concept of BFS",
+          "DFS",
+          "Spanning Tree",
+          "Connected Components"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "5": {
+      "Searching and Sorting": {
+        "topics": [
+          "Sequential Search and Binary Search",
+          "Insertion Sort",
+          "Heap Sort",
+          "Radix Sort",
+          "External Sorting: k-way merging approach"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

@@ -6,7 +6,7 @@ interface IPaper {
   end: URL[]
 }
 
-interface ISubject {
+export interface ISubject {
   code: string
   display: string
   papers: Record<string, IPaper>
@@ -15,3 +15,5 @@ interface ISubject {
 }
 
 export type Pyqs = Record<string, ISubject[]>
+
+export type PIndex = Record<string, string>

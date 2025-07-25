@@ -1,0 +1,33 @@
+{
+  "code": "MA103",
+  "display": "Mathematics I",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/MA103%20MATHEMATICS%20-%20I%20(END_MO22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA103%20MATHEMATICS-I_MID_MO23.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA103%20MATHEMATICS-I_END_MO23.pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse",
+    "ece",
+    "eee"
+  ]
+}

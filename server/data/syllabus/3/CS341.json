@@ -1,0 +1,91 @@
+{
+  "code": "CS341",
+  "display": "Optimization Techniques",
+  "modules": {
+    "1": {
+      "Introduction to Linear Programming": {
+        "topics": [
+          "Introduction to Linear Programming",
+          "Solving Linear Programming Problems \u2013 Graphical Method",
+          "The Simplex Method",
+          "The Revised Simplex Method",
+          "Duality Theory",
+          "Dual Simplex Method",
+          "Sensitivity Analysis"
+        ],
+        "important_topics": [
+          2,
+          4,
+          6
+        ]
+      }
+    },
+    "2": {
+      "Integer and Network Optimization": {
+        "topics": [
+          "Integer Programming",
+          "Gomory\u2019s Cutting Plane Method",
+          "The Branch-and-Bound Technique for Binary and Mixed-Integer programming",
+          "Network Optimization Models",
+          "The Network Simplex Method"
+        ],
+        "important_topics": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Dynamic Programming": {
+        "topics": [
+          "Characteristics of Dynamic Programming Problem",
+          "Deterministic Dynamic Programming",
+          "Probabilistic Dynamic Programming"
+        ],
+        "important_topics": [
+          1,
+          2
+        ]
+      }
+    },
+    "4": {
+      "Nonlinear Programming": {
+        "topics": [
+          "Graphical Illustration of Nonlinear Programming Problems",
+          "Types of Nonlinear Programming Problems",
+          "Unconstrained Optimization",
+          "The Karush\u2011Kuhn\u2011Tucker (KKT) Conditions for Constrained Optimization",
+          "Quadratic Programming",
+          "Separable Programming",
+          "Convex Programming"
+        ],
+        "important_topics": [
+          2,
+          3,
+          6
+        ]
+      }
+    },
+    "5": {
+      "Queuing & Metaheuristics": {
+        "topics": [
+          "Basic Structure of Queueing Models",
+          "Examples of Real Queueing Systems",
+          "Role of Exponential Distribution",
+          "The Birth\u2011and\u2011Death Process",
+          "Different Queuing Models",
+          "Heuristic Programming and Metaheuristics: The Nature of Meta\u2011Heuristics",
+          "Search",
+          "Simulated Annealing",
+          "Genetic Algorithms"
+        ],
+        "important_topics": [
+          0,
+          5,
+          8
+        ]
+      }
+    }
+  }
+}

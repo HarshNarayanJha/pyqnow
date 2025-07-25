@@ -1,0 +1,20 @@
+{
+  "code": "IT335",
+  "display": "Data Mining Concepts and Techniques",
+  "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT335%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_MID_MO23.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT335%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_END_MO23.pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

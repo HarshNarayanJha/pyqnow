@@ -1,0 +1,33 @@
+{
+  "code": "CS5101",
+  "display": "Formal Languages and Automata Theory",
+  "papers": {
+    "2018": {
+      "display": "2018",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS5101-FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(MID_MO18).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS5101%20FORMAL%20LANGUAGE%20%26%20AUTOMATA%20THEORY%20(END_MO2018).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS5101-FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(END_MO2018).pdf"
+      ]
+    },
+    "2019": {
+      "display": "2019",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS5101%20FORMAL%20LANGUAGES%20AND%20AUTOMATA%20THEORY%20(MID_MO19).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS5101%20FORMAL%20LANGUAGE%20%26%20AUTOMATA%20THEORY%20(END_MO19).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS5101%20FORMAL%20LANGUAGE%20%26%20AUTOMATA%20THEORY_IMSC%20(END_MO19).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

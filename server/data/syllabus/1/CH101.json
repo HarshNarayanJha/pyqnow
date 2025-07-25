@@ -1,0 +1,89 @@
+{
+  "code": "CH101",
+  "display": "Chemistry",
+  "modules": {
+    "1": {
+      "Chemical Bonding": {
+        "topics": [
+          "Ionic bond: Radius ratio rule, Born-Land\u00e9 equation, Born-Haber cycle",
+          "Metallic Bond: valence bond and band theories, defects in solids, Werner's Theory",
+          "Bonding in Transition metal complexes, Ligands, coordination complexes",
+          "Ligand Field, Crystal Field Theory, Octahedral, Tetrahedral and square planar complexes",
+          "CFSE, Jahn Teller theorem, electronic spectra, magnetism, and isomerization in coordination compounds"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "2": {
+      "Organic Structure and Stereochemistry": {
+        "topics": [
+          "Covalent bond: Lewis structure, Valence Bond theory, Molecular orbital theory, Molecular orbital of diatomic and polyatomic system, hybridization, conjugated molecules, Huckel molecular orbital theory of conjugated systems",
+          "Isomerism, Geometrical isomerism: cis-trans and syn-anti isomerism",
+          "Optical isomerism & Chirality",
+          "Wedge, Fischer, Newmann and Sawhorse Projection formulae and interconversions",
+          "E/Z, D/L, R/S nomenclature system",
+          "Conformational studies of ethane, n-butane, Cyclohexane"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    "3": {
+      "Kinetics and Catalysis": {
+        "topics": [
+          "Order & molecularity of reactions: chain, parallel, Competing, Side, Consecutive reactions",
+          "Kinetics of Fast reactions, Characteristics of catalyst, types of catalysis, catalytic poison",
+          "Theories of catalysis",
+          "Acid base catalysis: including kinetics, Enzyme catalysis, Mechanism and kinetics of enzyme catalyzed reaction, Michaelis-Menten equation",
+          "Important catalysts in industrial processes: Hydrogenation using Wilkinsons catalyst, Hydroformylation by using Cobalt-catalyst, Phase transfer catalyst"
+        ],
+        "important_topics": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "4": {
+      "Spectroscopic Techniques": {
+        "topics": [
+          "Absorption and emission Spectroscopy, Lambert-Beers Law",
+          "Principles and applications of UV-Visible, Factors influencing for UV-VIS spectrum",
+          "Rotational and Vibrational spectroscopy, Principle of FT-IR, and NMR spectroscopy",
+          "Modern techniques in structural elucidation of compounds by UV-VIS, IR, & NMR Spectroscopy"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "5": {
+      "Phase and Chemical equilibrium": {
+        "topics": [
+          "Phase Rule: Terms Involved, Phase diagram of one component (Water) & two component (Pb/Ag) system & their applications",
+          "Law of chemical equilibrium, equilibrium constants and their significance, Weak and strong electrolytes",
+          "Standard electrode potential and its application to different kinds of half cells, EMF and its measurement and application",
+          "Batteries and Fuel Cells, Chemical and Electrochemical corrosion, Factors affecting the rate of corrosion"
+        ],
+        "important_topics": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

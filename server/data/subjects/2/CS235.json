@@ -1,0 +1,52 @@
+{
+  "code": "CS235",
+  "display": "Computer Organization and Architecture",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS235%20COMPUTER%20ORGANIZATION%20%26%20ARCH%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(END_MO22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE_MID_MO23.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE_END_MO23.pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(QUIZ%201%2024).pdf"
+      ],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(MID%2024).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS235%20COMPUTER%20ORGANIZATION%20AND%20RCHITECTURE.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/CS235%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20(END%2024).pdf"
+      ]
+    }
+  },
+  "links": [
+    {
+      "name": "Booth's Algorithm Calculator",
+      "url": "https://www.grahn.us/projects/booths-algorithm/"
+    }
+  ],
+  "branch": [
+    "cse"
+  ]
+}
