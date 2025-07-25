@@ -32,3 +32,4 @@ coverage
 .env
 .zed
 .env.*
+!.env.example
