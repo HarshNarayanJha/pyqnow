@@ -10,7 +10,7 @@ PYQNow has papers for both CSE and ECE branches now. Enjoy!
 
 ## Contributors
 
-- @SatyamIsSatyam assisted with decoding subjects from other branches
+- @dev-satyamjha assisted with decoding subjects from other branches
 
 ## Project Setup
 
@@ -63,4 +63,4 @@ and then upload `build/` as a new deploy on netlify.
 
 ## Analytics
 
-🔍 **Note:** PYQNow uses [Litlyx](https://litlyx.com) for minimal, privacy-respecting analytics to enhance your experience and help us make continuous improvements to the platform.
+**Note:** PYQNow uses [Litlyx](https://litlyx.com) for minimal, privacy-respecting analytics to enhance your experience and help us make continuous improvements to the platform.

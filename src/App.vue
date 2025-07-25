@@ -16,27 +16,27 @@ import "@shoelace-style/shoelace/dist/components/skeleton/skeleton.js"
     <RouterView v-slot="{ Component }">
       <template v-if="Component">
         <Transition name="fade" mode="out-in">
-          <KeepAlive>
-            <Suspense timeout="1">
-              <component :is="Component" :key="$route.path" />
-              <template #fallback>
-                <div class="loader">
-                  <div class="spinner">
-                    <sl-spinner style="font-size: 50px; --track-width: 8px"></sl-spinner>
-                    <p v-if="$route.name === 'exam'">Loading PYQs Now...</p>
-                    <p v-else-if="$route.name === 'syllabus'">Loading Syllabus Now...</p>
-                    <p v-else>Loading Now...</p>
-                  </div>
-                  <div class="skeleton">
-                    <sl-skeleton effect="sheen"></sl-skeleton>
-                    <sl-skeleton effect="sheen"></sl-skeleton>
-                    <sl-skeleton effect="sheen"></sl-skeleton>
-                    <sl-skeleton effect="sheen"></sl-skeleton>
-                  </div>
+          <!-- <KeepAlive> -->
+          <Suspense timeout="1">
+            <component :is="Component" :key="$route.path" />
+            <template #fallback>
+              <div class="loader">
+                <div class="spinner">
+                  <sl-spinner style="font-size: 50px; --track-width: 8px"></sl-spinner>
+                  <p v-if="$route.name === 'exam'">Loading PYQs Now...</p>
+                  <p v-else-if="$route.name === 'syllabus'">Loading Syllabus Now...</p>
+                  <p v-else>Loading Now...</p>
                 </div>
-              </template>
-            </Suspense>
-          </KeepAlive>
+                <div class="skeleton">
+                  <sl-skeleton effect="sheen"></sl-skeleton>
+                  <sl-skeleton effect="sheen"></sl-skeleton>
+                  <sl-skeleton effect="sheen"></sl-skeleton>
+                  <sl-skeleton effect="sheen"></sl-skeleton>
+                </div>
+              </div>
+            </template>
+          </Suspense>
+          <!-- </KeepAlive> -->
         </Transition>
       </template>
     </RouterView>
