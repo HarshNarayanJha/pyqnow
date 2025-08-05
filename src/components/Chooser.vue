@@ -31,6 +31,8 @@ const sendAnalytics = p =>
 .options {
   padding: 1.2em;
   margin: 3em 2em;
+  margin-top: 0;
+  padding-top: 0;
 
   a {
     margin: 0;
@@ -42,6 +44,12 @@ const sendAnalytics = p =>
   .option {
     margin: 2em 2em;
     display: block;
+  }
+
+  @media (max-width: 768px) {
+    .option {
+      margin: 1em 0em;
+    }
   }
 }
 </style>

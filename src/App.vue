@@ -16,9 +16,10 @@ import "@shoelace-style/shoelace/dist/components/skeleton/skeleton.js"
     <RouterView v-slot="{ Component }">
       <template v-if="Component">
         <Transition name="fade" mode="out-in">
-          <!-- <KeepAlive> -->
           <Suspense timeout="1">
+            <!-- <KeepAlive> -->
             <component :is="Component" :key="$route.path" />
+            <!-- </KeepAlive> -->
             <template #fallback>
               <div class="loader">
                 <div class="spinner">
@@ -36,7 +37,6 @@ import "@shoelace-style/shoelace/dist/components/skeleton/skeleton.js"
               </div>
             </template>
           </Suspense>
-          <!-- </KeepAlive> -->
         </Transition>
       </template>
     </RouterView>

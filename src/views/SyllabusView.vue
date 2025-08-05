@@ -41,9 +41,11 @@ const getYoutubeSearchUrl = (topic, display) => {
           <!-- the actual topics -->
           <p>
             <template v-for="(t, index) in mod.topics" :key="index">
-              <sl-tooltip :content="`Search ${t} on YouTube`">
+              <sl-tooltip
+                :content="`Search ${t} on YouTube`"
+                v-if="mod.important_topics?.includes(index)"
+              >
                 <a
-                  v-if="mod.important_topics?.includes(index)"
                   :href="getYoutubeSearchUrl(t, data.display)"
                   target="_blank"
                   rel="noopener"
@@ -51,8 +53,8 @@ const getYoutubeSearchUrl = (topic, display) => {
                 >
                   {{ t }},
                 </a>
-                <span v-else>{{ t }},&nbsp;</span>
               </sl-tooltip>
+              <span v-else>{{ t }},&nbsp;</span>
             </template>
           </p>
         </div>

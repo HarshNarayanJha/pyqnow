@@ -7,6 +7,9 @@ import "@shoelace-style/shoelace/dist/components/radio-button/radio-button.js"
 import "@shoelace-style/shoelace/dist/components/radio-group/radio-group.js"
 import "@shoelace-style/shoelace/dist/components/divider/divider.js"
 import "@shoelace-style/shoelace/dist/components/copy-button/copy-button.js"
+import "@shoelace-style/shoelace/dist/components/tooltip/tooltip.js"
+import "@shoelace-style/shoelace/dist/components/icon/icon.js"
+
 import { computed, onMounted, ref } from "vue"
 import { RouterLink } from "vue-router"
 
@@ -28,6 +31,9 @@ const props = defineProps({
 })
 
 const branch = useStorage("branch", "cse")
+const bookmarks = useStorage("bookmarks", [])
+
+const MAX_BOOKMARKS = 6
 
 onMounted(() => {
   const rg = document.querySelector("sl-radio-group")
@@ -40,6 +46,61 @@ onMounted(() => {
 const branchOptions = computed(() => {
   return props.options.filter(p => p.branch?.includes(branch.value))
 })
+
+const doesBookmarkExists = code => bookmarks.value.find(m => m.code === code) !== undefined
+const hasMaxBookmarks = () => bookmarks.value.length === MAX_BOOKMARKS
+
+const addBookmark = (year, code, display) => {
+  if (hasMaxBookmarks()) {
+    console.log("Max bookmarks reached, not adding")
+    return
+  }
+
+  if (doesBookmarkExists(code)) {
+    console.log("Bookmark already exists, not adding")
+    return
+  }
+
+  console.log("Adding Bookmark")
+  const mark = {
+    year,
+    code,
+    display: display
+      .split(" ")
+      .map(w => (["and", "or", "in", "of"].includes(w) ? "" : w.substr(0, 1).toUpperCase()))
+      .join(""),
+  }
+  bookmarks.value.push(mark)
+
+  bookmarkAdded(code)
+}
+
+const removeBookmark = code => {
+  const index = bookmarks.value.findIndex(m => m.code === code)
+  if (index !== -1) {
+    console.log("Removing Bookmark")
+    bookmarks.value.splice(index, 1)
+    bookmarkRemoved(code)
+  }
+}
+
+const bookmarkAdded = c =>
+  Lit.event("bookmark_added", {
+    metadata: {
+      year: props.year,
+      code: c,
+      branch: branch.value,
+    },
+  })
+
+const bookmarkRemoved = c =>
+  Lit.event("bookmark_removed", {
+    metadata: {
+      year: props.year,
+      code: c,
+      branch: branch.value,
+    },
+  })
 
 const branchChanged = p =>
   Lit.event("branch_changed", {
@@ -67,6 +128,7 @@ const paperClicked = (p, y, t) =>
 onMounted(async () => {
   if (props.sub) {
     const sec = document.getElementById(props.sub)
+    console.log("Scrolling subject into view")
 
     await new Promise(resolve => setTimeout(resolve, 200))
     sec.scrollIntoView({ behavior: "smooth" })
@@ -92,19 +154,49 @@ onMounted(async () => {
 
     <sl-details
       v-for="sub in branchOptions"
-      :summary="sub.code + ' - ' + sub.display"
+      :summary="sub.code + ' &mdash; ' + sub.display"
       :id="sub.code"
     >
-      <RouterLink :to="`/syllabus/${sub.code}`" :onclick="() => syllabusClicked(sub.code)">
-        <sl-button pill>
-          <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
-          Syllabus
-        </sl-button>
-      </RouterLink>
+      <div class="actions">
+        <RouterLink :to="`/syllabus/${sub.code}`" :onclick="() => syllabusClicked(sub.code)">
+          <sl-button pill>
+            <sl-icon slot="prefix" name="file-earmark-text"></sl-icon>
+            View Syllabus
+          </sl-button>
+        </RouterLink>
+
+        <sl-tooltip :content="`Unmark ${sub.code}`" v-if="doesBookmarkExists(sub.code)">
+          <sl-button
+            label="Unmark"
+            circle
+            outline
+            variant="danger"
+            :onclick="() => removeBookmark(sub.code)"
+          >
+            <sl-icon name="bookmark-x-fill"></sl-icon>
+          </sl-button>
+        </sl-tooltip>
+        <sl-tooltip
+          :content="hasMaxBookmarks() ? `Can't Bookmark more` : `Bookmark ${sub.code}`"
+          v-else
+        >
+          <sl-button
+            label="Bookmark"
+            circle
+            outline
+            variant="success"
+            :onclick="() => addBookmark(props.year, sub.code, sub.display)"
+            :disabled="hasMaxBookmarks()"
+          >
+            <sl-icon name="bookmark-plus-fill"></sl-icon>
+            <sl-badge variant="primary" pill pulse>NEW</sl-badge>
+          </sl-button>
+        </sl-tooltip>
+      </div>
 
       <sl-details v-if="sub.links">
         <div slot="summary">
-          <sl-badge variant="primary" pill pulse>NEW</sl-badge> &nbsp; Some Useful websites for
+          Some Useful websites for
           {{ sub.display }}
         </div>
         <ul>
@@ -167,7 +259,7 @@ onMounted(async () => {
       </sl-details>
     </sl-details>
 
-    <p v-if="options.length == 0">
+    <p v-if="branchOptions.length == 0">
       No Papers Added Yet!
       <br />
       I will add more papers whenever I get the time
@@ -190,6 +282,13 @@ onMounted(async () => {
     margin: 1em 0;
     text-align: start;
     font-family: var(--font-body);
+
+    .actions {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.8em;
+    }
   }
 
   .links {

@@ -1,7 +1,11 @@
 <script setup>
+import Bookmarks from "@/components/Bookmarks.vue"
 import Chooser from "@/components/Chooser.vue"
 import NewsletterBox from "@/components/NewsletterBox.vue"
 import { pingServer } from "@/services/api"
+import { useStorage } from "@vueuse/core"
+
+import "@shoelace-style/shoelace/dist/components/alert/alert.js"
 
 pingServer()
 
@@ -27,17 +31,22 @@ const years = [
     color: "success",
   },
 ]
+
+const SHOW_BOOKMARKS_BANNER = true
+
+const bookmarks = useStorage("bookmarks", [])
 </script>
 
 <template>
   <div class="container">
+    <sl-alert :open="SHOW_BOOKMARKS_BANNER" closable>
+      <sl-icon slot="icon" name="info-circle"></sl-icon>
+      🎉 Introducing bookmarks! 🎉 <br />
+      PYQNow has a new feature called bookmarks, try bookmarking your favorite subjects.
+    </sl-alert>
+
     <img
-      srcset="
-        /pyqnow_small.png    512w,
-        /pyqnow_half.png    1024w,
-        /pyqnow_quarter.png 2048w,
-        /pyqnow.png         4096w
-      "
+      srcset="/pyqnow_small.png 512w, /pyqnow_half.png 1024w, /pyqnow_quarter.png 2048w"
       sizes="(max-width: 640px) 100vw,
         (max-width: 960px) 80vw,
         90vw"
@@ -46,8 +55,11 @@ const years = [
       fetchpriority="high"
       as="image"
       alt="logo"
+      style="min-width: 300px"
     />
     <p>PYQs at your fingertips, success in sight</p>
+
+    <Bookmarks :bookmarks="bookmarks" />
 
     <Chooser :options="years"></Chooser>
     <NewsletterBox />
@@ -91,7 +103,7 @@ const years = [
     }
 
     img {
-      margin: 1em 0;
+      margin: 2.5em 0;
     }
 
     p {
