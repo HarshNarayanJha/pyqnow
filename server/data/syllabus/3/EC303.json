@@ -1,0 +1,90 @@
+{
+  "code": "EC303",
+  "display": "Microprocessors and Microcontrollers",
+  "modules": {
+    "1": {
+      "8085 Microprocessor Architecture": {
+        "topics": [
+          "Revision of logic circuits with emphasis on control lines",
+          "SAP concepts with stress on timing diagrams",
+          "Microinstructions",
+          "Microprogramming",
+          "Variable machine cycle",
+          "Architecture of 8085 Processor",
+          "Functions of all signals",
+          "Bus concepts, Multiplexed and De-multiplexed Bus",
+          "Instruction set",
+          "Addressing modes",
+          "Timing diagrams"
+        ],
+        "important_topics": [1, 5, 6, 8, 10]
+      }
+    },
+    "2": {
+      "8085 Programming and Interfacing": {
+        "topics": [
+          "8085 Programming examples on Time delay, Looping, Sorting and Code conversions",
+          "8085 based Microcomputer system",
+          "Memory Organization",
+          "Memory Interfacing",
+          "Memory Mapped I/O",
+          "I/O Mapped I/O",
+          "Interrupts, Hardware and Software Interrupts",
+          "Interrupt instructions",
+          "Programmed I/O",
+          "Interrupt driven I/O",
+          "and DMA"
+        ],
+        "important_topics": [0, 3, 6, 10]
+      }
+    },
+    "3": {
+      "Introduction to 8086 Microprocessor": {
+        "topics": [
+          "Introduction to 16-bit processor",
+          "8086 architectures",
+          "BIU and EU",
+          "Pin description",
+          "Maximum and Minimum Mode",
+          "Instruction set",
+          "Addressing modes",
+          "Memory organization",
+          "Advantages of memory segmentation",
+          "Memory banking (even and odd)",
+          "Programming Examples"
+        ],
+        "important_topics": [1, 2, 5, 8, 10]
+      }
+    },
+    "4": {
+      "Peripheral Interfacing": {
+        "topics": [
+          "Introduction of programmable peripheral interfacing (PPI)",
+          "Architecture of 8255",
+          "Modes of operation",
+          "ADC 0801/0808, and its interfacing with 8085/86",
+          "DAC 0808 and its interfacing with 8085/86",
+          "Sample and Hold",
+          "DAS architecture and its programming in automation application",
+          "8253(PIT)",
+          "Modes of operation",
+          "Programming examples"
+        ],
+        "important_topics": [1, 3, 7, 9]
+      }
+    },
+    "5": {
+      "Introduction to 8051 Microcontroller": {
+        "topics": [
+          "Introduction to Microcontrollers: Architecture of 8051",
+          "Memory structure",
+          "Pin descriptions",
+          "Instruction set",
+          "Addressing modes",
+          "Programming examples for simple control applications"
+        ],
+        "important_topics": [0, 1, 3, 5]
+      }
+    }
+  }
+}

@@ -93,6 +93,15 @@ subjects_3rd = {
     "IT337": "Software Engineering",
     "CS6109": "Software Engineering",
     "IT338": "Software Engineering Lab",
+    # ece
+    "EC301": "Digital Communication",
+    "EC302": "Communication Systems Lab",
+    "EC303": "Microprocessors and Microcontrollers",
+    "EC305": "Signal Processing Techniques",
+    "EC306": "Signal Processing Lab",
+    "EC307": "Data Communication",
+    "EC319": "VLSI Systems",
+    "EC320": "VLSI Lab",
 }
 
 logging.info(

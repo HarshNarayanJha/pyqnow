@@ -2615,6 +2615,201 @@
       "branch": [
         "cse"
       ]
+    },
+    {
+      "code": "EC301",
+      "display": "Digital Communication",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC301R%20ANALOG%20COMMUNICATION%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC301R%20ANALOG%20COMMUNICATION%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC301%20DIGITAL%20COMMUNICATION%20SYSTEM_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC301%20DIGITAL%20COMMUNICATION_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC302",
+      "display": "Communication Systems Lab",
+      "papers": {},
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC303",
+      "display": "Microprocessors and Microcontrollers",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC303%20MICROPROCESSOR%20%26%20MICROCONTROLLER%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC303%20MICROPROCESSOR%20%26%20MICROCONTROLLER%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC303%20MICROPROCESSORS%20AND%20MICROCONTROLLERS_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC303%20MICROPROCESSORS%20%26%20MICROCONTROLLERS_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC305",
+      "display": "Signal Processing Techniques",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC305%20SIGNAL%20PROCESSING%20TECHNIQUES%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC305%20SIGNAL%20PROCESSING%20TECHNIQUES%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC305%20SIGNAL%20PROCESSING%20TECHNIQUES_MID_MO23.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC305%20SIGNAL%20PROCESSING%20TECHNIQUES_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC306",
+      "display": "Signal Processing Lab",
+      "papers": {},
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC307",
+      "display": "Data Communication",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC307R%20CONTROL%20SYSTEM%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC307R%20CONTROL%20SYSTEMS%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC307R%20DATA%20COMMUNICATION.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC307%20DATA%20COMMUNICATION_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC319",
+      "display": "VLSI Systems",
+      "papers": {
+        "2022": {
+          "display": "2022",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC319%20VLSI%20SYSTEMS%20(MID_MO22).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC319%20VLSI%20SYSTEMS%20(END_MO22).pdf"
+          ]
+        },
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC319%20VLSI%20SYSTEMS.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC319%20VLSI%20SYSTEMS_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
+    },
+    {
+      "code": "EC320",
+      "display": "VLSI Lab",
+      "papers": {
+        "2018": {
+          "display": "2018",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3201%20DIGITAL%20ELECTRONICS%20(MID_MO18).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3203-MODERN%20INSTRUMENTS%20%26%20MEASUREMENT%20(MID_MO18).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3205%20SEMICONDUCTOR%20DEVICES%20(MID_MO18).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3201-DIGITAL%20ELECTRONICS%20(END_MO2018).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3203-MODERN%20INSTRUMENTS%20%26%20MEASUREMENT%20(END_MO2018).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3205%20SEMICONDUCTOR%20DEVICES%20(END_MO2018).pdf"
+          ]
+        }
+      },
+      "branch": [
+        "ece"
+      ]
     }
   ],
   "4": []

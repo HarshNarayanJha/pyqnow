@@ -1,0 +1,24 @@
+{
+  "code": "EC320",
+  "display": "VLSI Lab",
+  "papers": {
+    "2018": {
+      "display": "2018",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3201%20DIGITAL%20ELECTRONICS%20(MID_MO18).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3203-MODERN%20INSTRUMENTS%20%26%20MEASUREMENT%20(MID_MO18).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3205%20SEMICONDUCTOR%20DEVICES%20(MID_MO18).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3201-DIGITAL%20ELECTRONICS%20(END_MO2018).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3203-MODERN%20INSTRUMENTS%20%26%20MEASUREMENT%20(END_MO2018).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3205%20SEMICONDUCTOR%20DEVICES%20(END_MO2018).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "ece"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "code": "EC319",
+  "display": "VLSI Systems",
+  "modules": {
+    "1": {
+      "CMOS Inverter: Static and Dynamic Behavior": {
+        "topics": [
+          "Static and dynamic behavior of MOSFET and CMOS inverter",
+          "The MOS(FET) Transistor: Static Conditions, Dynamic Behavior, Secondary Effects",
+          "Static and Dynamic Behaviour of CMOS Inverter: Switching Threshold, Noise Margin formulation",
+          "Computing the Capacitances",
+          "Propagation Delay",
+          "Power",
+          "Delay, Power-Delay Product, Energy-Delay Product"
+        ],
+        "important_topics": [2, 4, 6]
+      }
+    },
+    "2": {
+      "Interconnections and I/O Structures": {
+        "topics": [
+          "The Wire and Interconnection",
+          "Interconnect Parameters",
+          "Electrical Wire Models",
+          "Capacitive Parasitics",
+          "Resistive Parasitics",
+          "Inductive Parasitics",
+          "Advanced Interconnect Techniques",
+          "I/O structures Design: VDD and VSS pads, output & input pads, tri-state and bidirectional pads",
+          "application of Schmitt trigger in I/O pads",
+          "MOSIS I/O pads",
+          "Mixed-Voltage I/O pad"
+        ],
+        "important_topics": [1, 3, 4, 5, 7]
+      }
+    },
+    "3": {
+      "Designing Combinational Logic Gates": {
+        "topics": [
+          "Static CMOS Design: Complementary CMOS",
+          "Ratioed Logic",
+          "Pass-Transistor Logic (PTL)",
+          "Complementary pass-transistor logic (CPL)",
+          "Dynamic CMOS Design and issues",
+          "Domino logic and issues",
+          "np-CMOS",
+          "Introduction to the SPICE, Verilog, SystemVerilog with Design examples of inverter, NAND and NOR gates"
+        ],
+        "important_topics": [0, 2, 4, 5, 7]
+      }
+    },
+    "4": {
+      "Designing Sequential Logic Circuits": {
+        "topics": [
+          "Latches and Registers",
+          "Dynamic Latches and Registers",
+          "Alternative Register Styles: Pulse Registers, Sense-Amplifier Based Registers",
+          "Pipelining: Latch- versus Register-Based Pipelines",
+          "NORA-CMOS—A Logic Style for Pipelined Structures",
+          "Nonbistable Sequential Circuits",
+          "Design examples of latch, flip-flop and register using Verilog, System Verilog HDL"
+        ],
+        "important_topics": [0, 3, 6]
+      }
+    },
+    "5": {
+      "NMOS/CMOS Gain Stages and Frequency Response": {
+        "topics": [
+          "Basic NMOS/CMOS gain stages and their frequency responses",
+          "MOS Amplifier Topologies",
+          "Biasing",
+          "Realization of Current Sources",
+          "CS Core",
+          "CS stage With Resistive Load, Current-Source Load, and Diode-Connected Load",
+          "CS Stage with Source Degeneration",
+          "CG Stage with Biasing",
+          "Source Follower with Biasing",
+          "Cascode Stage as a Current Source",
+          "Cascode Stage as an Amplifier",
+          "general frequency response"
+        ],
+        "important_topics": [1, 2, 5, 10, 11]
+      }
+    }
+  }
+}

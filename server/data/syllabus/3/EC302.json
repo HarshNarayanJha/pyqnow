@@ -1,0 +1,62 @@
+{
+  "code": "EC302",
+  "display": "Communications System Lab",
+  "modules": {
+    "1": {
+      "Analog Modulation and Demodulation": {
+        "topics": [
+          "Generation and detection of Amplitude Modulated wave and calculation of percentage modulation using ACL 01 and ACL 02 Kits",
+          "Design of Amplitude Modulation, DSB-SC, and SCB-SC Modulation and Demodulation Systems using ALTAIR Solid Thinking Embed/Comm",
+          "Generation and detection of Frequency Modulated wave using ACL 03 and ACL 04 FM trainer Kits",
+          "Design of Frequency Modulation and Demodulation Systems using ALTAIR Solid Thinking Embed/Comm"
+        ],
+        "important_topics": [0, 2]
+      }
+    },
+    "2": {
+      "Pulse Modulation and Demodulation": {
+        "topics": [
+          "Generation and detection of PAM, PWM, PPM using DCL 08 Falcon kit",
+          "Design of PAM, PWM, PPM Modulation and Demodulation Systems using ALTAIR Solid Thinking Embed/Comm"
+        ],
+        "important_topics": [0]
+      }
+    },
+    "3": {
+      "Filter Design and Signal Processing": {
+        "topics": [
+          "Design and implementation of 2nd and 4th order Low pass Butterworth filters using Multisim",
+          "Design and implementation of 2nd and 4th order Low pass Butterworth filters",
+          "Investigation of Signal Sampling and Reconstruction using DCL 01 Falcon kit",
+          "Investigation of Signal Sampling and Reconstruction using ALTAIR Solid Thinking Embed/Comm"
+        ],
+        "important_topics": [0, 2]
+      }
+    },
+    "4": {
+      "Digital Communication Systems": {
+        "topics": [
+          "Investigation of TDM system using DCL02 Falcon kit",
+          "Investigation of practical PCM system using DCL03 and DCL04 Falcon kit",
+          "Investigation of Delta Modulation and Adaptive Delta modulation system using DCL07 Falcon kit"
+        ],
+        "important_topics": [1, 2]
+      }
+    },
+    "5": {
+      "Digital Modulation Techniques": {
+        "topics": [
+          "Investigation of ASK, FSK, PSK modulation/demodulation using trainer kits",
+          "Design of ASK, PSK, FSK modulator/demodulator using ALTAIR Solid Thinking Embed/Comm",
+          "Investigation of MSK modulation/demodulation using trainer kits",
+          "Design of MSK modulator/demodulator using ALTAIR Solid Thinking Embed/Comm",
+          "Investigation of QAM modulation and demodulation using ST 2112 QAM trainer kit",
+          "Design of QAM modulator/demodulator using ALTAIR Solid Thinking Embed/Comm",
+          "Investigation of QPSK modulation and demodulation using ST 2112 QAM trainer kit",
+          "Design of QPSK modulator/demodulator using ALTAIR Solid Thinking Embed/Comm"
+        ],
+        "important_topics": [0, 2, 4, 6]
+      }
+    }
+  }
+}

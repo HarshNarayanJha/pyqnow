@@ -96,6 +96,14 @@ branches = {
     "EC209": ["ece"],
     "EE251": ["ece"],
     "EE305": ["ece"],
+    "EC301": ["ece"],
+    "EC302": ["ece"],
+    "EC303": ["ece"],
+    "EC305": ["ece"],
+    "EC306": ["ece"],
+    "EC307": ["ece"],
+    "EC319": ["ece"],
+    "EC320": ["ece"],
 }
 
 logging.info("Setting 2nd year branches")

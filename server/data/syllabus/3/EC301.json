@@ -1,0 +1,86 @@
+{
+  "code": "EC301",
+  "display": "Digital Communication",
+  "modules": {
+    "1": {
+      "Introduction to Digital Communication System": {
+        "topics": [
+          "Introduction to digital communication System",
+          "Sampling Process",
+          "Sampling Theorems for Low Pass and Bandpass Signals",
+          "Types of Sampling",
+          "Quantization of Signals",
+          "Companding",
+          "Different Encoding schemes like NRZ, Multilevel Binary, Bi-phase, Differential Manchester",
+          "Pulse Code Modulation",
+          "Differential Pulse Code Modulation",
+          "Delta Modulation and Adaptive Delta Modulation",
+          "Noise in Pulse Code Modulation and Delta Modulation Systems"
+        ],
+        "important_topics": [2, 4, 7, 9]
+      }
+    },
+    "2": {
+      "Matched Filter and Signal Representation": {
+        "topics": [
+          "Matched Filter",
+          "Error Rate due to Noise",
+          "Intersymbol Interference",
+          "Nyquist Criterion for Distortion-less Baseband Binary Transmission",
+          "Geometric Representation of Signals",
+          "The Gram-Schmidt Orthogonalization Procedure",
+          "Maximum Likelihood Decoding",
+          "Correlation Receiver"
+        ],
+        "important_topics": [0, 3, 5, 6]
+      }
+    },
+    "3": {
+      "Digital Modulation Techniques": {
+        "topics": [
+          "Amplitude Shift Keying",
+          "Binary Phase Shift Keying",
+          "Differential Phase Shift Keying",
+          "Quadrature Phase Shift Keying",
+          "M-ary PSK",
+          "Binary Frequency Shift Keying",
+          "M-ary FSK",
+          "Minimum Shift Keying",
+          "Error Probability and Power Spectra of ASK, BPSK, QPSK and BFSK",
+          "Equalization Techniques",
+          "Synchronization and Carrier Recovery for Digital modulation"
+        ],
+        "important_topics": [1, 3, 4, 8, 10]
+      }
+    },
+    "4": {
+      "Information Theory and Source Coding": {
+        "topics": [
+          "The concept of Amount of Information",
+          "Entropy",
+          "Information Rate",
+          "Shannon Fano and Huffman Source Coding Schemes",
+          "Shannon’s theorem",
+          "Channel capacity",
+          "Capacity of Gaussian Channel",
+          "Bandwidth-S/N Trade off"
+        ],
+        "important_topics": [1, 3, 5, 7]
+      }
+    },
+    "5": {
+      "Spread Spectrum Techniques": {
+        "topics": [
+          "Characteristics and Applications of Spread Spectrum",
+          "Direct Sequence Spread Spectrum",
+          "Effect of Thermal Noise, Single Tone Interference and Jamming",
+          "Code Division Multiple Access",
+          "PN Sequence",
+          "Frequency Hop Spread Spectrum",
+          "Time Hop Spread Spectrum"
+        ],
+        "important_topics": [1, 3, 4, 5]
+      }
+    }
+  }
+}

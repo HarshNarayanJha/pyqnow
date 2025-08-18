@@ -1,0 +1,64 @@
+{
+  "code": "EC320",
+  "display": "VLSI Lab",
+  "modules": {
+    "1": {
+      "Digital Logic Design with HDL": {
+        "topics": [
+          "Outline a model of seven-segment decoder to display HEX digits and translate the same into VHDL/Verilog/SystemVerilog RTL code, simulate the design and find errors, if any, and observe and show the results.",
+          "Outline a VHDL/Verilog model and write RTL code for a Moore machine with the following state transition diagram, simulate/compile the same using the Xilinx development software (Xilinx ISE 8.1i./10.1i) and find errors, if any, test for its operation and analyse the results.",
+          "Outline a VHDL/Verilog model and write RTL code for a Mealy machine with the following state transition diagram, simulate/compile the same using the Xilinx development software (Xilinx ISE 8.1i./10.1i) and find errors, if any, test for its operation and analyse the results.",
+          "Write a VHDL/Verilog/SystemVerilog RTL code to develop a tri-stated buffer controlled 4channel multiplexer with each channel carrying 4 signals, simulate/compile the same using the Xilinx development software (Xilinx ISE 8.1i./10.1i) and find errors, if any, test and evaluate the obtained results.",
+          "Write VHDL/Verilog/SystemVerilog RTL code and develop/design an adder that adds three 8-bit binary number, simulate using the Xilinx development software (Xilinx ISE 8.1i./10.1i) and find errors, if any, test and validate its operation."
+        ],
+        "important_topics": [0, 1, 2, 4]
+      }
+    },
+    "2": {
+      "CMOS Layout and Simulation": {
+        "topics": [
+          "Sketch/draw layouts of 2-input CMOS NAND gate and 2-input CMOS NOR gate by the direct translation of their schematics",
+          "Perform DRC (design rule checking) on the dawn layout and find design rule errors, if any",
+          "Simulate and observe/examine the results, and interpret the same for the correctness of their functionality."
+        ],
+        "important_topics": [0, 1]
+      }
+    },
+    "3": {
+      "MOSFET Characterization": {
+        "topics": [
+          "Apply appropriate bias voltages to the terminals of an nMOSFET/pMOSFET, change the bias voltage & simulate using Virtuoso Analog Design Environment of Cadence and show the IDVD and ID-VG curves",
+          "Determine MOSFET parameters: ron, μn, μp, gm, gds, cgb, cgs, cgd, Vtn, and Vtp",
+          "Evaluate a properly biased short-channel nMOSFET and test it for the short-channel effects: channel length modulation (CLM), drain-induced barrier lowering (DIBL), Vt rolloff using Virtuoso ADE of Cadence"
+        ],
+        "important_topics": [0, 2]
+      }
+    },
+    "4": {
+      "Gate and Circuit Design in Cadence": {
+        "topics": [
+          "Design 2-input NAND gate using SCMOS and pseudo-nMOS logic families with given specifications with the Virtuoso ADE of Cadence",
+          "Design a 2-input XOR using symbols of 2-input SCMOS NAND gate to achieve propagation delay (tp) not longer than 20 ns and average power consumption (Pavg) not higher than 10 μW",
+          "Simulate the designs, test and validate your anticipation",
+          "Simulate and report the propagation delay (tp) and power consumption (Pavg) of your XOR gate",
+          "Load the input and output of XOR gate with singlestage NAND to make the input and output realistic."
+        ],
+        "important_topics": [0, 1]
+      }
+    },
+    "5": {
+      "Analog IC Design": {
+        "topics": [
+          "Design a common source (CS) amplifier using an nMOSFET (Q1) with a small-signal gain of at least 3 with respect to ground with the Virtuoso ADE of Cadence",
+          "Implement the load current with current source IDC and pMOSFET current mirror, input device of which is Q3 and output device of which is Q2",
+          "Simulate the design, test and validate the anticipated gain.",
+          "Design an inverting differential amplifier with a gain of at least 3 with respect to ground using the Virtuoso ADE of Cadence",
+          "Simulate the design, test and validate the anticipated gain.",
+          "Design an Op Amp based square wave generator with a frequency of at least 1 MHz using the Virtuoso ADE of Cadence",
+          "Simulate the design, test and validate the anticipated frequency response."
+        ],
+        "important_topics": [0, 3, 5]
+      }
+    }
+  }
+}

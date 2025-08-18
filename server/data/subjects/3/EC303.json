@@ -1,0 +1,31 @@
+{
+  "code": "EC303",
+  "display": "Microprocessors and Microcontrollers",
+  "papers": {
+    "2022": {
+      "display": "2022",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC303%20MICROPROCESSOR%20%26%20MICROCONTROLLER%20(MID_MO22).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC303%20MICROPROCESSOR%20%26%20MICROCONTROLLER%20(END_MO22).pdf"
+      ]
+    },
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC303%20MICROPROCESSORS%20AND%20MICROCONTROLLERS_MID_MO23.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC303%20MICROPROCESSORS%20%26%20MICROCONTROLLERS_END_MO23.pdf"
+      ]
+    }
+  },
+  "branch": [
+    "ece"
+  ]
+}

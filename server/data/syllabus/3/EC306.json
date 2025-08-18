@@ -1,0 +1,64 @@
+{
+  "code": "EC306",
+  "display": "Signal Processing Lab",
+  "modules": {
+    "1": {
+      "Introduction to MATLAB and Signal Generation": {
+        "topics": [
+          "Familiarization with MATLAB",
+          "Generation of Unit Sample Sequence [n]",
+          "Generation of Unit Step Sequence u[n]",
+          "Generation of Ramp Sequence n. u[n]",
+          "Generation of Exponential Sequences",
+          "Generation of Sine / Cosine Sequences",
+          "Generation of discrete time signal from analog signal using sampling theorem",
+          "Analysis of aliasing effect"
+        ],
+        "important_topics": [0, 6, 7]
+      }
+    },
+    "2": {
+      "LTI System Properties and Signal Operations": {
+        "topics": [
+          "Verification of Linearity of LTI system",
+          "Verification of Time-invariance of LTI system",
+          "Computation of the linear convolution of two finite-length sequences",
+          "Computation of the auto correlation/cross-correlation of two finite-length sequences"
+        ],
+        "important_topics": [2, 3]
+      }
+    },
+    "3": {
+      "Transforms and Filter Realizations": {
+        "topics": [
+          "Obtaining Inverse Z-Transforms using the Partial Fraction Expansion and test its stability",
+          "Cascade realization of the Linear-Phase FIR/ IIR transfer functions using MATLAB",
+          "Computation of N-point DFT and FFT of the length-N sequence using MATLAB and implement using TMS DSP processor",
+          "Finding the output of two Periodic Digital sequences using Circular Convolution"
+        ],
+        "important_topics": [0, 1, 2]
+      }
+    },
+    "4": {
+      "Digital Filter Design and Multirate DSP": {
+        "topics": [
+          "Design of digital filter (LP/HP/BP) and evaluate its performance",
+          "To realize the decimation, interpolation and sampling rate conversion of a signal",
+          "To develop a MATLAB program to convert Analog to Digital Frequencies using Bilinear Transformation",
+          "To design a Butterworth filter using standard design steps (for LP, HP, BP & BR filters)",
+          "To design a Chebyshev filter using standard design steps"
+        ],
+        "important_topics": [0, 1, 3, 4]
+      }
+    },
+    "5": {
+      "DSP Processor Programming": {
+        "topics": [
+          "Computation of N-point DFT and FFT of the length-N sequence using MATLAB and implement using TMS DSP processor",
+          "To write a program and simulate using C language / assembly language for computation of Linear Convolution using TMS DSP Processor"
+        ],
+        "important_topics": [0, 1]
+      }
+    }
+  }
+}

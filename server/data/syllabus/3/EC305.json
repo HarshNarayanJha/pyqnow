@@ -1,0 +1,77 @@
+{
+  "code": "EC305",
+  "display": "Signal Processing Techniques",
+  "modules": {
+    "1": {
+      "Discrete-Time Signals and Transforms": {
+        "topics": [
+          "Introduction to Discrete-Time signals and system",
+          "Difference Equation",
+          "Analysis of LTI system in Z-domain",
+          "LTI system as frequency selective filter",
+          "Inverse system, and de-convolution",
+          "Discrete Time Fourier Transform (DTFT) and Discrete Fourier Transform (DFT)",
+          "Periodic convolution",
+          "Fast Fourier Transform (FFT) and its algorithms-Decimation in time and Decimation in frequency"
+        ],
+        "important_topics": [2, 5, 7]
+      }
+    },
+    "2": {
+      "Digital Filter Structures": {
+        "topics": [
+          "Digital Filter Structures (FIR & IIR)",
+          "Direct form I&II",
+          "cascade",
+          "parallel and ladder realizations",
+          "lattice structure",
+          "representation of numbers",
+          "quantization of filter coefficients",
+          "round-off effects"
+        ],
+        "important_topics": [1, 5, 6]
+      }
+    },
+    "3": {
+      "Filter Function Approximations and Transformations": {
+        "topics": [
+          "Review of approximations of ideal analog filter response",
+          "Butterworth filter",
+          "Chebyshev Type I & II",
+          "Elliptic filters",
+          "Frequency Transformations: Frequency transformation in analog domain",
+          "frequency transformation in digital domain"
+        ],
+        "important_topics": [1, 2, 5]
+      }
+    },
+    "4": {
+      "Design of Digital Filters": {
+        "topics": [
+          "Design of IIR Filter: Design based on analog filter approximations",
+          "Impulse invariance method",
+          "Matched Z-transformation",
+          "Bilinear transformation",
+          "Design of FIR Filters: Symmetric and antisymmetric FIR filters",
+          "design of linear phase FIR filters using windows and frequency–sampling methods",
+          "design of optimum equiripple linear phase FIR filters",
+          "comparison of FIR and IIR filters"
+        ],
+        "important_topics": [3, 5, 7]
+      }
+    },
+    "5": {
+      "Multi-rate DSP and Spectral Estimation": {
+        "topics": [
+          "Multi rate DSP",
+          "Decimators and Interpolators",
+          "Sampling rate conversion",
+          "multistage decimator & interpolator",
+          "Poly phase filters",
+          "Estimation of Spectra from Finite-Duration Observations of Signals"
+        ],
+        "important_topics": [0, 1, 2, 5]
+      }
+    }
+  }
+}

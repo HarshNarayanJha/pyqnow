@@ -1,0 +1,106 @@
+{
+  "code": "EC307",
+  "display": "Data Communication",
+  "modules": {
+    "1": {
+      "Data Communication Fundamentals and Protocols": {
+        "topics": [
+          "Data Communication model",
+          "Transmission line Impairments",
+          "Channel Capacity",
+          "Guided Transmission media",
+          "Digital data to Digital Signal",
+          "Different encoding schemes like NRZ, Multilevel Binary, Bi phase, Differential Manchester",
+          "Scrambling techniques",
+          "Self-clocking codes",
+          "CODEC and MODEM",
+          "The need for a Protocol Architecture",
+          "OSI layered structure",
+          "TCP/IP Protocol Suite",
+          "Fundamental differences between OSI and TCP/IP",
+          "Primitives and PDUs"
+        ],
+        "important_topics": [2, 5, 10, 11, 12]
+      }
+    },
+    "2": {
+      "Error Control and Interfacing Standards": {
+        "topics": [
+          "Synchronous and Asynchronous transmission",
+          "Backward and Forward Error Control",
+          "Error detection techniques like CRC",
+          "Shift register implementation",
+          "Error correction",
+          "Block Code principles",
+          "Hamming distance",
+          "Interfacing standards like V.24/EIA-232.F",
+          "CCITT-X.21 Interface"
+        ],
+        "important_topics": [0, 2, 6, 7]
+      }
+    },
+    "3": {
+      "Data Link Control Protocols": {
+        "topics": [
+          "Line Configurations",
+          "Flow Control using Stop and Wait ARQ",
+          "Sliding window protocol",
+          "Error control using Stop and Wait ARQ",
+          "Go-back-to N ARQ",
+          "Selective Reject ARQ",
+          "Data Link Control Protocol HDLC",
+          "Basic characteristics",
+          "Frame structure and operation of HDLC",
+          "Data transparency control using bit stuffing",
+          "Utilization efficiency of a link",
+          "Point-to-Point Protocol (PPP)",
+          "Introduction to LCP, PAP, CHAP, NCP and IPCP"
+        ],
+        "important_topics": [2, 4, 5, 6, 11]
+      }
+    },
+    "4": {
+      "Multiplexing and Switched Networks": {
+        "topics": [
+          "Frequency Division Multiplexing",
+          "Carrier standards",
+          "Synchronous Time Division Multiplexing",
+          "TDM link control",
+          "Digital Carrier systems",
+          "SONET/SDH",
+          "Statistical Time Division Multiplexing",
+          "Performance",
+          "Cable Modem, ADSL Design",
+          "Discrete multitone, xDSL",
+          "Comparison of Circuit switching, Message switching and Packet switching techniques",
+          "Digital switching concepts like Space division switching",
+          "3-Stage Space division switch",
+          "Control Signalling",
+          "Common-channel Signalling",
+          "TDM Bus switch",
+          "TSI switch",
+          "Time Multiplexed Switches like STS and TST",
+          "Routing in circuit switched networks"
+        ],
+        "important_topics": [0, 2, 10, 11, 18]
+      }
+    },
+    "5": {
+      "Packet Switching and Routing": {
+        "topics": [
+          "Datagram packet switching and Virtual circuit Packet switching",
+          "Use of Least cost algorithms like Dijkstra’s and Bellman-Ford algorithms",
+          "Routing characteristics",
+          "Routing strategies",
+          "Example system of ARPANET (all 3 generations)",
+          "Congestion",
+          "Congestion control techniques",
+          "Traffic management",
+          "Congestion control in Packet switched networks",
+          "CCITT X.25 Interface"
+        ],
+        "important_topics": [0, 1, 5, 6, 9]
+      }
+    }
+  }
+}
