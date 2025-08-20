@@ -1,0 +1,53 @@
+{
+  "code": "IT336",
+  "display": "Data Mining Concepts and Techniques Lab",
+  "modules": {
+    "1": {
+      "Data Preprocessing and Warehousing": {
+        "topics": [
+          "Build a Data Warehouse and Explore WEKA tool",
+          "Demonstration of preprocessing on various datasets"
+        ],
+        "important_topics": [0, 1]
+      }
+    },
+    "2": {
+      "Association Rule Mining": {
+        "topics": [
+          "Demonstration of Association rule process on dataset using apriori algorithm",
+          "Implement Apriori Algorithm",
+          "Implement FP-Growth Algorithm"
+        ],
+        "important_topics": [0, 1, 2]
+      }
+    },
+    "3": {
+      "Classification Algorithms": {
+        "topics": [
+          "Demonstrate performance of classification on various data sets",
+          "Implement Bayesian Classification for various datasets",
+          "Implement Decision Tree for various datasets",
+          "Implement Support Vector Machines",
+          "Applications of classification for web mining"
+        ],
+        "important_topics": [0, 1, 2, 3, 4]
+      }
+    },
+    "4": {
+      "Clustering and Regression": {
+        "topics": [
+          "Demonstrate performance of clustering on various data sets",
+          "Demonstrate performance of Regression on various data sets",
+          "Implement K-means clustering"
+        ],
+        "important_topics": [0, 1, 2]
+      }
+    },
+    "5": {
+      "Case Study": {
+        "topics": ["Case Study on Text Mining or any commercial application"],
+        "important_topics": [0]
+      }
+    }
+  }
+}

@@ -72,7 +72,7 @@ branches = {
     "CS6103": ["cse"],
     "CS321": ["cse"],
     "CS347": ["cse"],
-    "CS5015": ["cse"],
+    # "CS5015": ["cse"],
     "IT301": ["cse"],
     "IT333": ["cse"],
     "IT334": ["cse"],

@@ -81,7 +81,7 @@ subjects_3rd = {
     "CS6103": "System Programming",
     "CS321": "Soft Computing",
     "CS347": "Soft Computing",
-    "CS5015": "Soft Computing",
+    # "CS5015": "Soft Computing",
     "IT301": "Data Communication and Computer Network",
     "IT333": "Data Communication and Computer Network",
     "IT334": "Data Communication and Computer Network Lab",

@@ -1,0 +1,91 @@
+{
+  "code": "IT305",
+  "display": "Software Engineering",
+  "modules": {
+    "1": {
+      "Introduction to Software Engineering": {
+        "topics": [
+          "Some Definitions",
+          "FAQs about Software Engineering",
+          "The Evolving Role of Software",
+          "Software Process Models",
+          "Waterfall Model",
+          "Prototyping Model",
+          "Spiral Model",
+          "RAD and Incremental Model",
+          "Management Activities",
+          "Project Planning",
+          "Project Scheduling"
+        ],
+        "important_topics": [3, 4, 5]
+      }
+    },
+    "2": {
+      "Software Requirements": {
+        "topics": [
+          "Functional and Non-Functional Requirements",
+          "User Requirements",
+          "System Requirements",
+          "Software Requirements Document",
+          "IEEE Standard of SRS",
+          "Quality of Good SRS",
+          "Requirement Engineering Process",
+          "Feasibility Study",
+          "Requirements Elicitation and Analysis",
+          "Requirements Validation",
+          "Requirement Management"
+        ],
+        "important_topics": [0, 4, 9]
+      }
+    },
+    "3": {
+      "Design Engineering": {
+        "topics": [
+          "Design Process and Design Quality",
+          "Design Concepts",
+          "Design Models",
+          "Object-Oriented Design",
+          "UML: Class Diagram",
+          "UML: Sequence Diagram",
+          "UML: Collaboration Diagram"
+        ],
+        "important_topics": [3, 4, 5]
+      }
+    },
+    "4": {
+      "Verification and Validation": {
+        "topics": [
+          "Verification and Validation Planning",
+          "Software Inspection",
+          "Static Analysis",
+          "Software Testing",
+          "Testing Functions",
+          "Test Case Design",
+          "White Box Testing",
+          "Black Box Testing",
+          "Unit Testing",
+          "Integration Testing",
+          "System Testing",
+          "Reliability"
+        ],
+        "important_topics": [3, 7, 11]
+      }
+    },
+    "5": {
+      "Software Metrics and Quality Assurance": {
+        "topics": [
+          "Process Metrics",
+          "Software Measurement",
+          "Software Project Estimation",
+          "Decomposition Techniques",
+          "Empirical Estimation Models",
+          "Quality Assurance and Standards",
+          "Quality Planning",
+          "Quality Control",
+          "Software Maintenance"
+        ],
+        "important_topics": [2, 4, 8]
+      }
+    }
+  }
+}

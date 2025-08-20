@@ -1,0 +1,87 @@
+{
+  "code": "CS321",
+  "display": "Soft Computing",
+  "modules": {
+    "1": {
+      "Fuzzy Set Theory": {
+        "topics": [
+          "Basic Definition and Terminology",
+          "Set Theoretic Operations",
+          "Fuzzy types and levels",
+          "Membership Function (MF) Formulation and Parameterization",
+          "MF of two dimensions",
+          "Fuzzy Union, Intersection and Complement",
+          "Fuzzy Number",
+          "Fuzzy measure"
+        ],
+        "important_topics": [0, 3, 5]
+      }
+    },
+    "2": {
+      "Fuzzy Logic & Inference Systems": {
+        "topics": [
+          "Extension Principles and Fuzzy Relations",
+          "Fuzzy IF\u2013THEN Rules",
+          "Defuzzification",
+          "Fuzzy Reasoning",
+          "Fuzzy Inference System: Introduction",
+          "Mamdani Fuzzy Models",
+          "Other Variants",
+          "Sugeno Fuzzy Models",
+          "Tsukamoto Fuzzy Models"
+        ],
+        "important_topics": [1, 2, 5]
+      }
+    },
+    "3": {
+      "Fundamentals of Genetic Algorithms": {
+        "topics": [
+          "Basic Concepts",
+          "Creation of Offsprings",
+          "Encoding",
+          "Fitness Functions",
+          "Reproduction",
+          "Genetic Modelling: Inheritance Operators",
+          "Crossover",
+          "Inversion and Detection",
+          "Mutation operator",
+          "Bitwise operators"
+        ],
+        "important_topics": [0, 3, 6]
+      }
+    },
+    "4": {
+      "Introduction to Artificial Neural Networks": {
+        "topics": [
+          "What is a Neural Network?",
+          "Human Brain Models",
+          "Models of Neuron",
+          "Neural Network viewed as Directed Graphs",
+          "Feedback",
+          "Network Architecture",
+          "Knowledge Representation",
+          "Learning processes: Error correction, Memory\u2011Based, Hebbian, Competitive, Boltzmann, Supervised, Unsupervised",
+          "Memory",
+          "Adaptation"
+        ],
+        "important_topics": [2, 7, 8]
+      }
+    },
+    "5": {
+      "Advanced Neural Network Models": {
+        "topics": [
+          "Perceptrons",
+          "Adaline",
+          "Back Propagation Algorithm",
+          "Methods of Speeding",
+          "Convolutional Neural Networks",
+          "Radial Basis Function Networks",
+          "Cover's Theorem",
+          "Interpolation Learning",
+          "The Hopfield Network"
+        ],
+        "important_topics": [2, 4, 8]
+      }
+    }
+  }
+}
