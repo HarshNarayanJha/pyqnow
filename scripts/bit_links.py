@@ -280,6 +280,11 @@ blacklisted_improper_name_urls = {
     "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS239%20OPERATING%20SYSTEM.pdf",
 }
 
+
+def check_sub_code_in_href(sub: str, href: str) -> bool:
+    return f"/{sub} " in href or f"/{sub}%20" in href or f"/{sub}_" in href or f"/{sub}-" in href
+
+
 for url in remote_urls:
     response = requests.get(url, headers=headers)
     logging.info(f"Requesting {url}")
@@ -295,7 +300,7 @@ for url in remote_urls:
         assert isinstance(href, str)
 
         for sub in subjects_1st:
-            if f"/{sub}" in href:
+            if check_sub_code_in_href(sub, href):
                 # logging.info(f"Found Subject {sub}")
 
                 if pdf_base_url + href in blacklisted_403_urls:
@@ -308,7 +313,7 @@ for url in remote_urls:
                 pdfs_1st[sub].add(pdf_base_url + href)
 
         for sub in subjects_2nd:
-            if f"/{sub}" in href:
+            if check_sub_code_in_href(sub, href):
                 # logging.info(f"Found Subject {sub}")
 
                 if pdf_base_url + href in blacklisted_403_urls:
@@ -321,7 +326,7 @@ for url in remote_urls:
                 pdfs_2nd[sub].add(pdf_base_url + href)
 
         for sub in subjects_3rd:
-            if f"/{sub}" in href:
+            if check_sub_code_in_href(sub, href):
                 # logging.info(f"Found Subject {sub}")
 
                 if pdf_base_url + href in blacklisted_403_urls:
@@ -337,15 +342,15 @@ for href in local_source:
     logging.info(f"Reading Local File {href}")
 
     for sub in subjects_1st:
-        if f"/{sub}" in href:
+        if check_sub_code_in_href(sub, href):
             logging.info(f"Found Local Paper for {sub}")
             pdfs_1st[sub].add(local_url_base + urllib.parse.quote(href, safe="/()"))
     for sub in subjects_2nd:
-        if f"/{sub}" in href:
+        if check_sub_code_in_href(sub, href):
             logging.info(f"Found Local Paper for {sub}")
             pdfs_2nd[sub].add(local_url_base + urllib.parse.quote(href, safe="/()"))
     for sub in subjects_3rd:
-        if f"/{sub}" in href:
+        if check_sub_code_in_href(sub, href):
             logging.info(f"Found Local Paper for {sub}")
             pdfs_3rd[sub].add(local_url_base + urllib.parse.quote(href, safe="/()"))
 

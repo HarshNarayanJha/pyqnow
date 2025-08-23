@@ -91,7 +91,6 @@
           ],
           "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/CH101R1%20CHEMISTRY_END_MO23.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CH101%20CHEMISTRY%20(END_SP23).pdf"
           ]
         },
@@ -101,8 +100,7 @@
           "mid": [],
           "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CH101%20CHEMISTRY_(1).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CH101R1%20CHEMISTRY_(1).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CH101%20CHEMISTRY_(1).pdf"
           ]
         }
       },
@@ -1101,8 +1099,7 @@
           "quiz1": [],
           "mid": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MA203%20NUMERICAL%20METHODS_MID_MO23.pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203%20NUMERICAL%20METHODS%20(MID_SP23).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203.pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MA203%20NUMERICAL%20METHODS%20(MID_SP23).pdf"
           ],
           "quiz2": [],
           "end": [
@@ -1544,12 +1541,10 @@
           "display": "2024",
           "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS24101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING.pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM.pdf"
           ],
           "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS24101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING(1).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS241%20DESIGN%20AND%20ANALYSIS%20OF%20ALGORITHM(1).pdf"
           ]
         },
@@ -1833,13 +1828,11 @@
           "display": "2023",
           "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC251%20PROBABILITY%20AND%20RANDOM%20PROCESS_MID_MO23.pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC251N%20SIGNALS%20AND%20SYSTEMS%20(MID_SP23).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC251%20PROBABILITY%20AND%20RANDOM%20PROCESS_MID_MO23.pdf"
           ],
           "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC251%20PROBABILITY%20AND%20RANDOM%20PROCESS_END_MO23.pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC251N%20SIGNALS%20AND%20SYSTEMS%20(END_SP23).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC251%20PROBABILITY%20AND%20RANDOM%20PROCESS_END_MO23.pdf"
           ]
         },
         "2024": {
@@ -1884,13 +1877,11 @@
           "display": "2023",
           "quiz1": [],
           "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC253%20ANALOG%20CIRCUITS_MID_MO23.pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC253N%20ANALOG%20COMMUNICATION%20(MID_SP23).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC253%20ANALOG%20CIRCUITS_MID_MO23.pdf"
           ],
           "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC253%20ANALOG%20CIRCUITS_END_MO23.pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/EC253N%20ANALOG%20COMMUNICATION%20(END_SP23).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC253%20ANALOG%20CIRCUITS_END_MO23.pdf"
           ]
         },
         "2024": {
@@ -2133,17 +2124,6 @@
       "code": "CS310",
       "display": "Formal Languages and Automata Theory",
       "papers": {
-        "2018": {
-          "display": "2018",
-          "quiz1": [],
-          "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS3101-%20JAVA%20PROGRAMMING%20%26%20WEB%20TECHNOLOGY%20(MID_MO18).pdf"
-          ],
-          "quiz2": [],
-          "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/CS3101%20JAVA%20PROGRAMMING%20%26%20WEB%20TECHNOLOGY%20END_MO2018).pdf"
-          ]
-        },
         "2022": {
           "display": "2022",
           "quiz1": [],
@@ -2612,17 +2592,6 @@
       "code": "EC301",
       "display": "Digital Communication",
       "papers": {
-        "2022": {
-          "display": "2022",
-          "quiz1": [],
-          "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC301R%20ANALOG%20COMMUNICATION%20(MID_MO22).pdf"
-          ],
-          "quiz2": [],
-          "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC301R%20ANALOG%20COMMUNICATION%20(END_MO22).pdf"
-          ]
-        },
         "2023": {
           "display": "2023",
           "quiz1": [],
@@ -2721,23 +2690,10 @@
       "code": "EC307",
       "display": "Data Communication",
       "papers": {
-        "2022": {
-          "display": "2022",
-          "quiz1": [],
-          "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC307R%20CONTROL%20SYSTEM%20(MID_MO22).pdf"
-          ],
-          "quiz2": [],
-          "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/EC307R%20CONTROL%20SYSTEMS%20(END_MO22).pdf"
-          ]
-        },
         "2023": {
           "display": "2023",
           "quiz1": [],
-          "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC307R%20DATA%20COMMUNICATION.pdf"
-          ],
+          "mid": [],
           "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC307%20DATA%20COMMUNICATION_END_MO23.pdf"
@@ -2782,23 +2738,7 @@
     {
       "code": "EC320",
       "display": "VLSI Lab",
-      "papers": {
-        "2018": {
-          "display": "2018",
-          "quiz1": [],
-          "mid": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3201%20DIGITAL%20ELECTRONICS%20(MID_MO18).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3203-MODERN%20INSTRUMENTS%20%26%20MEASUREMENT%20(MID_MO18).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3205%20SEMICONDUCTOR%20DEVICES%20(MID_MO18).pdf"
-          ],
-          "quiz2": [],
-          "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3201-DIGITAL%20ELECTRONICS%20(END_MO2018).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3203-MODERN%20INSTRUMENTS%20%26%20MEASUREMENT%20(END_MO2018).pdf",
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/EC3205%20SEMICONDUCTOR%20DEVICES%20(END_MO2018).pdf"
-          ]
-        }
-      },
+      "papers": {},
       "branch": [
         "ece"
       ]
