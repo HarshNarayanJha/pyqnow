@@ -2187,6 +2187,15 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY(1).pdf"
           ]
+        },
+        "2025": {
+          "display": "2025",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(QUIZ%201%2025)%20(SET%20A).pdf"
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
@@ -2379,6 +2388,15 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORK_END_MO23.pdf"
           ]
+        },
+        "2025": {
+          "display": "2025",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORKS%20(QUIZ%201%2025).pdf"
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
