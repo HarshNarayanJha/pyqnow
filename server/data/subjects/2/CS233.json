@@ -1,6 +1,6 @@
 {
   "code": "CS233",
-  "display": "Object Oriented Programming and Deisgn Patterns",
+  "display": "Object Oriented Programming and Design Patterns",
   "papers": {
     "2022": {
       "display": "2022",
@@ -40,7 +40,5 @@
       ]
     }
   },
-  "branch": [
-    "cse"
-  ]
+  "branch": ["cse"]
 }

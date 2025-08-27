@@ -1,6 +1,6 @@
 {
   "code": "EC101",
-  "display": "Basics of Electronics and Communicaion Engineering",
+  "display": "Basics of Electronics and Communication Engineering",
   "papers": {
     "2018": {
       "display": "2018",
@@ -72,9 +72,5 @@
       ]
     }
   },
-  "branch": [
-    "cse",
-    "ece",
-    "eee"
-  ]
+  "branch": ["cse", "ece", "eee"]
 }

@@ -23,7 +23,7 @@ logging.basicConfig(
 subjects_1st = {
     "MA103": "Mathematics I",
     "CH101": "Chemistry",
-    "EC101": "Basics of Electronics and Communicaion Engineering",
+    "EC101": "Basics of Electronics and Communication Engineering",
     "ME101": "Basics of Mechanical Engineering",
     "MA107": "Mathematics II",
     "PH113": "Physics",
@@ -40,7 +40,7 @@ subjects_2nd = {
     "CS201": "Data Structures",
     "CS231": "Data Structures",
     "CS204": "Object Oriented Programming and Design Patterns",
-    "CS233": "Object Oriented Programming and Deisgn Patterns",
+    "CS233": "Object Oriented Programming and Design Patterns",
     "CS203": "Computer Organization and Architecture",
     "CS235": "Computer Organization and Architecture",
     "MA203": "Numerical Methods",
