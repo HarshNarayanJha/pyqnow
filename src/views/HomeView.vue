@@ -32,7 +32,7 @@ const years = [
   },
 ]
 
-const SHOW_BOOKMARKS_BANNER = true
+const SHOW_BOOKMARKS_BANNER = false
 
 const bookmarks = useStorage("bookmarks", [])
 </script>
