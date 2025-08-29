@@ -286,8 +286,8 @@ def check_sub_code_in_href(sub: str, href: str) -> bool:
 
 
 for url in remote_urls:
-    response = requests.get(url, headers=headers)
     logging.info(f"Requesting {url}")
+    response = requests.get(url, headers=headers)
 
     response.raise_for_status()
 
