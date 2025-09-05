@@ -1,8 +1,16 @@
 {
   "code": "IT338",
   "display": "Software Engineering Lab",
-  "papers": {},
-  "branch": [
-    "cse"
-  ]
+  "papers": {
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT338%20SOFTWARE%20ENGINEERING%20LAB%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [],
+      "quiz2": [],
+      "end": []
+    }
+  },
+  "branch": ["cse"]
 }

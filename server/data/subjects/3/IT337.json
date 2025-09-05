@@ -12,9 +12,16 @@
       "end": [
         "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT337%20SOFTWARE%20ENGINEERING_END_MO23.pdf"
       ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT337%20SOFTWARE%20ENGINEERING%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [],
+      "quiz2": [],
+      "end": []
     }
   },
-  "branch": [
-    "cse"
-  ]
+  "branch": ["cse"]
 }

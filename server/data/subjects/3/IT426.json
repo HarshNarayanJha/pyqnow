@@ -27,9 +27,16 @@
         "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_END_MO23.pdf",
         "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT426%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_OE_END_MO23.pdf"
       ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT426%20DATA%20MINING%20AND%20TECHNIQUES%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [],
+      "quiz2": [],
+      "end": []
     }
   },
-  "branch": [
-    "cse"
-  ]
+  "branch": ["cse"]
 }
