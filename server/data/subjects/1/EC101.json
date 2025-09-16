@@ -72,5 +72,9 @@
       ]
     }
   },
-  "branch": ["cse", "ece", "eee"]
+  "branch": [
+    "cse",
+    "ece",
+    "eee"
+  ]
 }

@@ -12,5 +12,7 @@
       "end": []
     }
   },
-  "branch": ["cse"]
+  "branch": [
+    "cse"
+  ]
 }
