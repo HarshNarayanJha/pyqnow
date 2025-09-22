@@ -23,6 +23,17 @@
       "end": [
         "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS347%20SOFT%20COMPUTING(1).pdf"
       ]
+    },
+    "2025": {
+      "display": "2025",
+      "quiz1": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS347%20SOFT%20COMPUTING%20(QUIZ%201%2025).pdf"
+      ],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS347%20SOFT%20COMPUTING%20(MID%2025).pdf"
+      ],
+      "quiz2": [],
+      "end": []
     }
   },
   "branch": [

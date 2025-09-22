@@ -2200,7 +2200,8 @@
         "2025": {
           "display": "2025",
           "quiz1": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(QUIZ%201%2025)%20(SET%20A).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(QUIZ%201%2025)%20(SET%20A).pdf",
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(QUIZ%201%2025)%20(SET%20B).pdf"
           ],
           "mid": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(MID%2025).pdf"
@@ -2283,7 +2284,8 @@
         "2025": {
           "display": "2025",
           "quiz1": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(QUIZ%201%2025).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(QUIZ%201%2025)%20(SET%20A).pdf",
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(QUIZ%201%2025)%20(SET%20B).pdf"
           ],
           "mid": [],
           "quiz2": [],
@@ -2368,6 +2370,17 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/CS347%20SOFT%20COMPUTING(1).pdf"
           ]
+        },
+        "2025": {
+          "display": "2025",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS347%20SOFT%20COMPUTING%20(QUIZ%201%2025).pdf"
+          ],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS347%20SOFT%20COMPUTING%20(MID%2025).pdf"
+          ],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
