@@ -28,7 +28,9 @@
       "quiz1": [
         "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(QUIZ%201%2025).pdf"
       ],
-      "mid": [],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(MID%2025).pdf"
+      ],
       "quiz2": [],
       "end": []
     }

@@ -2091,7 +2091,9 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(QUIZ%201%2025).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(MID%2025).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
@@ -2287,7 +2289,9 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(QUIZ%201%2025)%20(SET%20A).pdf",
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(QUIZ%201%2025)%20(SET%20B).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(MID%2025).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
@@ -2601,7 +2605,9 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT337%20SOFTWARE%20ENGINEERING%20(QUIZ%201%2025).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT337%20SOFTWARE%20ENGINEERING%20(MID%2025).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
