@@ -1,7 +1,17 @@
 {
   "code": "IT336",
   "display": "Data Mining Concepts and Techniques Lab",
-  "papers": {},
+  "papers": {
+    "2025": {
+      "display": "2025",
+      "quiz1": [],
+      "mid": [],
+      "quiz2": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT336%20DATA%20MINING%20AND%20TECHNIQUES%20LAB%20(QUIZ%202%2025).pdf"
+      ],
+      "end": []
+    }
+  },
   "branch": [
     "cse"
   ]

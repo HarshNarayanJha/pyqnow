@@ -2094,7 +2094,9 @@
           "mid": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(MID%2025).pdf"
           ],
-          "quiz2": [],
+          "quiz2": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(QUIZ%202%2025).pdf"
+          ],
           "end": []
         }
       },
@@ -2208,7 +2210,9 @@
           "mid": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(MID%2025).pdf"
           ],
-          "quiz2": [],
+          "quiz2": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(QUIZ%202%2025).pdf"
+          ],
           "end": []
         }
       },
@@ -2292,7 +2296,9 @@
           "mid": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(MID%2025).pdf"
           ],
-          "quiz2": [],
+          "quiz2": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(QUIZ%202%2025).pdf"
+          ],
           "end": []
         }
       },
@@ -2432,7 +2438,9 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORKS%20(QUIZ%201%2025).pdf"
           ],
           "mid": [],
-          "quiz2": [],
+          "quiz2": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORKS%20(QUIZ%202%2025).pdf"
+          ],
           "end": []
         }
       },
@@ -2546,7 +2554,17 @@
     {
       "code": "IT336",
       "display": "Data Mining Concepts and Techniques Lab",
-      "papers": {},
+      "papers": {
+        "2025": {
+          "display": "2025",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT336%20DATA%20MINING%20AND%20TECHNIQUES%20LAB%20(QUIZ%202%2025).pdf"
+          ],
+          "end": []
+        }
+      },
       "branch": [
         "cse"
       ]

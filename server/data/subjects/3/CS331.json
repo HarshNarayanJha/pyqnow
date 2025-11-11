@@ -33,7 +33,9 @@
       "mid": [
         "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(MID%2025).pdf"
       ],
-      "quiz2": [],
+      "quiz2": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS331%20FORMAL%20LANGUAGE%20AND%20AUTOMATA%20THEORY%20(QUIZ%202%2025).pdf"
+      ],
       "end": []
     }
   },
