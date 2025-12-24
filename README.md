@@ -44,7 +44,7 @@ then `scripts/subjects_split_json.py` which will split that big file to `server/
 ### Add a new syllabus entry
 
 ```sh
-uv run --with 'pydantic' scripts/add_syllabus.py
+uv run scripts/add_syllabus.py
 ```
 
 It will scaffold a new syllabus code file at `server/data/syllabus/`.
@@ -56,7 +56,7 @@ Just go to the render dashboard and deploy the latest commit
 ### Deploy Client
 
 ```sh
-bun run dev
+bun run build
 ```
 
 and then upload `build/` as a new deploy on netlify.
