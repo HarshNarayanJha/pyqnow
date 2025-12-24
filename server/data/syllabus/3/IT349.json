@@ -1,0 +1,88 @@
+{
+  "code": "IT349",
+  "display": "Cryptography and Network Security",
+  "modules": {
+    "1": {
+      "Introduction to Cryptography": {
+        "topics": [
+          "Computer Security concepts",
+          "The OSI Security Architecture",
+          "Security Attacks",
+          "Security Services",
+          "A model for Network Security",
+          "Classical Encryption Techniques"
+        ],
+        "important_topics": [2, 3, 4, 5]
+      }
+    },
+    "2": {
+      "Mathematical Foundations of Cryptography": {
+        "topics": [
+          "Modular Arithmetic",
+          "Euclidean Algorithm",
+          "Groups, Rings, Fields",
+          "Finite Fields of the Form GF(p)",
+          "Polynomial Arithmetic",
+          "Finite Fields of the Form GF(2n)",
+          "Prime Numbers",
+          "Fermat’s and Euler’s Theorem",
+          "The Chinese Remainder Theorem",
+          "Quadratic Congruence",
+          "Discrete Logarithms"
+        ],
+        "important_topics": [1, 7, 8, 10]
+      }
+    },
+    "3": {
+      "Symmetric and Asymmetric Cryptography": {
+        "topics": [
+          "Difference Between Symmetric and Asymmetric Cryptography",
+          "DES",
+          "Triple DES",
+          "AES",
+          "RSA Cryptosystem",
+          "Symmetric and Asymmetric Key Cryptography Together",
+          "Elgamal Cryptosystem",
+          "Elliptic Curve Cryptosystems",
+          "Diffie-Hellman Key Exchange",
+          "Cryptographic Hash Functions",
+          "Message Authentication Codes",
+          "Digital Signature"
+        ],
+        "important_topics": [3, 4, 8, 9, 11]
+      }
+    },
+    "4": {
+      "Internet Security Protocols": {
+        "topics": [
+          "Basic Concepts",
+          "Security Socket Layer (SSL)",
+          "Secure Hyper Text Transfer Protocol (SHTTP)",
+          "Time stamping Protocol(TSP)",
+          "Secure Electronic Transaction (SET)",
+          "SSL Versus SET",
+          "3-D Secure Protocol",
+          "Electronic Money",
+          "Email Security",
+          "Wireless Application Protocol (WAP) Security",
+          "Security in GSM"
+        ],
+        "important_topics": [1, 4, 8]
+      }
+    },
+    "5": {
+      "Network Security": {
+        "topics": [
+          "Users, Trusts and Trusted Systems",
+          "Buffer Overflow and Malicious Software",
+          "Malicious Programs",
+          "Worms",
+          "Viruses",
+          "Intrusion Detection Systems (IDS)",
+          "Firewalls: Definitions, Constructions and Working Principles"
+        ],
+        "important_topics": [1, 5, 6]
+      }
+    }
+  }
+}

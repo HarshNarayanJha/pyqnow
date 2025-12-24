@@ -1,0 +1,18 @@
+{
+  "code": "CS333",
+  "display": "Compiler Design",
+  "papers": {
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS333%20CS305%20COMPILER%20DESIGN.pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

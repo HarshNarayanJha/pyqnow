@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "pydantic>=2.12.5",
+# ]
+# ///
 import json
 import logging
 from pathlib import Path

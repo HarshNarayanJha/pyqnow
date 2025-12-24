@@ -1,0 +1,89 @@
+{
+  "code": "CS351",
+  "display": "Nature Inspired Computing",
+  "modules": {
+    "1": {
+      "Introduction to Nature Inspired Computing": {
+        "topics": [
+          "Nature inspired Computing Concepts",
+          "Concepts of Optimization",
+          "Examples of the Formulation of Various Engineering Optimization Problems",
+          "Searching the Decision Space for Optimal Solutions",
+          "Definition of Terms of Meta‐Heuristic and Evolutionary Algorithms",
+          "Principles of Meta‐Heuristic and Evolutionary Algorithms",
+          "Classification of Meta‐Heuristic and Evolutionary Algorithms"
+        ],
+        "important_topics": [1, 4, 5, 6]
+      }
+    },
+    "2": {
+      "Evolutionary Algorithms": {
+        "topics": [
+          "Evolutionary Algorithms in Discrete or Continuous Domains",
+          "Generating Random Values of the Decision Variables",
+          "Dealing with Constraints",
+          "Fitness Function",
+          "Selection of Solutions in Each Iteration",
+          "Generating New Solutions",
+          "The Best Solution in Each Algorithmic Iteration",
+          "Termination Criteria",
+          "General Algorithm",
+          "Performance Evaluation of Meta‐Heuristic and Evolutionary Algorithms",
+          "Search Strategies"
+        ],
+        "important_topics": [3, 4, 8, 10]
+      }
+    },
+    "3": {
+      "Genetic Algorithm": {
+        "topics": [
+          "Introduction",
+          "Mapping the Genetic Algorithm (GA) to Natural Evolution",
+          "Creating an Initial Population",
+          "Selection of Parents to Create a New Generation",
+          "Population Diversity and Selective Pressure",
+          "Reproduction",
+          "Termination Criteria",
+          "User‐Defined Parameters of the GA",
+          "Pseudocode of the GA"
+        ],
+        "important_topics": [1, 3, 5, 8]
+      }
+    },
+    "4": {
+      "Ant Colony and Particle Swarm Optimization": {
+        "topics": [
+          "ACO Introduction",
+          "Mapping Ant Colony Optimization (ACO) to Ants’ Foraging Behavior",
+          "Allocating Pheromone to the Decision Space",
+          "Generation of New Solutions",
+          "Pseudocode of the ACO",
+          "PSO Introduction",
+          "Mapping Particle Swarm Optimization (PSO) to Social Behavior",
+          "The Individual and Global Best Positions",
+          "Velocities of Particles",
+          "Updating the Positions of Particles",
+          "Pseudocode of the PSO"
+        ],
+        "important_topics": [1, 2, 4, 7, 9, 10]
+      }
+    },
+    "5": {
+      "Other Nature Inspired Algorithms": {
+        "topics": [
+          "Honey‐Bee Mating Optimization (HBMO) Concepts",
+          "Mapping HBMO to Honey‐Bee Colony Structure",
+          "Pseudocode of the HBMO",
+          "Bat Algorithm (BA) Introduction",
+          "Mapping BA to Microbats Behavior",
+          "Pseudocode of the BA",
+          "Inspiration of the Harmony Search (HS)",
+          "Initializing the Harmony Memory",
+          "Generating New Harmonies",
+          "Pseudocode of the HS"
+        ],
+        "important_topics": [1, 2, 4, 5, 9]
+      }
+    }
+  }
+}

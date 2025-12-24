@@ -2,6 +2,17 @@
   "code": "CS239",
   "display": "Operating System",
   "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(END_SP23).pdf"
+      ]
+    },
     "2024": {
       "display": "2024",
       "quiz1": [],

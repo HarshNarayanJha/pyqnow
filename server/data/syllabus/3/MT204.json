@@ -1,0 +1,65 @@
+{
+  "code": "MT204",
+  "display": "Constitution of India",
+  "modules": {
+    "1": {
+      "Introduction and Salient Features of the Constitution": {
+        "topics": [
+          "Sources and constitutional history",
+          "Citizenship",
+          "Preamble",
+          "Fundamental Rights",
+          "Fundamental Duties",
+          "Directive Principles of State Policy"
+        ],
+        "important_topics": [2, 3, 5]
+      }
+    },
+    "2": {
+      "Union and State Executives": {
+        "topics": [
+          "President and Prime Minister",
+          "Council of Ministers",
+          "Cabinet and Central Secretariat",
+          "Lok Sabha",
+          "Rajya Sabha",
+          "Governor: Role and Position",
+          "Chief Ministers and Council of ministers"
+        ],
+        "important_topics": [0, 3, 4, 5]
+      }
+    },
+    "3": {
+      "The Indian Judicial System": {
+        "topics": [
+          "Supreme Court composition, Jurisdiction and functions",
+          "High Courts composition, Jurisdiction and functions",
+          "The Role of the Judiciary"
+        ],
+        "important_topics": [0, 2]
+      }
+    },
+    "4": {
+      "Local Government and District Administration": {
+        "topics": [
+          "District’s Administration: Role and Importance",
+          "The Panchayatas – Gram Sabha",
+          "Constitution and Composition of Panchayatas",
+          "Constitution and Composition of Municipalities"
+        ],
+        "important_topics": [1, 2, 3]
+      }
+    },
+    "5": {
+      "Miscellaneous and Welfare Bodies": {
+        "topics": [
+          "Election Commission: Role and Functioning",
+          "Chief Election Commissioner and Election Commissioners",
+          "State Election Commission: Role and Functioning",
+          "Institute and Bodies for the welfare of SC/ST/OBC and women"
+        ],
+        "important_topics": [0, 3]
+      }
+    }
+  }
+}

@@ -1194,17 +1194,21 @@
           "display": "2022",
           "quiz1": [],
           "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_MO22).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEMS%20(MID_MO22).pdf"
           ],
           "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_MO22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM_OE%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MINOR)%20(END_SP22).pdf"
           ]
         },
         "2023": {
           "display": "2023",
           "quiz1": [],
           "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP23).pdf",
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20_IMSC%20(MID_SP23).pdf"
           ],
           "quiz2": [],
@@ -1239,6 +1243,17 @@
       "code": "CS237",
       "display": "Database Management System",
       "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID-SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf"
+          ]
+        },
         "2024": {
           "display": "2024",
           "quiz1": [],
@@ -1279,7 +1294,19 @@
     {
       "code": "CS247",
       "display": "Database Management System",
-      "papers": {},
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf"
+          ]
+        }
+      },
       "links": [
         {
           "name": "ER Diagram Generator",
@@ -1294,6 +1321,15 @@
       "code": "CS211",
       "display": "Operating System",
       "papers": {
+        "2020": {
+          "display": "2020",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS211%20OPERATING%20SYSTEM%20(MID_SP20).pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        },
         "2022": {
           "display": "2022",
           "quiz1": [],
@@ -1302,7 +1338,8 @@
           ],
           "quiz2": [],
           "end": [
-            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS211%20OPERATING%20SYSTEM_M%20(END_MO22).pdf"
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS211%20OPERATING%20SYSTEM_M%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS211_CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf"
           ]
         }
       },
@@ -1332,6 +1369,17 @@
       "code": "CS239",
       "display": "Operating System",
       "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(END_SP23).pdf"
+          ]
+        },
         "2024": {
           "display": "2024",
           "quiz1": [],
@@ -1397,7 +1445,10 @@
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS303%20OPERATING%20SYSTEM_M%20(MID_MO22).pdf"
           ],
           "quiz2": [],
-          "end": []
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS303_211%20OPERATING%20SYSTEM%20(END_MO22).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf"
+          ]
         },
         "2023": {
           "display": "2023",
@@ -2097,7 +2148,9 @@
           "quiz2": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(QUIZ%202%2025).pdf"
           ],
-          "end": []
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS341%20OPTIMIZATION%20TECHNIQUES%20(END%2025).pdf"
+          ]
         }
       },
       "branch": [
@@ -2301,7 +2354,9 @@
           "quiz2": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(QUIZ%202%2025).pdf"
           ],
-          "end": []
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/CS343%20SYSTEM%20PROGRAMMING%20(END%2025).pdf"
+          ]
         }
       },
       "branch": [
@@ -2443,7 +2498,9 @@
           "quiz2": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORKS%20(QUIZ%202%2025).pdf"
           ],
-          "end": []
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT333%20DATA%20COMMUNICATION%20AND%20COMPUTER%20NETWORKS%20(END%2025).pdf"
+          ]
         }
       },
       "branch": [
@@ -2453,7 +2510,18 @@
     {
       "code": "IT334",
       "display": "Data Communication and Computer Network Lab",
-      "papers": {},
+      "papers": {
+        "2025": {
+          "display": "2025",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT334%20DATA%20COMMUNICATIONS%20AND%20COMPUTER%20NETWORKS%20(END%2025)%20(SET%20E).pdf",
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT334%20DATA%20COMMUNICATIONS%20AND%20COMPUTER%20NETWORKS%20LAB%20(END%2025)%20(SET%20F).pdf"
+          ]
+        }
+      },
       "branch": [
         "cse"
       ]
@@ -2471,6 +2539,15 @@
           "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT335%20DATA%20MINING%20CONCEPTS%20%26%20TECHNIQUES_END_MO23.pdf"
+          ]
+        },
+        "2025": {
+          "display": "2025",
+          "quiz1": [],
+          "mid": [],
+          "quiz2": [],
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT335%20DATA%20MINING%20CONCEPTS%20AND%20TECHNIQUES%20(END%2025).pdf"
           ]
         }
       },
@@ -2629,7 +2706,9 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT337%20SOFTWARE%20ENGINEERING%20(MID%2025).pdf"
           ],
           "quiz2": [],
-          "end": []
+          "end": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT337%20SOFTWARE%20ENGINEERING%20(END%2025).pdf"
+          ]
         }
       },
       "branch": [
@@ -2687,6 +2766,152 @@
           "mid": [],
           "quiz2": [],
           "end": []
+        }
+      },
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "CS333",
+      "display": "Compiler Design",
+      "papers": {
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS333%20CS305%20COMPILER%20DESIGN.pdf"
+          ],
+          "quiz2": [],
+          "end": []
+        }
+      },
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "CS335",
+      "display": "Artificial Intelligence And Machine Learning",
+      "papers": {
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING(1).pdf"
+          ]
+        }
+      },
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "MT204",
+      "display": "Constitution Of India",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA_MGT_.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA%20(MID_SP23).pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA_BTECH_END_MO23.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA_PG_END_MO23.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA%20(END_SP23).pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA_BTECH.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA_BTECH_ALL.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA(1).pdf"
+          ]
+        }
+      },
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "CS334",
+      "display": "Compiler Design Lab",
+      "papers": {},
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "CS336",
+      "display": "Artificial Intelligence and Machine Learning Lab",
+      "papers": {},
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "CS338",
+      "display": "Embedded Systems Lab",
+      "papers": {},
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "MT133",
+      "display": "Communication Skills-II",
+      "papers": {},
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "IT349",
+      "display": "Cryptography and Network Security",
+      "papers": {
+        "2023": {
+          "display": "2023",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY_END_MO23.pdf"
+          ]
+        }
+      },
+      "branch": [
+        "cse"
+      ]
+    },
+    {
+      "code": "CS351",
+      "display": "Nature Inspired Computing",
+      "papers": {
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS351%20NATURE%20INSPIRED%20COMPUTING.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS351%20NATURE%20INSPIRED%20COMPUTING(1).pdf"
+          ]
         }
       },
       "branch": [

@@ -1,7 +1,19 @@
 {
   "code": "CS247",
   "display": "Database Management System",
-  "papers": {},
+  "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf"
+      ]
+    }
+  },
   "links": [
     {
       "name": "ER Diagram Generator",

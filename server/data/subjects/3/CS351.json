@@ -1,0 +1,20 @@
+{
+  "code": "CS351",
+  "display": "Nature Inspired Computing",
+  "papers": {
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS351%20NATURE%20INSPIRED%20COMPUTING.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS351%20NATURE%20INSPIRED%20COMPUTING(1).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

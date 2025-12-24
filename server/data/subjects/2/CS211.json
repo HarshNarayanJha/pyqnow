@@ -2,6 +2,15 @@
   "code": "CS211",
   "display": "Operating System",
   "papers": {
+    "2020": {
+      "display": "2020",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS211%20OPERATING%20SYSTEM%20(MID_SP20).pdf"
+      ],
+      "quiz2": [],
+      "end": []
+    },
     "2022": {
       "display": "2022",
       "quiz1": [],
@@ -10,7 +19,8 @@
       ],
       "quiz2": [],
       "end": [
-        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS211%20OPERATING%20SYSTEM_M%20(END_MO22).pdf"
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS211%20OPERATING%20SYSTEM_M%20(END_MO22).pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS211_CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf"
       ]
     }
   },

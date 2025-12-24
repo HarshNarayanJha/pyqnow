@@ -1,7 +1,18 @@
 {
   "code": "IT334",
   "display": "Data Communication and Computer Network Lab",
-  "papers": {},
+  "papers": {
+    "2025": {
+      "display": "2025",
+      "quiz1": [],
+      "mid": [],
+      "quiz2": [],
+      "end": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT334%20DATA%20COMMUNICATIONS%20AND%20COMPUTER%20NETWORKS%20(END%2025)%20(SET%20E).pdf",
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2025/IT334%20DATA%20COMMUNICATIONS%20AND%20COMPUTER%20NETWORKS%20LAB%20(END%2025)%20(SET%20F).pdf"
+      ]
+    }
+  },
   "branch": [
     "cse"
   ]

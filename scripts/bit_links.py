@@ -93,6 +93,15 @@ subjects_3rd = {
     "IT337": "Software Engineering",
     "CS6109": "Software Engineering",
     "IT338": "Software Engineering Lab",
+    "CS333": "Compiler Design",
+    "CS335": "Artificial Intelligence And Machine Learning",
+    "MT204": "Constitution Of India",
+    "CS334": "Compiler Design Lab",
+    "CS336": "Artificial Intelligence and Machine Learning Lab",
+    "CS338": "Embedded Systems Lab",
+    "MT133": "Communication Skills-II",
+    "IT349": "Cryptography and Network Security",
+    "CS351": "Nature Inspired Computing",
     # ece
     "EC301": "Digital Communication",
     "EC302": "Communication Systems Lab",
@@ -243,35 +252,7 @@ pdfs_1st: dict[str, set[str]] = {key: set() for key in subjects_1st}
 pdfs_2nd: dict[str, set[str]] = {key: set() for key in subjects_2nd}
 pdfs_3rd: dict[str, set[str]] = {key: set() for key in subjects_3rd}
 
-blacklisted_403_urls = {
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_MO22).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_MO22).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MINOR)%20(END_SP22).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS301%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP23).pdf",
-    #
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID-SP23).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS237%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf",
-    #
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP23).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS247%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP23).pdf",
-    #
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS4105%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_MO19).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/CS4105%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_MO19).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS4205%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP19).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CS4205%20%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_SP19).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/CA461%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_SP19).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS4205%20%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_MO18).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS4205%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_MO2018).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS4105%20DATABASE%20MANAGEMENT%20SYSTEM%20(END_MO2018).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/CS4105%20DATABASE%20MANAGEMENT%20SYSTEM%20(MID_MO18).pdf",
-    #
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS211_CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/CS211%20OPERATING%20SYSTEM%20(MID_SP20).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(MID_SP23).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/CS239%20OPERATING%20SYSTEM%20(END_SP23).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/CS303_211%20OPERATING%20SYSTEM%20(END_MO22).pdf",
-    "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/CS303%20OPERATING%20SYSTEM%20(END_SP22).pdf",
-}
+blacklisted_403_urls = {}
 
 blacklisted_improper_name_urls = {
     "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS101%20PROGRAMMING%20FOR%20PROBLEM%20SOLVING(1).pdf",

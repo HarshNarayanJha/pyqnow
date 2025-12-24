@@ -1,0 +1,20 @@
+{
+  "code": "IT349",
+  "display": "Cryptography and Network Security",
+  "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY_END_MO23.pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

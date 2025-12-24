@@ -1,0 +1,36 @@
+{
+  "code": "MT204",
+  "display": "Constitution Of India",
+  "papers": {
+    "2023": {
+      "display": "2023",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA_MGT_.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA%20(MID_SP23).pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA_BTECH_END_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA_PG_END_MO23.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MT204%20CONSTITUTION%20OF%20INDIA%20(END_SP23).pdf"
+      ]
+    },
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA_BTECH.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA_BTECH_ALL.pdf",
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/MT204%20CONSTITUTION%20OF%20INDIA(1).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

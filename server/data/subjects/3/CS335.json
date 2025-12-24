@@ -1,0 +1,20 @@
+{
+  "code": "CS335",
+  "display": "Artificial Intelligence And Machine Learning",
+  "papers": {
+    "2024": {
+      "display": "2024",
+      "quiz1": [],
+      "mid": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING.pdf"
+      ],
+      "quiz2": [],
+      "end": [
+        "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING(1).pdf"
+      ]
+    }
+  },
+  "branch": [
+    "cse"
+  ]
+}

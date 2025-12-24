@@ -1,0 +1,73 @@
+{
+  "code": "CS333",
+  "display": "Compiler Design",
+  "modules": {
+    "1": {
+      "Introduction and Lexical Analysis": {
+        "topics": [
+          "Introduction to Compilers and its Cousins",
+          "Structure of a Compiler",
+          "Science of building Compiler and its Application",
+          "Lexical Analyzer",
+          "Input Buffering",
+          "Specification and Recognition of Tokens",
+          "Introduction to Lex"
+        ],
+        "important_topics": [1, 3, 5, 6]
+      }
+    },
+    "2": {
+      "Syntax Analysis": {
+        "topics": [
+          "Introduction to Syntax Analysis",
+          "Elimination of Ambiguity",
+          "Left Recursion and Left Factoring",
+          "Recursive and Non-Recursive Top-Down Parsers",
+          "Bottom-up Parsers: Shift Reduce Parser techniques and conflicts",
+          "All variants of LR Parsers",
+          "Handling Ambiguous grammar in Bottom-Up Parsing",
+          "Error handling while parsing",
+          "The Parser generator YACC"
+        ],
+        "important_topics": [2, 3, 5, 8]
+      }
+    },
+    "3": {
+      "Syntax-Directed Translation": {
+        "topics": [
+          "Syntax-Directed Definition (SDD)",
+          "Evaluation Order of SDD’s and its application",
+          "Syntax-Directed Translation Schemes and their Implementation"
+        ],
+        "important_topics": [0, 2]
+      }
+    },
+    "4": {
+      "Intermediate Code and Run-Time Environments": {
+        "topics": [
+          "Variants of Syntax Tree",
+          "Three Address Code",
+          "Translation of Expressions",
+          "Control flow",
+          "Back Patching",
+          "Run Time Environment: Storage Organization"
+        ],
+        "important_topics": [1, 4, 5]
+      }
+    },
+    "5": {
+      "Code Generation and Optimization": {
+        "topics": [
+          "Code Generation: Issues in its Design",
+          "Target Language",
+          "Addresses in Target Code",
+          "Basic Blocks and Flow Graphs",
+          "Optimization of Basic Blocks",
+          "Machine Independent Optimization: Sources of Optimization",
+          "Data Flow analysis"
+        ],
+        "important_topics": [0, 3, 5, 6]
+      }
+    }
+  }
+}
