@@ -1,0 +1,82 @@
+{
+  "code": "CS335",
+  "display": "Artificial Intelligence And Machine Learning",
+  "modules": {
+    "1": {
+      "Introduction and Search Techniques": {
+        "topics": [
+          "Overview of Artificial Intelligence",
+          "Examples of AI systems",
+          "AI Technique",
+          "Explaining AI through Tic-Tac-Toe Problem",
+          "Solving Problems by Searching: an overview",
+          "Conventional vs Heuristic Search Strategies",
+          "Hill Climbing Search",
+          "Simulated Annealing Search",
+          "Greedy Best-First Search",
+          "A* Search",
+          "Constraint Satisfaction Problems",
+          "Mini-Max Search Procedure",
+          "Alpha-Beta Pruning"
+        ],
+        "important_topics": [6, 8, 9, 11, 12]
+      }
+    },
+    "2": {
+      "Knowledge and Reasoning": {
+        "topics": [
+          "Knowledge Representation & Mapping",
+          "Predicate Logic: FOPL",
+          "Clausal Form",
+          "Resolution",
+          "Forward Verses Backward Reasoning",
+          "Matching"
+        ],
+        "important_topics": [1, 3, 4]
+      }
+    },
+    "3": {
+      "Probabilistic Reasoning and Planning": {
+        "topics": [
+          "Representing Knowledge in an Uncertain Domain",
+          "Bayesian Networks",
+          "Dempster-Shafer Theory",
+          "Planning: Overview",
+          "Components of A Planning System",
+          "Goal Stack Planning",
+          "Hierarchical Planning"
+        ],
+        "important_topics": [1, 5, 6]
+      }
+    },
+    "4": {
+      "Introduction to Machine Learning": {
+        "topics": [
+          "Machine Learning – what and why?",
+          "Concepts of Noise",
+          "Bias-variance trade-off",
+          "Underfitting and overfitting",
+          "Linear Regression",
+          "Logistic regression",
+          "Decision Tree"
+        ],
+        "important_topics": [2, 3, 4, 6]
+      }
+    },
+    "5": {
+      "Neural Networks and Clustering": {
+        "topics": [
+          "Neural Networks Introduction",
+          "Gradient descent training",
+          "Multilayer networks and back propagation",
+          "Clustering",
+          "Hierarchical Clustering",
+          "Partitional clustering",
+          "Density-based clustering",
+          "Purity Measures"
+        ],
+        "important_topics": [1, 2, 4, 6]
+      }
+    }
+  }
+}
