@@ -720,11 +720,13 @@
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(QUIZ%201%2024).pdf"
           ],
           "mid": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(MID%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(MID%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN.pdf"
           ],
           "quiz2": [],
           "end": [
-            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(END%2024).pdf"
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/MO2024/EC203%20DIGITAL%20SYSTEM%20DESIGN%20(END%2024).pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC203%20DIGITAL%20SYSTEM%20DESIGN(1).pdf"
           ]
         }
       },
@@ -1725,6 +1727,17 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EE205%20CIRCUIT%20THEORY_END_MO23.pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EE205%20CIRCUIT%20THEORY.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EE205%20CIRCUIT%20THEORY(1).pdf"
+          ]
         }
       },
       "branch": [
@@ -1764,6 +1777,17 @@
           "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC201%20ELECTRONIC%20DEVICES_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC201%20ELECTRONIC%20DEVICES.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC201%20ELECTRONIC%20DEVICES(1).pdf"
           ]
         }
       },
@@ -1816,6 +1840,17 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC207%20ELECTRONIC%20MEASUREMENTS_END_MO23.pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC207%20ELECTRONIC%20MEASUREMENTS.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC207%20ELECTRONIC%20MEASUREMENTS(1).pdf"
+          ]
         }
       },
       "branch": [
@@ -1846,6 +1881,17 @@
           "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC209%20NETWORK%20THEORY_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC209%20NETWORK%20THEORY.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC209%20NETWORK%20THEORY(1).pdf"
           ]
         }
       },
@@ -2813,6 +2859,15 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2024%20QP/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING(1).pdf"
           ]
+        },
+        "2026": {
+          "display": "2026",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING%20(QUIZ%201%2026).pdf"
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
@@ -2901,6 +2956,15 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY_END_MO23.pdf"
           ]
+        },
+        "2026": {
+          "display": "2026",
+          "quiz1": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY%20(QUIZ%201%2026).pdf"
+          ],
+          "mid": [],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
@@ -2941,6 +3005,17 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC301%20DIGITAL%20COMMUNICATION_END_MO23.pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC301%20DIGITAL%20COMMUNICATION.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC301%20DIGITAL%20COMMUNICATION(1).pdf"
+          ]
         }
       },
       "branch": [
@@ -2980,6 +3055,16 @@
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC303%20MICROPROCESSORS%20%26%20MICROCONTROLLERS_END_MO23.pdf"
           ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC303%20MICROPROCESSOR%20%26%20MICROCONTROLLER.pdf",
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC303%20MICROPROCESSORS%20AND%20MICROCONTROLLERS.pdf"
+          ],
+          "quiz2": [],
+          "end": []
         }
       },
       "branch": [
@@ -3010,6 +3095,17 @@
           "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC305%20SIGNAL%20PROCESSING%20TECHNIQUES_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC305%20SIGNAL%20PROCESSING%20TECHNIQUES.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC305%20SIGNAL%20PROCESSING%20TECHNIQUES(1).pdf"
           ]
         }
       },
@@ -3067,6 +3163,17 @@
           "quiz2": [],
           "end": [
             "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2023%20QP/EC319%20VLSI%20SYSTEMS_END_MO23.pdf"
+          ]
+        },
+        "2024": {
+          "display": "2024",
+          "quiz1": [],
+          "mid": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC319%20VLSI%20SYSTEMS.pdf"
+          ],
+          "quiz2": [],
+          "end": [
+            "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2024%20QP/EC319%20VLSI%20SYSTEMS(1).pdf"
           ]
         }
       },
