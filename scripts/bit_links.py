@@ -93,7 +93,11 @@ subjects_3rd = {
     "IT337": "Software Engineering",
     "CS6109": "Software Engineering",
     "IT338": "Software Engineering Lab",
+    #
     "CS333": "Compiler Design",
+    "CS305": "Compiler Design",
+    "CS6105": "Compiler Design",
+    "IT7043": "Compiler Design",
     "CS335": "Artificial Intelligence And Machine Learning",
     "MT204": "Constitution Of India",
     "CS334": "Compiler Design Lab",
