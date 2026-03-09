@@ -18,7 +18,9 @@
       "quiz1": [
         "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING%20(QUIZ%201%2026).pdf"
       ],
-      "mid": [],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING%20(MID%2026).pdf"
+      ],
       "quiz2": [],
       "end": []
     }

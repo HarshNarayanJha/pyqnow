@@ -16,7 +16,9 @@
       "quiz1": [
         "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS333%20COMPILER%20DESIGN%20(QUIZ%201%2026).pdf"
       ],
-      "mid": [],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS333%20COMPILER%20DESIGN%20(MID%2026).pdf"
+      ],
       "quiz2": [],
       "end": []
     }

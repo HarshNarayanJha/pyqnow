@@ -18,7 +18,9 @@
       "quiz1": [
         "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY%20(QUIZ%201%2026).pdf"
       ],
-      "mid": [],
+      "mid": [
+        "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY%20(MID%2026).pdf"
+      ],
       "quiz2": [],
       "end": []
     }

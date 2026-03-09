@@ -33,3 +33,5 @@ coverage
 .zed
 .env.*
 !.env.example
+
+pyqs/**/new

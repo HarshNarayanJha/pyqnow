@@ -2836,7 +2836,9 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS333%20COMPILER%20DESIGN%20(QUIZ%201%2026).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS333%20COMPILER%20DESIGN%20(MID%2026).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
@@ -2954,7 +2956,9 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING%20(QUIZ%201%2026).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/CS335%20ARTIFICIAL%20INTELLIGENCE%20AND%20MACHINE%20LEARNING%20(MID%2026).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
@@ -3051,7 +3055,9 @@
           "quiz1": [
             "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY%20(QUIZ%201%2026).pdf"
           ],
-          "mid": [],
+          "mid": [
+            "https://raw.githubusercontent.com/HarshNarayanJha/pyqnow/refs/heads/main/pyqs/SP2026/IT349%20CRYPTOGRAPHY%20AND%20NETWORK%20SECURITY%20(MID%2026).pdf"
+          ],
           "quiz2": [],
           "end": []
         }
