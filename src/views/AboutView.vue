@@ -24,7 +24,7 @@ import NewsletterBox from "@/components/NewsletterBox.vue"
       mood.
     </p>
     <p class="note">
-      PYQNow uses analytics powered by <a href="https://litlyx.com">litlyx.com</a> to improve user
+      PYQNow uses analytics powered by <a href="https://umami.is">Umami</a> to improve user
       experience and continuously enhance the platform based on usage patterns. We do not and will
       never collect any user data whatsoever.
     </p>

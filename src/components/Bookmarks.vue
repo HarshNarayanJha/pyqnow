@@ -1,8 +1,10 @@
 <script setup>
-import { Lit } from "litlyx-js"
-import "@shoelace-style/shoelace/dist/components/icon/icon.js"
 import "@shoelace-style/shoelace/dist/components/badge/badge.js"
+import "@shoelace-style/shoelace/dist/components/icon/icon.js"
 import "@shoelace-style/shoelace/dist/components/tooltip/tooltip.js"
+
+import { EVENT_BOOKMARK_CLICKED } from "@/constants"
+import { trackUmamiEvent } from "@jaseeey/vue-umami-plugin"
 
 const props = defineProps({
   bookmarks: {
@@ -12,12 +14,10 @@ const props = defineProps({
 })
 
 const sendAnalytics = (c, y, t) =>
-  Lit.event("bookmark_clicked", {
-    metadata: {
-      code: c,
-      year: y,
-      type: t,
-    },
+  trackUmamiEvent(EVENT_BOOKMARK_CLICKED, {
+    code: c,
+    year: y,
+    type: t,
   })
 </script>
 

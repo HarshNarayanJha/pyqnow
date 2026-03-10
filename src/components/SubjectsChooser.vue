@@ -1,18 +1,27 @@
 <script setup>
-import { Lit } from "litlyx-js"
-import "@shoelace-style/shoelace/dist/components/details/details.js"
 import "@shoelace-style/shoelace/dist/components/badge/badge.js"
 import "@shoelace-style/shoelace/dist/components/button/button.js"
+import "@shoelace-style/shoelace/dist/components/copy-button/copy-button.js"
+import "@shoelace-style/shoelace/dist/components/details/details.js"
+import "@shoelace-style/shoelace/dist/components/divider/divider.js"
+import "@shoelace-style/shoelace/dist/components/icon/icon.js"
 import "@shoelace-style/shoelace/dist/components/radio-button/radio-button.js"
 import "@shoelace-style/shoelace/dist/components/radio-group/radio-group.js"
-import "@shoelace-style/shoelace/dist/components/divider/divider.js"
-import "@shoelace-style/shoelace/dist/components/copy-button/copy-button.js"
 import "@shoelace-style/shoelace/dist/components/tooltip/tooltip.js"
-import "@shoelace-style/shoelace/dist/components/icon/icon.js"
 
-import { computed, onMounted, ref } from "vue"
+import { trackUmamiEvent } from "@jaseeey/vue-umami-plugin"
+
+import { computed, onMounted } from "vue"
 import { RouterLink } from "vue-router"
 
+import {
+  EVENT_BOOKMARK_ADDED,
+  EVENT_BOOKMARK_REMOVED,
+  EVENT_BRANCH_CHANGED,
+  EVENT_PAPER_CLICKED,
+  EVENT_SUBJECT_QUERY,
+  EVENT_SYLLABUS_CLICKED,
+} from "@/constants"
 import { useStorage } from "@vueuse/core"
 
 const props = defineProps({
@@ -85,44 +94,34 @@ const removeBookmark = code => {
 }
 
 const bookmarkAdded = c =>
-  Lit.event("bookmark_added", {
-    metadata: {
-      year: props.year,
-      code: c,
-      branch: branch.value,
-    },
+  trackUmamiEvent(EVENT_BOOKMARK_ADDED, {
+    year: props.year,
+    code: c,
+    branch: branch.value,
   })
 
 const bookmarkRemoved = c =>
-  Lit.event("bookmark_removed", {
-    metadata: {
-      year: props.year,
-      code: c,
-      branch: branch.value,
-    },
+  trackUmamiEvent(EVENT_BOOKMARK_REMOVED, {
+    year: props.year,
+    code: c,
+    branch: branch.value,
   })
 
 const branchChanged = p =>
-  Lit.event("branch_changed", {
-    metadata: {
-      branch: p,
-    },
+  trackUmamiEvent(EVENT_BRANCH_CHANGED, {
+    branch: p,
   })
 
 const syllabusClicked = p =>
-  Lit.event("syllabus_clicked", {
-    metadata: {
-      subject: p,
-    },
+  trackUmamiEvent(EVENT_SYLLABUS_CLICKED, {
+    subject: p,
   })
 
 const paperClicked = (p, y, t) =>
-  Lit.event("paper_clicked", {
-    metadata: {
-      subject: p,
-      year: y,
-      paper: t,
-    },
+  trackUmamiEvent(EVENT_PAPER_CLICKED, {
+    subject: p,
+    year: y,
+    paper: t,
   })
 
 onMounted(async () => {
@@ -135,10 +134,8 @@ onMounted(async () => {
     await new Promise(resolve => setTimeout(resolve, 800))
     sec.show()
 
-    Lit.event("subject_query", {
-      metadata: {
-        sub: props.sub,
-      },
+    trackUmamiEvent(EVENT_SUBJECT_QUERY, {
+      sub: props.sub,
     })
   }
 })
