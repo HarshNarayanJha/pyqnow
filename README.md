@@ -64,3 +64,4 @@ and then upload `build/` as a new deploy on netlify.
 ## Analytics
 
 **Note:** PYQNow uses [Umami](https://umami.is) for minimal, privacy-respecting analytics to enhance your experience and help us make continuous improvements to the platform.
+We [respect](https://github.com/HarshNarayanJha/pyqnow/blob/6ea9d3ee09866344ac92260b19418940774191f5/src/main.js#L24) the do-not-track signal.

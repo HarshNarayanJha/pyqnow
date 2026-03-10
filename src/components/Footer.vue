@@ -5,9 +5,7 @@ import "@shoelace-style/shoelace/dist/components/icon/icon.js"
 <template>
   <footer>
     <p>PYQNow is now useful for all branches (Currently CSE and ECE, WIP)</p>
-    <p>
-      &copy; 2025 <a href="https://github.com/HarshNarayanJha" target="_blank">Harsh Narayan Jha</a>
-    </p>
+    <p>&copy; 2025 <a href="https://harshnj.is-a.dev" target="_blank">Harsh Narayan Jha</a></p>
     <p>
       <a href="https://github.com/dev-satyamjha" target="_blank">Satyam Jha</a> helped with subjects
       from other branches

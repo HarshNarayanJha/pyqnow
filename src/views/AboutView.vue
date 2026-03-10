@@ -26,7 +26,13 @@ import NewsletterBox from "@/components/NewsletterBox.vue"
     <p class="note">
       PYQNow uses analytics powered by <a href="https://umami.is">Umami</a> to improve user
       experience and continuously enhance the platform based on usage patterns. We do not and will
-      never collect any user data whatsoever.
+      never collect any user data whatsoever. We
+      <a
+        href="https://github.com/HarshNarayanJha/pyqnow/blob/6ea9d3ee09866344ac92260b19418940774191f5/src/main.js#L24"
+      >
+        respect
+      </a>
+      the do-not-track signal.
     </p>
     <NewsletterBox />
   </div>
