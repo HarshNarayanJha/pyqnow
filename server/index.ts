@@ -59,7 +59,7 @@ app.use(
 
 // Umami send proxying
 app.use(
-  "/stats/event",
+  "/stats/api/send",
   createProxyMiddleware({
     target: UMAMI_HOST,
     changeOrigin: true,

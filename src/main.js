@@ -22,7 +22,7 @@ if (UMAMI_WEBSITE_ID !== "") {
       router,
       allowLocalhost: false,
       extraDataAttributes: {
-        "data-host-url": `${API_BASE_URL}/stats/events`,
+        "data-host-url": `${API_BASE_URL}/stats`,
         "data-do-not-track": true,
         "data-auto-track": true,
       },
