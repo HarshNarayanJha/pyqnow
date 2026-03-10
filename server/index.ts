@@ -19,7 +19,8 @@ app.use(
   }),
 )
 
-app.use(express.json())
+// do not enable, causes issues with umami send proxy, it somehow gobbles all the json body
+// app.use(express.json())
 
 function cache(seconds: number, cdnSeconds?: number) {
   return (req: express.Request, res: express.Response, next: express.NextFunction) => {
