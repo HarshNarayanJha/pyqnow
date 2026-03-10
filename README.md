@@ -63,4 +63,4 @@ and then upload `build/` as a new deploy on netlify.
 
 ## Analytics
 
-**Note:** PYQNow uses [Litlyx](https://litlyx.com) for minimal, privacy-respecting analytics to enhance your experience and help us make continuous improvements to the platform.
+**Note:** PYQNow uses [Umami](https://umami.is) for minimal, privacy-respecting analytics to enhance your experience and help us make continuous improvements to the platform.

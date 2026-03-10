@@ -1,9 +1,11 @@
 <script async setup>
-import { Lit } from "litlyx-js"
-import { computed, ref } from "vue"
 import "@shoelace-style/shoelace/dist/components/alert/alert.js"
 import "@shoelace-style/shoelace/dist/components/input/input.js"
 import "@shoelace-style/shoelace/dist/components/spinner/spinner.js"
+import { computed, ref } from "vue"
+
+import { trackUmamiEvent } from "@jaseeey/vue-umami-plugin"
+import { EVENT_SEARCHED } from "@/constants"
 
 import BackButton from "@/components/BackButton.vue"
 import SubjectsChooser from "@/components/SubjectsChooser.vue"
@@ -37,10 +39,8 @@ const filteredSubjects = computed(() => {
 
 const searchChanged = () => {
   if (filter.value.trim()) {
-    Lit.event("searched", {
-      metadata: {
-        filter: filter.value,
-      },
+    trackUmamiEvent(EVENT_SEARCHED, {
+      filter: filter.value,
     })
   }
 }

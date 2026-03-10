@@ -1,6 +1,8 @@
 <script setup>
 import "@shoelace-style/shoelace/dist/components/button/button.js"
-import { Lit } from "litlyx-js"
+
+import { EVENT_YEAR_BUTTON_CLICK } from "@/constants"
+import { trackUmamiEvent } from "@jaseeey/vue-umami-plugin"
 
 const props = defineProps({
   options: {
@@ -10,10 +12,8 @@ const props = defineProps({
 })
 
 const sendAnalytics = p =>
-  Lit.event("year_button_click", {
-    metadata: {
-      year: p,
-    },
+  trackUmamiEvent(EVENT_YEAR_BUTTON_CLICK, {
+    year: p,
   })
 </script>
 
